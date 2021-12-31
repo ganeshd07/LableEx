@@ -1,0 +1,16 @@
+<app-header [title]="'shipmentDetailsPage.shipmentDetails' | translate" [backbuttonFlag]='false'></app-header>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+    <form>
+        <app-shipment-origin class="shipping-comp" *ngIf="!isFromNewShipMent">
+        </app-shipment-origin>
+        <app-shipment-destination class="shipping-comp" *ngIf="!isFromNewShipMent">
+        </app-shipment-destination>
+        <app-packaging-type-options class="shipping-comp" *ngIf="!isFromNewShipMent">
+        </app-packaging-type-options>
+        <div class="labelex-container" *ngIf="!isFromNewShipMent">
+            <a (click)="routeToRateAndDeliveryPage()" class="labelex-linkbtn show-rates-button" translate>{{
+                'shipmentDetailsPage.showRates' }}</a>
+        </div>
+    </form>
+</ion-content>

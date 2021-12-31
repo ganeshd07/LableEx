@@ -1,0 +1,11 @@
+{
+    "LogOutRequest": {
+        "processingParameters": {
+            "anonymousTransaction": false,
+            "clientId": "ISHP",
+            "clientVersion": "1",
+            "returnDetailedErrors": true,
+            "returnLocalizedDateTime": false
+        }
+    }
+}

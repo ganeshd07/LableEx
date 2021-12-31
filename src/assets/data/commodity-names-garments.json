@@ -1,0 +1,184 @@
+{
+    "commoditylist": [
+        {
+            "commodityId": "100001",
+            "description": "A234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+        },
+        {
+            "commodityId": "372",
+            "description": "Bathrobe"
+        },
+        {
+            "commodityId": "373",
+            "description": "Blazers & Suits"
+        },
+        {
+            "commodityId": "374",
+            "description": "Blouses"
+        },
+        {
+            "commodityId": "375",
+            "description": "Bow tie"
+        },
+        {
+            "commodityId": "376",
+            "description": "Cardigan"
+        },
+        {
+            "commodityId": "377",
+            "description": "Dress"
+        },
+        {
+            "commodityId": "378",
+            "description": "Dressing gowns"
+        },
+        {
+            "commodityId": "379",
+            "description": "Gloves"
+        },
+        {
+            "commodityId": "380",
+            "description": "Hoodies & Sweatshirts"
+        },
+        {
+            "commodityId": "381",
+            "description": "Jacket"
+        },
+        {
+            "commodityId": "382",
+            "description": "Jeans"
+        },
+        {
+            "commodityId": "383",
+            "description": "Jersey"
+        },
+        {
+            "commodityId": "384",
+            "description": "Jumpsuit"
+        },
+        {
+            "commodityId": "385",
+            "description": "Knitwear"
+        },
+        {
+            "commodityId": "386",
+            "description": "Lingerie"
+        },
+        {
+            "commodityId": "387",
+            "description": "Loungewear"
+        },
+        {
+            "commodityId": "388",
+            "description": "Maternity Wear"
+        },
+        {
+            "commodityId": "389",
+            "description": "Muffler"
+        },
+        {
+            "commodityId": "390",
+            "description": "Nightshirt"
+        },
+        {
+            "commodityId": "391",
+            "description": "Polo Shirt"
+        },
+        {
+            "commodityId": "392",
+            "description": "Pullover"
+        },
+        {
+            "commodityId": "393",
+            "description": "Pyjamas"
+        },
+        {
+            "commodityId": "394",
+            "description": "Romper"
+        },
+        {
+            "commodityId": "395",
+            "description": "Scarve"
+        },
+        {
+            "commodityId": "396",
+            "description": "Shawl"
+        },
+        {
+            "commodityId": "397",
+            "description": "Shorts"
+        },
+        {
+            "commodityId": "398",
+            "description": "Ski jacket"
+        },
+        {
+            "commodityId": "400",
+            "description": "Ski-suits"
+        },
+        {
+            "commodityId": "399",
+            "description": "Skirt"
+        },
+        {
+            "commodityId": "401",
+            "description": "Socks"
+        },
+        {
+            "commodityId": "402",
+            "description": "Sportswear"
+        },
+        {
+            "commodityId": "403",
+            "description": "Suits"
+        },
+        {
+            "commodityId": "404",
+            "description": "Sweatshirt"
+        },
+        {
+            "commodityId": "405",
+            "description": "Swimwear"
+        },
+        {
+            "commodityId": "409",
+            "description": "T-shirt"
+        },
+        {
+            "commodityId": "406",
+            "description": "Tie"
+        },
+        {
+            "commodityId": "407",
+            "description": "Track-suits"
+        },
+        {
+            "commodityId": "408",
+            "description": "Trouser"
+        },
+        {
+            "commodityId": "410",
+            "description": "Turtleneck jumper"
+        },
+        {
+            "commodityId": "411",
+            "description": "Underpants"
+        },
+        {
+            "commodityId": "412",
+            "description": "Vest"
+        },
+        {
+            "commodityId": "413",
+            "description": "Waistcoat"
+        },
+        {
+            "commodityId": "415",
+            "description": "Wind-jacket"
+        },
+        {
+            "commodityId": "414",
+            "description": "Windcheater"
+        }
+    ]
+}

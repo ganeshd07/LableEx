@@ -1,0 +1,339 @@
+ion-select::part(icon){
+    display: none !important;
+}
+
+
+.shipment-title{
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+    width: 153px;
+    height: 24px;
+    font-family: FedExSans-Medium;
+    font-size: 18px;
+    color: #333333;
+}
+
+.from-label{
+    margin-left: 19px;
+    width: 46px;
+    height: 20px;
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #4D148C;
+}
+
+.city-select-label{
+    width: 106px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+    margin-left: 5px;
+}
+
+.country-selection{
+    height: 17px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+    margin-left: -17px;
+}
+
+.country-select-img{
+    float: left;
+    width: 6.4px;
+    height: 16px;
+}
+
+.postal-code-label{
+    margin-left: 19px;
+    width: 69px;
+    height: 17px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+}
+
+.country-select-label {
+    width: 27px;
+    height: 15px;
+    color: #4D148C;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    margin-left: 19px;
+}
+
+.city-select-label-1 {
+    width: 27px;
+    height: 15px;
+    color: #4D148C;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    margin-left: 19px;
+
+}
+
+.postal-code-input{
+    width: 75%;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+    border-bottom: 1px solid #4D148C;
+    margin-left: 19px;
+    margin-top: -6px;
+
+}
+
+.city-selection{
+    float: left;
+    width: 93%;
+    height: 17px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+    border-bottom: 1px solid #4D148C;
+    
+}
+
+.city-select-img{
+    float: left;
+    width: 6.4px;
+    height: 16px;
+}
+
+.text-selection-container {
+    text-align: start;
+
+}
+
+.bottom-style-border {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;
+    margin: 0px 19px;
+}
+
+.bottom-style-chevron{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;  
+    margin-right: 12px;
+    height: 30px;
+    margin-left: 14px;
+}
+
+.bottom-style-chevron2{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;  
+    margin-right: 12px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.custom-select {
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #333333;
+    text-align: right;
+
+}
+
+.custom-padding{ 
+    contain: strict;
+    margin-bottom: -1px;
+    margin-left: -14px;
+}
+
+.select-chevron {
+    color: #4d148c !important;
+    vertical-align: -webkit-baseline-middle;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+}
+
+.country-chevron{
+    color: #4d148c !important;
+    vertical-align: -webkit-baseline-middle;
+    width: 25px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+.paddingdown {
+    padding-top: 15px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-validation-error {
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+}
+
+.postal-code-validation-error {
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    margin-left:20px;
+    white-space: nowrap;
+}
+
+.postal-code-invalid-error {
+    white-space: normal;
+    display: block;    
+    overflow-wrap: break-word;
+    height:auto;
+}
+
+.postal-code-format {
+    text-decoration: underline;
+}
+
+.city-input-datalist {
+    border: none;
+    outline: none;
+    padding: 0;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    margin: 3px 0 0 -4px;
+  }
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.input-error-required {
+    width: 85%;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #e8002e;
+    border-bottom: 1px solid #e8002e;
+    margin-left:20px;
+    margin-top: -2px;
+}
+
+.input-error {
+    --ion-color-danger: #e8002e;
+    --color: #e8002e;
+    border-bottom: 1px solid #e8002e;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+}
+
+ion-input{
+    height: 31px;
+}
+
+ion-select{
+    -webkit-padding-start: 9px;
+}
+
+.no-padding-bottom{
+    padding-bottom: 0;
+}
+
+.padding-top-city{
+    padding-top: 4px;
+}
+
+.input-item{    
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+}
+  
+.item-list-container{
+    z-index: 100;
+    position: relative;
+    overflow: auto; 
+    max-height: 200px;
+    width: 105%;
+    margin-left: -5px;
+    border: 1px solid #f5f5f5;
+    margin-top: 5px;
+}
+
+.input-container{
+    width:102%;
+    margin-left: -5px;
+    margin-top: -3px;
+}
+
+.country-list-item{
+    height: 40px;
+    font-family: FedExSans-Regular;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.country-list-item:last-child{
+    border-bottom:none;
+}
+
+.country-text-bottom-margin{
+    margin-bottom: 5px;
+}
+
+.invalid-country-error{
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;    
+    white-space: nowrap;
+    text-align: left;
+}
+
+.country-list-item-label{
+    margin-top: 0px;
+}
+
+.invalid-field-value{
+    font-size:11px;
+}
+
+.city-list-item{
+    height: 40px;
+    font-family: FedExSans-Regular;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.city-list-item:last-child{
+    border-bottom:none;
+}
+
+.city-list-item-label{
+    margin-top: 0px;
+}
+
+.city-input{
+    font-size: 13px;
+    height: 22px;
+    margin-left: -5px;
+    padding: 0;
+    border: 0;
+    font-family: 'FedExSans-Regular';
+    width: 100%;
+    outline: none;
+    color: #333333;
+}
+
+.custom-no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.postal-code{
+    margin-top: -7px;
+}

@@ -1,0 +1,32 @@
+{
+    "configlist": [
+        {
+            "value": "SG",
+            "seq": "1"
+        },
+        {
+            "value": "FR",
+            "seq": "2"
+        },
+        {
+            "value": "CA",
+            "seq": "3"
+        },
+        {
+            "value": "UK",
+            "seq": "4"
+        },
+        {
+            "value": "ID",
+            "seq": "5"
+        },
+        {
+            "value": "MY",
+            "seq": "6"
+        },
+        {
+            "value": "AU",
+            "seq": "7"
+        }
+    ]
+}

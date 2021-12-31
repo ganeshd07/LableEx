@@ -1,0 +1,107 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="app logo">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+        <div class="manager-go-text" translate>{{ 'loginPage.fedexShipManagerLite' }}</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+        <p class="login-with-text" translate>{{ 'loginPage.loginWith' }}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div *ngIf="enableGoogleLogin">
+    <ion-button class="btn-google" (click)="googleLogin()">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col size="2" class="ion-text-left">
+            <img class="btn-logo" src="assets/img/google-logo.png" />
+          </ion-col>
+          <ion-col size="1"></ion-col>
+          <ion-col size="9" class="ion-text-left v-center">
+            <ion-label class="logo-name" >Google</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-button>
+  </div>
+
+  <div *ngIf="enableFBLogin">
+    <div class="spacer"></div>
+    <ion-button class="btn-fb" (click)="facebookLogin()">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col size="2" class="ion-text-left">
+            <img class="btn-logo" src="assets/img/fb-logo.png" />
+          </ion-col>
+          <ion-col size="1"></ion-col>
+          <ion-col size="9" class="ion-text-left v-center">
+            <ion-label class="logo-name">Facebook</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-button>
+  </div>
+
+  <div *ngIf="enableLineLogin">
+    <div class="spacer"></div>
+    <ion-button class="btn-line" (click)="lineLogin()">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col size="2" class="ion-text-left">
+            <img class="btn-logo" src="assets/img/line-img.png" />
+          </ion-col>
+          <ion-col size="1"></ion-col>
+          <ion-col size="9" class="ion-text-left v-center">
+            <ion-label class="logo-name">LINE</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-button>
+  </div>
+
+  <div>
+    <div class="spacer" *ngIf="enablePocCode"></div>
+    <ion-button class="btn-otp" (click)="onOTPLogin()">
+      <ion-grid class="ion-no-padding">
+        <ion-row>
+          <ion-col size="2" class="ion-text-left">
+            <img class="btn-logo mobile-logo" src="assets/img/mobile-login.svg" />
+          </ion-col>
+          <ion-col size="1"></ion-col>
+          <ion-col size="9" class="ion-text-left v-center">
+            <ion-label class="logo-name" translate>{{ 'loginPage.mobile' }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-button>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+        <p class="or-text" translate>{{ 'loginPage.or' }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center">
+        <div (click)="onGuestWithoutLogin()" class="login-skip" translate>{{ 'loginPage.guest' }}</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="acceptance-text" [innerHTML]="termsAndConditions | htmlSanitizer">
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

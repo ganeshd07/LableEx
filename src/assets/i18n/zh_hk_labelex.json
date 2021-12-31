@@ -1,0 +1,397 @@
+{
+  "navigation" : {
+    "newShipment" : "新貨件",
+    "myShipment" : "我的貨件",
+    "fedexLocations" : "FedEx 服務站",
+    "language" : "語言",
+    "messageCentre" : "訊息中心",
+    "contactUs" : "聯絡我們",
+    "termsOfUse" : "使用條款",
+    "logout" : "登出",
+    "alertMessage" : "將刪除所有輸入數據。您是否要繼續？",
+    "logoutAlertMessage" : "如果您選擇登出應用程式，您所輸入的託運資料將會遺失。您確認要登出嗎？"
+  },
+  "splashPage" : {
+    "slide1" : "所以人都可以透過手機進行託運",
+    "slide2" : "運費與服務一覽無遺",
+    "slide3" : "輕鬆簡單填寫貨件詳細資料",
+    "slide4" : "在 FedEx 服務站出示貨件條碼，即可完成託運"
+  },
+  "messageCentrePage" : {
+    "messageCentre" : "訊息中心",
+    "startShipping" : "開始託運",
+    "message1" : {
+      "title" : "新功能",
+      "header" : "全新流動託運工具迎合未有帳戶寄件人",
+      "description" : "只需在您的流動裝置使用 FedEx Ship Manager ® Lite，並在 FedEx投遞地點自行投遞您的包裹。無需提供 FedEx帳戶及列印託運標籤。"
+    },
+    "message2" : {
+      "title" : "新聞",
+      "header" : "COVID-19 最新消息",
+      "description" : "我們正密切留意COVID-19可能帶來的影響。<span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>按此</a></span>了解詳情。 "
+    },
+    "message3" : {
+      "title" : "特別優惠",
+      "header" : "享受託運七折優惠",
+      "description" : "即日起至 12 月 31 日，選用全新的 FedEx Ship Manager，即可享受七折優惠*。馬上參與 FedEx “Ship More, Save More” 運費折扣優惠計劃並登記您的信用卡付款資料，託運國際貨件可享獲多重折扣優惠！"
+    },
+    "message4" : {
+      "title" : "服務更新",
+      "header" : "附近的 FedEx 託運服務站",
+      "description" : "在 fedex.com 輕鬆找到亞太地區各地超過 2,500 個託運服務站的位置"
+    },
+    "news" : "新聞",
+    "specialoffer" : "特別優惠",
+    "newfeature" : "新功能",
+    "serviceupdate" : "服務更新"
+  },
+  "loginPage" : {
+    "fedexShipManagerLite" : "FedEx Ship Manager ® Lite",
+    "shipWithoutPrinting" : "不列印進行託運",
+    "loginWith" : "以下列方式登入",
+    "mobile" : "手提電話號碼",
+    "or" : "或",
+    "guest" : "不登入並使用訪客身份",
+    "termsOfUseNote" : "使用 FedEx Ship Manager® Lite 即表示您接受<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>使用條款</a></span>、<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'>私隱聲明</a></span>和<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>全球私隱聲明</a></span>。此外，您在此聲明並保證，您本人是您透過 FedEx Ship Manager® Lite 提供的聯絡資料的用戶和/或訂閱者。"
+  },
+  "otp" : {
+    "login" : "登入",
+    "loginWithMobileNo" : "以手提電話號碼登入",
+    "loginDetails" : "請輸入您的手提電話號碼，然後我們會向您寄發一次性密碼進行驗證",
+    "representAndWarrant" : "我謹此聲明並保證我是上述電話號碼的用戶及/或登記人，以及透過 FedEx Ship Manager Lite 預約 FedEx 貨件的寄件人。",
+    "verification" : "驗證",
+    "enterOneTimePwd" : "請輸入一次性密碼",
+    "enterOneTimePwdDetails" : "一次性密碼將於 {{TIME}} 秒後失效",
+    "oneTimePwdExpired" : "一次性密碼已過期",
+    "verify" : "驗證",
+    "resentOneTimePwd" : "重新發送一次性密碼",
+    "verificationErrorMessage" : "此手提電話號碼已超出失敗次數上限。基於安全理由，託運運費可於投遞時支付，而關稅和稅項則可由收件人支付。",
+    "agreeToProceed" : "同意繼續",
+    "cancelShipment" : "取消貨件",
+    "cancelShipmentConfirmMessage" : "您確認要取消貨件嗎？",
+    "backToLogin" : "返回登入頁面",
+    "validationError" : {
+      "minimumLength" : "電話號碼長度最少為 5 位數字。",
+      "maximumLength" : "電話號碼長度最多為 15 位數字。",
+      "noOfAttemptsExpiredMobileFieldMessage" : "此手提電話號碼已超出容許的登入失敗次數上限。基於安全理由，我們已暫停您的手提電話號碼，為時 24 小時。",
+      "noOfFaildOtpVerificationAttempts" : "此手提電話號碼已超出失敗次數上限。您的帳戶將鎖定至 23:59。"
+    }
+  },
+  "shipmentDetailsPage" : {
+    "shipmentDetails" : "貨件詳細資料",
+    "shipmentOrigin" : "寄件地",
+    "shipmentDestination" : "目的地",
+    "countryTerritory" : "國家/地區",
+    "postalCode" : "郵區編號",
+    "city" : "城市",
+    "packagingTypeOption" : "包裝類型選項",
+    "packagingTypes" : {
+      "yourPackaging" : "自備包裝",
+      "fedex10KGBox" : "FedEx 10 公斤速遞箱",
+      "fedex20KGBox" : "FedEx 20 公斤速遞箱",
+      "fedexBox" : "FedEx Box",
+      "fedexEnvelope" : "FedEx Envelope",
+      "fedexPak" : "FedEx Pak",
+      "fedexTube" : "FedEx Tube"
+    },
+    "noOfPackages" : "包裹件數",
+    "weightPerPackage" : "每件包裹重量",
+    "packagingDimension" : "包裹尺寸 長 X 寬 X 高",
+    "maxHint" : "上限",
+    "maxWeightHint" : "重量上限",
+    "totalNoOfPackages" : "包裹總件數",
+    "totalWeight" : "總重量",
+    "addAnotherPackage" : "新增另一個包裹",
+    "showRates" : "顯示運費",
+    "warning" : "警告",
+    "warningNote" : "確認要刪除此包裹？",
+    "packageInchesDimenstions" : "最大尺寸為 119 x 80 x 70 吋。",
+    "packageKgsDimenstions" : "最大尺寸為 302 x 203 x 178 厘米。",
+    "totalPackagesEntered" : "您已輸入",
+    "totalPackagesLimit" : "件為總數，僅容許最多 40 件。",
+    "MaxPackageCount" : "不能新增另一包裹，總數僅容許最多 40 件。",
+    "validationError" : {
+      "minimumWeight" : "重量不應少於 {{MIN_WEIGHT}}",
+      "maximumWeight" : "重量不應大於 {{MAX_WEIGHT}}",
+      "totalWeightError" : "總重量不應超過 {{TOTAL_WEIGHT}} {{WEIGHT_UNIT}}"
+    }
+  },
+  "recipientAddressBook" : {
+    "recentlyShippedAddress" : "最近託運的地址",
+    "searchBar" : "搜尋收件人",
+    "noContactsYet" : "您尚未擁有任何聯絡人"
+  },
+  "rateAndDeliveryOptionsPage" : {
+    "rateAndDeliveryOptions" : "運費和遞送選項",
+    "arrivesOn" : "送達日期",
+    "fastest" : "最快捷",
+    "bestPrice" : "最優惠價目",
+    "rateBreakdown" : "價格分項",
+    "baseRate" : "基本費率",
+    "VAT" : "增值稅",
+    "volumeDiscount" : "託運量折扣",
+    "total" : "總計",
+    "chargeableDimenWeight" : "收費體積重量",
+    "actual" : "實際",
+    "finalRateNote" : "FedEx 將量度貨件的實際重量及尺寸，用以計算您的最終運費。",
+    "dimensionalWeightHint" : "您貨件的運費乃按一張 FedEx 空運提單項下所有寄出包裹的總重量計算。然而，計算價格的決定因素在於體積重量 (長 x 闊 x 高/5000) 有否超出實際重量*。",
+    "dateNotAvailable" : "不適用",
+    "dimensionalWeightExceedLimitMessage" : " 貨件尺寸已到達 FSM LITE 可支援的上限，請使用其他 FedEx 託運應用程式來完成貨件。",
+    "rateApiErrorMessage" : "無法提供服務和運費。國際優先速遞服務為此貨件的預設服務。如有任何變更，請與我們的速遞員聯繫。"
+  },
+  "customsDetailsPage" : {
+    "newShipment" : "新貨件",
+    "customDetails" : "報關詳情",
+    "shipmentTypeQuestion" : "您託運的是甚麼？",
+    "items" : "貨品",
+    "documents" : "文件",
+    "documentType" : {
+      "correspondence" : "通信/無商業價值",
+      "personalDocument" : "個人文件",
+      "interofficeDocument" : "公司內部文件",
+      "businessDocument" : "商業文件",
+      "other" : "其他"
+    },
+    "shipmentPurpose" : "貨件用途",
+    "typeOfDocument" : "文件類型",
+    "totalCustomsValue" : "總海關申報值",
+    "totalWeight" : "總重量",
+    "addMoreItems" : "新增更多項目",
+    "addItem" : "新增貨品",
+    "describeYourDocument" : "您的文件內容",
+    "higherLimitNote" : "向 FedEx 購買上限更高的責任保障？",
+    "declaredValue" : "輸入託運申報值",
+    "declaredValueNote" : "託運申報值不應大於總海關申報值",
+    "declareValueTooltip" : "如果您沒有輸入金額，我們將按照託運條款的規定提供貨件保險。您可以選擇將總保額提高至海關申報值的最高金額。不過，特定貨品的保額可能會受限制。我們或會收取額外費用。請參閱我們的託運條款以了解詳情。",
+    "validationError" : {
+      "invalidCustomsValue" : "海關申報值不能低於託運申報值（{{CARRIAGE_VALUE}}）",
+      "invalidCarriageValueLimit" : "最高申報值為美元 {{CARRIAGE_VALUE_USD}}。請聯絡 FedEx 顧客服務部了解詳情。",
+      "minLengthItemDescription" : "貨品說明必須至少包含 6 個字元。",
+      "requiredCustomsValue" : "請確保總海關申報值最少為 1",
+      "requiredMinimumValue" : "此值必須大於或等於 0.01"
+    },
+    "purchaseHigherLimitCoverageBubbleHint" : "如果您沒有輸入金額，我們將按照託運條款的規定提供貨件保險。您可以選擇將總保額提高至海關申報值的最高金額。不過，特定貨品的保額可能會受限制。我們或會收取額外費用。請參閱我們的託運條款以了解詳情。",
+    "shipmentPurposeBubbleHint" : {
+      "labelText" : "貨件用途：從下拉式功能表中，選擇貨件用途。此資訊列印在商業發票上。如果您未選擇用途，此欄位會預設為「商業」，而您的貨件將根據與商業貨件相關的適用國家/地區規定清關。",
+      "commercial" : "商業用途 - 一個商業實體銷售或免費寄送到另一個商業實體的貨件，用於轉售或在開展業務的過程中以其他方式銷售的貨件。",
+      "gift" : "禮物 - 包含私人贈送的禮物之任何貨件，寄件人並非商業實體，亦非用於商業用途。",
+      "sample" : "樣品 - 包含註明為非銷售用途、損壞、非賣品或僅作商業樣品用途之物品的免費寄送貨件，寄送目的為獲得新客戶的訂單或為促進現有國外訂單寄送局部樣品。",
+      "returnAndRepair" : "退件與維修 - 為維修目的而寄送的物品，或先前為維修目的出口，但在維修後需要退件的物品。",
+      "personalEffects" : "個人物品 - 任何包含個人使用物品的貨件，例如不隨身攜帶的行李及搬家時的家用物品。",
+      "personalUser" : "個人用戶 - 任何包含個人在海外購買，並運送供個人使用的新物品之貨件。"
+    },
+    "documentTypeBubbleHInt" : "在下拉式功能表中選擇最貼切形容文件的描述，或是按其他。如果您選擇其他，您則須要在下方輸入額外產品詳情。您須要就部分文件類型輸入海關申報值。海關申報值是貨件內載物品可予出售時的銷售價格。如果貨件非出售商品，則海關申報值應填報公平市場價值。公平市場價值是指當貨件內載物品在公開市場銷售時，賣家可以從買家取得的價格。",
+    "hsCodeBubbleHint" : "輸入正確的國際協調制度編號可讓 FedEx 協助您確定適當的報關文件，同時更準確地預計關稅和稅額。國際協調制度編號是一套由世界海關組織 (WCO) 開發及維護的國際標準系統，用於統一分類交易產品。",
+    "warningNote" : "您確認要刪除嗎？ ",
+    "deleteConfirmation" : "您確認要刪除嗎？",
+    "currencyChangedMessage" : "如將海關申報值從 {{prev}} 貨幣更改為 {{curr}}，同時亦會更改其他之前的條目。</br>不會計算貨幣兌換。",
+    "currencyUpdationMessage" : "您的託運貨幣已由{{ICurrency}}改為{{UCurrency}}"
+  },
+  "addItemsPage" : {
+    "headerTitle" : "報關詳情",
+    "enterItemDetails" : "請提供您的貨品詳情",
+    "selectItemType" : "選擇項目類型",
+    "othersItemDecriptionLabel" : "描述您的貨品：",
+    "itemType" : {
+      "electronic" : "電子產品",
+      "jewellery" : "珠寶",
+      "healthCare" : "保健產品",
+      "garments" : "衣物",
+      "lithiumBattery" : "鋰電池",
+      "others" : "其他"
+    },
+    "electronics" : "電子產品",
+    "searchItem" : "輸入貨品說明",
+    "quantity" : "數量",
+    "quantityUnit" : {
+      "pieces" : "件數",
+      "count" : "計數"
+    },
+    "totalWeight" : "總重量",
+    "totalCustomsValue" : "總海關申報值",
+    "countryTerritoryOfManu" : "產地",
+    "hsCode" : "協調制度編號",
+    "confirmationAlert" : {
+      "header" : "警告",
+      "subHeader" : "確定要更新您的貨幣嗎？"
+    }
+  },
+  "senderRecipientDetailsPage" : {
+    "senderDetails" : "寄件人資料",
+    "recipientDetails" : "收件人資料",
+    "from" : "寄件地",
+    "to" : "目的地",
+    "addressLine" : "地址行",
+    "contactName" : "聯絡人姓名",
+    "companyName" : "公司名稱",
+    "companyAddressQuestion" : "這是公司地址嗎？",
+    "recipientAddressBrazilQuestion" : "這位收件人是巴西居民嗎？",
+    "phoneNo" : "電話號碼",
+    "phoneNoSenderNote" : "確認短訊將發送至手機號碼",
+    "phoneNoRecipientNote" : "通知將發送至手機號碼",
+    "ext" : "內線",
+    "email" : "電子郵件",
+    "taxId" : "稅務編號",
+    "passportNo" : "護照號碼",
+    "stateLabel" : "州/省"
+  },
+  "billingAndServicesOptionPage" : {
+    "headerTitle" : "帳單及服務",
+    "billingAndServicesOptions" : "帳單及服務選項",
+    "valueAddedServices" : "加值服務",
+    "signatureOptions" : "簽收選項",
+    "feeMayApply" : "或需收取費用",
+    "paymentOptions" : "付款選項",
+    "transportaionCosts" : "運費",
+    "dutiesAndTaxes" : "關稅和稅額",
+    "payAtDropOff" : "自行投遞時付款",
+    "billMyAccount" : "由我的帳戶付款",
+    "billRecipient" : "帳單收件人",
+    "billThirdParty" : "帳單第三方",
+    "finalRateNote" : "最終費用視乎帳戶持有人的貨件運費",
+    "accountNo" : "帳戶號碼",
+    "rate" : "費用",
+    "rateApiErrorNote" : "目前無法提供運費，請咨詢櫃台的 FedEx 代理，或在速遞員前來取件時查詢。",
+    "signatureOptionBubbleHint" : {
+      "ionText" : "如要在包裹送達時要求簽收，請選擇以下其中一種簽名類型。。",
+      "noneSpecifiedTitle" : "無指定",
+      "noneSpecifiedDefination" : "若未選擇簽名選項，將會進行 FedEx標準遞送程序。",
+      "noSignatureRequiredTitle" : "不須簽名",
+      "noSignatureRequiredDefination" : "FedEx 可在沒有任何人在場的情況下派遞包裹。此選項可能不適用於所有貨件或目的地。",
+      "indirectSignatureRequiredTitle" : "須間接簽名",
+      "indirectSignatureRequiredDefination" : "此選項可能不適用於所有貨件或所有目的地。FedEx 可接受由以下列三種方式之一取得簽名：",
+      "indirectSignatureRequiredDefinationLevel1Item1" : "- 在收件人地址的任何一人簽收",
+      "indirectSignatureRequiredDefinationLevel1Item2" : "- 由鄰近地址的鄰居、大樓管理人或其他人簽收",
+      "indirectSignatureRequiredDefinationLevel1Item3" : "- 收件人可授權 FedEx 於無人在遞送地址時放行包裹",
+      "directSignatureRequiredTitle" : "須直接簽名",
+      "directSignatureRequiredDefination" : "由收件人地址的任何人簽收貨件。若無人在收件地址時，FedEx 將可能再次遞送。此選項可能不適用於所有貨件。",
+      "adultSignatureRequiredTitle" : "須成人簽名",
+      "adultSignatureRequiredDefination" : "如果是託運至美國的貨件，FedEx 將於遞送地址取得年滿 21 歲的成年人簽名 (必須出示政府簽發並附有相片的身份證明文件)。如果是託運至其他目的地的貨件，FedEx 將於遞送地址取得任何一位目的地法定成年人的簽名。 簽收人必須出示政府簽發並附有相片的身份證明文件，或其他受到當地政府承認的身分證明文件。若遞送地址沒有成年人可簽收，FedEx 將一律重新遞送。"
+    }
+  },
+  "summaryPage" : {
+    "shipmentDetails" : {
+      "header" : "貨件詳細資料",
+      "estimatedDeliveryBy" : "預計送達時間：",
+      "packagingType" : "包裹類型",
+      "weight" : "重量",
+      "quantity" : "數量",
+      "dateUnavailableLabel" : "待處理"
+    },
+    "customsDetails" : {
+      "header" : "報關詳情",
+      "shipmentContent" : "託運內容",
+      "shipmentPurpose" : "貨件用途",
+      "customsValue" : "海關申報值",
+      "customsWeight" : "報關重量",
+      "documentType" : "文件類型"
+    },
+    "senderRecipient" : {
+      "from" : "寄件地",
+      "to" : "目的地",
+      "name" : "姓名",
+      "company" : "公司",
+      "address" : "地址"
+    },
+    "billingAndServiceOptions" : {
+      "header" : "帳單及服務選項",
+      "signatureOptions" : "簽收選項",
+      "transportation" : "運輸",
+      "dutiesAndTaxes" : "關稅和稅額"
+    },
+    "summary" : "摘要報告",
+    "rate" : "費用",
+    "finalizeShipment" : "完成託運",
+    "termsAndConditions" : "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+    "expressTermsAndConditions" : "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+  },
+  "thankYouPage" : {
+    "shipmentConfirmation" : "貨件確認",
+    "shipmentReferenceNo" : "貨件參考號碼",
+    "barcodeNote" : "在 FedEx 服務站出示下方 QR 碼，即可完成託運",
+    "findALocation" : "搜尋服務站",
+    "customerFeedBack" : "客戶意見",
+    "comments" : "意見",
+    "submitFeedBack" : "提交意見",
+    "thankYouFeedbackResponse" : "謝謝您的意見！",
+    "feedBackAlertMessage" : "請提供您的意見",
+    "maxLimitAlertMessage" : "您已達到客戶意見的 450 字元上限。"
+  },
+  "myShipmentsPage" : {
+    "myShipments" : "我託運的貨件",
+    "recentlyShipped" : "最近託運的貨件",
+    "pendingShipment" : "未處理貨件",
+    "trackingNo" : "查詢號碼",
+    "referenceNo" : "參考號碼",
+    "from" : "寄件地",
+    "to" : "目的地",
+    "package" : "包裹",
+    "airWayBillNo" : "空運提單號碼",
+    "noShipmentRecords" : "過去 90 天內沒有貨件記錄"
+  },
+  "termsAndCondition" : {
+    "title" : "條款及細則",
+    "bodyPart1" : "Federal Express Korea LLC（以下統稱為「FedEx」或「公司」需要徵得您同意以根據適用法律和條例，在您使用 FedEx Ship Manager Lite® (FSM Lite) Solution 時收集及使用個人資料（必需）、將一般個人資料轉移至第三方（必需）、同意向海外轉移個人資料（必需），以及同意使用個人資料作市場推廣用途（可選）。",
+    "checkBoxOne" : "我同意下方所有條款及細則",
+    "checkBoxTwo" : "[必需] 我已完全明白貴公司就有關收集及使用個人資料的解釋並特此授予同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "checkBoxThree" : "[必需] 我已完全明白貴公司就有關向第三方轉移一般個人資料的解釋並特此授予同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "checkBoxFour" : "[必需] 我已完全明白貴公司就有關海外轉移個人資料的解釋並特此授予同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "checkBoxFive" : "[可選] 我已完全明白貴公司就有關使用個人資料作市場推廣用途和轉移有用資料的解釋並特此授予同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "bodyPart2" : "[必需] 要使用 FSM Lite Solution 和 FedEx 提供的服務，必須同意下方列出的私隱聲明和條款及細則。您可拒絕同意下方列出的私隱聲明和條款及細則。然而，若您拒絕同意下方列出的私隱聲明和條款及細則，您便可能無法使用 FSM Lite Solution 和 FedEx 服務。",
+    "checkBoxSix" : "我同意下方所有協議",
+    "checkBoxSeven" : "[必需] 使用條款<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "checkBoxEight" : "[必需] 服務條款<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "checkBoxNine" : "[必需] 私隱聲明<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看詳細資料</a></span>",
+    "agreeText" : "我已仔細閱讀並完全明白上述有關收集及使用個人資料的說明及 FedEx 使用條款。我特此同意使用 FSM Lite Solution。",
+    "agreeButton" : "同意"
+  },
+  "button" : {
+    "skip" : "略過",
+    "next" : "下一步",
+    "continue" : "繼續",
+    "submit" : "提交",
+    "login" : "登入",
+    "signup" : "登記",
+    "create" : "建立",
+    "close" : "關閉",
+    "select" : "選擇",
+    "cancel" : "取消",
+    "ok" : "確定",
+    "add" : "新增",
+    "confirm" : "確認",
+    "yes" : "是",
+    "no" : "否",
+    "update" : "更新",
+    "delete" : "刪除"
+  },
+  "validationError" : {
+    "required" : "必須填寫此欄位",
+    "invalidPostalCodeFormat" : "郵遞區號格式無效。請使用下列格式：",
+    "invalidPostal" : "我們未能找到此郵區編號。請檢查是否正確然後再試。",
+    "invalidDecimal" : "請限制至最多 2 個小數位。",
+    "invalidEmail" : "此電郵地址不正確。",
+    "invalidPhoneNumber" : "電話號碼應有最少 3 位及最多 12 位的數字。",
+    "invalidPhoneNumberUSAndCA" : "電話號碼格式無效。",
+    "invalidTaxId" : "稅務編號不正確。稅務編號應包含最多 18 位數字",
+    "totalWeightExceeded" : "您全部貨品的總重量不得超出託運總重量 {{weight}} {{weightUnits}}。請更改貨品的重量",
+    "invalidCountry" : "所輸入的國家/地區不正確。",
+    "invalidAccountNum" : "無效帳號",
+    "invalidMinLength" : "請在此欄位輸入至少 3 個字元。",
+    "invalidOtp" : "驗證代碼無效",
+    "sameAccounteNumberError" : "{{Transport}} 及 {{Billing}} 帳戶的 FedEx 帳戶號碼不得相同",
+    "taxIdMinLength" : "請輸入 15 位數字的稅務編號"
+  },
+  "constants" : {
+    "optional" : "可選填",
+    "pleaseWait" : "請稍候...",
+    "AM" : "上午",
+    "PM" : "下午"
+  },
+  "apiErrorMessages" : {
+    "header" : "錯誤",
+    "buttonOk" : "確定",
+    "error" : "內部伺服器錯誤。",
+    "error404" : "找不到資源。",
+    "genericError" : "目前無法使用該服務。"
+  }
+}

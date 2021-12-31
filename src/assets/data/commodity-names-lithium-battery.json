@@ -1,0 +1,36 @@
+{
+    "commoditylist": [
+        {
+            "commodityId": "296",
+            "description": "Bluetooth earbuds (UN3481,  PI 966)"
+        },
+        {
+            "commodityId": "297",
+            "description": "Camcorder (UN3481, PI967)"
+        },
+        {
+            "commodityId": "298",
+            "description": "Digital camera  (UN3481, PI967)"
+        },
+        {
+            "commodityId": "299",
+            "description": "Laptop  (UN3481, PI967)"
+        },
+        {
+            "commodityId": "301",
+            "description": "MP3 player  (UN3481, PI967)"
+        },
+        {
+            "commodityId": "300",
+            "description": "Mobile Phone (UN3481, PI967)"
+        },
+        {
+            "commodityId": "302",
+            "description": "Smart Watch  (UN3481, PI967)"
+        },
+        {
+            "commodityId": "303",
+            "description": "Tablet  (UN3481, PI967)"
+        }
+    ]
+}

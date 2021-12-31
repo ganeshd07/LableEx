@@ -1,0 +1,122 @@
+{
+    "RateAndServicesRequest": {
+        "processingParameters": {
+            "returnDetailedErrors": true,
+            "anonymousTransaction": true,
+            "returnLocalizedDateTime": true,
+            "clientId": "WGRM"
+        },
+        "rateRequestControlParameters": {
+            "rateSortOrder": "SERVICENAMETRADITIONAL",
+            "serviceTypeList": [
+                {
+                    "serviceType": "EUROPE_FIRST_INTERNATIONAL_PRIORITY"
+                },
+                {
+                    "serviceType": "INTERNATIONAL_FIRST"
+                },
+                {
+                    "serviceType": "INTERNATIONAL_PRIORITY"
+                },
+                {
+                    "serviceType": "INTERNATIONAL_ECONOMY"
+                },
+                {
+                    "serviceType": "FIRST_OVERNIGHT"
+                },
+                {
+                    "serviceType": "PRIORITY_OVERNIGHT"
+                },
+                {
+                    "serviceType": "STANDARD_OVERNIGHT"
+                },
+                {
+                    "serviceType": "FEDEX_2_DAY"
+                },
+                {
+                    "serviceType": "FEDEX_2_DAY_AM"
+                },
+                {
+                    "serviceType": "FEDEX_EXPRESS_SAVER"
+                },
+                {
+                    "serviceType": "FEDEX_GROUND"
+                },
+                {
+                    "serviceType": "INTERNATIONAL_GROUND"
+                },
+                {
+                    "serviceType": "SAME_DAY"
+                },
+                {
+                    "serviceType": "SAME_DAY_CITY"
+                }
+            ],
+            "returnTransitTimes": true
+        },
+        "requestedShipment": {
+            "shipper": {
+                "address": {
+                    "city": "Beverly Hills",
+                    "stateOrProvinceCode": "CA",
+                    "postalCode": "90210",
+                    "countryCode": "US"
+                }
+            },
+            "recipientList": [
+                {
+                    "recipient": {
+                        "address": {
+                            "city": "Irving",
+                            "stateOrProvinceCode": "TX",
+                            "postalCode": "75063",
+                            "countryCode": "US"
+                        }
+                    }
+                }
+            ],
+            "shipTimestamp": "April-18-2020",
+            "dropoffType": "DROP_BOX",
+            "shippingChargesPayment": {
+                "payor": {
+                    "responsibleParty": {
+                        "address": {
+                            "countryCode": "US"
+                        },
+                        "accountNumber": null
+                    }
+                }
+            },
+            "customsClearanceDetail": null,
+            "rateRequestTypeList": [
+                {
+                    "rateRequestType": "LIST"
+                }
+            ],
+            "requestedPackageLineItemList": [
+                {
+                    "requestedPackageLineItem": {
+                        "groupPackageCount": "1",
+                        "physicalPackaging": "FEDEX_PAK",
+                        "insuredValue": {
+                            "amount": "1.0",
+                            "currency": "USD"
+                        },
+                        "weight": {
+                            "units": "LB",
+                            "value": "3"
+                        }
+                    }
+                }
+            ]
+        },
+        "carrierCodeList": [
+            {
+                "carrierCode": "FDXE"
+            },
+            {
+                "carrierCode": "FDXG"
+            }
+        ]
+    }
+}

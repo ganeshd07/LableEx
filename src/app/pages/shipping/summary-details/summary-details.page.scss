@@ -1,0 +1,523 @@
+.boxModel{
+    background-color: #F4F4F4;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom: 5px;
+    
+} 
+
+.blueColor {
+    background-color: #4D148C;
+    height: 100%;
+    margin: 0px -5px;
+    margin-top:-2px;
+    padding: 4px;
+
+ }
+
+ .shipmentDetails{
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.text-center {
+    text-align: center
+}
+
+.hkStyle{
+    font-family: FedExSans-Bold;
+    font-size: 18px;
+    color: #4D148C;
+    letter-spacing: 0;
+    
+}
+
+.rightArrowStyle {
+    margin-top:10px;
+}
+
+.usStyle{
+    font-family: FedExSans-Bold;
+    font-size: 18px;
+    color: #4D148C;
+    letter-spacing: 0;
+}
+
+.newYeark{
+    font-family: FedExSans-Regular;
+    font-size: 11px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.estDelivery{
+    font-family: FedExSans-Bold;
+    font-size: 11px;
+    color: #484848;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.webStyle{
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.interPriority{
+    font-family: FedExSans-Regular;
+    font-style: italic;
+    font-size: 11px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.boxModel-grey{
+    background-color: #E8E8E8;
+    margin: 0px -5px;
+    margin-bottom: -4px;
+}
+
+.centralBoldText{
+    font-family: FedExSans-Bold;
+    font-size: 11px;
+    color: #484848;
+    letter-spacing: 0;
+}
+
+.centralStyle{
+    font-family: FedExSans-Regular;
+    font-size: 11px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.weightStyle{
+    text-align: center
+}
+
+.imgStyle{
+    padding-left: 10px;
+}
+
+.border-bottom-style{
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.border-right-style{
+    border-right: 1px solid #C6C6C6;
+}
+
+.rateCollpase {
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rateStyle {
+    font-family: FedExSans-Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.amountStyle {
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.79px;
+    text-align: center;
+}
+
+.select-rate-chevron {
+    vertical-align: -webkit-baseline-middle;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float: left;
+    display: block;
+}
+
+.accordionItemContent {
+    padding-top: 10px;
+}
+
+.p-BreakdownTotal {
+    color: #151515;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin: 0px;
+    font-family: FedExSans-Bold;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin: 0px;
+}
+
+.continue-button-center {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.finalShipment{
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    width: 97%;
+    margin: 0px -10px;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.packageType{
+    padding-left: 10px;
+}
+
+.itemtoRight{
+    text-align: right;
+}
+
+.p-Breakdown {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    margin: 0px;
+    margin-left:2px;
+}
+
+.p-Breakdowncurrency{
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    margin: 0px;
+    float:right;
+    margin-right: 60px;
+}
+
+.p-Breakdownrate {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    margin: 0px;
+    text-align: right;
+}
+
+.p-Breakdowntotal {
+    color: #151515;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0px;
+}
+
+.p-Breakdowntotalrate {
+    color: #151515;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0px;
+    text-align: right;
+}
+
+.rate-Boxes {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.leftPartPadding {
+    padding: 10px;
+}
+
+.arr-style {
+    font-size: 13px;
+    color: #333333;
+    font-family: FedExSans-Medium;
+    text-align: left;
+    float: left;
+}
+
+.fastest {
+    font-family: FedExSans-Bold;
+    font-size: 12px;
+    color: #007AB7;
+    letter-spacing: 0;
+    vertical-align: top;
+}
+
+.deliveryDate {
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d148c;
+    margin: 0px;
+    padding: 0px;
+    text-align: left !important;
+}
+  
+.delTime {
+    font-size: 13px;
+    color: #4d148c;
+    font-family: FedExSans-Regular;
+    text-align: left;
+}
+
+.internationalPriority {
+    font-size: 12px;
+    color: #333333;
+    font-family: FedExSans-Light;
+    text-align: left;
+    letter-spacing: 0;
+    margin: 0px;
+    padding: 5px 0px;
+    margin: 2px 0px;
+}
+  
+.rateBreakDown {
+    font-size: 20px;
+    color: #8e8e8e;
+    font-family: FedExSans-Regular;
+    text-align: left;
+    float: left;
+}
+
+.blueColor {
+    background: #4D148C;
+    margin: '0px';
+    height: 60%;
+}
+  
+.crossedText {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center !important;
+    text-decoration: line-through;
+    margin: 0px;
+    padding: 10px;
+}
+  
+.amountFullStyle {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    margin-top: -10px;
+}
+  
+.OrangeBG {
+    background: #FF6200;
+    margin-left: -5px;
+    margin-right: -5px;
+    height: 40%;
+}
+
+.amount-without-discount {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.selectThePlan {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.spaceAfteSelectButton {
+    margin-top: -22px;
+}
+
+.accordionItem {
+    float: left;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: 'Open-sans', Arial, sans-serif;
+}
+  
+.accordionItemHeading {
+    cursor: pointer;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: -5px;
+    margin-top: 3px;
+}
+  
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float: left;
+    display: block;
+}
+  
+.open .accordionItemContent {
+    background-color: #fafafa;
+    width: 265%;
+    display: block;
+    transform-origin: top;
+    box-sizing: border-box;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease;
+    -ms-transition: -ms-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+}
+  
+.open .accordionItemHeading {
+    margin: 0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.rateBreakDownStyle {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0px;
+}
+
+.select-chevron {
+    vertical-align: -webkit-baseline-middle;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: -2px;
+}
+
+.p-Breakdown {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    margin: 0px;
+}
+  
+.p-BreakdownTotal {
+    color: #151515;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0px;
+    text-align: right;
+}
+  
+.itemstoLeft {
+    text-align: left;
+    padding-left: 5px;
+}
+  
+.itemtoRight {
+    text-align: right;
+}
+
+.rate-box-style {
+    margin-right: 5px;
+}
+.acceptance-text{
+    width: 280px;
+    height: auto;
+    margin: -3px auto 15px;
+    font-family: FedExSans-Regular;
+    color: #4D148C;
+    font-size: 12px;
+}
+
+.rate-details{
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.79px;
+    text-align: right;
+    width: 155px;
+    height: 20px;
+    margin: 0;
+ }
+ 
+.acceptance-text a{
+    color: #007AB7 !important;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}

@@ -1,0 +1,74 @@
+<app-header *ngIf="!isFromSummary" [title]="'otp.login' | translate" [backbuttonFlag]='true' [backNavigation]="backNavigation"></app-header>
+<app-header *ngIf="isFromSummary"[title]="'otp.verification' | translate" [backbuttonFlag]='true' [backNavigation]="backNavigation"></app-header>
+
+<ion-content>
+  <form [formGroup]="otpLoginForm" autocomplete="off">
+    <div class="otp-container">
+      <ion-grid>
+        <ion-row class="spacer-20">
+          <ion-col size="12" class="ion-text-center">
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12" class="ion-text-center">
+            <ion-icon class="mobile-icon" src="/assets/img/mobile-phone.svg"></ion-icon>
+          </ion-col>
+        </ion-row>
+
+        <ion-row *ngIf="!isFromSummary">
+          <ion-col size="12" class="header-row ion-text-center">
+            <h2 class="header-title" translate>{{ 'otp.loginWithMobileNo' }}</h2>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="2"></ion-col>
+          <ion-col size="8" class="ion-text-center">
+            <p class="header-subtitle" translate>{{ 'otp.loginDetails' }}</p>
+          </ion-col>
+          <ion-col size="2"></ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="1"></ion-col>
+          <ion-col size="2" class="ion-text-center country-box padding-0">
+            <ion-input #countryCodeInput formControlName="countryCode" type ="text" class="country-code-disabled"></ion-input>
+          </ion-col>
+          <ion-col size="8" class="ion-text-center mobile-box padding-0">
+            <ion-input #mobileNumberInput formControlName="mobileNumber" type="number" class="align-left mobile-number" autocomplete="off"
+              autofocus (input)="limitLength(mobileNumberInput)" inputmode="numeric" (ionFocus)="hideErrorMessage()"></ion-input>              
+          </ion-col>
+          <span *ngIf="!isPhoneNumberValid && (form.mobileNumber.dirty)"
+          class="mobile-number-validation-error" translate>{{ 'otp.validationError.minimumLength' }}</span>
+          <span *ngIf="form.mobileNumber.errors?.max"
+          class="mobile-number-validation-error" translate>{{ 'otp.validationError.maximumLength' }}</span>
+          <span *ngIf="showErrorMessage"
+          class="mobile-number-validation-error" translate>{{ 'otp.validationError.noOfAttemptsExpiredMobileFieldMessage' }}</span>
+          <ion-col size="1"></ion-col>
+        </ion-row>
+
+        <ion-row class="spacer-10">
+          <ion-col size="12" class="ion-text-center">
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="0.5"></ion-col>
+          <ion-col size="11" class="ion-text-center">
+            <ion-button (click)="validateMobile()" disabled={{!isPhoneNumberValid}}  class="btn-rounded" translate>{{ 'button.continue' }}</ion-button>
+          </ion-col>
+          <ion-col size="0.5"></ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="0.5"></ion-col>
+          <ion-col size="11">
+            <p class="footer-text" translate>{{ 'otp.representAndWarrant' }}</p>
+          </ion-col>
+          <ion-col size="0.5"></ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </form>
+</ion-content>

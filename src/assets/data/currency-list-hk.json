@@ -1,0 +1,816 @@
+{
+    "output": {
+        "currencies": [
+            {
+                "code": "HKD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "EUR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KRW",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "JPY",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "USD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AED",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AFN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AMD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ANG",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AOA",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ARS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AUD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AWG",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "AZN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BAM",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BBD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BDT",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BGN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BHD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BIF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BMD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BND",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BOB",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BRL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BSD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BTN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BWP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BYN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "BZD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CAD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CDF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CHF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CKD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CLP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CNY",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "COP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CRC",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CUC",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CUP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CVE",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "CZK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "DJF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "DKK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "DOP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "DZD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "EGP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ERN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ETB",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "FJD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "FKP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GBP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GEL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GGP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GHS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GIP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GMD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GNF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GTQ",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "GYD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "HKD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "HNL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "HRK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "HTG",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "HUF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "IDR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ILS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "IMP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "INR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "IQD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "IRR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ISK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "JEP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "JMD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "JOD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "JPY",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KES",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KGS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KHR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KID",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KMF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KPW",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KWD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KYD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "KZT",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LAK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LBP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LKR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LRD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LSL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "LYD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MAD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MDL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MGA",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MKD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MMK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MNT",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MOP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MRU",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MUR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MVR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MWK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MXN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MYR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "MZN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NAD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NGN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NIO",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NOK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NPR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "NZD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "OMR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PAB",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PEN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PGK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PHP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PKR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PLN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "PYG",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "QAR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "RON",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "RSD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "RUB",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "RWF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SAR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SBD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SCR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SDG",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SEK",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SGD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SHP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SLL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SOS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SRD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SSP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "STN",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SYP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "SZL",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "THB",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TJS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TMT",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TND",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TOP",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TRY",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TTD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TWD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "TZS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "UAH",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "UGX",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "UYU",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "UZS",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "VES",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "VND",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "VUV",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "WST",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "XAF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "XCD",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "XOF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "XPF",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "YER",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ZAR",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ZMW",
+                "description": "",
+                "symbol": ""
+            },
+            {
+                "code": "ZWL",
+                "description": "",
+                "symbol": ""
+            }
+        ]
+    }
+}

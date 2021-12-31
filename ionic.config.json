@@ -1,0 +1,7 @@
+{
+  "name": "FedEx Labeless Shipping App",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

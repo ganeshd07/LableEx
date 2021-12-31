@@ -1,0 +1,11 @@
+<ion-app [class.dark-theme]="dark">
+  <ion-split-pane contentId="main-content">
+
+    <ion-menu contentId="main-content" side="end" class="nav-menu">
+      <app-right-nav-menu></app-right-nav-menu>
+    </ion-menu>
+
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+
+  </ion-split-pane>
+</ion-app>

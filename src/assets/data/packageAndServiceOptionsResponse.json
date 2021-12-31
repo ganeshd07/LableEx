@@ -1,0 +1,355 @@
+{
+    "transactionId": "ca13f264-c854-4270-8842-270c530b324f",
+    "output": {
+        "serviceOptions": [
+            {
+                "key": "INTERNATIONAL_PRIORITY",
+                "displayText": "International Priority®"
+            },
+            {
+                "key": "INTERNATIONAL_ECONOMY",
+                "displayText": "FedEx International Economy®"
+            }
+        ],
+        "packageOptions": [
+            {
+                "packageType": {
+                    "key": "FEDEX_10KG_BOX",
+                    "displayText": "FedEx 10kg Box"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "FedEx 10kg Box",
+                        "dimensionText": "40.16 cm x 32.86 cm x 25.88 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 68.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 150.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 50000.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "FEDEX_25KG_BOX",
+                    "displayText": "FedEx 25kg Box"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "FedEx 25kg Box",
+                        "dimensionText": "54.77 cm x 42.07 cm x 33.50 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 68.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 150.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 50000.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "FEDEX_BOX",
+                    "displayText": "FedEx Box"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "Small",
+                        "dimensionText": "27.62 cm x 3.81 cm x 31.43 cm"
+                    },
+                    {
+                        "description": "Medium",
+                        "dimensionText": "29.21 cm x 6.03 cm x 33.66 cm"
+                    },
+                    {
+                        "description": "Large",
+                        "dimensionText": "31.43 cm x 7.62 cm x 44.45 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 18.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 40.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 50000.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "FEDEX_ENVELOPE",
+                    "displayText": "FedEx Envelope"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "Letter",
+                        "dimensionText": "24.13 cm x 31.75 cm"
+                    },
+                    {
+                        "description": "Legal",
+                        "dimensionText": "24.13 cm x 39.37 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 0.56
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 1.2
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 100.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "FEDEX_PAK",
+                    "displayText": "FedEx Pak"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "Small",
+                        "dimensionText": "26.04 cm x 32.39 cm"
+                    },
+                    {
+                        "description": "Large",
+                        "dimensionText": "30.48 cm x 39.37 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 9.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 20.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 100.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "FEDEX_TUBE",
+                    "displayText": "FedEx Tube"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "Tube",
+                        "dimensionText": "15.24 cm x 15.24 cm x 96.52 cm"
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 9.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 20.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 50000.0
+                }
+            },
+            {
+                "packageType": {
+                    "key": "YOUR_PACKAGING",
+                    "displayText": "Your Packaging"
+                },
+                "rateTypes": [
+                    "WEIGHT_BASED"
+                ],
+                "subpackageInfoList": [
+                    {
+                        "description": "Please enter the weight and dimensions of your package for a more accurate estimated rate.",
+                        "dimensionText": ""
+                    }
+                ],
+                "maxMetricWeightAllowed": {
+                    "units": "KG",
+                    "value": 68.0
+                },
+                "maxWeightAllowed": {
+                    "units": "LB",
+                    "value": 150.0
+                },
+                "maxDeclaredValue": {
+                    "currency": "USD",
+                    "amount": 50000.0
+                }
+            }
+        ],
+        "oneRate": false,
+        "pricingOptions": [
+            {
+                "key": "WEIGHT_BASED",
+                "displayText": "FedEx Standard Rate"
+            },
+            {
+                "key": "FLAT_BASED",
+                "displayText": "FedEx One Rate"
+            }
+        ],
+        "advancedRegulatoryPackages": [
+            {
+                "key": "SELFPACKAGE_BAG",
+                "displayText": "Bag"
+            },
+            {
+                "key": "SELFPACKAGE_BARREL",
+                "displayText": "Barrel"
+            },
+            {
+                "key": "SELFPACKAGE_BASKET",
+                "displayText": "Basket or hamper"
+            },
+            {
+                "key": "SELFPACKAGE_BOX",
+                "displayText": "Box"
+            },
+            {
+                "key": "SELFPACKAGE_BUCKET",
+                "displayText": "Bucket"
+            },
+            {
+                "key": "SELFPACKAGE_BUNDLE",
+                "displayText": "Bundle"
+            },
+            {
+                "key": "SELFPACKAGE_CAGE",
+                "displayText": "Cage"
+            },
+            {
+                "key": "SELFPACKAGE_CARTON",
+                "displayText": "Carton"
+            },
+            {
+                "key": "SELFPACKAGE_CASE",
+                "displayText": "Case"
+            },
+            {
+                "key": "SELFPACKAGE_CHEST",
+                "displayText": "Chest"
+            },
+            {
+                "key": "SELFPACKAGE_CONTAINER",
+                "displayText": "Container"
+            },
+            {
+                "key": "SELFPACKAGE_CRATE",
+                "displayText": "Crate"
+            },
+            {
+                "key": "SELFPACKAGE_CYLINDER",
+                "displayText": "Cylinder"
+            },
+            {
+                "key": "SELFPACKAGE_DRUM",
+                "displayText": "Drum"
+            },
+            {
+                "key": "SELFPACKAGE_ENVELOPE",
+                "displayText": "Envelope"
+            },
+            {
+                "key": "SELFPACKAGE_PACKAGE",
+                "displayText": "Package"
+            },
+            {
+                "key": "SELFPACKAGE_PAIL",
+                "displayText": "Pail"
+            },
+            {
+                "key": "SELFPACKAGE_PALLET",
+                "displayText": "Pallet"
+            },
+            {
+                "key": "SELFPACKAGE_PARCEL",
+                "displayText": "Parcel"
+            },
+            {
+                "key": "SELFPACKAGE_PIECES",
+                "displayText": "Pieces"
+            },
+            {
+                "key": "SELFPACKAGE_REEL",
+                "displayText": "Reel"
+            },
+            {
+                "key": "SELFPACKAGE_ROLL",
+                "displayText": "Roll"
+            },
+            {
+                "key": "SELFPACKAGE_SACK",
+                "displayText": "Sack"
+            },
+            {
+                "key": "SELFPACKAGE_SHRINKWRAPPED",
+                "displayText": "Shrink wrapped"
+            },
+            {
+                "key": "SELFPACKAGE_SKID",
+                "displayText": "Skid"
+            },
+            {
+                "key": "SELFPACKAGE_TANK",
+                "displayText": "Tank"
+            },
+            {
+                "key": "SELFPACKAGE_TOTEBIN",
+                "displayText": "Tote bin"
+            },
+            {
+                "key": "SELFPACKAGE_TUBE",
+                "displayText": "Tube"
+            },
+            {
+                "key": "SELFPACKAGE_UNIT",
+                "displayText": "Unit"
+            },
+            {
+                "key": "SELFPACKAGE_OTHER",
+                "displayText": "Other Packaging"
+            }
+        ]
+    }
+}

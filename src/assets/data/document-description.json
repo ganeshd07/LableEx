@@ -1,0 +1,23 @@
+{
+    "transactionId": "e40aaf1c-b5da-4060-ba2b-c5d431aa580c",
+    "output": {
+        "keyTexts": [
+            {
+                "key": "PERSONAL_DOCUMENT",
+                "displayText": "Personal document (e.g. letter)"
+            },
+            {
+                "key": "INTEROFFICE_DOCUMENT",
+                "displayText": "Interoffice document (e.g. memo)"
+            },
+            {
+                "key": "BUSINESS_DOCUMENT",
+                "displayText": "Business document (e.g. contract)"
+            },
+            {
+                "key": "OTHER",
+                "displayText": "Other"
+            }
+        ]
+    }
+}

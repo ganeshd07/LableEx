@@ -1,0 +1,336 @@
+.enter-details-heading-container{
+    padding-top: 15px;
+}
+.enter-details-heading{
+    width: 214px;
+    height: 20px;
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #4D148C;
+    margin-left: 10px;
+}
+
+.select-item-type-label-container{
+    margin-top: -8px;
+}
+
+.hs-code-container{
+    padding-bottom: 0px;
+}
+
+.select-item-type-label{
+    margin-left: 10px;
+    width: 227px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+}
+
+.grid-row-style{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.img-grid-container{
+    text-align: center
+}
+
+.grid-img-style{
+   margin-bottom: 5px;
+   margin-top: 5px;
+   margin-left: -6px;
+}
+
+.img-text-container{
+    padding: 0px;
+}
+
+.img-text{
+    font-family: FedExSans-Medium;
+    font-size: 12px;
+    columns: #333333;
+    padding: 0px;
+}
+
+.country-select-alignment{
+    padding: 0px;
+}
+
+.country-territory-label{
+    padding-bottom: 2px;
+}
+
+.text-styles-for-card{
+    font-size: 11px !important;
+}
+
+.quantity-count{
+    border: 1px solid #4D148C;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -7px;
+    .numeric-stepper-minus {
+        color: #4d148c;
+        border-right-style: solid;
+        border-color: #4d148c;
+        border-width: 1px;
+    }
+    .numeric-stepper-add {
+        color: #4d148c;
+        border-left-style: solid;
+        border-color: #4d148c;
+        border-width: 1px;
+    }
+}
+
+ion-select::part(icon){
+    display: none !important;
+}
+
+.pieces-select{
+    margin-top: -5px;
+    height: 22px;
+}
+
+.custom-padding{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.customs-disply{
+    height:20px;
+    text-align: left;
+}
+
+.select-chevron {
+    color: #4d148c !important;
+    vertical-align: -webkit-baseline-end;
+    width: 16px;
+    height: 16px;
+    margin-bottom: -4px;
+    margin-left: -8px;
+}
+
+.pieces-per-package-form {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #4D148C ;
+    width: 187px;
+}
+
+.custom-select{
+    background-color: #FAFAFA;
+}
+
+.total-weight-container{
+    border-bottom: 1px solid #4D148C;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+ion-input{
+    &.weight-input{
+    --padding-top:0px;
+    --padding-bottom: 0px;
+    --padding-start: 0px;
+    }
+    &.unit-label{
+        --padding-top: 3px;
+        --padding-bottom: 3px;
+    }
+    &.hs-code-input{
+        --padding-top:0px;
+        --padding-bottom: 0px;
+        --padding-start: 0px;
+    }
+}
+
+.unit-label{
+    background-color: #FAFAFA;
+    text-align: center;
+    font-family: FedExSans-Light;
+    font-size: 12px;
+}
+
+.unit-container{
+    padding-bottom: 1px;
+    padding-top:0px;
+    padding-right: 0px;
+}
+
+.weight-input-container{
+    padding: 0px;
+}
+
+.total-value-container{
+    padding-bottom: 0px;
+    margin-bottom: -2px;
+}
+ion-select{
+    --padding-bottom: 0px;
+    --padding-top: 0px;
+    --padding-start: 0px;
+
+}
+
+.weight-label-container{
+    padding-bottom: 0px;
+}
+
+.add-button-style{
+    color: #007AB7;
+    width: 280px;
+    margin: auto;
+}
+    
+ion-button{
+    &.add-button-style{
+    --border-radius: 30px;
+    --border-color:#007AB7;   
+    }
+}
+
+.add-button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hs-code-input{
+    border-bottom: 1px solid #4D148C;
+    margin-left: 8px;
+}
+
+.hs-code-input-wraper{
+    padding-right: 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.select-chevron-forward{
+    float: right;
+    color: #4d148c !important;
+    vertical-align: -webkit-baseline-end;
+    width: 16px;
+    height: 16px;
+}
+
+.bottom-style-border-for-country{
+    border-bottom: 1px solid #4D148C;
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.tooltip {
+    width: 16px;
+    height: 16px;
+    color: #007ab7;
+    vertical-align: middle;
+}
+
+.numeric-stepper-add-minus{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.margin-style-border{
+    padding: 0px;
+    float: right;
+}
+
+.currency-select{
+    font-size: 12px;
+    float: right;
+}
+
+.icon-floating{
+    float: right;
+}
+
+.country-select{
+    font-display: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+}
+
+.country-select-container{
+    border-bottom: 1px solid #4D148C;
+    margin-left:15px;
+    margin-right: 11px;
+}
+
+.country-column-style{
+    padding: 0px;
+}
+
+.select-item-value-label{
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #4D148C;
+    letter-spacing: 0;
+    height:20px;
+}
+.select-item-value-container{
+    margin-left:9px;
+    margin-top:4px;
+}
+
+.item-type-card {
+    height: 60px;
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 0px;
+}
+
+.selected-item-type-card {
+    height: 60px;
+    background-color: #4d148c;
+    text-align: center;
+    margin: 0px;
+
+    img {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(208deg) brightness(103%) contrast(102%);
+    }
+
+    .img-text {
+        color: #fafafa;
+    }
+}
+
+.error-item-type {
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #e8002e;
+    letter-spacing: 0;
+    height:20px;
+}
+
+.validation-error {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+}
+
+.qty-unit-error {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #e8002e ;
+}
+
+.weight-customsval-error {
+    border-bottom: 1px solid #e8002e;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.country-manufacture-error {
+    border-bottom: 1px solid #e8002e;
+    margin-left:15px;
+    margin-right: 11px;
+}

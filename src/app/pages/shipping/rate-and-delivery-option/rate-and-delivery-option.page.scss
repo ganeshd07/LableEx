@@ -1,0 +1,364 @@
+.rateAndD-title {
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #4d148c;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.rate-Boxes {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.no-rate-msg {
+  margin-top: -26px !important;
+  font-weight: bold;
+  font-size: 11px !important;
+}
+
+.dimensional-weight-error-msg {  
+  font-weight: bold;  
+}
+  
+.arr-style {
+    font-size: 13px;
+    color: #333333;
+    font-family: FedExSans-Medium;
+    text-align: left;
+    float: left;
+  }
+  
+.deliveryDate {
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d148c;
+    margin: 0px;
+    padding: 0px;
+    text-align: left !important;
+  }
+  
+.delTime {
+    font-size: 13px;
+    color: #4d148c;
+    font-family: FedExSans-Regular;
+    text-align: left;
+  }
+  
+.internationalPriority {
+    font-size: 12px;
+    color: #333333;
+    font-family: FedExSans-Light;
+    text-align: left;
+    letter-spacing: 0;
+    margin: 0px;
+    padding: 5px 0px;
+    margin: 2px 0px;
+  }
+  
+.rateBreakDown {
+    font-size: 20px;
+    color: #8e8e8e;
+    font-family: FedExSans-Regular;
+    text-align: left;
+    float: left;
+  }
+  
+.fastest {
+    font-family: FedExSans-Bold;
+    font-size: 12px;
+    color: #007AB7;
+    letter-spacing: 0;
+    vertical-align: top;
+  }
+  
+.blueColor {
+    background: #4D148C;
+    margin: '0px';
+    height: 60%;
+  }
+  
+.crossedText {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center !important;
+    text-decoration: line-through;
+    margin: 0px;
+    padding: 10px;
+  }
+  
+.amountFullStyle {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    margin-top: -10px;
+  }
+  
+.OrangeBG {
+    background: #FF6200;
+    margin: 0px;
+    height: 40%;
+  
+  }
+  
+.selectThePlan {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+.chargbleStye {
+    font-family: FedExSans-Bold;
+    font-size: 12px;
+    color: #4D148C;
+    letter-spacing: 0;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    padding-bottom: 0px;
+  }
+  
+.kg20line {
+    padding: 0px 10px;
+  }
+  
+.kg20Style {
+    font-family: FedExSans-Medium;
+    font-size: 13px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: left;
+    float: left;
+  }
+  
+.bottomText {
+    margin-top: 10px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 0px 10px;
+    float: left;
+  }
+  
+.leftPartPadding {
+    padding: 10px;
+  }
+  
+.toStyle {
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  
+.actual10KG {
+    font-size: 12px;
+    color: #333333;
+    font-family: FedExSans-Light;
+    text-align: left;
+    margin: 0px;
+    float: left;
+    padding-left: 5px;
+  }
+  
+.questionImg {
+    height: 15px;
+    margin-top: 20px;
+    float: left;
+  }
+  
+.rateBreakDownStyle {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  
+.spaceAfteSelectButton {
+    margin-top: -22px;
+}
+  
+.p-Breakdown {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+    margin: 0px;
+  }
+  
+.p-BreakdownTotal {
+    color: #151515;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    letter-spacing: 0;
+    margin: 0px;
+  }
+  
+.itemstoLeft {
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+.itemtoRight {
+    text-align: right;
+  }
+  
+.accordionWrapper {
+    padding: 30px;
+    background: #fff;
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10%;
+    box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+.accordionItem {
+    float: left;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: 'Open-sans', Arial, sans-serif;
+  }
+  
+.accordionItemHeading {
+    cursor: pointer;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: -5px;
+    margin-top: 3px;
+  }
+  
+.close .accordionItemContent {
+    height: 0px;
+    transition: height 1s ease-out;
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    float: left;
+    display: block;
+  }
+  
+.open .accordionItemContent {
+    background-color: #fafafa;
+    width: 265%;
+    display: block;
+    transform-origin: top;
+    box-sizing: border-box;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease;
+    -ms-transition: -ms-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+  }
+  
+.open .accordionItemHeading {
+    margin: 0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+.select-chevron {
+    vertical-align: -webkit-baseline-middle;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: -2px;
+  }
+
+.amount-without-discount {
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+.no-rates-options {
+  font-size: 14px;
+  color: #e8002e;
+  font-family: FedExSans-Light;
+  text-align: left;
+  margin: 0px;
+  float: left;
+  padding-left: 5px;
+}
+
+.p-Breakdownrate {
+  font-family: FedExSans-Regular;
+  font-size: 10px;
+  color: #8E8E8E;
+  letter-spacing: 0;
+  margin: 0px;
+  text-align: right;
+}
+
+.p-Breakdowntotalrate {
+  color: #151515;
+  letter-spacing: 0;
+  line-height: 13px;
+  font-weight: bold;
+  margin: 0px;
+  font-family: FedExSans-Regular;
+  font-size: 10px;
+  letter-spacing: 0;
+  margin: 0px;
+  text-align: right;
+}

@@ -1,0 +1,16 @@
+export enum AppSupportedCountry {
+    HK_COUNTRYCODE = 'HK',
+    CN_COUNTRYCODE = 'CN',
+    AU_COUNTRYCODE = 'AU',
+    ID_COUNTRYCODE = 'ID',
+    JP_COUNTRYCODE = 'JP',
+    KR_COUNTRYCODE = 'KR',
+    NZ_COUNTRYCODE = 'NZ',
+    PH_COUNTRYCODE = 'PH',
+    TH_COUNTRYCODE = 'TH',
+    TW_COUNTRYCODE = 'TW',
+    SG_COUNTRYCODE = 'SG',
+    VN_COUNTRYCODE = 'VN',
+    MY_COUNTRYCODE = 'MY',
+    DEFAULT_COUNTRYCODE = 'US'
+}

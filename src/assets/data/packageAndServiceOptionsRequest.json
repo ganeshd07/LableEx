@@ -1,0 +1,28 @@
+{
+    "sender": {
+        "address": {
+            "city": "TORONTO",
+            "stateOrProvinceCode": "ON",
+            "postalCode": "M1M1M1",
+            "countryCode": "CA",
+            "residential": false,
+            "streetLines": [
+                "10 fedex parkway"
+            ]
+        }
+    },
+    "recipient": {
+        "address": {
+            "city": "TOKYO-CHIYODA-KU",
+            "stateOrProvinceCode": "DF",
+            "postalCode": "1000001",
+            "countryCode": "JP",
+            "residential": false,
+            "streetLines": [
+                "asdasdas"
+            ]
+        }
+    },
+    "shipDate": "",
+    "systemOfMeasureType": "METRIC"
+}

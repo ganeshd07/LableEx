@@ -1,0 +1,164 @@
+<app-header [title]="'billingAndServicesOptionPage.headerTitle' | translate" [backbuttonFlag]='backbuttonFlag'
+  [backNavigation]="'/shipping/recipient-details'"></app-header>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+  <form [formGroup]="billingForm" (ngSubmit)="submitForm()">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="shipment-title">
+            <p translate>{{ 'billingAndServicesOptionPage.billingAndServicesOptions' }}</p>
+          </div>
+        </ion-col>
+      </ion-row>
+      <div *ngIf="signatureOptionsList.length > 0">
+        <ion-row>
+          <ion-col>
+            <div class="from-label">
+              <ion-label translate>{{ 'billingAndServicesOptionPage.valueAddedServices' }}</ion-label>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12" class="label-alignment-for-signature">
+            <ion-label class="signature-select-label" translate>{{ 'billingAndServicesOptionPage.signatureOptions' }}
+            </ion-label>
+            <ion-icon class="tooltip" name="help-circle-outline" (click)="signatureOptionBubbleHint()"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row class="bottom-style-border">
+          <ion-col class="transport-wrapper" size="10">
+            <ion-select #selectedSignatureValueRef formControlName="selectedSignatureValue"
+              [cancelText]="'button.cancel' | translate" [okText]="'button.ok' | translate"
+              class="singnature_options_display" multiple="false" (click)="onClickSelectDropdown()" (ionChange)="onSelectSignatureOptions()">
+              <ion-select-option *ngFor="let signature of signatureOptionsList" [value]="signature">
+                {{signature.displayText}}
+              </ion-select-option>
+            </ion-select>
+          </ion-col>
+          <ion-col class="custom-select weight-select-margin signature-chevron-alignment" size="2"
+            (click)="openSignatureOptions($event)">
+            <ion-icon class="select-chevron" name="chevron-forward-outline"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-label class="signature-fee-label">*{{ 'billingAndServicesOptionPage.feeMayApply' | translate }}
+            </ion-label>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="from-label">
+            <ion-label translate>{{ 'billingAndServicesOptionPage.paymentOptions' }}</ion-label>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="label-alignment-for-signature">
+          <ion-label class="signature-select-label" translate>{{ 'billingAndServicesOptionPage.transportaionCosts' }}
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="bottom-style-border">
+        <ion-col class="transport-wrapper" size="10" (ionFocus)="transportCostAndDutiesTaxDetails(transportCost)">
+          <ion-input type="text" formControlName="transportVal" class="input-alignment" readonly
+            (ionChange)="onSelectTransportationCost()"></ion-input>
+        </ion-col>
+        <ion-col *ngIf="enableDropDown" class="custom-select weight-select-margin signature-chevron-alignment" size="2"
+          (click)="transportCostAndDutiesTaxDetails(transportCost)">
+          <ion-icon class="select-chevron" name="chevron-forward-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="label-alignment-for-signature">
+          <ion-label class="signature-select-label" translate>{{ 'billingAndServicesOptionPage.dutiesAndTaxes' }}
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="bottom-style-border">
+        <ion-col class="transport-wrapper" size="10" (ionFocus)="transportCostAndDutiesTaxDetails(dutiesTax)">
+          <ion-input type="text" class="input-alignment" formControlName="dutiesVal" readonly></ion-input>
+        </ion-col>
+        <ion-col *ngIf="enableDutiesDropDown" class="custom-select weight-select-margin signature-chevron-alignment" size="2"
+          (click)="transportCostAndDutiesTaxDetails(dutiesTax)">
+          <ion-icon class="select-chevron" name="chevron-forward-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid *ngIf="rateFlag">
+      <ion-row class="blueColor back-ground-style">
+        <ion-col size="1">
+          <ion-icon name="information-circle-outline" class="information-icon-style"></ion-icon>
+        </ion-col>
+        <ion-col size="11">
+          <p *ngIf="!rateApiError" class="final-rate-msg" translate>{{ 'billingAndServicesOptionPage.finalRateNote' }}</p>
+          <p *ngIf="rateApiError" class="final-rate-msg" translate>{{ 'billingAndServicesOptionPage.rateApiErrorNote' }}</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid *ngIf="!rateFlag">
+      <ion-row class="blueColor">
+        <ion-col size="4">
+          <p class="rate-label-details" translate>{{ 'billingAndServicesOptionPage.rate' }}</p>
+        </ion-col>
+        <ion-col size="6">
+          <p class="rate-details">{{ selectedRates?.currency }} {{ selectedRates?.totalNetCharge | number }}</p>
+        </ion-col>
+        <ion-col size="2">
+          <p class="rateBreakDownStyle" (click)="changeArrow(downArrow)">
+            <ion-icon *ngIf="!downArrow" class="select-rate-chevron" name="chevron-down-outline"></ion-icon>
+            <ion-icon *ngIf="downArrow" class="select-rate-chevron" name="chevron-up-outline"></ion-icon>
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="clearratedetails" *ngIf="!rateFlag">
+      <ion-row class="accordionItemContent" *ngIf="downArrow">
+        <ion-col size="8" class="itemstoLeft">
+          <!-- Base rate and Total descrptions are not available in rate details json-->
+          <p class="p-Breakdown"> {{ 'rateAndDeliveryOptionsPage.baseRate' | translate }}: </p>
+          <p class="p-Breakdown" *ngIf="selectedRates?.vat"> {{ 'rateAndDeliveryOptionsPage.VAT' | translate }}: </p>
+          <div *ngFor="let surcharge of selectedRates.surcharges">
+            <p class="p-Breakdown"> {{ surcharge.description }}: </p>
+          </div>
+          <p class="p-Breakdown" *ngIf="selectedRates?.totalDiscount"> {{ 'rateAndDeliveryOptionsPage.volumeDiscount' | translate }}: </p>
+          <p class="p-Breakdowntotal">{{ 'rateAndDeliveryOptionsPage.total' | translate }}:</p>
+        </ion-col>
+        <ion-col size="4" class="itemtoRight">
+          <p class="p-Breakdown">{{selectedRates?.currency}}</p>
+          <p class="p-Breakdownrate"> {{ selectedRates?.totalBaseCharge | number }}</p>
+          <p class="p-Breakdown" *ngIf="selectedRates?.vat">{{selectedRates?.currency}}</p>
+          <p class="p-Breakdownrate" *ngIf="selectedRates?.vat">{{ selectedRates?.vat | number }}</p>
+          <div *ngFor="let surcharge of selectedRates?.surcharges">
+            <p class="p-Breakdown">{{ selectedRates?.currency }}</p>
+            <p class="p-Breakdownrate"> {{ surcharge.amount[0].amount | number }}</p>
+          </div>
+          <p class="p-Breakdown" *ngIf="selectedRates?.totalDiscount">{{ selectedRates?.currency }}</p>
+          <p class="p-Breakdownrate" *ngIf="selectedRates?.totalDiscount">-{{ selectedRates?.totalDiscount | number }}</p>
+          <p class="p-Breakdowntotal">{{ selectedRates?.currency }}</p>
+          <p class="p-Breakdowntotalrate"> {{selectedRates?.totalNetCharge | number }}</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" class="continue-button-center" text-center>
+          <ion-button *ngIf="!editBillingPageDetails" class="continueButton" type="submit" translate>{{ 'button.continue' }}</ion-button>
+          <ion-button *ngIf="editBillingPageDetails" class="continueButton" type="submit" translate>{{ 'button.update' }}</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="editBillingPageDetails">
+        <ion-col size="12" class="colButtonStyle">
+          <ion-button class="btn-rounded buttonStyle cancel-btn"
+            (click)="cancelEditBillingPageDetails()">
+            <ion-label class="addItemStyle" translate>{{ 'button.cancel' }}</ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

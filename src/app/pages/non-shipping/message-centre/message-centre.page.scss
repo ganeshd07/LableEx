@@ -1,0 +1,80 @@
+div.spacer-20 {
+    height: 20px;
+}
+.msg-centre-container {
+    margin: 20px;
+    text-align: center;
+}
+.message-centre-item {
+    max-width: 400px;
+    border: 1px solid #f2f2f2;
+}
+
+.message-centre-row {
+    background: #fafafa;
+}
+
+.message-card {
+    background: none;
+}
+
+.message-title {
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.message-subtitle {
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.img-msg-centre {
+    width: 100%;
+    height: 90px;
+    object-fit: none;
+    background-color: #4d148c;
+    margin-bottom: -10px;
+}
+
+.btn-start-shipping {
+    font-family: FedExSans-Bold;
+    width: 91%;
+    margin: auto;
+}
+
+.img-description {
+    font-family: FedExSans-Bold;
+    color: #fafafa;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.message-centre-column {
+    background-color: #4d148c;
+    text-align: center;
+}
+
+.select-chevron {
+    vertical-align: -webkit-baseline-middle;
+    width: 20px;
+    height: 20px;
+}
+
+.closed {
+    max-height: 62px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.expanded {
+    max-height: 999px;
+    transition: 1s;
+}
+

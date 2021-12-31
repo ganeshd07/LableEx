@@ -1,0 +1,38 @@
+{
+    "transactionId": "eb6719b8-8130-4e68-8125-e11f7932b9f5",
+    "output": {
+        "packageContentsIndicator": "REQUIRED",
+        "taxIdInfo": {
+            "sender": {
+                "federal": "NOTALLOWED",
+                "state": "NOTALLOWED"
+            },
+            "recipient": {
+                "federal": "OPTIONAL",
+                "state": "NOTALLOWED"
+            }
+        },
+        "customsClearance": "REQUIRED",
+        "commercialInvoiceSupport": {
+            "invoiceNumber": "NOTALLOWED"
+        },
+        "notaFiscal": "NOTALLOWED",
+        "customsValueSupport": {
+            "customsValue": "REQUIRED",
+            "notAllowedDocumentDescriptions": [
+                "CORRESPONDENCE_NO_COMMERCIAL_VALUE"
+            ]
+        },
+        "goodsInFreeCirculation": "NOTALLOWED",
+        "itemDescriptionForClearanceIndicator": "NOTALLOWED",
+        "documentDescriptionIndicator": "NOTALLOWED",
+        "shipmentPurposeIndicator": "REQUIRED",
+        "shipmentPurposeForServiceTypeSelectionIndicator": "NOTALLOWED",
+        "freightOnValueIndicator": "NOTALLOWED",
+        "recipientResidentialIndicator": "NOTALLOWED",
+        "deliveryInstructionsIndicator": "NOTALLOWED",
+        "notAllowedDeclaredValueDocumentDescriptions": [
+            "CORRESPONDENCE_NO_COMMERCIAL_VALUE"
+        ]
+    }
+}

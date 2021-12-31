@@ -1,0 +1,170 @@
+<ion-grid [ngClass]="itemSelected? 'items-grid ion-no-padding' : 'items-grid-hidden ion-no-padding'">
+  <form [formGroup]="itemForm">
+    <ion-row class="row-border-bottom"
+      [ngClass]="{ 'shippurpose-input-error' : form.shipmentPurpose.invalid && (form.shipmentPurpose.dirty || form.shipmentPurpose.touched) }">
+      <ion-col size="11" class="col-padding-0">
+        <ion-label position="stacked" class="font-12" translate>{{ 'customsDetailsPage.shipmentPurpose' }}</ion-label>
+        <ion-icon (click)="transportCostAndDutiesTaxDetails()" class="tooltip" name="help-circle-outline"></ion-icon>
+        <ion-select id="shipmentPurpose" (click)="onClickSelectDropdown()" formControlName="shipmentPurpose" [cancelText]="'button.cancel' | translate"
+          [okText]="'button.ok' | translate">
+          <ion-select-option *ngFor="let purpose of shipmentPurposeList" value="{{purpose.key}}" selected>
+            {{ purpose.displayText }}</ion-select-option>
+        </ion-select>
+      </ion-col>
+      <ion-col size="1" class="ion-no-padding">
+        <ion-icon size="large" name="chevron-forward-outline" class="chevron-right"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.shipmentPurpose.errors?.required && (form.shipmentPurpose.dirty || form.shipmentPurpose.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="colButtonStyle">
+        <ion-button *ngIf="items.length === 0" class="btn-rounded buttonStyle" (click)="goToMainCommodityPage()">
+          <ion-label class="addItemStyle" translate>{{ 'customsDetailsPage.addItem' }}</ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <div *ngIf="items.length > 0">
+      <ion-row>
+        <ion-col class="cdi-item-line" size="3" translate>{{ 'customsDetailsPage.items' }}</ion-col>
+      </ion-row>
+      <ion-grid class="cdi-rate-Boxes">
+        <ion-row class="cdi-borderBottomStyle" *ngFor="let item of items; let i = index">
+          <ion-col size="12">
+            <span class="cdi-floatLeftStyle"><span *ngIf="item.name !== otherItem">{{ item.name }} - </span> {{ item.description }} </span> <span
+              class="cdi-number10Style">X {{ item.quantity }}</span>
+          </ion-col>
+          <ion-col size="2">
+            <span class="cdi-kg10Style">{{ item.totalWeight }} {{ item.totalWeightUnit }} </span>
+          </ion-col>
+          <ion-col size="4">
+            <span class="cdi-kg10Style">{{ shipmentDetailsState.currencyDisplayValue }} {{ item.totalCustomsValue }}
+            </span>
+          </ion-col>
+          <ion-col size="3">
+            <img class="cdi-padding-5" src="assets/img/customsdetails/edit.svg" (click)="editMainCommodityPage(i)">
+          </ion-col>
+          <ion-col size="3">
+            <img class="cdi-floatRightStyle" src="assets/img/customsdetails/trash icon.svg"
+              *ngIf="this.showDeleteButton" (click)="presentAlertConfirm(i)">
+          </ion-col>
+        </ion-row>
+        <ion-row class="cdi-addMoreItemsAreaStyle">
+          <ion-col>
+            <img class="cdi-plusImageStyle" src="assets/img/customsdetails/Group 4.svg"
+              (click)="goToMainCommodityPage()">
+            <ion-label class="cdi-addMoreItemsStyle" translate>{{ 'customsDetailsPage.addMoreItems' }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-row class="cdi-borderBottomBluecolorStyle">
+        <ion-col size="6">
+          <ion-label>
+            <p class="total-text-style">{{ 'customsDetailsPage.totalWeight' | translate }}:</p>
+          </ion-label>
+          <ion-label>
+            <p class="kg30style">{{ calculatedTotalWeight }} {{ calculatedTotalWeightUnit }}</p>
+          </ion-label>
+        </ion-col>
+        <ion-col size="6" class="leftMargin" ion-nopadding>
+          <ion-label>
+            <p class="total-text-style">{{ 'customsDetailsPage.totalCustomsValue' | translate }}:</p>
+          </ion-label>
+          <ion-label>
+            <p class="amount3Kstyle">{{ shipmentDetailsState.currencyDisplayValue }} {{ calculatedTotalCustomsValue }}
+            </p>
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <span *ngIf="calculatedTotalWeight > totalPackageWeight" class="validation-error"
+            translate>{{'validationError.totalWeightExceeded' | translate:{weight:totalPackageWeight, weightUnits:calculatedTotalWeightUnit} }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="isTCVLessThanDCV">
+        <ion-col>
+          <span
+            class="validation-error">{{ 'customsDetailsPage.validationError.invalidCustomsValue' | translate: {CARRIAGE_VALUE: this.valueAndCurrencyErrorDisplay} }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="8">
+          <ion-label class="cdi-purchaseStyle">
+            {{ 'customsDetailsPage.higherLimitNote' | translate }}
+            <img class="cdi-questionImgStyle" src="assets/img/rateAndDelivery/question.png"
+              (click)="showPurchaseHigherLimitBubbleHint()">
+          </ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-toggle checked="{{ hasDeclaredValueCarriage }}" (ionChange)="toggleDeclaredValueCarriage($event)"
+            class="toggle"></ion-toggle>
+        </ion-col>
+      </ion-row>
+      <div *ngIf="hasDeclaredValueCarriage">
+        <ion-row class="cdi-row-border-bottom"
+          [ngClass]="{ 'dvc-input-error' : form.carriageDeclaredValue.invalid && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched) }">
+          <ion-col size="12" class="cdi-col-padding-0">
+            <ion-label class="cdi-enterDeclaredTextStyle" position="stacked" translate>
+              {{ 'customsDetailsPage.declaredValue' }}
+            </ion-label>
+            <ion-input #cdvInput id="carriageDeclaredValue" type="number" formControlName="carriageDeclaredValue" inputmode="decimal"
+              maxlength="10" (input)="limitLength(cdvInput,10)" [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY"><span
+                class="cdi-currency-display">{{ shipmentDetailsState.currencyDisplayValue }}
+              </span></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row
+          *ngIf="form.carriageDeclaredValue.errors?.required && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+          <ion-col>
+            <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+          </ion-col>
+        </ion-row>
+        <ion-row
+        *ngIf="!form.carriageDeclaredValue.errors?.required && form.carriageDeclaredValue.errors?.customsValueError && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'customsDetailsPage.validationError.requiredMinimumValue'
+            }}</span>
+        </ion-col>
+      </ion-row>
+        <ion-row
+          *ngIf="form.carriageDeclaredValue.errors?.pattern && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+          <ion-col>
+            <span class="validation-error" translate>{{ 'validationError.invalidDecimal' }}</span>
+          </ion-col>
+        </ion-row>
+        <ion-row *ngIf="isCarriageValueLimit">
+          <ion-col>
+            <span
+              class="validation-error">{{ 'customsDetailsPage.validationError.invalidCarriageValueLimit' | translate: {CARRIAGE_VALUE_USD: carriageLimit} }}</span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12" class="cdi-declareTextRowStyle">
+            <p class="cdi-declaredTextStyle" translate>
+              {{ 'customsDetailsPage.declaredValueNote' }}
+            </p>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row class="ion-justify-content-center">
+        <ion-button *ngIf="!editPageDetails" class="cdi-continueTextStyle" (click)="validateBeforeSubmit()"
+          type="submit" translate>{{ 'button.continue' }}</ion-button>
+        <ion-button *ngIf="editPageDetails" class="cdi-continueTextStyle" (click)="validateBeforeSubmit()" type="submit"
+          translate>{{ 'button.update' }}</ion-button>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="colButtonStyle">
+          <ion-button *ngIf="editPageDetails" class="btn-rounded buttonStyle cancel-btn"
+            (click)="cancelEditPageDetails()">
+            <ion-label class="addItemStyle" translate>{{ 'button.cancel' }}</ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </div>
+  </form>
+</ion-grid>

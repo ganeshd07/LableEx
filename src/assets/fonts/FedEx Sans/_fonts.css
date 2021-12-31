@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'FedExSans-Bold';
+    src: url('FedExSansApp-Bold.woff2') format('woff2'),
+        url('FedExSansApp-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Condensed';
+    src: url('FedExSansApp-Condensed.woff2') format('woff2'),
+        url('FedExSansApp-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Condensed';
+    src: url('FedExSansApp-CondensedBold.woff2') format('woff2'),
+        url('FedExSansApp-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Condensed';
+    src: url('FedExSansApp-CondensedLight.woff2') format('woff2'),
+        url('FedExSansApp-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Condensed XBold';
+    src: url('FedExSansApp-CondensedXBold.woff2') format('woff2'),
+        url('FedExSansApp-CondensedXBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Light';
+    src: url('FedExSansApp-Light.woff2') format('woff2'),
+        url('FedExSansApp-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Condensed';
+    src: url('FedExSansApp-CondensedMedium.woff2') format('woff2'),
+        url('FedExSansApp-CondensedMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Medium';
+    src: url('FedExSansApp-Medium.woff2') format('woff2'),
+        url('FedExSansApp-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-Regular';
+    src: url('FedExSansApp-Regular.woff2') format('woff2'),
+        url('FedExSansApp-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FedExSans-XBold';
+    src: url('FedExSansApp-XBold.woff2') format('woff2'),
+        url('FedExSansApp-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../Roboto/Roboto-Medium.ttf') format('ttf'),
+        url('../Roboto/Roboto-Medium.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../Roboto/Roboto-Regular.ttf') format('ttf'),
+        url('../Roboto/Roboto-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../Roboto/Roboto-Light.ttf') format('ttf'),
+        url('../Roboto/Roboto-Light.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../Roboto/Roboto-Bold.ttf') format('ttf'),
+        url('../Roboto/Roboto-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../Roboto/Roboto-Thin.ttf') format('ttf'),
+        url('../Roboto/Roboto-Thin.ttf') format('truetype');
+    font-display: swap;
+}
+

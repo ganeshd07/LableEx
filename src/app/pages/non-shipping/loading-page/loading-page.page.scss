@@ -1,0 +1,39 @@
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  font-size: 80px;
+}
+
+.spin {
+  text-align: center;
+  margin-top: 40%;
+  height: 100px;
+}
+
+ion-spinner {
+  width: 100%;
+  height: 100%;
+  stroke-width: 2px !important;
+}
+
+.spinner-crescent {
+  color: #4d148c;
+  height: 100%;
+  stroke-width: 2px;
+
+}
+
+.logoStyle {
+  margin-top: 50%;
+}
+
+.spinner-crescent circle {
+  fill: transparent;
+  stroke-width: 2px !important;
+}
+
+.imgClass {
+  height: 60px;
+}

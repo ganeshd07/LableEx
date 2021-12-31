@@ -1,0 +1,13 @@
+{
+    "txId": "bRH8P2jphgBmpmpn2Wz4duCFVgBcye7P",
+    "authType": "SMS",
+    "otpPhoneDeliveryRes": {
+        "contact": "8521234678",
+        "sendStatus": "SUCCESS",
+        "sendTime": "2021-10-06 09:33:55 GMT",
+        "otpExpiry": 90
+    },
+    "otpEmailDeliveryRes": null,
+    "status": "SUCCESS",
+    "message": "OTP sent successfully"
+}

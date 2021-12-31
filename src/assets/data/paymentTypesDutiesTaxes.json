@@ -1,0 +1,19 @@
+{
+    "transactionId": "130fceeb-cc10-4953-babc-c0061a987dbb",
+    "output": {
+        "keyTexts": [
+            {
+                "key": "SENDER",
+                "displayText": "My account"
+            },
+            {
+                "key": "RECIPIENT",
+                "displayText": "Recipient"
+            },
+            {
+                "key": "THIRD_PARTY",
+                "displayText": "Third Party "
+            }
+        ]
+    }
+}

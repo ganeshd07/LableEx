@@ -1,0 +1,1101 @@
+{
+    "transactionId": "aa6e464a-c555-4fcc-a09a-431b2fb667f5",
+    "output": {
+        "totalResults": 490,
+        "resultsReturned": 184,
+        "matchedAddresses": [
+            {
+                "city": "A KUNG KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ABERDEEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ADMIRALTY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALL OUTSKIRT ISLANDS",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AP LEI CHAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAPE D'AGUILAR",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAUSEWAY BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CENTRAL",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAI WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAIWAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHE HA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEK LAP KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEK NAI PING",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEUNG CHAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEUNG MUK TAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEUNG SHA WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHEUNG SHUE TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHI MUK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHOI HUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHOK KO WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHUNG HOM KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CLEAR WATER BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DEEP BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIAMOND HILL",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DISCOVERY BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FAN LING",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FANLING",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FO TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FONG MA PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HA TEI HA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HANG HA PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HANG TAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAPPY VALLEY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HO MAN TIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HOI HA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HONG LOK YUEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUNG HOM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUNGHOM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JARDINE LOOKOUT",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JORDAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JUNK BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAM TIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAU LIU HA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAU LUNG HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAU TO SHAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KENNEDY TOWN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KO TONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KO TONG HA YEUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KOWLOON BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KOWLOON CITY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KOWLOON TONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWAI CHUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWAI FONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWU TUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWUN HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWUN TONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KWUN YAM SHAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAI CHI KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAM KAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAM TEI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAM TIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAM TSUEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAMMA ISLAND",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LANTAU ISLAND",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEI YUE MUN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOK MA CHAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUK KENG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUNG KWAU TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MA KWU LAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MA ON SHAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MA WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAI PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEI FOO SUN CHUEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MID-LEVEL",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MONGKOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MUI SHUE HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MUI WO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAM SANG WAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAM WA PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NG TUNG CHAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NGA YIU TAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NGAU TAU KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NGONG PING",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NIM WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NORTH POINT",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PEAK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PEARL ISLAND",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PENG CHAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PENNY'S BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PING LONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PO SUM PAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PO TOI O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POKFULAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUI O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUARRY BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUEENSWAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "REPULSE BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI KENG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI KUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI SHA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI WAN HO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAI YING PUN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAM MUN TSAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAM SHING",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN PO KONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN TIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN TONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN UK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN UK PAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN WAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHA TIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAM SHUI PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAM SHUIPO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAM TSENG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHATIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAU KI WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAUKIWAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEK KIP MEI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEK MUM KAP",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEK O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEUNG SHUI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEUNG WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEUNGSHUI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHUI WAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHUI WO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIU HO WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIU LAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIU LIK YUEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIU SAI WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SO KWUN TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SOUTH BAY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STANLEY",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STANLEY BARRACKS",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TA PO KAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI KOK TSUI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI LAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI OM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI PO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI SHUI HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI TUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI WAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI WO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAIPO",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAP SHEK KOK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIN SHUI WAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TING KAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TO KWA PENG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TOKWAWAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONG FUK",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSENG TAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSEUNG KWAN O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSIMSHATSUI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSIMSHATSUI EAST",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSING LUNG TAU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSING YI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSIU LAM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSUEN WAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSZ WAN SHAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUEN MUN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUNG CHUNG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUNG TZE",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WAN CHAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WANCHAI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WANG TAU HOM",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WESTERN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WO LIU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WONG CHUK HANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WONG TAI SIN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WONG YI AU",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WONG YUE TAN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WU KAI SHA",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WU KAU TANG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YAU MA TEI",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YAU TONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YAU YAT CHUEN",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUEN LENG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUEN LONG",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUNG SHUE O",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            }
+        ]
+    }
+}

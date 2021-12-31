@@ -1,0 +1,277 @@
+<app-header [title]="'summaryPage.summary' | translate" [backbuttonFlag]='true'
+  [backNavigation]="'/shipping/billing-details'"></app-header>
+<ion-content>
+  <ion-content>
+    <br>
+    <ion-grid class="boxModel">
+      <ion-row class="blueColor">
+        <ion-col size="12">
+          <ion-label class="shipmentDetails" translate>{{ 'summaryPage.shipmentDetails.header' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="text-center">
+        <ion-col size="5">
+          <ion-label class="hkStyle">{{summaryDetails?.senderDetails?.countryCode}}</ion-label><br>
+          <ion-label class="centralStyle">
+            {{summaryDetails?.senderDetails?.city}}{{fromSeparate}}{{summaryDetails?.senderDetails?.postalCode}}
+          </ion-label>
+        </ion-col>
+        <ion-col size="2">
+          <img class="rightArrowStyle" src="../../../../assets/img/right_arrow.png">
+        </ion-col>
+        <ion-col size="5">
+          <ion-label class="usStyle">{{summaryDetails?.recipientDetails[0]?.countryCode}}</ion-label><br>
+          <ion-label class="newYeark">
+            {{summaryDetails?.recipientDetails[0]?.city}}{{toSeparate}}{{summaryDetails?.recipientDetails[0]?.postalCode}}
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="text-center">
+        <ion-col size="12">
+          <ion-label class="estDelivery" translate>{{ 'summaryPage.shipmentDetails.estimatedDeliveryBy' }}</ion-label>
+          <br>
+          <ion-label class="webStyle" *ngIf="!isDateUnavailableLabel && selectedRate">
+            {{ selectedRate.dayOfWeek | localDateFormat }}, 
+            <ng-container *ngIf="selectedLanguage === localLanguageConstants.ZH_CN || selectedLanguage === localLanguageConstants.ZH_TW">
+              {{ selectedRate.dayCxsFormat | localDateFormat }}
+            </ng-container>
+            <ng-container *ngIf="selectedLanguage !== localLanguageConstants.ZH_CN && selectedLanguage !== localLanguageConstants.ZH_TW">
+              {{ selectedRate.date | localDateFormat }}
+            </ng-container>
+            <ng-container *ngIf="ratesTimeUpdated">{{ selectedRate.time | timeFormat }}</ng-container>
+          </ion-label>
+          <ion-label class="webStyle" *ngIf="isDateUnavailableLabel" translate>
+            {{'summaryPage.shipmentDetails.dateUnavailableLabel'}}
+          </ion-label>
+          <br>
+          <ion-label class="interPriority">{{summaryDetails?.shipmentDetails?.serviceName}}</ion-label><br>
+        </ion-col>
+      </ion-row>
+      <ion-row class="boxModel-grey">
+        <ion-col size="4" class="packageType">
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.shipmentDetails.packagingType' }}</ion-label><br>
+          <ion-label class="centralStyle">{{packageName}}</ion-label>
+        </ion-col>
+        <ion-col class="weightStyle" size="4">
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.shipmentDetails.weight' }}</ion-label><br>
+          <ion-label class="centralStyle">{{summaryDetails?.shipmentDetails?.totalWeight}}
+            {{summaryDetails?.shipmentDetails?.packageDetails[0]?.packageWeightUnit}}</ion-label>
+        </ion-col>
+        <ion-col class="weightStyle" size="4">
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.shipmentDetails.quantity' }}</ion-label><br>
+          <ion-label class="centralStyle">{{summaryDetails?.shipmentDetails?.totalNumberOfPackages}}</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="boxModel">
+      <ion-row class="blueColor">
+        <ion-col size="10">
+          <ion-label class="shipmentDetails" translate>{{ 'summaryPage.customsDetails.header' }}</ion-label>
+        </ion-col>
+        <ion-col size="2" (click)="clickEditCustomsDetails()">
+          <img class="imgStyle" src="../../../../assets/img/Path-2.png">
+        </ion-col>
+      </ion-row>
+      <ion-row class="border-bottom-style">
+        <ion-col size="6" class="border-right-style">
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.customsDetails.shipmentContent' }}</ion-label>
+          <br>
+          <ion-label class="centralStyle">{{customsType}}</ion-label>
+        </ion-col>
+        <ion-col size="6" *ngIf='!customsTypeDisplay'>
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.customsDetails.shipmentPurpose' }}</ion-label>
+          <br>
+          <ion-label class="centralStyle">{{summaryDetails?.customsDetails?.productType}}</ion-label>
+        </ion-col>
+        <ion-col size="6" *ngIf='customsTypeDisplay'>
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.customsDetails.documentType' }}</ion-label><br>
+          <ion-label class="centralStyle">{{summaryDetails?.customsDetails?.documentType}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6" class="border-right-style">
+          <ion-label class="centralBoldText" translate>{{ 'summaryPage.customsDetails.customsValue' }}</ion-label><br>
+          <ion-label class="centralStyle" *ngIf='!customsTypeDisplay'>
+            {{summaryDetails?.shipmentDetails?.currencyDisplayValue}}
+            {{totalCustomsValue | number:'1.2-2'}}</ion-label>
+          <ion-label class="centralStyle" *ngIf='customsTypeDisplay'>
+            {{summaryDetails?.shipmentDetails?.currencyDisplayValue}}
+            {{summaryDetails.customsDetails?.documentValue | number:'1.2-2'}}</ion-label>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="centralBoldText" *ngIf='!customsTypeDisplay' translate>
+            {{ 'summaryPage.customsDetails.customsWeight' }}</ion-label><br>
+          <ion-label class="centralStyle" *ngIf='!customsTypeDisplay'>
+            {{totalCustomsWeight}}
+            {{summaryDetails?.customsDetails?.commodityList[0]?.totalWeightUnit}}</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="boxModel">
+      <ion-row class="blueColor">
+        <ion-col size="10">
+          <ion-label class="shipmentDetails" translate>{{ 'summaryPage.senderRecipient.from' }}</ion-label>
+        </ion-col>
+        <ion-col size="2" (click)="clickEditSenderDetails()">
+          <img class="imgStyle" src="../../../../assets/img/Path-2.png">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.name' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">{{summaryDetails?.senderDetails?.contactName}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf='shipperCompanyName'>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.company' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">{{summaryDetails?.senderDetails?.companyName}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.address' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">
+            {{summaryDetails?.senderDetails?.address1}}{{senderAddSeparate}}{{summaryDetails?.senderDetails?.address2}}
+          </ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="boxModel">
+      <ion-row class="blueColor">
+        <ion-col size="10">
+          <ion-label class="shipmentDetails" translate>{{ 'summaryPage.senderRecipient.to' }}</ion-label>
+        </ion-col>
+        <ion-col size="2" (click)="clickEditRecipientDetails()">
+          <img class="imgStyle" src="../../../../assets/img/Path-2.png">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.name' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">{{summaryDetails?.recipientDetails[0]?.contactName}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf='recipientCompanyName'>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.company' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">{{summaryDetails?.recipientDetails[0]?.companyName}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="3">
+          <ion-label class="centralBoldText">{{ 'summaryPage.senderRecipient.address' | translate }}:</ion-label>
+        </ion-col>
+        <ion-col size="9">
+          <ion-label class="centralStyle">
+            {{summaryDetails?.recipientDetails[0]?.address1}}{{recipientAdd2Separate}}{{summaryDetails?.recipientDetails[0]?.address2}}{{recipientAdd3Separate}}{{summaryDetails?.recipientDetails[0]?.address3}}
+          </ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid class="boxModel">
+      <ion-row class="blueColor">
+        <ion-col size="10">
+          <ion-label class="shipmentDetails" translate>{{ 'summaryPage.billingAndServiceOptions.header' }}</ion-label>
+        </ion-col>
+        <ion-col size="2" (click)="clickEditBillingServiceOptionsDetails()">
+          <img class="imgStyle" src="../../../../assets/img/Path-2.png">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-label class="centralBoldText">{{ 'summaryPage.billingAndServiceOptions.signatureOptions' | translate }}:
+          </ion-label>
+          <ion-label class="centralStyle">
+            {{summaryDetails?.shipmentDetails?.specialServiceInfo?.selectedSignatureOption?.displayText}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-label class="centralBoldText">{{ 'summaryPage.billingAndServiceOptions.transportation' | translate }}
+          </ion-label><br>
+          <ion-label class="centralStyle">{{ shippingBillToDisplayable | translate }}</ion-label>
+        </ion-col>
+        <ion-col size="6">
+          <ion-label class="centralBoldText">{{ 'summaryPage.billingAndServiceOptions.dutiesAndTaxes' | translate }}
+          </ion-label><br>
+          <ion-label class="centralStyle">{{ dutiesTaxesBillToDisplayable | translate }}</ion-label>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid *ngIf="summaryDetails?.paymentDetails?.shippingBillTo === payAtDropOff">
+      <div *ngFor="let rates of ratesList; let i = index;">
+        <ion-row class="blueColor rateCollpase">
+          <ion-col size="4" class="rateColStyle">
+            <ion-label class="shipmentDetails" translate>{{ 'summaryPage.rate' }}</ion-label>
+          </ion-col>
+          <ion-col size="6">
+            <p class="rate-details">{{ rates.currency }}{{ rates.totalNetCharge | number }}</p>
+          </ion-col>
+          <ion-col size="2">
+            <p class="rateBreakDownStyle" (click)="changeArrow(downArrow)">
+              <ion-icon *ngIf="!downArrow" class="select-rate-chevron" name="chevron-down-outline"></ion-icon>
+              <ion-icon *ngIf="downArrow" class="select-rate-chevron" name="chevron-up-outline"></ion-icon>
+            </p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-grid class="clearratedetails">
+            <ion-row class="accordionItemContent" *ngIf="downArrow">
+              <ion-col size="7" class="itemstoLeft">
+                <p class="p-Breakdown"> {{ 'rateAndDeliveryOptionsPage.baseRate' | translate }}: </p>
+                  <p class="p-Breakdown" *ngIf="rates?.vat"> {{ 'rateAndDeliveryOptionsPage.VAT' | translate }}: </p>
+                <div *ngFor="let surcharge of rates.surcharges">
+                  <p class="p-Breakdown"> {{ surcharge.description }}: </p>
+                </div>
+                <p class="p-Breakdown" *ngIf="rates?.totalDiscount"> {{ 'rateAndDeliveryOptionsPage.volumeDiscount' | translate }}: </p>
+                <p class="p-Breakdowntotal"> {{ 'rateAndDeliveryOptionsPage.total' | translate }}:</p>
+              </ion-col>
+              <ion-col size="2" class="itemtoRight">
+                <p class="p-Breakdown">{{rates?.currency}}</p>
+                <p class="p-Breakdown" *ngIf="rates?.vat">{{rates?.currency}}</p>
+                <div *ngFor="let surcharge of rates.surcharges">
+                  <p class="p-Breakdown">{{ rates?.currency }}</p>
+                </div>
+                <p class="p-Breakdown" *ngIf="rates?.totalDiscount">{{ rates?.currency }}</p>
+                <p class="p-Breakdowntotal">{{ rates?.currency }}</p>
+              </ion-col>
+              <ion-col size="3">
+                <p class="p-Breakdownrate"> {{ rates?.totalBaseCharge | number }}</p>
+                <p class="p-Breakdownrate" *ngIf="rates?.vat">{{ rates?.vat | number }}</p>
+                <div *ngFor="let surcharge of rates.surcharges">
+                  <p class="p-Breakdownrate"> {{ surcharge.amount[0].amount | number }}</p>
+                </div>
+                <p class="p-Breakdownrate" *ngIf="rates?.totalDiscount">-{{ rates?.totalDiscount | number }}</p>
+                <p class="p-Breakdowntotalrate"> {{rates?.totalNetCharge | number }}</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-row>
+      </div>
+    </ion-grid>
+    <ion-grid>
+      <ion-row *ngIf="!isLoggedInUser">
+        <ion-col>
+          <div class="acceptance-text" [innerHTML]="termsAndConditions | htmlSanitizer">
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="continue-button-center" text-center>
+          <ion-button class="finalShipment" (click)='onClickCreateShipment()' translate>
+            {{ 'summaryPage.finalizeShipment' }}</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>

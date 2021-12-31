@@ -1,0 +1,128 @@
+.logo {
+  width: 170px;
+  height: 48px;
+  margin: 25px auto 10px;
+}
+
+.manager-go-text {
+  font-size: 20px;
+  color: #333333;
+  margin: 9px auto 16px;
+  font-family: FedExSans-Regular;
+}
+
+.shipping-without-text {
+  font-size: 15px;
+  color: #333333;
+  margin: 0px auto 45px;
+  font-family: FedExSans-Regular;
+}
+
+.login-with-text {
+  font-size: 18px;
+  color: #4d148c;
+  font-family: FedExSans-Bold;
+  margin: 30px auto 10px;
+}
+
+.fb-logo {
+  width: 33%;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+.google-logo {
+  float: left;
+  width: 33%;
+  height: 50px;
+  text-align: center;
+}
+.line-logo {
+  float: left;
+  width: 33%;
+  height: 50px;
+  text-align: center;
+}
+
+.or-text {
+  margin: 10px auto 0px;
+  color: #4d148c;
+  font-size: 18px;
+  font-family: FedExSans-Bold;
+}
+.login-skip {
+  margin: 0px auto 5px;
+  font-family: FedExSans-Bold;
+  color: #007ab7;
+  font-size: 14px;
+}
+
+.acceptance-text {
+  width: 281px;
+  height: 45px;
+  margin: 4px auto 35px;
+  font-family: FedExSans-Regular;
+  color: #4d148c;
+  font-size: 12px;
+}
+
+.acceptance-text span {
+  color: #007ab7 !important;
+}
+
+.social-media-img {
+  margin: auto;
+  img {
+    cursor: pointer;
+    max-height: 50px;
+  }
+  .logoCommon {
+    width: 25% !important;
+  }
+}
+
+ion-button{
+  margin: auto;
+  width: 270px;
+  display: block;
+  text-transform: capitalize;
+  font-family: 'Roboto-Medium';
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.btn-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.btn-google{
+  --background: #ffffff;
+  color: rgba(0, 0, 0, 0.54);
+  border: solid 1px rgb(227, 227, 227);
+  --background-hover: transparent;
+}
+
+.btn-fb {
+  --background: #1877f2;
+  color: #ffffff;
+}
+
+.btn-line {
+  --background: #00B900;
+  color: #ffffff;
+}
+
+.btn-otp {
+  --background: #4d148c;
+  color: #ffffff;
+}
+
+.spacer{
+  height: 10px;
+}
+
+.mobile-logo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(208deg) brightness(103%) contrast(102%);
+}

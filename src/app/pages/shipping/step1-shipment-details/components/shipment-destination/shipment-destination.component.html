@@ -1,0 +1,108 @@
+<ion-grid>
+  <form [formGroup]="shipmentDestinationForm">
+    <ion-row>
+      <ion-col>
+        <div class="from-label">
+          <ion-label translate>{{ 'shipmentDetailsPage.shipmentDestination' }}</ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="{{ enableRecipientAddressBook ? 10 : 12}}" class="lable-alignment-for-country">
+        <ion-label class="country-select-label" translate>{{ 'shipmentDetailsPage.countryTerritory' }}</ion-label>
+        <ion-grid class="custom-no-padding">
+          <ion-row class="bottom-style-chevron" [ngClass]="{ 'input-error' : showInvalidCountryError || (form.countryName.invalid && (form.countryName.dirty || form.countryName.touched)), 'country-text-bottom-margin' : showInvalidCountryError || (form.countryName.invalid && (form.countryName.dirty || form.countryName.touched))} ">
+            <ion-col class="custom-select weight-select-margin ion-no-padding" size="12">
+                <ion-input type="text" formControlName="countryName" (ionFocus)="showFullCountryList()" (ionBlur)="hideCountryList($event)" (ionInput)="onSearchCountry($event)" class="input-item"></ion-input>
+              <ng-container *ngIf="countryList">
+                <div class="item-list-container" *ngIf="showCountryList && !showInvalidCountryError">
+                  <ion-list>
+                    <ion-item (click)="countrySelected(countryItem)" class="country-list-item" *ngFor="let countryItem of countryList">
+                      <ion-label class="country-list-item-label">{{countryItem.name}} ({{countryItem.actualCountryCode}})</ion-label>
+                    </ion-item>
+                  </ion-list>
+                </div>   
+              </ng-container>
+             </ion-col>
+             <span *ngIf="showInvalidCountryError && !form.countryName.invalid" class="invalid-country-error" translate>{{ 'validationError.invalidCountry' }}</span>
+                <span *ngIf="!showCountryList && form.countryName.invalid && (form.countryName.dirty || form.countryName.touched)" class="invalid-country-error" translate>{{ 'validationError.required' }}</span>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+      <ion-col *ngIf="enableRecipientAddressBook"  size="2" class="paddingdown">
+        <img src="../../../../../../assets/img/phone-list.svg" (click)="openRecipientBook()">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="5">
+        <ion-label class="postal-code-label" [hidden]='!postalAware' translate>{{ 'shipmentDetailsPage.postalCode' }}
+        </ion-label>
+        <div class="postal-code" [hidden]='!postalAware'>
+          <ion-input #postalCodeTo id="postalCodeTo" type="text" class="postal-code-input" formControlName="postalCode"
+            [ngClass]=" { 'input-error' : !isFocusOnPostalCode && form.postalCode.invalid && (form.postalCode.dirty || form.postalCode.touched) } "
+            (focusout)="inputPostalCode($event)" (ionFocus)="onPostalCodeFocusIn()">
+          </ion-input>
+        </div>
+        <span
+          *ngIf="!isFocusOnPostalCode && form.postalCode.errors?.required && (form.postalCode.dirty || form.postalCode.touched)"
+          class="postal-code-validation-error" translate>{{ 'validationError.required' }}</span>
+        <span
+          *ngIf="!isFocusOnPostalCode && !form.postalCode.errors?.required && !form.postalCode.errors?.pattern && (form.postalCode.dirty || form.postalCode.touched) && postalCodeNotFound"
+          class="postal-code-validation-error postal-code-invalid-error"
+          translate>{{ 'validationError.invalidPostal' }}</span>
+        <span
+          *ngIf="!isFocusOnPostalCode && form.postalCode.errors?.pattern && (form.postalCode.dirty || form.postalCode.touched)"
+          class="postal-code-validation-error postal-code-invalid-error"
+          translate>{{ 'validationError.invalidPostalCodeFormat' }}
+        </span>
+        <span
+          *ngIf="!isFocusOnPostalCode && form.postalCode.errors?.pattern && (form.postalCode.dirty || form.postalCode.touched)"
+          class="postal-code-validation-error postal-code-invalid-error postal-code-format">&lt;
+          {{selectedCountryPattern.format}} &gt;</span>
+
+      </ion-col>
+      <ion-col size="7" class="">
+        <ion-label class="city-select-label" translate>{{ 'shipmentDetailsPage.city' }}</ion-label>
+        <ion-grid class="padding-top-city">
+          <ion-row class="bottom-style-chevron2"
+            [ngClass]=" { 'input-error' : form.city.invalid && (form.city.dirty || form.city.touched) } ">
+            <ion-col *ngIf="postalAware" class="custom-select weight-select-margin" size="12">
+              <ion-select #cityTo class="custom-padding text-selection-container country-selection city-text"
+                id="cityTo" formControlName="city" interface="popover" (ionChange)='citySelected($event)'>
+                <ng-container *ngIf="cityList">
+                  <ion-select-option *ngFor="let cityRecord of cityList" [value]="cityRecord.city">
+                    {{cityRecord.city}} {{cityRecord.stateOrProvinceCode ? ' ' + cityRecord.stateOrProvinceCode : ''}}
+                  </ion-select-option>
+                </ng-container>
+              </ion-select>
+            </ion-col>
+            <ion-col *ngIf="!postalAware" class="custom-select weight-select-margin ion-text-left" size="12">
+              <ion-input #cityTo id="cityTo" formControlName="city" maxlength="35" autocomplete="off"
+                class="custom-padding text-selection-container city-input" (input)="onSearchCity($event)"
+                placeholder="" (ionFocus)="showFullCityList()" (ionBlur)="hideCityList($event)"></ion-input>
+            <ng-container *ngIf="cityList">
+            <div class="item-list-container" *ngIf="showCityList && !showInvalidCityError">
+              <ion-list>
+                <ion-item (click)="setCityValue(cityRecord)" class="city-list-item" *ngFor="let cityRecord of cityList">
+                    <ion-label class="city-list-item-label">{{cityRecord.city}}</ion-label>
+                  </ion-item>
+                </ion-list>
+            </div>   
+            </ng-container>
+            </ion-col>
+            <ng-container *ngIf="!postalAware">
+              <span *ngIf="(!showCityList) && !form.city.errors?.minlength && form.city.errors?.required && (form.city.dirty || form.city.touched)"
+              class="city-validation-error" translate>{{ 'validationError.required' }}</span>
+            <span *ngIf="!showCityList && form.city.errors?.minlength && (form.city.dirty || form.city.touched)"
+              class="city-validation-error invalid-field-value" translate>{{ 'validationError.invalidMinLength' }}</span>
+            </ng-container>
+            <ng-container *ngIf="postalAware">
+              <span *ngIf="form.city.errors?.required && (form.city.dirty || form.city.touched)"
+              class="city-validation-error" translate>{{ 'validationError.required' }}</span>
+            </ng-container>
+          </ion-row>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-grid>

@@ -1,0 +1,824 @@
+{
+    "countries": [
+        {
+            "countryCode": "AU",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "BN",
+            "format": "AANNNN",
+            "pattern": "^[A-Za-z]{2}\\d{4}$"
+        },
+        {
+            "countryCode": "KH",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "CN",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "PF",
+            "format": "987NN",
+            "pattern": "^987\\d{2}$"
+        },
+        {
+            "countryCode": "GU",
+            "format": "NNNNN, NNNNN-NNNN (969NN?)",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "ID",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "JP",
+            "format": "NNNNNNN",
+            "pattern": "^\\d{7}$"
+        },
+        {
+            "countryCode": "KR",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "LA",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MY",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MH",
+            "format": "NNNNN,NNNNN-NNNN",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "FM",
+            "format": "NNNNN,NNNNN-NNNN",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "MN",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MM",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "NZ",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "PH",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "WS",
+            "format": "CCNNNN",
+            "pattern": "^[Aa][Zz]\\d{4}$"
+        },
+        {
+            "countryCode": "SG",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "TW",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "TH",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "VN",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "WF",
+            "format": "NNNNN (986NN)",
+            "pattern": "^986\\d{2}$"
+        },
+        {
+            "countryCode": "DZ",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "AS",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "BH",
+            "format": "NNN,NNNN",
+            "pattern": "^\\d{3,4}$"
+        },
+        {
+            "countryCode": "BD",
+            "format": "NNNN,NNNNN",
+            "pattern": "^\\d{4,5}$"
+        },
+        {
+            "countryCode": "BT",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "BW",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "CV",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "EG",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "ET",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "GN",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "GW",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "IN",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "IR",
+            "format": "NNNNNNNNNN",
+            "pattern": "^\\d{10}$"
+        },
+        {
+            "countryCode": "IQ",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "JO",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "KZ",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "KE",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "KW",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "KG",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "LS",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "LR",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "MG",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "MV",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MU",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MA",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MZ",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "NP",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "NC",
+            "format": "988NN",
+            "pattern": "^988\\d{2}$"
+        },
+        {
+            "countryCode": "NE",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "NG",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "OM",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "PK",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "PW",
+            "format": "NNNNN, NNNNN-NNNN",
+            "pattern": "^\\d{5}(-{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "PG",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "RE",
+            "format": "974NN",
+            "pattern": "^974\\d{2}$"
+        },
+        {
+            "countryCode": "SA",
+            "format": "NNNNN-NNNN, NNNNN",
+            "pattern": "^\\d{5}(-{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "SN",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "SO",
+            "format": "AA NNNNN",
+            "pattern": "^[A-Za-z][A-Za-z]\\s{0,1}\\d{5}$"
+        },
+        {
+            "countryCode": "ZA",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "LK",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "SZ",
+            "format": "ANNN",
+            "pattern": "^[A-Za-z]\\d{3}$"
+        },
+        {
+            "countryCode": "TZ",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "TN",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "UZ",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "ZM",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "AL",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "AD",
+            "format": "AANNN",
+            "pattern": "^[Aa][Dd]\\d{3}$"
+        },
+        {
+            "countryCode": "AM",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "AT",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "AZ",
+            "format": "AANNNN",
+            "pattern": "^[Aa][Zz]\\d{4}$"
+        },
+        {
+            "countryCode": "BY",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "BE",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "BA",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "BG",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "CAIS",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "CHIS",
+            "format": "ANNAA, ANNNAA, ANANAA, AANNAA, AANANAA, AANNNAA",
+            "pattern": "^[a-zA-Z]{1,2}([0-9]{1,2}|[0-9][a-zA-Z])?\\s*[0-9][a-zA-Z]{2}$"
+        },
+        {
+            "countryCode": "HR",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "CY",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "CZ",
+            "format": "NNN NN",
+            "pattern": "^\\d{3}\\s{0,1}\\d{2}$"
+        },
+        {
+            "countryCode": "DK",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "EE",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "FO",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "FI",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "FR",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "GE",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "DE",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "GI",
+            "format": "",
+            "pattern": ""
+        },
+        {
+            "countryCode": "GR",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "GL",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "HU",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "IS",
+            "format": "NNN",
+            "pattern": "^\\d{3}$"
+        },
+        {
+            "countryCode": "IL",
+            "format": "NNNNNNN",
+            "pattern": "^\\d{7}$"
+        },
+        {
+            "countryCode": "IT",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "LV",
+            "format": "CC-NNNN",
+            "pattern": "^[Ll][Vv][- ]{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "LI",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "LT",
+            "format": "CC-NNNNN",
+            "pattern": "^[Ll][Tt][- ]{0,1}\\d{5}$"
+        },
+        {
+            "countryCode": "LU",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "MK",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "MT",
+            "format": "AAA NNNN",
+            "pattern": "^[A-Za-z]{3}\\s{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "MD",
+            "format": "CCNNNN, CC-NNNN",
+            "pattern": "^[Mm][Dd][- ]{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "MC",
+            "format": "980NN",
+            "pattern": "^980\\d{2}$"
+        },
+        {
+            "countryCode": "ME",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "NL",
+            "format": "NNNN,NNNNAA",
+            "pattern": "^\\d{4}([a-zA-Z][a-zA-Z])?$"
+        },
+        {
+            "countryCode": "NO",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "PL",
+            "format": "NN-NNN",
+            "pattern": "^\\d{2}[- ]{0,1}\\d{3}$"
+        },
+        {
+            "countryCode": "PT",
+            "format": "NNNN,NNNNNNN",
+            "pattern": "^[0-9]{4}([0-9]{3})?$"
+        },
+        {
+            "countryCode": "RO",
+            "format": "NNNNN,NNNNNN",
+            "pattern": "^\\d{5,6}$"
+        },
+        {
+            "countryCode": "RU",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "SAMA",
+            "format": "NNNNN (4789N)",
+            "pattern": "^4789\\d$"
+        },
+        {
+            "countryCode": "SCO",
+            "format": "ANNAA, ANNNAA, ANANAA, AANNAA, AANANAA, AANNNAA",
+            "pattern": "^[a-zA-Z]{1,2}([0-9]{1,2}|[0-9][a-zA-Z])?\\s*[0-9][a-zA-Z]{2}$"
+        },
+        {
+            "countryCode": "RS",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "SK",
+            "format": "NNN NN",
+            "pattern": "^\\d{3}\\s{0,1}\\d{2}$"
+        },
+        {
+            "countryCode": "SI",
+            "format": "NNNN, CC-NNNN",
+            "pattern": "^([Ss][Ii][- ]{0,1}){0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "ES",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "SE",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "CH",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "TR",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "TM",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "UA",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "GB",
+            "format": "ANNAA,ANNNAA,ANANAA,AANNAA,AANANAA,AANNNAA,AANN NAA,AANA NAA,AAN NAA,ANN NAA,ANA NAA,AN NAA",
+            "pattern": "^[a-zA-Z]{1,2}([0-9]{1,2}|[0-9][a-zA-Z])?\\s*[0-9][a-zA-Z]{2}$"
+        },
+        {
+            "countryCode": "VACI",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "WAL",
+            "format": "ANNAA,ANNNAA,ANANAA,AANNAA,AANANAA,AANNNAA",
+            "pattern": "^[a-zA-Z]{1,2}([0-9]{1,2}|[0-9][a-zA-Z])?\\s*[0-9][a-zA-Z]{2}$"
+        },
+        {
+            "countryCode": "AI",
+            "format": "AI-NNNN",
+            "pattern": "^[Aa][Ii][-]\\d{4}$"
+        },
+        {
+            "countryCode": "AR",
+            "format": "NNNN, ANNNNAAA",
+            "pattern": "^\\d{4}|[A-Za-z]\\d{4}[a-zA-Z]{3}$"
+        },
+        {
+            "countryCode": "BS",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "BB",
+            "format": "AANNNNN (BB12345)",
+            "pattern": "^[A-Za-z][A-Za-z]\\d{5}$"
+        },
+        {
+            "countryCode": "BM",
+            "format": "AANN,AAAA",
+            "pattern": "^[A-Za-z]{2}([A-Za-z]{2}|\\d{2})$"
+        },
+        {
+            "countryCode": "BO",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "BR",
+            "format": "NNNNN,NNNNN-NNN",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{3})?$"
+        },
+        {
+            "countryCode": "VG",
+            "format": "CCNNNN (i.e. VG1234)",
+            "pattern": "^[Vv][Gg]\\d{4}$"
+        },
+        {
+            "countryCode": "KY",
+            "format": "CCN-NNNN",
+            "pattern": "^[Kk][Yy]\\d[-\\s]{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "CL",
+            "format": "NNNNNNN, NNN-NNNN",
+            "pattern": "^\\d{7}|\\d{3}[- ]{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "CO",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "CR",
+            "format": "NNNNN,NNNNN-NNNN",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "DO",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "EC",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "SV",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "GF",
+            "format": "973NN",
+            "pattern": "^973\\d{2}$"
+        },
+        {
+            "countryCode": "GP",
+            "format": "971NN",
+            "pattern": "^971\\d{2}$"
+        },
+        {
+            "countryCode": "GT",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "HT",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "HN",
+            "format": "AANNNN, NNNNN",
+            "pattern": "^[A-Za-z]{2}\\d{4}|\\d{5}$"
+        },
+        {
+            "countryCode": "JM",
+            "format": "NN",
+            "pattern": "^\\d{2}$"
+        },
+        {
+            "countryCode": "MQ",
+            "format": "972NN",
+            "pattern": "^972\\d{2}$"
+        },
+        {
+            "countryCode": "MX",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "MS",
+            "format": "MSR NNNN",
+            "pattern": "^[Mm][Ss][Rr]\\s{0,1}\\d{4}$"
+        },
+        {
+            "countryCode": "NI",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "PA",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "PY",
+            "format": "NNNN",
+            "pattern": "^\\d{4}$"
+        },
+        {
+            "countryCode": "PE",
+            "format": "NNNNN, CC NNNN",
+            "pattern": "^[Pp][Ee]\\s{0,1}\\d{4}|\\d{5}$"
+        },
+        {
+            "countryCode": "PR",
+            "format": "NNNNN, NNNNNNNNN",
+            "pattern": "^[0-9]{5}([0-9]{4})?$"
+        },
+        {
+            "countryCode": "LC",
+            "format": "CCNN NNN",
+            "pattern": "^[Ll][Cc]\\d{2}\\s{0,1}\\d{3}$"
+        },
+        {
+            "countryCode": "MF",
+            "format": "97150",
+            "pattern": "^97150$"
+        },
+        {
+            "countryCode": "VC",
+            "format": "CCNNNN",
+            "pattern": "^[Vv][Cc]\\d{4}$"
+        },
+        {
+            "countryCode": "TT",
+            "format": "NNNNNN",
+            "pattern": "^\\d{6}$"
+        },
+        {
+            "countryCode": "TC",
+            "format": "KCA 1ZZ",
+            "pattern": "^[Tt][Kk][Cc][Aa]\\s{0,1}[1][Zz]{2}$"
+        },
+        {
+            "countryCode": "VI",
+            "format": "NNNNN, NNNNN-NNNN",
+            "pattern": "^\\b\\d{5}\\b(?:[- ]{1}\\d{4})?$"
+        },
+        {
+            "countryCode": "UY",
+            "format": "NNNNN",
+            "pattern": "^\\d{5}$"
+        },
+        {
+            "countryCode": "VE",
+            "format": "NNNN, NNNN-A",
+            "pattern": "^\\d{4}(\\s[a-zA-Z]{1})?$"
+        },
+        {
+            "countryCode": "CA",
+            "format": "ANANAN,ANA NAN",
+            "pattern": "^[a-zA-Z][0-9][a-zA-Z]?\\s*[0-9][a-zA-Z][0-9]"
+        },
+        {
+            "countryCode": "US",
+            "format": "NNNNN,NNNNNNNNN",
+            "pattern": "^[0-9]{5}([0-9]{4})?$"
+        }
+    ]
+}

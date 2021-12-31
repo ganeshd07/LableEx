@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>trash icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="15_Commodities-with-items" transform="translate(-280.000000, -540.000000)" stroke="#4D148C">
+            <g id="trash-icon" transform="translate(280.000000, 540.000000)">
+                <path d="M12.061,3.18 L1.34,3.18 L1.34,13.566 C1.31286954,14.0180102 1.48061149,14.4599991 1.80080618,14.7801938 C2.12100086,15.1003885 2.56298981,15.2681305 3.015,15.241 L10.386,15.241 C10.8380102,15.2681305 11.2799991,15.1003885 11.6001938,14.7801938 C11.9203885,14.4599991 12.0881305,14.0180102 12.061,13.566 L12.061,3.18 Z" id="Path"></path>
+                <line x1="5" y1="5.5" x2="5" y2="12.5" id="Path-2"></line>
+                <line x1="9" y1="5.5" x2="9" y2="12.5" id="Path-3"></line>
+                <line x1="0" y1="3.5" x2="13" y2="3.5" id="Path-4"></line>
+                <path d="M9.382,3.18 L9.382,1.17 C9.39357975,0.989002732 9.32671786,0.811774249 9.19847181,0.683528193 C9.07022575,0.555282137 8.89299727,0.48842025 8.712,0.5 L4.557,0.5 C4.221,0.5 4.021,0.7 4.021,1.17 L4.021,3.18 L9.382,3.18 Z" id="Path-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+    "userProfile": {
+        "output": {
+            "profile": {
+                "user": {
+                    "uid": "002"
+                },
+                "contact": {
+                    "personName": "Chris Yan",
+                    "companyName": "ACM Corp",
+                    "phoneNumber": "+862086666888",
+                    "emailAddress": "chrisyan@gmail.com",
+                    "taxId": ""
+                },
+                "address": {
+                    "streetLines": [
+                        "No.122 Liu Hua Road",
+                        "Yue Xiu"
+                    ],
+                    "city": "GUANGZHOU",
+                    "stateOrProvinceCode": "",
+                    "postalCode": "510015",
+                    "countryCode": "CN",
+                    "residential": "false"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,347 @@
+.pto-title {
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #4d148c;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.packaging-list-label {
+    font-family: FedExSans-Medium;
+    font-size: 12px;
+    color: #4d148c;
+    letter-spacing: 0;
+}
+
+.add-another-package-label {
+    font-family: FedExSans-Medium;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4d148c;
+    padding: 0;
+    margin: 0;
+}
+
+.pto-regular-label {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+}
+
+.pto-note {
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #8E8E8E;
+    float: left;
+}
+
+.pto-note-hidden {
+    visibility: hidden;
+}
+
+.label-header {
+    font-size: 12px;
+}
+
+.label-value {
+    font-family: FedExSans-Bold;
+    font-size: 12px;
+}
+
+.add-package {
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+.packaging-type-slider-container {
+    margin-bottom: 10px;
+}
+
+.package-container {
+    background-color: #fafafa;
+    margin: 0px 10px 0px 10px;
+    border-bottom-style: groove;
+}
+
+.summary-container {
+    background-color: #fafafa;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 6px 0px;
+}
+
+ion-select::part(icon) {
+    display: none !important;
+}
+
+ion-icon.delete-icon {
+    color: #4d148c !important;
+    vertical-align: sub;
+}
+
+ion-card {
+    margin: 0;
+    height: 78px;
+    width: 100%;
+    text-align: center;
+    background-color: #fafafa;
+    padding-top: 3px;
+    border-right: 2px solid #fff;
+    border-radius: 0px;
+}
+
+ion-slide {
+    height: 78px;
+    background-color: #fafafa;    
+    ion-card-header {
+        padding: 0 !important;
+    }
+}
+
+.swiper-active-packaging-type {
+    background-color: #4d148c;
+    ion-card {
+        background-color: #4d148c !important;
+        ion-card-header {
+            ion-card-title {
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.extra-ion-slides{
+    background-color: #ffffff;
+}
+
+.item-container {
+    --ion-item-background: #fafafa;
+    background-color: #fafafa;
+}
+
+.no-of-package-form {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;
+
+    margin-top: 12px;
+
+    .numeric-stepper-minus {
+        color: #4d148c;
+        border-right-style: solid;
+        border-color: #4d148c;
+        border-width: 1px;
+    }
+    
+    .numeric-stepper-add {
+        color: #4d148c;
+        border-left-style: solid;
+        border-color: #4d148c;
+        border-width: 1px;
+    }
+}
+
+.weight-per-package-form {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    text-align: center;
+}
+.weight-per-package-input {
+    margin-top: 13px;
+}
+
+.weight-select-margin {
+    margin-top: 10px;
+}
+
+.bottom-style-border {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;
+}
+
+.bottom-style-border-error {
+    border-color: #e8002e;
+}
+
+.total-weight-error {
+    color: #e8002e;
+}
+
+.total-weight-error-msg{
+    margin-left:18px;
+    margin-top: -17px;
+}
+
+.dimension-input-form {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    text-align: center;
+
+    .dimension-input {
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: #4d148c;
+        left: 3px;
+
+        .dimension-input-padding {
+            --padding-start: 0;
+            --padding-end: 0;
+            --padding-top: 7px;
+            --padding-bottom: 0;
+        }
+    }
+    
+    .x-dimension {
+        color: #4d148c;
+        font-size: 12px;
+        align-self: flex-end;
+        padding-bottom: 5px;
+        left: 3px;
+    }
+}
+
+.dimension-grid {
+    margin: 0px 0px 6px 0px;
+}
+
+.custom-select {
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+
+    .custom-padding{ 
+        contain: strict;
+        margin-bottom: -1px;
+        left: -4px;
+    }
+
+    .select-chevron {
+        color: #4d148c !important;
+        vertical-align: -webkit-baseline-middle;
+    }
+
+}
+
+.show-rates-button {
+    min-width: 280px !important;
+}
+
+.space {
+    padding: 1px
+}
+
+img{
+    width: 82px;
+    height: 54px;
+}
+
+.validation-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    padding-top: 4px;
+}
+
+.validation-dimension-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    padding-top: 4px;
+    white-space: nowrap;
+    margin-left:-178px;
+}
+
+
+.validation-addpackage-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    padding-top: 4px;
+    white-space: nowrap;
+    margin-left: 19px;
+    margin-top: -12px;
+}
+
+.customized-select {
+    position: absolute;
+    bottom: 1px;
+    background: #f2f2f2;
+    width: 54px;
+    right: 0;
+    height: 22px;
+    ion-select {
+        font-family: FedExSans-Light;
+        font-size: 12px;
+        color: #333333;
+        letter-spacing: 0;
+        top: -6px;
+        padding-left: 0px;
+        width: 37px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .chevron-down {
+        left: 36px;
+        top: 0;
+        height: 25px;
+        color: #4d148c !important;
+        vertical-align: -webkit-baseline-middle;
+        position: absolute;
+    }
+}
+
+.weight-pack-grid{
+    padding-left: 3px;
+    padding-right: 0;
+}
+
+.validation-totalPackage-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    padding-top: 4px;
+    margin-left: 0px;
+}
+
+.numeric-stepper-minus-wrapper {
+    width: 100%;
+    height: 16px;
+    .minus-alignment {
+        margin-top: -34px;
+        width: 100%;
+    }
+}
+
+.slider-btn-container {
+    position: relative;         
+}
+    
+.slider-nav-btn {
+    position: absolute ;       
+    z-index: 99999; 
+    width:20px;
+    height: 78px;
+    background: #787878;
+    opacity:0.3;    
+}
+
+.slider-btn-img {
+    width:20px !important;    
+    margin-top:13px;
+    height:auto;
+}
+
+.slider-btn-left {
+    left:0px;
+}
+
+.slider-btn-right {
+    right:0px;
+}

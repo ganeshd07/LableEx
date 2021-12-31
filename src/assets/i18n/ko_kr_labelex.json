@@ -1,0 +1,397 @@
+{
+  "navigation" : {
+    "newShipment" : "새로운 발송",
+    "myShipment" : "내 발송",
+    "fedexLocations" : "FedEx 접수처",
+    "language" : "언어",
+    "messageCentre" : "메시지 센터",
+    "contactUs" : "연락처",
+    "termsOfUse" : "이용 약관",
+    "logout" : "로그아웃",
+    "alertMessage" : "입력하신 모든 데이터가 삭제됩니다. 계속하시겠습니까?",
+    "logoutAlertMessage" : "앱에서 로그아웃을 선택하면 입력하신 발송 정보를 잃게 됩니다. 로그아웃 하시겠습니까?"
+  },
+  "splashPage" : {
+    "slide1" : "누구나 휴대전화를 이용해 발송할 수 있습니다.",
+    "slide2" : "요금과 서비스 한눈에 보기",
+    "slide3" : "발송물 세부정보를 간편하게 입력",
+    "slide4" : "FedEx 접수처에 발송 바코드를 제시하고 발송 완료"
+  },
+  "messageCentrePage" : {
+    "messageCentre" : "메시지 센터",
+    "startShipping" : "발송 시작",
+    "message1" : {
+      "title" : "새로운 기능",
+      "header" : "고객번호가 없는 발송인을 위한 새 모바일 발송 도구",
+      "description" : "모바일 기기에서 FedEx Ship Manager® Lite로 발송하고, 패키지를 FedEx 접수처 또는 FedEx World Service Center에 방문 접수해보십시오. FedEx 계정이 있거나 발송 라벨을 인쇄할 필요가 없습니다."
+    },
+    "message2" : {
+      "title" : "새소식",
+      "header" : "COVID-19 관련 뉴스",
+      "description" : "FedEx는 COVID-19 확산에 따른 영향을 주시하고 있습니다.  <span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>여기</a></span>에서 더 많은 소식을 확인하십시오 "
+    },
+    "message3" : {
+      "title" : "특별 사은 혜택",
+      "header" : "발송 요금의 30%를 절약하십시오",
+      "description" : "지금부터 12월 31일까지 새로운 FedEx Ship Manager를 이용해 30% 할인 혜택을 누려보십시오. FedEx의 “Ship More, Save More” 프로그램에 신용카드를 이용해 등록하고, 국제 발송에 더 높은 할인을 받아보세요!"
+    },
+    "message4" : {
+      "title" : "서비스 업데이트",
+      "header" : "가까운 FedEx 발송 접수처",
+      "description" : "APAC 전역의 2,500여 개 발송 접수처를 fedex.com에서 손쉽게 찾아보십시오"
+    },
+    "news" : "새소식",
+    "specialoffer" : "특별 사은 혜택",
+    "newfeature" : "새로운 기능",
+    "serviceupdate" : "서비스 업데이트"
+  },
+  "loginPage" : {
+    "fedexShipManagerLite" : "FedEx Ship Manager ® Lite",
+    "shipWithoutPrinting" : "인쇄 없이 발송",
+    "loginWith" : "다음으로 로그인",
+    "mobile" : "휴대폰 번호",
+    "or" : "또는",
+    "guest" : "로그인 하지 않고 게스트로 이용",
+    "termsOfUseNote" : "FedEx Ship Manager® Lite를 사용함으로써 귀하는 <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>이용 약관</a></span>, <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'>개인정보처리방침</a></span> 및 <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>글로벌 개인정보처리방침</a></span>에 동의합니다. 또한 귀하가 FedEx Ship Manager® Lite를 통해 이 양식에 기재한 연락처 세부정보의 사용자 및/또는 가입자임을 진술하고 보증합니다."
+  },
+  "otp" : {
+    "login" : "로그인",
+    "loginWithMobileNo" : "휴대전화 번호로 로그인",
+    "loginDetails" : "휴대전화 번호를 입력하면 인증을 위한 1회용 비밀번호가 전송됩니다.",
+    "representAndWarrant" : "본인이 상기 휴대전화 번호의 사용자/또는 가입자이며, FedEx Ship Manager Lite를 통해 예약된 FedEx 발송물의 발송인임을 진술 및 보증합니다.",
+    "verification" : "인증",
+    "enterOneTimePwd" : "1회용 비밀번호를 입력하십시오",
+    "enterOneTimePwdDetails" : "1회용 비밀번호는 {{TIME}}초 후에 만료됩니다",
+    "oneTimePwdExpired" : "1회성 비밀번호가 만료되었습니다.",
+    "verify" : "확인",
+    "resentOneTimePwd" : "1회용 비밀번호 재발송",
+    "verificationErrorMessage" : "이 휴대폰 번호로 최대 실패 횟수를 초과했습니다. 보안상의 이유로 발송물 운송 비용은 방문 접수 시 지불할 수 있으며, 관세 및 세금 비용은 수취인이 지불할 수 있습니다.",
+    "agreeToProceed" : "진행에 동의합니다",
+    "cancelShipment" : "발송 취소",
+    "cancelShipmentConfirmMessage" : "발송물을 취소하시겠습니까?",
+    "backToLogin" : "로그인 페이지로 돌아가기",
+    "validationError" : {
+      "minimumLength" : "전화번호의 최소 길이는 5자리입니다.",
+      "maximumLength" : "전화번호의 최대 길이는 15자리입니다.",
+      "noOfAttemptsExpiredMobileFieldMessage" : "이 휴대폰 번호로 허용된 최대 로그인 실패 횟수를 초과했습니다. 보안상의 이유로 24시간 동안 귀하의 휴대폰 번호가 사용 중단되었습니다.",
+      "noOfFaildOtpVerificationAttempts" : "이 휴대폰 번호로 최대 실패 횟수를 초과했습니다. 귀하의 계정이 23:59까지 잠깁니다."
+    }
+  },
+  "shipmentDetailsPage" : {
+    "shipmentDetails" : "발송 세부 정보",
+    "shipmentOrigin" : "발송지",
+    "shipmentDestination" : "도착지",
+    "countryTerritory" : "국가/지역",
+    "postalCode" : "우편 번호",
+    "city" : "도시",
+    "packagingTypeOption" : "포장 유형 옵션",
+    "packagingTypes" : {
+      "yourPackaging" : "자체 포장재",
+      "fedex10KGBox" : "FedEx 10kg Box",
+      "fedex20KGBox" : "FedEx 20kg Box",
+      "fedexBox" : "FedEx Box",
+      "fedexEnvelope" : "FedEx Envelope",
+      "fedexPak" : "FedEx Pak",
+      "fedexTube" : "FedEx Tube"
+    },
+    "noOfPackages" : "패키지 수",
+    "weightPerPackage" : "패키지당 중량",
+    "packagingDimension" : "패키지 용적 L x W x H",
+    "maxHint" : "최대",
+    "maxWeightHint" : "최대 중량",
+    "totalNoOfPackages" : "패키지 총 수량",
+    "totalWeight" : "총 중량",
+    "addAnotherPackage" : "다른 패키지 추가",
+    "showRates" : "운임 표시",
+    "warning" : "경고",
+    "warningNote" : "이 패키지를 삭제하시겠습니까?",
+    "packageInchesDimenstions" : "최대 용적 119 x 80 x 70인치",
+    "packageKgsDimenstions" : "최대 용적 302 x 203 x 178cm",
+    "totalPackagesEntered" : "총 수량을",
+    "totalPackagesLimit" : "로 입력하셨습니다. 총 수량은 40개까지만 허용됩니다.",
+    "MaxPackageCount" : "다른 패키지를 추가할 수 없습니다.  최대 40개 까지만 허용됩니다.",
+    "validationError" : {
+      "minimumWeight" : "중량은 {{MIN_WEIGHT}}보다 작을 수 없습니다.",
+      "maximumWeight" : "중량은 {{MAX_WEIGHT}}보다 클 수 없습니다.",
+      "totalWeightError" : "총 중량은 {{TOTAL_WEIGHT}}{{WEIGHT_UNIT}}보다 클 수 없습니다"
+    }
+  },
+  "recipientAddressBook" : {
+    "recentlyShippedAddress" : "최근 배송 주소",
+    "searchBar" : "수취인 검색",
+    "noContactsYet" : "아직 보유한 연락처가 없습니다"
+  },
+  "rateAndDeliveryOptionsPage" : {
+    "rateAndDeliveryOptions" : "요금 및 배송 날짜 옵션은 다음과 같습니다",
+    "arrivesOn" : "도착 날짜",
+    "fastest" : "가장 빠른 배송",
+    "bestPrice" : "최상의 가격",
+    "rateBreakdown" : "요금 상세 내용",
+    "baseRate" : "기본 요금",
+    "VAT" : "VAT",
+    "volumeDiscount" : "대량 발송 할인",
+    "total" : "합계",
+    "chargeableDimenWeight" : "청구 가능 용적 중량",
+    "actual" : "실제",
+    "finalRateNote" : "최종 요금은 FedEx에서 측정한 발송물의 실제 중량 및 용적에 따라 결정됩니다.",
+    "dimensionalWeightHint" : "운송비는 하나의 FedEx 항공운송장 하에 인도된 모든 패키지의 총 중량에 기반하여 계산합니다. 하지만 요금을 계산하는 데 있어 결정적 요인은  용적 중량 (L x W x H / 5000) 이 실제 중량*을 초과하는지의 여부입니다.",
+    "dateNotAvailable" : "이용할 수 없음",
+    "dimensionalWeightExceedLimitMessage" : " 발송물 크기가 FSM LITE에서 지원할 수 있는 한도를 초과합니다.다른 FedEx 발송 응용 프로그램을 사용하여 발송을 완료하시기 바랍니다.",
+    "rateApiErrorMessage" : "서비스 및 요금을 확인할 수 없습니다. 이 발송물의 기본 서비스는 International Priority입니다. 변경 사항은 배송직원에게 확인하기 바랍니다."
+  },
+  "customsDetailsPage" : {
+    "newShipment" : "새 발송",
+    "customDetails" : "세관 세부정보",
+    "shipmentTypeQuestion" : "무엇을 발송합니까?",
+    "items" : "물품",
+    "documents" : "서류",
+    "documentType" : {
+      "correspondence" : "서신/상업적 가치 없음",
+      "personalDocument" : "개인 문서",
+      "interofficeDocument" : "사내 문서",
+      "businessDocument" : "비즈니스 문서",
+      "other" : "기타"
+    },
+    "shipmentPurpose" : "발송 목적",
+    "typeOfDocument" : "문서 유형",
+    "totalCustomsValue" : "총 세관 신고 금액",
+    "totalWeight" : "총 중량",
+    "addMoreItems" : "다른 물품 추가",
+    "addItem" : "물품 추가",
+    "describeYourDocument" : "문서 설명을 입력하십시오.",
+    "higherLimitNote" : "FedEx 책임 한도를 더 높게 설정하시겠습니까?",
+    "declaredValue" : "항공사 신고 금액을 입력하십시오",
+    "declaredValueNote" : "항공사 신고 금액은 총 세관 신고 금액을 초과할 수 없습니다.",
+    "declareValueTooltip" : "금액을 입력하지 않으면 FedEx 운송 약관에 따라 발송물에 대한 보험이 적용됩니다. 총 보험 보상 범위를 세관 신고 금액 최대치까지 높일 수 있는 옵션이 있습니다. 하지만 특정 물품에 대한 보상 범위는 제한될 수 있습니다. 추가 요금이 적용됩니다. 자세한 내용은 FedEx 운송 약관을 참조하십시오.",
+    "validationError" : {
+      "invalidCustomsValue" : "세관 신고 금액은 항공사 신고 금액({{CARRIAGE_VALUE}})보다 적을 수 없습니다.",
+      "invalidCarriageValueLimit" : "최대 신고 금액은 USD{{CARRIAGE_VALUE_USD}}입니다. 자세한 내용은 FedEx 고객서비스에 문의하십시오.",
+      "minLengthItemDescription" : "물품 설명은 6자 이상이어야 합니다.",
+      "requiredCustomsValue" : "총 세관 신고 금액이 1 이상인지 확인하십시오.",
+      "requiredMinimumValue" : "이 값은 0.01 이상이어야 합니다."
+    },
+    "purchaseHigherLimitCoverageBubbleHint" : "금액을 입력하지 않으면 FedEx 운송 약관에 따라 발송물에 대한 보험이 적용됩니다. 총 보험 보상 범위를 세관 신고 금액 최대치까지 높일 수 있는 옵션이 있습니다. 하지만 특정 물품에 대한 보상 범위는 제한될 수 있습니다. 추가 요금이 적용됩니다. 자세한 내용은 FedEx 운송 약관을 참조하십시오.",
+    "shipmentPurposeBubbleHint" : {
+      "labelText" : "발송 목적: 드롭다운 메뉴에서 발송 목적을 선택합니다. 이 정보는 상업송장에 인쇄됩니다. 발송 목적을 선택하지 않으면 필드 기본값이  상업용으로  설정되고, 발송물은 해당 국가/ 지역 의 상업 발송물과 관련된 적절한 조항에 따라 세관을 통과합니다.",
+      "commercial" : "상업용 : 재판매 또는 업무상 소비 목적으로 기업 사용자가 다른 기업 사용자에게 판매하거나 무료로 발송한 발송물입니다.",
+      "gift" : "선물 : 기업이 발송하거나 기업에게 보내는 것이 아니라, 한 개인이 다른 개인에게 자발적인 선물로 주는 물품이 포함된 발송물입니다.",
+      "sample" : "샘플 : 주문 유도 목적의 상업용 샘플 또는 기존의 주문을 촉진하기 위한 실물 모형으로서, 판매 또는 샘플 외의 용도로 사용할 수 없도록 표시하거나 변형하여 무료로 발송하는 물품이 들어 있는 발송물입니다.",
+      "returnAndRepair" : "반송 및 수리 : 수리를 위해 발송하거나 이전에 수리 목적으로 반출되어 수리 후 반환되는 물품입니다.",
+      "personalEffects" : "개인 물품 : 이사를 위해 발송하는 가재도구와 개인이 운반할 수 없는 수하물 등의 사적인 중고 물품이 포함된 발송물입니다.",
+      "personalUser" : "개인적 용도 : 해외에서 구매하고 다시 개인에게 발송된, 개인 소비 목적의 새 상품이 들어있는 발송물입니다."
+    },
+    "documentTypeBubbleHInt" : "드롭다운 메뉴에서 해당 문서에 가장 적합한 설명을 선택하거나 \"기타\"를 선택합니다. \"기타\"를 선택하는 경우 아래에 물품에 대한 추가 상세정보를 입력해야 합니다. 일부 문서 유형은 세관 신고 금액을 입력해야 합니다. 발송 내용물이 판매되는 경우 세관 신고 금액은 해당 내용물의 판매 가격입니다. 발송물이 판매되지 않는 경우, 세관 신고 금액은 공정시장가격입니다. 공정시장가격은 발송 내용물이 시장에서 판매될 경우 판매자가 구매자로부터 받을 수 있는 시장 가격입니다.",
+    "hsCodeBubbleHint" : "올바른 HS 코드를 입력하면 FedEx가 고객님에게 적절한 세관 문서가 무엇인지 판단하고 더욱 정확한 관세 및 세금 견적을 계산할 수 있도록 도와드릴 수 있습니다. HS 상품 설명과 코딩 시스템은 세계관세기구(WCO)에서 무역 상품을 균일하게 분류하기 위해 개발 및 유지관리하는 국제 표준 시스템입니다.",
+    "warningNote" : "삭제하시겠습니까? ",
+    "deleteConfirmation" : "삭제하시겠습니까?",
+    "currencyChangedMessage" : "세관 신고 금액의 통화를 {{prev}}에서 {{curr}}(으)로 변경하면 이전의 다른 항목도 변경됩니다.</br> 환율 계산은 적용되지 않습니다.",
+    "currencyUpdationMessage" : "발송 통화가 {{ICurrency}}에서 {{UCurrency}}(으)로 변경되었습니다."
+  },
+  "addItemsPage" : {
+    "headerTitle" : "세관 세부정보",
+    "enterItemDetails" : "물품 세부정보를 입력하십시오",
+    "selectItemType" : "물품 유형을 선택하십시오",
+    "othersItemDecriptionLabel" : "품목 설명:",
+    "itemType" : {
+      "electronic" : "전자 제품",
+      "jewellery" : "보석",
+      "healthCare" : "헬스케어 제품",
+      "garments" : "의류",
+      "lithiumBattery" : "리튬 배터리",
+      "others" : "기타"
+    },
+    "electronics" : "전자 제품",
+    "searchItem" : "품목 설명을 입력하십시오.",
+    "quantity" : "수량",
+    "quantityUnit" : {
+      "pieces" : "개(Pieces)",
+      "count" : "수량"
+    },
+    "totalWeight" : "총 중량",
+    "totalCustomsValue" : "총 세관 신고 금액",
+    "countryTerritoryOfManu" : "제조 국가/지역",
+    "hsCode" : "HS 코드",
+    "confirmationAlert" : {
+      "header" : "경고",
+      "subHeader" : "통화를 변경하시겠습니까?"
+    }
+  },
+  "senderRecipientDetailsPage" : {
+    "senderDetails" : "발송인 세부정보",
+    "recipientDetails" : "수취인 세부정보",
+    "from" : "발송지",
+    "to" : "도착지",
+    "addressLine" : "주소 ",
+    "contactName" : "담당자 이름",
+    "companyName" : "회사명",
+    "companyAddressQuestion" : "회사 주소 입니까?",
+    "recipientAddressBrazilQuestion" : "수취인이 브라질 거주자입니까?",
+    "phoneNo" : "전화번호",
+    "phoneNoSenderNote" : "휴대전화 번호로 확인 알림이 전송됩니다.",
+    "phoneNoRecipientNote" : "휴대전화 번호로 알림이 전송됩니다.",
+    "ext" : "내선번호",
+    "email" : "이메일",
+    "taxId" : "세금 ID",
+    "passportNo" : "여권번호",
+    "stateLabel" : "주/도"
+  },
+  "billingAndServicesOptionPage" : {
+    "headerTitle" : "요금 청구 및 서비스",
+    "billingAndServicesOptions" : "요금 청구 및 서비스 옵션",
+    "valueAddedServices" : "더 높은 가치의 서비스",
+    "signatureOptions" : "서명 옵션",
+    "feeMayApply" : "수수료가 부과될 수 있습니다",
+    "paymentOptions" : "지불 옵션",
+    "transportaionCosts" : "운송비",
+    "dutiesAndTaxes" : "관세 및 세금",
+    "payAtDropOff" : "방문 접수 결제",
+    "billMyAccount" : "내 계정에 청구",
+    "billRecipient" : "수취인 청구",
+    "billThirdParty" : "제3자 청구",
+    "finalRateNote" : "최종 요금에는 계정 소유자의 발송 운임이 적용됩니다.",
+    "accountNo" : "고객번호",
+    "rate" : "요금",
+    "rateApiErrorNote" : "현재 요금을 확인할 수 없습니다. 카운터의 FedEx 직원 또는 픽업을 위해 방문한 배송직원과 확인하기 바랍니다.",
+    "signatureOptionBubbleHint" : {
+      "ionText" : "패키지 배송 시 서명을 요청하려면 다음 서명 유형 중 하나를 선택하십시오.",
+      "noneSpecifiedTitle" : "지정 안 됨",
+      "noneSpecifiedDefination" : "서명 옵션을 선택하지 않을 경우, 표준 FedEx 배송 절차를 따릅니다.",
+      "noSignatureRequiredTitle" : "서명 불필요",
+      "noSignatureRequiredDefination" : "FedEx는 아무도 없는 경우 패키지를 두고 올 수 있습니다. 일부 발송물 또는 도착지에서는 이 옵션을 사용할 수 없습니다.",
+      "indirectSignatureRequiredTitle" : "간접 서명 필요(ISR)",
+      "indirectSignatureRequiredDefination" : "일부 발송물 또는 도착지에서는 이 옵션을 사용할 수 없습니다. FedEx는 다음 세 가지 방법 중 하나로 서명을 받습니다.",
+      "indirectSignatureRequiredDefinationLevel1Item1" : "- 배송 주소지의 사람으로부터",
+      "indirectSignatureRequiredDefinationLevel1Item2" : "- 이웃, 건물 관리인 또는 기타 이웃 주소지의 사람으로부터",
+      "indirectSignatureRequiredDefinationLevel1Item3" : "- 수취인은 아무도 없는 상황에서 패키지를 두고 오는 것을 허락할 수 있습니다.",
+      "directSignatureRequiredTitle" : "직접 서명 필요(DSR)",
+      "directSignatureRequiredDefination" : "수취인 주소지에 있는 사람이 배달 확인 서명을 할 수 있습니다. 부재 시에는 FedEx에서 다시 배송을 시도합니다. 일부 발송물 또는 도착지에서는 이 옵션을 사용할 수 없습니다.",
+      "adultSignatureRequiredTitle" : "성인 서명 필요(ASR)",
+      "adultSignatureRequiredDefination" : "미국 내 배송의 경우 배송 주소지에 있는 21세 이상의 성인(사진이 부착된 정부 발급 신분증 소지)에게서 서명을 받습니다. 타 지역의 경우에는 배송 주소지에 있는 도착 국가 기준의 성인에게서 서명을 받습니다.  사진이 부착된 정부 발급 신분증 또는 지자체에서 관례적으로 인정하는 신분증이 필요합니다. 배송 주소지에 적격한 수취인이 없을 때에는 FedEx에서 나중에 다시 배달합니다."
+    }
+  },
+  "summaryPage" : {
+    "shipmentDetails" : {
+      "header" : "발송 세부 정보",
+      "estimatedDeliveryBy" : "예상 배송 날짜",
+      "packagingType" : "포장재 유형",
+      "weight" : "무게",
+      "quantity" : "수량",
+      "dateUnavailableLabel" : "대기중"
+    },
+    "customsDetails" : {
+      "header" : "세관 세부정보",
+      "shipmentContent" : "발송 내용물",
+      "shipmentPurpose" : "발송 목적",
+      "customsValue" : "세관 신고 금액",
+      "customsWeight" : "세관 신고 중량",
+      "documentType" : "문서 유형"
+    },
+    "senderRecipient" : {
+      "from" : "발송지",
+      "to" : "도착지",
+      "name" : "이름",
+      "company" : "회사",
+      "address" : "주소"
+    },
+    "billingAndServiceOptions" : {
+      "header" : "요금 청구 및 서비스 옵션",
+      "signatureOptions" : "서명 옵션",
+      "transportation" : "운송",
+      "dutiesAndTaxes" : "관세 및 세금"
+    },
+    "summary" : "요약",
+    "rate" : "요금",
+    "finalizeShipment" : "발송 완료",
+    "termsAndConditions" : "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+    "expressTermsAndConditions" : "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+  },
+  "thankYouPage" : {
+    "shipmentConfirmation" : "발송 확인 ",
+    "shipmentReferenceNo" : "Shipment Reference Number",
+    "barcodeNote" : "FedEx 접수처에 아래 QR 코드를 제시하고 발송 완료",
+    "findALocation" : "접수처 찾기",
+    "customerFeedBack" : "고객 피드백",
+    "comments" : "의견",
+    "submitFeedBack" : "피드백 제출",
+    "thankYouFeedbackResponse" : "소중한 의견 감사합니다!",
+    "feedBackAlertMessage" : "고객님의 의견을 들려주십시오.",
+    "maxLimitAlertMessage" : "고객 피드백에 허용된 최대 글자 수 450자에 도달했습니다."
+  },
+  "myShipmentsPage" : {
+    "myShipments" : "내 발송물",
+    "recentlyShipped" : "최근 배송",
+    "pendingShipment" : "발송 대기 중",
+    "trackingNo" : "항공운송장 번호",
+    "referenceNo" : "참조 번호",
+    "from" : "발송지",
+    "to" : "도착지",
+    "package" : "패키지",
+    "airWayBillNo" : "항공운송장 번호",
+    "noShipmentRecords" : "지난 90일 동안 발송 기록 없음"
+  },
+  "termsAndCondition" : {
+    "title" : "이용 약관",
+    "bodyPart1" : "Federal Express Korea LLC(이하 “FedEx” 또는 “회사”로 통칭)는 관련 법률 및 규정에 따라 귀하가 FedEx Ship Manager Lite®(FSM Lite) Solution을 사용하는 것과 관련하여 개인 정보 수집 및 이용에 대한 동의(필수), 일반 개인 정보의 제3자 이전 동의(필수), 개인 정보의 국외 이전 동의(필수) 및 마케팅 목적의 개인 정보 사용 동의(선택)를 필요로 합니다.",
+    "checkBoxOne" : "아래 모든 사항에 동의합니다.",
+    "checkBoxTwo" : "[필수] 본인은 일반 개인 정보 수집 및 이용에 대한 회사의 설명을 충분히 이해했으며, 이에 동의합니다. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "checkBoxThree" : "[필수] 본인은 일반 개인 정보의 제3자 이전에 대한 회사의 설명을 충분히 이해했으며, 이에 동의합니다.<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+    "checkBoxFour" : "[필수] 본인은 일반 개인 정보의 국외 이전에 대한 회사의 설명을 충분히 이해했으며, 이에 동의합니다. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "checkBoxFive" : "[선택] 본인은 마케팅 목적의 개인 정보 이용 및 유용한 정보 전송에 대한 회사의 설명을 충분히 이해했으며, 이에 동의합니다. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "bodyPart2" : "[필수] FedEx에서 제공하는 FSM Lite 솔루션 및 서비스를 이용하려면 아래 개인정보처리방침 및 이용 약관에 대한 동의가 필요합니다. 귀하는 아래 제시된 개인정보처리방침 및 이용 약관에 대한 동의를 거부하실 수 있습니다. 하지만 개인정보처리방침 및 이용 약관에 대한 동의를 거부하는 경우 FSM Lite Solution 및 FedEx 서비스를 사용하지 못할 수 있습니다.",
+    "checkBoxSix" : "아래 모든 약관에 동의합니다.",
+    "checkBoxSeven" : "[필수] 이용 약관 <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "checkBoxEight" : "[필수] 서비스 약관 <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "checkBoxNine" : "[필수] 개인정보처리방침 <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>상세 보기</a></span>",
+    "agreeText" : "상기 개인정보 수집 및 사용 방침과 FedEx 이용 약관을 주의 깊게 읽고 충분히 이해했습니다. 이로써 본인은 FSM Lite Solution 사용을 신청합니다. ",
+    "agreeButton" : "동의함"
+  },
+  "button" : {
+    "skip" : "건너뛰기",
+    "next" : "다음",
+    "continue" : "계속",
+    "submit" : "제출",
+    "login" : "로그인",
+    "signup" : "등록",
+    "create" : "생성",
+    "close" : "닫기",
+    "select" : "선택",
+    "cancel" : "취소",
+    "ok" : "확인",
+    "add" : "추가",
+    "confirm" : "확인",
+    "yes" : "예",
+    "no" : "아니오",
+    "update" : "업데이트",
+    "delete" : "삭제"
+  },
+  "validationError" : {
+    "required" : "필드를 입력해야 합니다.",
+    "invalidPostalCodeFormat" : "올바른 우편번호 형식이 아닙니다. 다음과 같은 형식을 사용하십시오.",
+    "invalidPostal" : "이 우편번호를 찾을 수 없습니다. 번호가 올바른지 확인한 후 다시 시도하십시오.",
+    "invalidDecimal" : "소수점 이하 2자리까지 입력하십시오.",
+    "invalidEmail" : "유효하지 않은 이메일 주소입니다.",
+    "invalidPhoneNumber" : "전화번호는 최소 3자리에서 최대 12자리 숫자입니다. ",
+    "invalidPhoneNumberUSAndCA" : "올바른 전화번호 형식이 아닙니다.",
+    "invalidTaxId" : "유효하지 않은 Tax ID입니다. Tax ID는 최대 18자리 숫자입니다.",
+    "totalWeightExceeded" : "물품의 중량 합계는 총 발송물 중량 {{weight}}{{weightUnits}}을(를) 초과할 수 없습니다. 물품의 중량을 조정하십시오.",
+    "invalidCountry" : "유효하지 않은 국가/지역 입력입니다.",
+    "invalidAccountNum" : "잘못된 고객번호입니다",
+    "invalidMinLength" : "이 항목에는 최소 3자를 입력해야 합니다.",
+    "invalidOtp" : "인증 코드가 유효하지 않습니다.",
+    "sameAccounteNumberError" : "{{Transport}}에 작성된 FedEx 고객번호와 {{Billing}}에 작성된 FedEx 고객번호는 같을 수 없습니다.",
+    "taxIdMinLength" : "TAX ID 15자리를 입력해주십시오"
+  },
+  "constants" : {
+    "optional" : "선택 사항",
+    "pleaseWait" : "잠시만 기다리십시오...",
+    "AM" : "오전",
+    "PM" : "오후"
+  },
+  "apiErrorMessages" : {
+    "header" : "오류",
+    "buttonOk" : "확인",
+    "error" : "내부 서버에서 오류가 발생했습니다.",
+    "error404" : "리소스를 찾을 수 없습니다.",
+    "genericError" : "서비스를 이용할 수 없습니다."
+  }
+}

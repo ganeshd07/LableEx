@@ -1,0 +1,29 @@
+{
+    "userProfile": {
+        "output": {
+            "profile": {
+                "user": {
+                    "uid": "001"
+                },
+                "contact": {
+                    "personName": "Chris Yan",
+                    "companyName": "ACM Corp",
+                    "phoneNumber": "228108300",
+                    "emailAddress": "chrisyan@gmail.com",
+                    "taxId": "TAX-ID1234"
+                },
+                "address": {
+                    "streetLines": [
+                        "100 Queensway",
+                        "HK Address"
+                    ],
+                    "city": "CENTRAL",
+                    "stateOrProvinceCode": "",
+                    "postalCode": "",
+                    "countryCode": "HK",
+                    "residential": "false"
+                }
+            }
+        }
+    }
+}

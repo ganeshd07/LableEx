@@ -1,0 +1,397 @@
+{
+  "navigation" : {
+    "newShipment" : "Pengiriman Baru",
+    "myShipment" : "Pengiriman Saya",
+    "fedexLocations" : "Lokasi FedEx",
+    "language" : "Bahasa",
+    "messageCentre" : "Pusat Pesan",
+    "contactUs" : "Hubungi Kami",
+    "termsOfUse" : "Ketentuan Penggunaan",
+    "logout" : "KELUAR",
+    "alertMessage" : "Semua data yang dimasukkan akan dihapus. Anda ingin melanjutkan?",
+    "logoutAlertMessage" : "Jika Anda memilih keluar dari aplikasi, informasi pengiriman yang telah dimasukkan mungkin akan hilang. Konfirmasi keluar?"
+  },
+  "splashPage" : {
+    "slide1" : "Siapa pun dapat mengirim dengan ponsel",
+    "slide2" : "Dapatkan tarif dan layanan dengan sekilas",
+    "slide3" : "Perincian pengiriman mudah diisi",
+    "slide4" : "Tunjukkan barcode pengiriman di lokasi FedEx untuk menyelesaikan pengiriman"
+  },
+  "messageCentrePage" : {
+    "messageCentre" : "Pusat Pesan",
+    "startShipping" : "Mulai Pengiriman",
+    "message1" : {
+      "title" : "Fitur Baru",
+      "header" : "Alat Pengiriman Seluler Baru untuk pengirim tanpa akun",
+      "description" : "Lakukan pengiriman dengan FedEx Ship Manager ® Lite menggunakan perangkat seluler dan antarkan paket Anda ke Stasiun FedEx atau Pusat Layanan Dunia. Tak perlu akun FedEx ataupun mencetak label pengiriman."
+    },
+    "message2" : {
+      "title" : "Berita",
+      "header" : "Berita COVID-19",
+      "description" : "Kami selalu memantau dampak dari wabah COVID-19.&nbsp; Tetap terhubung dengan berita lainnya <span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>di sini</a></span> "
+    },
+    "message3" : {
+      "title" : "Tawaran Khusus",
+      "header" : "Hemat 30% untuk pengiriman Anda",
+      "description" : "Anda dapat menikmati diskon 30%* sampai 31 Desember menggunakan FedEx Ship Manager Baru. Daftar sekarang untuk Program \"Kirim Lebih Banyak, Hemat Lebih Banyak\" FedEx dengan menggunakan kartu kredit Anda dan nikmati diskon besar-besaran untuk pengiriman internasional!"
+    },
+    "message4" : {
+      "title" : "Pembaruan Layanan",
+      "header" : "Lokasi pengiriman FedEx terdekat",
+      "description" : "Temukan 2.500 lokasi pengiriman di seluruh Asia Pasifik dengan mudah melalui fedex.com"
+    },
+    "news" : "Berita",
+    "specialoffer" : "Tawaran Khusus",
+    "newfeature" : "Fitur Baru",
+    "serviceupdate" : "Pembaruan Layanan"
+  },
+  "loginPage" : {
+    "fedexShipManagerLite" : "FedEx Ship Manager ® Lite",
+    "shipWithoutPrinting" : "Kirim Tanpa Cetak",
+    "loginWith" : "LOGIN DENGAN",
+    "mobile" : "Nomor ponsel",
+    "or" : "ATAU",
+    "guest" : "TAMU TANPA LOGIN",
+    "termsOfUseNote" : "Dengan menggunakan FedEx Ship Manager® Lite, Anda dengan ini menyetujui <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>Ketentuan Penggunaan</a></span>, <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'>Pernyataan Privasi</a></span>, dan <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>Kebijakan Privasi Global</a></span>. Selain itu, Anda dengan ini menyatakan dan menjamin bahwa Anda adalah pengguna dan/atau pelanggan dari detail kontak yang Anda berikan melalui FedEx Ship Manager® Lite."
+  },
+  "otp" : {
+    "login" : "Login",
+    "loginWithMobileNo" : "Login dengan Nomor Ponsel",
+    "loginDetails" : "Masukkan nomor ponsel Anda dan kami akan mengirimkan kode OTP untuk verifikasi",
+    "representAndWarrant" : "Dengan ini saya menyatakan dan menjamin bahwa saya adalah pengguna dan/atau pelanggan dari nomor telepon di atas, dan Pengirim dari Pengiriman FedEx yang dipesan melalui FedEx Ship Manager Lite.",
+    "verification" : "Verifikasi",
+    "enterOneTimePwd" : "Masukkan kode OTP",
+    "enterOneTimePwdDetails" : "Kata sandi sekali pakai akan kedaluwarsa dalam {{TIME}} detik",
+    "oneTimePwdExpired" : "Kata sandi sekali pakai Anda telah kedaluwarsa",
+    "verify" : "Verifikasikan",
+    "resentOneTimePwd" : "Kirim ulang kode OTP",
+    "verificationErrorMessage" : "Anda telah melampaui maksimum jumlah login gagal dengan nomor ponsel ini. Untuk tujuan keamanan, biaya transportasi pengiriman dapat dibayarkan saat pengiriman dan biaya Cukai dan Pajak dapat dibayar oleh penerima.",
+    "agreeToProceed" : "SETUJU MELANJUTKAN",
+    "cancelShipment" : "Batalkan Pengiriman",
+    "cancelShipmentConfirmMessage" : "Konfirmasi pembatalan pengiriman?",
+    "backToLogin" : "Kembali ke Halaman Login",
+    "validationError" : {
+      "minimumLength" : "Panjang minimum untuk nomor telepon adalah 5 digit.",
+      "maximumLength" : "Panjang maksimum untuk nomor telepon adalah 15 digit.",
+      "noOfAttemptsExpiredMobileFieldMessage" : "Anda telah melampaui maksimum jumlah login gagal yang diizinkan dengan nomor ponsel ini. Untuk tujuan keamanan, kami telah menangguhkan nomor ponsel Anda selama 24 jam.",
+      "noOfFaildOtpVerificationAttempts" : "Anda telah melampaui maksimum jumlah login gagal dengan nomor ponsel ini. Akun Anda akan terkunci sampai pukul 23.59."
+    }
+  },
+  "shipmentDetailsPage" : {
+    "shipmentDetails" : "Rincian Pengiriman",
+    "shipmentOrigin" : "Dari",
+    "shipmentDestination" : "Ke",
+    "countryTerritory" : "Negara/Wilayah",
+    "postalCode" : "Kode Pos",
+    "city" : "Kota",
+    "packagingTypeOption" : "Opsi Jenis Kemasan",
+    "packagingTypes" : {
+      "yourPackaging" : "Kemasan Anda",
+      "fedex10KGBox" : "FedEx 10kg Box",
+      "fedex20KGBox" : "FedEx 20kg Box",
+      "fedexBox" : "FedEx Box",
+      "fedexEnvelope" : "FedEx Envelope",
+      "fedexPak" : "FedEx Pak",
+      "fedexTube" : "FedEx Tube"
+    },
+    "noOfPackages" : "Jumlah Paket",
+    "weightPerPackage" : "Berat Per Paket",
+    "packagingDimension" : "Dimensi Paket P x L x T",
+    "maxHint" : "Maks.",
+    "maxWeightHint" : "Berat maks.",
+    "totalNoOfPackages" : "Total Jumlah Paket",
+    "totalWeight" : "Total Berat",
+    "addAnotherPackage" : "Tambahkan Paket Lainnya",
+    "showRates" : "Tampilkan Tarif",
+    "warning" : "Peringatan",
+    "warningNote" : "Konfirmasi penghapusan paket ini?",
+    "packageInchesDimenstions" : "Dimensi maks. 119 x 80 x 70 in.",
+    "packageKgsDimenstions" : "Dimensi maks. 302 x 203 x 178 cm.",
+    "totalPackagesEntered" : "Anda sudah memasukkan",
+    "totalPackagesLimit" : "total item, hanya Maks.40 yang diizinkan.",
+    "MaxPackageCount" : "Tidak dapat menambahkan paket lain, hanya Maks. 40  yang diizinkan.",
+    "validationError" : {
+      "minimumWeight" : "Berat tidak boleh kurang dari {{MIN_WEIGHT}}",
+      "maximumWeight" : "Berat tidak boleh lebih dari {{MAX_WEIGHT}}",
+      "totalWeightError" : "Berat Total tidak boleh melebihi {{TOTAL_WEIGHT}} {{WEIGHT_UNIT}}"
+    }
+  },
+  "recipientAddressBook" : {
+    "recentlyShippedAddress" : "Alamat yang Baru Dikirim",
+    "searchBar" : "Cari Penerima",
+    "noContactsYet" : "Anda belum memiliki kontak"
+  },
+  "rateAndDeliveryOptionsPage" : {
+    "rateAndDeliveryOptions" : "Tarif dan opsi pengiriman",
+    "arrivesOn" : "Tiba pada",
+    "fastest" : "TERCEPAT",
+    "bestPrice" : "HARGA TERBAIK",
+    "rateBreakdown" : "Perincian Tarif",
+    "baseRate" : "Tarif Dasar",
+    "VAT" : "VAT",
+    "volumeDiscount" : "Diskon Volume",
+    "total" : "Total",
+    "chargeableDimenWeight" : "Berat Dimensi Kena Biaya",
+    "actual" : "Aktual",
+    "finalRateNote" : "Tarif final ditentukan berdasarkan berat dan dimensi aktual pengiriman Anda sebagaimana diukur oleh FedEx.",
+    "dimensionalWeightHint" : "Biaya transportasi untuk pengiriman Anda dihitung berdasarkan total berat dari semua paket yang dikirim dalam satu Air Waybill FedEx. Namun, perhitungan harga ditentukan oleh apakah berat dimensi (P x L x T / 5000) melebihi berat sebenarnya*.",
+    "dateNotAvailable" : "Tidak Tersedia",
+    "dimensionalWeightExceedLimitMessage" : " Dimensi Pengiriman Anda mencapai batas yang dapat didukung FSM LITE. Silakan gunakan aplikasi pengiriman FedEx lainnya untuk menyelesaikan pengiriman.",
+    "rateApiErrorMessage" : "Layanan dan tarif tidak tersedia. International Priority adalah layanan default untuk pengiriman ini. Hubungi kurir untuk informasi seputar perubahan."
+  },
+  "customsDetailsPage" : {
+    "newShipment" : "Pengiriman Baru",
+    "customDetails" : "Perincian Bea Cukai",
+    "shipmentTypeQuestion" : "Barang apa yang akan Anda kirim?",
+    "items" : "Item",
+    "documents" : "Dokumen",
+    "documentType" : {
+      "correspondence" : "Korespondensi/Tidak Ada Nilai Komersial",
+      "personalDocument" : "Dokumen pribadi",
+      "interofficeDocument" : "Dokumen antarkantor",
+      "businessDocument" : "Dokumen bisnis",
+      "other" : "Lainnya"
+    },
+    "shipmentPurpose" : "Tujuan Pengiriman",
+    "typeOfDocument" : "Jenis Dokumen",
+    "totalCustomsValue" : "Total Nilai Komoditas",
+    "totalWeight" : "Total Berat",
+    "addMoreItems" : "Tambah Lebih Banyak Barang",
+    "addItem" : "TAMBAH BARANG",
+    "describeYourDocument" : "Deskripsikan dokumen Anda",
+    "higherLimitNote" : "Beli batas cakupan asuransi yang lebih tinggi dari FedEx?",
+    "declaredValue" : "Masukkan Nilai Dasar untuk Pengangkutan",
+    "declaredValueNote" : "Nilai dasar untuk pengangkutan tidak boleh lebih besar dari total cukai",
+    "declareValueTooltip" : "Jika Anda memilih menyatakan nilai untuk carriage dan membayar biaya tambahan yang berlaku, ganti rugi maksimum untuk pengiriman ini apabila, misalnya, hilang, rusak atau terlambat, akan setara dengan jumlah yang Anda nyatakan, berdasarkan Ketentuan Pengangkutan. Jika Anda memilih untuk tidak menyatakan nilai di sini, nilai ganti rugi maksimum untuk pengiriman ini tetap sebagaimana ditentukan dalam Ketentuan Pengangkutan.",
+    "validationError" : {
+      "invalidCustomsValue" : "Nilai cukai tidak boleh kurang dari nilai dasar untuk pengangkutan Anda sebesar {{CARRIAGE_VALUE}}",
+      "invalidCarriageValueLimit" : "Nilai pernyataan maksimum adalah USD{{CARRIAGE_VALUE_USD}}. Hubungi Layanan Pelanggan FedEx untuk informasi lebih lanjut.",
+      "minLengthItemDescription" : "Deskripsi item harus berisi minimal 6 karakter.",
+      "requiredCustomsValue" : "Pastikan total nilai komoditas minimal Anda adalah 1",
+      "requiredMinimumValue" : "Nilai ini harus lebih besar dari atau setara dengan 0,01"
+    },
+    "purchaseHigherLimitCoverageBubbleHint" : "Jika Anda memilih menyatakan nilai untuk carriage dan membayar biaya tambahan yang berlaku, ganti rugi maksimum untuk pengiriman ini apabila, misalnya, hilang, rusak atau terlambat, akan setara dengan jumlah yang Anda nyatakan, berdasarkan Ketentuan Pengangkutan. Jika Anda memilih untuk tidak menyatakan nilai di sini, nilai ganti rugi maksimum untuk pengiriman ini tetap sebagaimana ditentukan dalam Ketentuan Pengangkutan.",
+    "shipmentPurposeBubbleHint" : {
+      "labelText" : "Tujuan pengiriman: Pilih tujuan pengiriman dari menu drop-down. Informasi tercetak di Invoice Komersial. Jika tidak ada tujuan pengiriman yang dipilih, bidang akan otomatis terisi dengan Komersial dan pengiriman Anda akan melalui proses kepabeanan menurut ketentuan negara/ lokasi yang sesuai terkait dengan pengiriman komersial.",
+      "commercial" : "Komersial –Pengiriman apa pun yang dijual atau dikirim secara gratis, dari satu badan usaha kepada badan usaha lainnya, dengan tujuan untuk dijual kembali atau untuk dipakai dalam rangka menjalankan usahanya.",
+      "gift" : "Hadiah – Pengiriman apa pun yang berisi barang dengan tujuan untuk diberikan sebagai hadiah yang tidak diminta, dari satu orang pribadi kepada orang pribadi lainnya, yang tidak dikirim oleh perusahaan maupun dialamatkan ke perusahaan.",
+      "sample" : "Sampel – Pengiriman apa pun yang berisi barang yang dikirim secara gratis yang telah ditandai atau dirusak atau yang tidak layak untuk dijual atau digunakan selain sebagai sampel komersial, yang dikirim dengan bentuk sebagaimana barang diminta atau dipesan, atau sebagai purwarupa untuk kemudian diikuti pesanan yang ada dari entitas di luar negeri.",
+      "returnAndRepair" : "Pengiriman Pengembalian dan Perbaikan – Barang yang dikirim untuk diperbaiki atau barang yang diekspor sebelumnya untuk diperbaiki dan dikirim kembali setelah barang tersebut diperbaiki.",
+      "personalEffects" : "Barang Pribadi – Pengiriman apa pun yang berisi barang pribadi yang sudah dipakai, seperti bagasi yang tidak dibawa sendiri dan barang rumah tangga yang dikirim untuk dipindahkan ke lokasi lain.",
+      "personalUser" : "Penggunaan Pribadi – Pengiriman apa pun yang berisi barang-barang baru untuk konsumsi pribadi yang dibeli di luar negeri dan dikirim kembali kepada orang pribadi."
+    },
+    "documentTypeBubbleHInt" : "Pilih deskripsi dari menu drop-down yang sesuai dengan dokumen Anda, atau klik Lainnya. Jika Anda memilih Lainnya, Anda harus memasukkan detail produk tambahan di bawah ini. Beberapa jenis dokumen memerlukan nilai cukai. Nilai cukai adalah harga jual untuk isi pengiriman jika dijual. Jika pengiriman tidak dijual, nilai cukai ditentukan berdasarkan nilai pasar wajar. Nilai pasar wajar merupakan harga yang akan diperoleh penjual dari pembeli atas isi pengiriman jika isi pengiriman tersebut dijual di pasar terbuka.",
+    "hsCodeBubbleHint" : "Dengan memasukkan kode penyelarasan yang tepat, FedEx akan dapat membantu Anda menentukan dokumentasi kepabeanan yang sesuai serta estimasi cukai dan pajak yang lebih akurat. Sistem Penyelarasan Pengodean dan Deskripsi Komoditas adalah sistem standardisasi internasional yang dikembangkan dan dikelola oleh World Customs Organization (WCO) untuk menggolongkan produk yang diperdagangkan secara universal.",
+    "warningNote" : "Konfirmasi untuk dihapus? ",
+    "deleteConfirmation" : "Konfirmasi untuk dihapus?",
+    "currencyChangedMessage" : "Mengubah mata uang dari {{prev}} ke {{curr}} untuk nilai cukai Anda juga akan mengubah dan memengaruhi informasi yang sebelumnya.</br> Perhitungan konversi tidak diberlakukan.",
+    "currencyUpdationMessage" : "Mata uang untuk pengiriman Anda telah diperbarui dari {{ICurrency}} ke {{UCurrency}}"
+  },
+  "addItemsPage" : {
+    "headerTitle" : "Perincian Bea Cukai",
+    "enterItemDetails" : "Masukkan perincian barang Anda",
+    "selectItemType" : "Pilih Jenis Barang",
+    "othersItemDecriptionLabel" : "Terangkan barang Anda:",
+    "itemType" : {
+      "electronic" : "Alat Elektronik",
+      "jewellery" : "Perhiasan",
+      "healthCare" : "Kesehatan",
+      "garments" : "Garmen",
+      "lithiumBattery" : "Baterai Litium",
+      "others" : "Lainnya"
+    },
+    "electronics" : "Alat Elektronik",
+    "searchItem" : "Masukkan deskripsi barang",
+    "quantity" : "Kuantitas",
+    "quantityUnit" : {
+      "pieces" : "Potong",
+      "count" : "Jumlah"
+    },
+    "totalWeight" : "Total Berat",
+    "totalCustomsValue" : "Total Nilai Komoditas",
+    "countryTerritoryOfManu" : "Negara/Wilayah Manufaktur",
+    "hsCode" : "Kode HS",
+    "confirmationAlert" : {
+      "header" : "Peringatan",
+      "subHeader" : "Yakin ingin memperbarui mata uang Anda?"
+    }
+  },
+  "senderRecipientDetailsPage" : {
+    "senderDetails" : "Detail Pengirim",
+    "recipientDetails" : "Detail Penerima",
+    "from" : "Dari",
+    "to" : "Ke",
+    "addressLine" : "Baris Alamat",
+    "contactName" : "Nama Kontak",
+    "companyName" : "Nama Perusahaan",
+    "companyAddressQuestion" : "Apakah ini alamat perusahaan?",
+    "recipientAddressBrazilQuestion" : "Apakah penerima adalah penduduk Brasil?",
+    "phoneNo" : "Nomor Telepon",
+    "phoneNoSenderNote" : "SMS konfirmasi akan dikirim ke nomor ponsel.",
+    "phoneNoRecipientNote" : "Pemberitahuan akan dikirim ke nomor ponsel.",
+    "ext" : "Ekstensi",
+    "email" : "Email",
+    "taxId" : "ID Pajak",
+    "passportNo" : "Nomor Paspor",
+    "stateLabel" : "Negara Bagian/Provinsi"
+  },
+  "billingAndServicesOptionPage" : {
+    "headerTitle" : "Penagihan dan Layanan",
+    "billingAndServicesOptions" : "Opsi Penagihan dan Layanan",
+    "valueAddedServices" : "Layanan dengan Nilai Tambah",
+    "signatureOptions" : "Opsi Tanda Tangan",
+    "feeMayApply" : "Mungkin dikenakan biaya",
+    "paymentOptions" : "Opsi Pembayaran",
+    "transportaionCosts" : "Biaya Transportasi",
+    "dutiesAndTaxes" : "Cukai dan Pajak",
+    "payAtDropOff" : "Bayar saat pengantaran",
+    "billMyAccount" : "Tagih Akun Saya",
+    "billRecipient" : "Penerima Penagihan",
+    "billThirdParty" : "Tagihan Pihak Ketiga",
+    "finalRateNote" : "Tarif final ditentukan berdasarkan tarif pengiriman pemilik akun",
+    "accountNo" : "No. Akun",
+    "rate" : "Tarif",
+    "rateApiErrorNote" : "Saat ini tarif belum tersedia. Silakan hubungi agen FedEx di gerai atau tanyakan kepada kurir yang datang melakukan pengambilan.",
+    "signatureOptionBubbleHint" : {
+      "ionText" : "Untuk meminta tanda tangan ketika paket terkirim, pilih salah satu jenis tanda tangan berikut.",
+      "noneSpecifiedTitle" : "Tidak ditentukan",
+      "noneSpecifiedDefination" : "Prosedur pengiriman FedEx standar akan diikuti jika opsi tanda tangan tidak dipilih.",
+      "noSignatureRequiredTitle" : "Tidak memerlukan tanda tangan",
+      "noSignatureRequiredDefination" : "FedEx dapat menyerahkan paket tanpa kehadiran orang. Opsi ini mungkin tidak tersedia untuk semua pengiriman atau tempat tujuan pengiriman.",
+      "indirectSignatureRequiredTitle" : "Memerlukan Tanda Tangan Tidak Langsung",
+      "indirectSignatureRequiredDefination" : "Opsi ini mungkin tidak tersedia untuk semua pengiriman atau semua tempat tujuan. FedEx memperoleh tanda tangan dalam salah satu dari tiga cara:",
+      "indirectSignatureRequiredDefinationLevel1Item1" : "- Dari siapa pun di alamat pengiriman",
+      "indirectSignatureRequiredDefinationLevel1Item2" : "- Dari tetangga, manajer gedung, atau orang lain di alamat yang bertetangga",
+      "indirectSignatureRequiredDefinationLevel1Item3" : "- Penerima dapat mengizinkan penyerahan paket tanpa kehadiran orang",
+      "directSignatureRequiredTitle" : "Memerlukan Tanda Tangan Langsung",
+      "directSignatureRequiredDefination" : "Siapa pun di alamat penerima dapat menandatangani pengiriman. Jika tidak ada orang di alamat tersebut, FedEx akan mengupayakan kembali pengiriman. Opsi ini mungkin tidak tersedia untuk semua pengiriman.",
+      "adultSignatureRequiredTitle" : "Memerlukan Tanda Tangan Orang Dewasa",
+      "adultSignatureRequiredDefination" : "Untuk pengiriman ke AS, FedEx akan meminta tanda tangan dari seseorang yang minimal berusia 21 tahun (dengan syarat tanda pengenal berfoto resmi pemerintah) di alamat pengiriman. Untuk pengiriman ke tempat tujuan lainnya, FedEx akan meminta tanda tangan dari seseorang di alamat pengiriman yang setidaknya telah berusia dewasa di negara tujuan.  Dibutuhkan tanda pengenal berfoto resmi pemerintah atau tanda pengenal lainnya yang berlaku di wilayah setempat. Secara umum, jika tidak ada penerima yang memenuhi kriteria di alamat pengiriman, FedEx akan berupaya mengirim ulang."
+    }
+  },
+  "summaryPage" : {
+    "shipmentDetails" : {
+      "header" : "Rincian Pengiriman",
+      "estimatedDeliveryBy" : "Estimasi pengiriman paling lambat",
+      "packagingType" : "Jenis Kemasan",
+      "weight" : "Berat",
+      "quantity" : "Kuantitas",
+      "dateUnavailableLabel" : "TERTUNDA"
+    },
+    "customsDetails" : {
+      "header" : "Perincian Bea Cukai",
+      "shipmentContent" : "Konten Pengiriman",
+      "shipmentPurpose" : "Tujuan Pengiriman",
+      "customsValue" : "Nilai Cukai",
+      "customsWeight" : "Berat Komoditas",
+      "documentType" : "Jenis Dokumen"
+    },
+    "senderRecipient" : {
+      "from" : "Dari",
+      "to" : "Ke",
+      "name" : "Nama",
+      "company" : "Perusahaan",
+      "address" : "Alamat"
+    },
+    "billingAndServiceOptions" : {
+      "header" : "Opsi Penagihan dan Layanan",
+      "signatureOptions" : "Opsi Tanda Tangan",
+      "transportation" : "Transportasi",
+      "dutiesAndTaxes" : "Cukai dan Pajak"
+    },
+    "summary" : "Ringkasan",
+    "rate" : "Tarif",
+    "finalizeShipment" : "Selesaikan Pengiriman",
+    "termsAndConditions" : "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+    "expressTermsAndConditions" : "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+  },
+  "thankYouPage" : {
+    "shipmentConfirmation" : "Konfirmasi Pengiriman",
+    "shipmentReferenceNo" : "Nomor Referensi Pengiriman",
+    "barcodeNote" : "Tunjukkan kode QR berikut di Lokasi FedEx untuk menyelesaikan pengiriman",
+    "findALocation" : "CARI LOKASI",
+    "customerFeedBack" : "Umpan Balik Pelanggan",
+    "comments" : "Komentar",
+    "submitFeedBack" : "Kirim Umpan Balik",
+    "thankYouFeedbackResponse" : "Terima kasih atas umpan balik Anda!",
+    "feedBackAlertMessage" : "Harap masukkan Komentar Anda",
+    "maxLimitAlertMessage" : "Anda telah mencapai jumlah maksimum 450 karakter yang diizinkan untuk umpan balik pelanggan."
+  },
+  "myShipmentsPage" : {
+    "myShipments" : "Pengiriman Saya",
+    "recentlyShipped" : "Baru Dikirim",
+    "pendingShipment" : "Pengiriman Tertunda",
+    "trackingNo" : "No. Pelacakan",
+    "referenceNo" : "Nomor Referensi",
+    "from" : "Dari",
+    "to" : "Ke",
+    "package" : "Paket",
+    "airWayBillNo" : "Nomor Air Waybill",
+    "noShipmentRecords" : "Tidak ada catatan pengiriman selama 90 hari terakhir"
+  },
+  "termsAndCondition" : {
+    "title" : "Syarat & Ketentuan",
+    "bodyPart1" : "Federal Express Korea LLC (selanjutnya disebut \"FedEx\" atau \"Perusahaan\") meminta izin Anda untuk  mengumpulkan dan menggunakan informasi pribadi (wajib), mentransfer informasi pribadi umum kepada pihak ketiga (wajib), menyetujui transfer informasi pribadi ke luar negeri (wajib), dan menyetujui penggunaan informasi pribadi untuk kepentingan pemasaran (opsional) sehubungan dengan penggunaan FedEx Ship Manager Lite® (FSM Lite) Solution Anda sesuai dengan hukum dan peraturan yang berlaku.",
+    "checkBoxOne" : "Saya menyetujui semua syarat dan ketentuan berikut",
+    "checkBoxTwo" : "[Wajib] Saya sepenuhnya memahami penjelasan Perusahaan mengenai pengumpulan dan penggunaan informasi pribadi umum dan dengan ini menyetujui hal tersebut. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "checkBoxThree" : "[Wajib] Saya sepenuhnya memahami penjelasan Perusahaan mengenai pentransferan informasi pribadi umum kepada pihak ketiga dan dengan ini menyetujui hal tersebut. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "checkBoxFour" : "[Wajib] Saya sepenuhnya memahami penjelasan Perusahaan mengenai pentransferan informasi pribadi ke luar negeri dan dengan ini menyetujui hal tersebut. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "checkBoxFive" : "[Opsional] Saya sepenuhnya memahami penjelasan Perusahaan mengenai penggunaan informasi pribadi untuk kepentingan pemasaran dan penyebaran informasi yang bermanfaat dan dengan ini saya menyetujui hal tersebut. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "bodyPart2" : "[Wajib] Untuk menggunakan FSM Lite Solution dan layanan lainnya yang disediakan oleh FedEx, persetujuan atas kebijakan privasi serta syarat dan ketentuan berikut ini harus diberikan. Anda dapat menolak untuk menyetujui kebijakan privasi serta syarat dan ketentuan berikut. Namun, jika Anda menolak untuk menyetujui kebijakan privasi serta syarat dan ketentuan di bawah ini, Anda tidak dapat menggunakan FSM Lite Solution dan layanan FedEx.",
+    "checkBoxSix" : "Saya menyetujui semua perjanjian di bawah ini",
+    "checkBoxSeven" : "[Wajib] Ketentuan Penggunaan <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "checkBoxEight" : "[Wajib] Ketentuan Layanan <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat detailnya</a></span>",
+    "checkBoxNine" : "[Wajib] Kebijakan Privasi <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Lihat perincian</a></span>",
+    "agreeText" : "Saya telah membaca dengan saksama dan sepenuhnya memahami pengumpulan dan penggunaan informasi pribadi di atas dan ketentuan penggunaan FedEx. Dengan ini saya mengajukan permohonan penggunaan FSM Lite Solution. ",
+    "agreeButton" : "Setuju"
+  },
+  "button" : {
+    "skip" : "Lewati",
+    "next" : "Berikutnya",
+    "continue" : "Lanjut",
+    "submit" : "Kirim",
+    "login" : "Login",
+    "signup" : "Daftar",
+    "create" : "Buat",
+    "close" : "Tutup",
+    "select" : "Pilih",
+    "cancel" : "Batal",
+    "ok" : "OK",
+    "add" : "Tambah",
+    "confirm" : "Konfirmasi",
+    "yes" : "Ya",
+    "no" : "Tidak",
+    "update" : "Perbarui",
+    "delete" : "Hapus"
+  },
+  "validationError" : {
+    "required" : "Bidang ini harus diisi.",
+    "invalidPostalCodeFormat" : "Ini bukan format yang valid untuk kode pos. Harap gunakan format berikut:",
+    "invalidPostal" : "Kode pos ini tidak dapat ditemukan. Harap periksa apakah sudah benar dan coba lagi.",
+    "invalidDecimal" : "Mohon batasi hingga 2 nilai desimal.",
+    "invalidEmail" : "Alamat email ini tidak valid.",
+    "invalidPhoneNumber" : "Nomor Telepon harus berisi minimum 3 digit dan maksimum 12 digit.",
+    "invalidPhoneNumberUSAndCA" : "Ini bukan format yang valid untuk nomor telepon.",
+    "invalidTaxId" : "ID Pajak Tidak Valid. ID Pajak harus terdiri dari maksimum 18 digit",
+    "totalWeightExceeded" : "Berat barang gabungan Anda tidak boleh melebihi total berat pengiriman sebesar {{weight}}{{weightUnits}}. Harap sesuaikan berat barang Anda",
+    "invalidCountry" : "Entri Negara/Wilayah tidak valid.",
+    "invalidAccountNum" : "Nomor akun tidak valid",
+    "invalidMinLength" : "Bidang ini harus berisi minimum 3 karakter.",
+    "invalidOtp" : "Kode verifikasi tidak valid.",
+    "sameAccounteNumberError" : "Nomor akun FedEx {{Transport}} dan akun {{Billing}} tidak boleh sama",
+    "taxIdMinLength" : "Masukkan ID pajak berupa 15 digit angka"
+  },
+  "constants" : {
+    "optional" : "Opsional",
+    "pleaseWait" : "Harap tunggu...",
+    "AM" : "Pagi",
+    "PM" : "Malam"
+  },
+  "apiErrorMessages" : {
+    "header" : "Kesalahan",
+    "buttonOk" : "OK",
+    "error" : "Kesalahan Server Internal.",
+    "error404" : "Sumber daya tidak ditemukan.",
+    "genericError" : "Layanan tidak tersedia."
+  }
+}

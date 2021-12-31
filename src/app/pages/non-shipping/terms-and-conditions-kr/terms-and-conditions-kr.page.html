@@ -1,0 +1,127 @@
+<div class="header-wrapper">
+    <app-header [title]="'termsAndCondition.title' | translate" [menuButtonFlag]='false'>
+    </app-header>
+</div>
+<ion-content>
+    <form [formGroup]="termsAndConditionsForm">
+        <ion-grid>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-list lines="none">
+                        <ion-item class="terms-and-condition-body" translate>{{'termsAndCondition.bodyPart1'}}
+                        </ion-item>
+                    </ion-list>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" (ionChange)=onTnCCheckBoxChecked($event)></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="parent-checkBox-label" translate>{{'termsAndCondition.checkBoxOne'}}</ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxOne" [checked]="isTnCChecked">
+                    </ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[0].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxTwo" [checked]="isTnCChecked">
+                    </ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[1].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxThree"
+                        [checked]="isTnCChecked"></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[2].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" [checked]="isTnCChecked"></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[3].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-list lines="none">
+                        <ion-item class="terms-and-condition-body" translate>{{'termsAndCondition.bodyPart2'}}
+                        </ion-item>
+                    </ion-list>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" (ionChange)="onAgreementCheckBoxChecked($event)">
+                    </ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="parent-checkBox-label" translate>{{'termsAndCondition.checkBoxSix'}}</ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxFour"
+                        [checked]="isAgreementChecked"></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[4].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxFive"
+                        [checked]="isAgreementChecked"></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[5].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row class="row-alignment">
+                <ion-col size="1">
+                    <ion-checkbox class="checkbox-style" formControlName="requiredcheckBoxSix"
+                        [checked]="isAgreementChecked"></ion-checkbox>
+                </ion-col>
+                <ion-col size="11" class="label-alignment">
+                    <ion-label class="label-text-style" [innerHTML]="checkBoxTextList[6].checkBoxText | htmlSanitizer">
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-list lines="none">
+                        <ion-item class="terms-and-condition-body" translate>{{'termsAndCondition.agreeText'}}
+                        </ion-item>
+                    </ion-list>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="12">
+                    <ion-button class="btn-rounded btn-style" [disabled]="disableAgreeButton"
+                    (click)="onClickAgreeTermsAndCondition()" translate>
+                        {{'termsAndCondition.agreeButton'}}</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
+</ion-content>

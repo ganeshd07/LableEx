@@ -1,0 +1,32 @@
+{
+    "partylist": [
+        {
+            "addressType": "DEFAULT_SENDER",
+            "partyId": "1040",
+            "user": {
+                "uid": 1002
+            },
+            "contact": {
+                "personName": "asdfdas",
+                "companyName": null,
+                "phoneNumber": "1234123",
+                "phoneExtension": null,
+                "emailAddress": "aaq@q.in",
+                "passportNo": null,
+                "taxId": null
+            },
+            "address": {
+                "streetlines": [
+                    "asdfas"
+                ],
+                "city": "A KUNG KOK",
+                "stateOrProvinceCode": null,
+                "postalCode": null,
+                "countryCode": "HK",
+                "residential": false,
+                "visitor": false
+            },
+            "lastModified": "14-Sep-2021 20:21:29"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<app-header [title]="'customsDetailsPage.newShipment' | translate" [backbuttonFlag]='true' [backNavigation]="backNavigation"></app-header>
+<form [formGroup]="recipientAddressbookForm">
+  <ion-row>
+    <ion-col size="12" class="label-wrapper">
+      <ion-label class="search-text-label" translate>{{ 'recipientAddressBook.recentlyShippedAddress' }}</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12" class="input-wrapper">
+      <ion-searchbar showCancelButton="focus" (ionFocus)="toggle()" (ionInput)="filterRecipientList($event)"
+        clear-icon="close-circle" id="searchedVal" formControlName="recipientSearchBar"
+        [placeholder]="'recipientAddressBook.searchBar' | translate" class="searchInput">
+      </ion-searchbar>
+    </ion-col>
+  </ion-row>
+</form>
+<ion-content>
+  <ion-grid [hidden]="hideAddressBook">
+    <ion-row>
+      <ion-col size="12">
+        <ion-list class="list-item-wrapper">
+          <ion-item class="list-item" (click)="recipientSelected(recipient)" *ngFor="let recipient of recipientList"
+            [hidden]="hideVal">
+            <ion-text class="list-item-style">
+              <p class="item-disply-name">{{recipient?.contact?.personName}}</p>
+              <p class="list-item-disply-company">
+                {{recipient?.contact?.companyName ? recipient?.contact?.companyName + ',' : ''}}</p>
+              <p class="list-item-disply">{{recipient?.address?.streetlines ? recipient?.address?.streetlines?.join(', ') + ',' : ''}} </p>
+              <p class="list-item-disply-city">{{recipient?.address?.city}}, {{recipient?.address?.stateOrProvinceCode}}, {{recipient?.address?.postalCode}},
+                {{recipient?.address?.countryCode}}</p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid [hidden]="!hideAddressBook">
+    <ion-col size="12">
+      <div class="alertText" translate>You don't have any contacts yet</div>
+    </ion-col>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,20 @@
+{
+    "transactionId": "883210c0-b495-43c8-988a-7c3ee678c1a2",
+    "output": {
+        "amount": [
+            {
+                "finalRoundedAmount": 6451.71,
+                "finalUnRoundedAmount": 6451.712801,
+                "conversionFactor": 0.1290342561,
+                "type": "WITH_NO_PREMIUM_APPLIED"
+            },
+            {
+                "finalRoundedAmount": 6564.62,
+                "finalUnRoundedAmount": 6564.617775,
+                "conversionFactor": 0.1312923555,
+                "ratePercent": 1.01750,
+                "type": "PREMIUM_APPLIED"
+            }
+        ]
+    }
+}

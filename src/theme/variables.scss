@@ -1,0 +1,465 @@
+/*
+ * Ionic Variables and Theming
+ * ----------------------------------------------------------------------------
+ * For more information, please see
+ * https://www.ionicframework.com/docs/theming/
+ */
+
+/*
+ * Ionic Colors
+ * ----------------------------------------------------------------------------
+ * Named colors make it easy to reuse colors on various components.
+ * It's highly recommended to change the default colors
+ * to match your app's branding. Ionic provides nine layered colors
+ * that can be changed to theme an app. Additional colors can be
+ * added as well (see below). For more information, please see
+ * https://www.ionicframework.com/docs/theming/colors
+ *
+ * To easily create custom color palettes for your app’s UI,
+ * check out our color generator:
+ * https://www.ionicframework.com/docs/theming/color-generator
+ */
+
+ :root {
+  --ion-color-primary: #4d148c;
+  --ion-color-primary-rgb: 77, 20, 140;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #44127b;
+  --ion-color-primary-tint: #5f2c98;
+
+  --ion-color-secondary: #ff6200;
+  --ion-color-secondary-rgb: 255, 98, 0;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #e05600;
+  --ion-color-secondary-tint: #ff721a;
+
+  --ion-color-tertiary: #007ab7;
+  --ion-color-tertiary-rgb: 0,122,183;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255,255,255;
+  --ion-color-tertiary-shade: #006ba1;
+  --ion-color-tertiary-tint: #1a87be;
+
+  --ion-color-success: #009900;
+  --ion-color-success-rgb: 0, 153, 0;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #008700;
+  --ion-color-success-tint: #1aa31a;
+
+  --ion-color-warning: #f1b118;
+  --ion-color-warning-rgb: 241, 177, 24;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d49c15;
+  --ion-color-warning-tint: #f2b92f;
+
+  --ion-color-danger: #e8002e;
+  --ion-color-danger-rgb: 232, 0, 46;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #cc0028;
+  --ion-color-danger-tint: #ea1a43;
+
+  --ion-color-dark: #333333;
+  --ion-color-dark-rgb: 51,51,51;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255,255,255;
+  --ion-color-dark-shade: #2d2d2d;
+  --ion-color-dark-tint: #474747;
+
+  --ion-color-medium: #8e8e8e;
+  --ion-color-medium-rgb: 142,142,142;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0,0,0;
+  --ion-color-medium-shade: #7d7d7d;
+  --ion-color-medium-tint: #999999;
+
+  --ion-color-light: #fafafa;
+  --ion-color-light-rgb: 250,250,250;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0,0,0;
+  --ion-color-light-shade: #dcdcdc;
+  --ion-color-light-tint: #fbfbfb;
+
+  // Default Theme Colors
+  --ion-background-color: #ffffff;
+  --ion-background-color-rgb: 255, 255, 255;
+
+  --ion-text-color: #333333;
+  --ion-text-color-rgb: 51, 51, 51;
+  --ion-font-family: "Roboto", sans-serif;
+
+  --ion-color-step-50: #f2f2f2;
+  --ion-color-step-100: #e6e6e6;
+  --ion-color-step-150: #d9d9d9;
+  --ion-color-step-200: #cccccc;
+  --ion-color-step-250: #bfbfbf;
+  --ion-color-step-300: #b3b3b3;
+  --ion-color-step-350: #a6a6a6;
+  --ion-color-step-400: #999999;
+  --ion-color-step-450: #8c8c8c;
+  --ion-color-step-500: #808080;
+  --ion-color-step-550: #737373;
+  --ion-color-step-600: #666666;
+  --ion-color-step-650: #595959;
+  --ion-color-step-700: #4d4d4d;
+  --ion-color-step-750: #404040;
+  --ion-color-step-800: #333333;
+  --ion-color-step-850: #262626;
+  --ion-color-step-900: #191919;
+  --ion-color-step-950: #0d0d0d;
+
+  --ion-toolbar-background: #4d148c;
+  --ion-toolbar-color: #ffffff;
+
+  ion-card {
+    box-shadow: none;
+  }
+}
+
+/*
+ * Additional Ionic Colors
+ * ----------------------------------------------------------------------------
+ * In order to add colors to be used within Ionic components,
+ * the color should be added as a class with the convention `.ion-color-{COLOR}`
+ * where `{COLOR}` is the color to be used on the Ionic component.
+ * For more information on adding new colors, please see
+ * https://ionicframework.com/docs/theming/colors#adding-colors
+ *
+ * To generate the code for a new color, check out our new color creator:
+ * https://ionicframework.com/docs/theming/colors#new-color-creator
+ */
+
+:root {
+  
+  --ion-color-form-gray: #f2f2f2;
+  --ion-color-form-gray-rgb: 242,242,242;
+  --ion-color-form-gray-contrast: #000000;
+  --ion-color-form-gray-contrast-rgb: 0,0,0;
+  --ion-color-form-gray-shade: #d5d5d5;
+  --ion-color-form-gray-tint: #f3f3f3;
+
+  --ion-color-divider-gray: #e3e3e3;
+  --ion-color-divider-gray-rgb: 227,227,227;
+  --ion-color-divider-gray-contrast: #000000;
+  --ion-color-divider-gray-contrast-rgb: 0,0,0;
+  --ion-color-divider-gray-shade: #c8c8c8;
+  --ion-color-divider-gray-tint: #e6e6e6;
+
+  --ion-color-favorite: #69bb7b;
+  --ion-color-favorite-rgb: 105, 187, 123;
+  --ion-color-favorite-contrast: #ffffff;
+  --ion-color-favorite-contrast-rgb: 255, 255, 255;
+  --ion-color-favorite-shade: #5ca56c;
+  --ion-color-favorite-tint: #78c288;
+
+  --ion-color-twitter: #1da1f4;
+  --ion-color-twitter-rgb: 29, 161, 244;
+  --ion-color-twitter-contrast: #ffffff;
+  --ion-color-twitter-contrast-rgb: 255, 255, 255;
+  --ion-color-twitter-shade: #1a8ed7;
+  --ion-color-twitter-tint: #34aaf5;
+
+  --ion-color-google: #dc4a38;
+  --ion-color-google-rgb: 220, 74, 56;
+  --ion-color-google-contrast: #ffffff;
+  --ion-color-google-contrast-rgb: 255, 255, 255;
+  --ion-color-google-shade: #c24131;
+  --ion-color-google-tint: #e05c4c;
+
+  --ion-color-vimeo: #23b6ea;
+  --ion-color-vimeo-rgb: 35, 182, 234;
+  --ion-color-vimeo-contrast: #ffffff;
+  --ion-color-vimeo-contrast-rgb: 255, 255, 255;
+  --ion-color-vimeo-shade: #1fa0ce;
+  --ion-color-vimeo-tint: #39bdec;
+
+  --ion-color-facebook: #3b5998;
+  --ion-color-facebook-rgb: 59, 89, 152;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255, 255, 255;
+  --ion-color-facebook-shade: #344e86;
+  --ion-color-facebook-tint: #4f6aa2;
+}
+
+/* Commented as unused CSS */
+/* .ion-color-favorite {
+  --ion-color-base: var(--ion-color-favorite);
+  --ion-color-base-rgb: var(--ion-color-favorite-rgb);
+  --ion-color-contrast: var(--ion-color-favorite-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-favorite-contrast-rgb);
+  --ion-color-shade: var(--ion-color-favorite-shade);
+  --ion-color-tint: var(--ion-color-favorite-tint);
+}
+
+.ion-color-twitter {
+  --ion-color-base: var(--ion-color-twitter);
+  --ion-color-base-rgb: var(--ion-color-twitter-rgb);
+  --ion-color-contrast: var(--ion-color-twitter-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-twitter-contrast-rgb);
+  --ion-color-shade: var(--ion-color-twitter-shade);
+  --ion-color-tint: var(--ion-color-twitter-tint);
+}
+
+.ion-color-google {
+  --ion-color-base: var(--ion-color-google);
+  --ion-color-base-rgb: var(--ion-color-google-rgb);
+  --ion-color-contrast: var(--ion-color-google-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-google-contrast-rgb);
+  --ion-color-shade: var(--ion-color-google-shade);
+  --ion-color-tint: var(--ion-color-google-tint);
+}
+
+.ion-color-vimeo {
+  --ion-color-base: var(--ion-color-vimeo);
+  --ion-color-base-rgb: var(--ion-color-vimeo-rgb);
+  --ion-color-contrast: var(--ion-color-vimeo-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-vimeo-contrast-rgb);
+  --ion-color-shade: var(--ion-color-vimeo-shade);
+  --ion-color-tint: var(--ion-color-vimeo-tint);
+}
+
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook);
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb);
+  --ion-color-contrast: var(--ion-color-facebook-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb);
+  --ion-color-shade: var(--ion-color-facebook-shade);
+  --ion-color-tint: var(--ion-color-facebook-tint);
+}
+
+.ion-color-github {
+  --ion-color-base: #211f1f;
+  --ion-color-base-rgb: 33, 31, 31;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #1d1b1b;
+  --ion-color-tint: #373535;
+}
+
+.ion-color-instagram {
+  --ion-color-base: #9537bc;
+  --ion-color-base-rgb: 149, 55, 188;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #8330a5;
+  --ion-color-tint: #a04bc3;
+} */
+
+/* End - Commented as unused CSS */
+
+/*
+ * Shared Variables
+ * ----------------------------------------------------------------------------
+ * To customize the look and feel of this app, you can override
+ * the CSS variables found in Ionic's source files.
+ * To view all of the possible Ionic variables, see:
+ * https://ionicframework.com/docs/theming/css-variables#ionic-variables
+ */
+
+:root {
+  --ion-headings-font-weight: 300;
+
+  --ion-color-angular: #ac282b;
+  --ion-color-communication: #8e8d93;
+  --ion-color-tooling: #fe4c52;
+  --ion-color-services: #fd8b2d;
+  --ion-color-design: #fed035;
+  --ion-color-workshop: #69bb7b;
+  --ion-color-food: #3bc7c4;
+  --ion-color-documentation: #b16be3;
+  --ion-color-navigation: #6600cc;
+}
+
+/*
+ * App iOS Variables
+ * ----------------------------------------------------------------------------
+ * iOS only CSS variables can go here
+ */
+
+.ios {
+}
+
+/*
+ * App Material Design Variables
+ * ----------------------------------------------------------------------------
+ * Material Design only CSS variables can go here
+ */
+
+.md {
+}
+
+/*
+ * App Theme
+ * ----------------------------------------------------------------------------
+ * Ionic apps can have different themes applied, which can
+ * then be further customized. These variables come last
+ * so that the above variables are used by default.
+ */
+
+/*
+ * Dark Theme
+ * ----------------------------------------------------------------------------
+ */
+
+ /* Commented as unused CSS */
+/* .dark-theme {
+  --ion-color-primary: #4d148c;
+  --ion-color-primary-rgb: 77, 20, 140;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #44127b;
+  --ion-color-primary-tint: #5f2c98;
+
+  --ion-color-secondary: #ff6200;
+  --ion-color-secondary-rgb: 255, 98, 0;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #e05600;
+  --ion-color-secondary-tint: #ff721a;
+
+  --ion-color-tertiary: #666666;
+  --ion-color-tertiary-rgb: 102, 102, 102;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #5a5a5a;
+  --ion-color-tertiary-tint: #757575;
+
+  --ion-color-success: #009900;
+  --ion-color-success-rgb: 0, 153, 0;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #008700;
+  --ion-color-success-tint: #1aa31a;
+
+  --ion-color-warning: #f1b118;
+  --ion-color-warning-rgb: 241, 177, 24;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d49c15;
+  --ion-color-warning-tint: #f2b92f;
+
+  --ion-color-danger: #e8002e;
+  --ion-color-danger-rgb: 232, 0, 46;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #cc0028;
+  --ion-color-danger-tint: #ea1a43;
+
+  --ion-color-dark: #1a1a1a;
+  --ion-color-dark-rgb: 0, 0, 0;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #000000;
+  --ion-color-dark-tint: #1a1a1a;
+
+  --ion-color-medium: #999999;
+  --ion-color-medium-rgb: 153, 153, 153;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #878787;
+  --ion-color-medium-tint: #a3a3a3;
+
+  --ion-color-light: #fafafa;
+  --ion-color-light-rgb: 250, 250, 250;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #dcdcdc;
+  --ion-color-light-tint: #fbfbfb;
+
+  --ion-item-background: #1e1e1e;
+  --ion-toolbar-background: #4d148c;
+  --ion-tab-bar-background: #1f1f1f;
+
+  div.section {
+    background-color: #1f1f1f;
+  }
+
+  ion-item.labelex-input {
+    --background: #1f1f1f;
+    background-color: #1f1f1f;
+  }
+
+  ion-item {
+    --color: #ffffff;
+    background: #4d148c;
+    --color-hover: #ffffff;
+  }
+
+  ion-card {
+    --background: #1f1f1f;
+    --color: #ffffff;
+  }
+
+  div.about-header {
+    background-color: #1a0606;
+    color: #ffffff;
+  }
+
+  div.alert-wrapper {
+    background-color: #333333;
+  }
+
+  button.alert-button {
+    color: #ffffff;
+  }
+
+  //ion-label focused
+  .item-has-focus.label-floating.sc-ion-label-md-h,
+  .item-has-focus .label-floating.sc-ion-label-md-h,
+  .item-has-focus.label-stacked.sc-ion-label-md-h,
+  .item-has-focus .label-stacked.sc-ion-label-md-h {
+    color: #ffffff;
+  }
+} */
+
+/*End - Commented as unused CSS */
+
+/*
+ * iOS Dark Theme
+ * ----------------------------------------------------------------------------
+ */
+/* Commented as unused CSS */
+/* .dark-theme.ios {
+} */
+/* Commented as unused CSS */
+
+/*
+ * Material Design Dark Theme
+ * ----------------------------------------------------------------------------
+ */
+
+ /* Commented as unused CSS */
+/* .dark-theme.md {
+  --ion-background-color: #121212;
+  --ion-background-color-rgb: 18, 18, 18;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-border-color: #222222;
+
+  --ion-color-step-50: #1e1e1e;
+  --ion-color-step-100: #2a2a2a;
+  --ion-color-step-150: #363636;
+  --ion-color-step-200: #414141;
+  --ion-color-step-250: #4d4d4d;
+  --ion-color-step-300: #595959;
+  --ion-color-step-350: #656565;
+  --ion-color-step-400: #717171;
+  --ion-color-step-450: #7d7d7d;
+  --ion-color-step-500: #898989;
+  --ion-color-step-550: #949494;
+  --ion-color-step-600: #a0a0a0;
+  --ion-color-step-650: #acacac;
+  --ion-color-step-700: #b8b8b8;
+  --ion-color-step-750: #c4c4c4;
+  --ion-color-step-800: #d0d0d0;
+  --ion-color-step-850: #dbdbdb;
+  --ion-color-step-900: #e7e7e7;
+  --ion-color-step-950: #f3f3f3;
+} */
+/*End - Commented as unused CSS */

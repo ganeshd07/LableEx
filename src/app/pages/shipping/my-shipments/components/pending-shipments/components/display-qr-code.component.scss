@@ -1,0 +1,45 @@
+.textCentre{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.qr-code-container{
+    width: 100%;
+    max-width: 100%;
+    margin: -15px;
+    margin-bottom: -30px;
+}
+
+.numberStyle{
+    font-family: FedExSans-Bold;
+    font-size: 20px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.referenceNumber{
+    font-family: FedExSans-Regular;
+    font-size: 18px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.colButtonStyle{
+    text-align: center;
+}
+
+.close-button-style{
+    color: #007AB7;
+    width: 130px;
+    margin: auto;
+    height: 60px;
+}
+
+ion-button{
+    &.close-button-style{
+    --border-radius: 30px;
+    --border-color:#007AB7;   
+    }
+}

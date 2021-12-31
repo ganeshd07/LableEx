@@ -1,0 +1,679 @@
+{
+    "transactionId": "a93b492b-8b83-495b-ac80-9b3009313fc0",
+    "output": {
+        "rateReplyDetails": [
+            {
+                "serviceType": "INTERNATIONAL_FIRST",
+                "serviceSubOptionDetail": {},
+                "serviceName": "FedEx International First®",
+                "packagingType": "YOUR_PACKAGING",
+                "commit": {
+                    "dateDetail": {
+                        "dayOfWeek": "Mon",
+                        "time": "08:00",
+                        "day": "Sep 28, 2020",
+                        "dayCxsFormat": "Sep-28-2020"
+                    },
+                    "commodityName": "MEDICAL EQUIPMENT",
+                    "alternativeCommodityNames": [
+                        "1",
+                        "PRESCRIBED MEDICINE",
+                        "1",
+                        "PLASTIC PARTS",
+                        "1",
+                        "APPAREL, TEXTILE",
+                        "1",
+                        "MACHINERY, ELEC.",
+                        "1",
+                        "FURNITURE",
+                        "1",
+                        "LEATHER GOODS",
+                        "1",
+                        "LAB EQUIPMENT",
+                        "1",
+                        "PERSONAL EFFECTS"
+                    ]
+                },
+                "customerMessages": [
+                    {
+                        "code": "customsnote",
+                        "message": "customsnote"
+                    },
+                    {
+                        "code": "postalAwareAdditionalNote",
+                        "message": "postalAwareAdditionalNote"
+                    }
+                ],
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "LIST",
+                        "ratedWeightMethod": "ACTUAL",
+                        "totalBaseCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3239.7
+                            }
+                        ],
+                        "totalNetCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3793.85
+                            }
+                        ],
+                        "totalVatCharge": [
+                            {
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetFedExCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3793.85
+                            }
+                        ],
+                        "totalDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetChargeWithDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3793.85
+                            }
+                        ],
+                        "shipmentLegRateDetails": [
+                            {
+                                "rateScale": "HK001OF2_06_YOUR_PACKAGING",
+                                "totalBaseCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 3239.7
+                                    }
+                                ],
+                                "totalNetCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 3793.85
+                                    }
+                                ],
+                                "taxes": [],
+                                "surcharges": [
+                                    {
+                                        "type": "FUEL",
+                                        "description": "Fuel Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 329.15
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "PEAK",
+                                        "description": "Peak Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 225
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "discounts": []
+                            }
+                        ],
+                        "ancillaryFeesAndTaxes": [],
+                        "totalDutiesTaxesAndFees": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalAncillaryFeesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "shipmentRateDetail": {
+                            "rateZone": "HK001O",
+                            "dimDivisor": 139,
+                            "fuelSurchargePercent": 9.5,
+                            "totalSurcharges": {
+                                "currency": "HKD",
+                                "amount": 554.15
+                            },
+                            "totalFreightDiscount": {
+                                "currency": "HKD",
+                                "amount": 0
+                            },
+                            "freightDiscount": [],
+                            "surCharges": [
+                                {
+                                    "type": "FUEL",
+                                    "description": "Fuel Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 329.15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "PEAK",
+                                    "description": "Peak Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 225
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "anonymouslyAllowable": true,
+                "operationalDetail": {
+                    "originLocationIds": [
+                        "HHPA "
+                    ],
+                    "originLocationNumbers": [
+                        0
+                    ],
+                    "originServiceAreas": [
+                        "AM"
+                    ],
+                    "destinationLocationIds": [
+                        "NQAA "
+                    ],
+                    "destinationLocationNumbers": [
+                        0
+                    ],
+                    "destinationServiceAreas": [
+                        "A1"
+                    ],
+                    "destinationLocationStateOrProvinceCodes": [
+                        "TN"
+                    ],
+                    "deliveryDate": "2020-09-28T08:00:00",
+                    "deliveryDay": "MON",
+                    "commitDates": [
+                        "2020-09-28T08:00:00"
+                    ],
+                    "commitDays": [
+                        "MON"
+                    ],
+                    "ineligibleForMoneyBackGuarantee": false,
+                    "astraDescription": "INTL1ST",
+                    "originPostalCodes": [
+                        "425"
+                    ],
+                    "stateOrProvinceCodes": [
+                        "  "
+                    ],
+                    "countryCodes": [
+                        "HK"
+                    ],
+                    "airportId": "MEM",
+                    "serviceCode": "06",
+                    "destinationPostalCodes": [
+                        "38111"
+                    ]
+                },
+                "saturdayDelivery": false
+            },
+            {
+                "serviceType": "INTERNATIONAL_PRIORITY",
+                "serviceSubOptionDetail": {},
+                "serviceName": "International Priority®",
+                "packagingType": "YOUR_PACKAGING",
+                "commit": {
+                    "dateDetail": {
+                        "dayOfWeek": "Mon",
+                        "time": "10:30",
+                        "day": "Sep 28, 2020",
+                        "dayCxsFormat": "Sep-28-2020"
+                    },
+                    "commodityName": "MEDICAL EQUIPMENT",
+                    "alternativeCommodityNames": [
+                        "1",
+                        "PRESCRIBED MEDICINE",
+                        "1",
+                        "PLASTIC PARTS",
+                        "1",
+                        "APPAREL, TEXTILE",
+                        "1",
+                        "MACHINERY, ELEC.",
+                        "1",
+                        "FURNITURE",
+                        "1",
+                        "LEATHER GOODS",
+                        "1",
+                        "LAB EQUIPMENT",
+                        "1",
+                        "PERSONAL EFFECTS"
+                    ]
+                },
+                "customerMessages": [
+                    {
+                        "code": "customsnote",
+                        "message": "customsnote"
+                    },
+                    {
+                        "code": "postalAwareAdditionalNote",
+                        "message": "postalAwareAdditionalNote"
+                    }
+                ],
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "LIST",
+                        "ratedWeightMethod": "ACTUAL",
+                        "totalBaseCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3389.05
+                            }
+                        ],
+                        "totalNetCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3965.57
+                            }
+                        ],
+                        "totalVatCharge": [
+                            {
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetFedExCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3965.57
+                            }
+                        ],
+                        "totalDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetChargeWithDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3965.57
+                            }
+                        ],
+                        "shipmentLegRateDetails": [
+                            {
+                                "rateScale": "HK001OF2_01_YOUR_PACKAGING",
+                                "totalBaseCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 3389.05
+                                    }
+                                ],
+                                "totalNetCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 3965.57
+                                    }
+                                ],
+                                "taxes": [],
+                                "surcharges": [
+                                    {
+                                        "type": "FUEL",
+                                        "description": "Fuel Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 344.02
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "PEAK",
+                                        "description": "Peak Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 232.5
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "discounts": []
+                            }
+                        ],
+                        "ancillaryFeesAndTaxes": [],
+                        "totalDutiesTaxesAndFees": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalAncillaryFeesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "shipmentRateDetail": {
+                            "rateZone": "HK001O",
+                            "dimDivisor": 139,
+                            "fuelSurchargePercent": 9.5,
+                            "totalSurcharges": {
+                                "currency": "HKD",
+                                "amount": 576.52
+                            },
+                            "totalFreightDiscount": {
+                                "currency": "HKD",
+                                "amount": 0
+                            },
+                            "freightDiscount": [],
+                            "surCharges": [
+                                {
+                                    "type": "FUEL",
+                                    "description": "Fuel Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 344.02
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "PEAK",
+                                    "description": "Peak Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 232.5
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "anonymouslyAllowable": true,
+                "operationalDetail": {
+                    "originLocationIds": [
+                        "HHPA "
+                    ],
+                    "originLocationNumbers": [
+                        0
+                    ],
+                    "originServiceAreas": [
+                        "AM"
+                    ],
+                    "destinationLocationIds": [
+                        "NQAA "
+                    ],
+                    "destinationLocationNumbers": [
+                        0
+                    ],
+                    "destinationServiceAreas": [
+                        "A1"
+                    ],
+                    "destinationLocationStateOrProvinceCodes": [
+                        "TN"
+                    ],
+                    "deliveryDate": "2020-09-28T10:30:00",
+                    "deliveryDay": "MON",
+                    "commitDates": [
+                        "2020-09-28T10:30:00"
+                    ],
+                    "commitDays": [
+                        "MON"
+                    ],
+                    "ineligibleForMoneyBackGuarantee": false,
+                    "astraDescription": "IP",
+                    "originPostalCodes": [
+                        "425"
+                    ],
+                    "stateOrProvinceCodes": [
+                        "  "
+                    ],
+                    "countryCodes": [
+                        "HK"
+                    ],
+                    "airportId": "MEM",
+                    "serviceCode": "01",
+                    "destinationPostalCodes": [
+                        "38111"
+                    ]
+                },
+                "saturdayDelivery": false
+            },
+            {
+                "serviceType": "INTERNATIONAL_ECONOMY",
+                "serviceSubOptionDetail": {},
+                "serviceName": "FedEx International Economy®",
+                "packagingType": "YOUR_PACKAGING",
+                "commit": {
+                    "dateDetail": {
+                        "dayOfWeek": "Mon",
+                        "time": "16:30",
+                        "day": "Oct 05, 2020",
+                        "dayCxsFormat": "Oct-05-2020"
+                    },
+                    "commodityName": "MEDICAL EQUIPMENT",
+                    "alternativeCommodityNames": [
+                        "1",
+                        "PRESCRIBED MEDICINE",
+                        "1",
+                        "PLASTIC PARTS",
+                        "1",
+                        "APPAREL, TEXTILE",
+                        "1",
+                        "MACHINERY, ELEC.",
+                        "1",
+                        "FURNITURE",
+                        "1",
+                        "LEATHER GOODS",
+                        "1",
+                        "LAB EQUIPMENT",
+                        "1",
+                        "PERSONAL EFFECTS"
+                    ]
+                },
+                "customerMessages": [
+                    {
+                        "code": "customsnote",
+                        "message": "customsnote"
+                    },
+                    {
+                        "code": "postalAwareAdditionalNote",
+                        "message": "postalAwareAdditionalNote"
+                    }
+                ],
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "LIST",
+                        "ratedWeightMethod": "ACTUAL",
+                        "totalBaseCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 2525.7
+                            }
+                        ],
+                        "totalNetCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3020.22
+                            }
+                        ],
+                        "totalVatCharge": [
+                            {
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetFedExCharge": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3020.22
+                            }
+                        ],
+                        "totalDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalNetChargeWithDutiesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 3020.22
+                            }
+                        ],
+                        "shipmentLegRateDetails": [
+                            {
+                                "rateScale": "HK001OF2_04_YOUR_PACKAGING",
+                                "totalBaseCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 2525.7
+                                    }
+                                ],
+                                "totalNetCharge": [
+                                    {
+                                        "currency": "HKD",
+                                        "amount": 3020.22
+                                    }
+                                ],
+                                "taxes": [],
+                                "surcharges": [
+                                    {
+                                        "type": "FUEL",
+                                        "description": "Fuel Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 262.02
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "PEAK",
+                                        "description": "Peak Surcharge",
+                                        "amount": [
+                                            {
+                                                "currency": "HKD",
+                                                "amount": 232.5
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "discounts": []
+                            }
+                        ],
+                        "ancillaryFeesAndTaxes": [],
+                        "totalDutiesTaxesAndFees": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "totalAncillaryFeesAndTaxes": [
+                            {
+                                "currency": "HKD",
+                                "amount": 0
+                            }
+                        ],
+                        "shipmentRateDetail": {
+                            "rateZone": "HK001O",
+                            "dimDivisor": 139,
+                            "fuelSurchargePercent": 9.5,
+                            "totalSurcharges": {
+                                "currency": "HKD",
+                                "amount": 494.52
+                            },
+                            "totalFreightDiscount": {
+                                "currency": "HKD",
+                                "amount": 0
+                            },
+                            "freightDiscount": [],
+                            "surCharges": [
+                                {
+                                    "type": "FUEL",
+                                    "description": "Fuel Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 262.02
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "PEAK",
+                                    "description": "Peak Surcharge",
+                                    "amount": [
+                                        {
+                                            "currency": "HKD",
+                                            "amount": 232.5
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "anonymouslyAllowable": true,
+                "operationalDetail": {
+                    "originLocationIds": [
+                        "HHPA "
+                    ],
+                    "originLocationNumbers": [
+                        0
+                    ],
+                    "originServiceAreas": [
+                        "AM"
+                    ],
+                    "destinationLocationIds": [
+                        "NQAA "
+                    ],
+                    "destinationLocationNumbers": [
+                        0
+                    ],
+                    "destinationServiceAreas": [
+                        "A1"
+                    ],
+                    "destinationLocationStateOrProvinceCodes": [
+                        "TN"
+                    ],
+                    "deliveryDate": "2020-10-05T16:30:00",
+                    "deliveryDay": "MON",
+                    "commitDates": [
+                        "2020-10-05T16:30:00"
+                    ],
+                    "commitDays": [
+                        "MON"
+                    ],
+                    "ineligibleForMoneyBackGuarantee": false,
+                    "astraDescription": "IE",
+                    "originPostalCodes": [
+                        "425"
+                    ],
+                    "stateOrProvinceCodes": [
+                        "  "
+                    ],
+                    "countryCodes": [
+                        "HK"
+                    ],
+                    "airportId": "MEM",
+                    "serviceCode": "04",
+                    "destinationPostalCodes": [
+                        "38111"
+                    ]
+                },
+                "saturdayDelivery": false
+            }
+        ],
+        "servicesAvailableAndFiltered": false,
+        "quoteDate": "Sep-25-2020",
+        "encoded": false
+    }
+}

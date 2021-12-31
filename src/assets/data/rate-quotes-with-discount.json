@@ -1,0 +1,239 @@
+{
+   "transactionId": "af2f015c-e75d-4ec8-b5a6-bd3013d838b8",
+   "output": {
+      "rateReplyDetails": [
+         {
+            "serviceType": "INTERNATIONAL_PRIORITY",
+            "serviceSubOptionDetail": {},
+            "serviceName": "International Priority®",
+            "packagingType": "YOUR_PACKAGING",
+            "commit": {
+               "dateDetail": {
+                  "dayOfWeek": "Fri",
+                  "time": "10:30",
+                  "day": "Aug 06, 2021",
+                  "dayCxsFormat": "Aug-06-2021"
+               },
+               "commodityName": "DOCUMENTS"
+            },
+            "customerMessages": [
+               {
+                  "code": "customsnote",
+                  "message": "<b>Important for Customs:</b> To prevent delays, your shipment must have the following customs documents attached: Commercial Invoice, Certificate of Origin, Shippers Export Declaration. Additional clearance documents may also be required. For more information, please visit our <A HREF=\"https://www.fedex.com/GTM?cntry_code=HK/\">international tools</A> site."
+               },
+               {
+                  "code": "postalAwareAdditionalNote",
+                  "message": "For countries where zip/postal code or city name can be entered, it is recommended that zip/postal code be entered to obtain a more accurate number of available services."
+               }
+            ],
+            "ratedShipmentDetails": [
+               {
+                  "rateType": "LIST",
+                  "ratedWeightMethod": "ACTUAL",
+                  "totalBaseCharge": [
+                     {
+                        "currency": "HKD",
+                        "amount": 3427.2
+                     }
+                  ],
+                  "totalNetCharge": [
+                     {
+                        "currency": "HKD",
+                        "amount": 2786.3
+                     }
+                  ],
+                  "totalVatCharge": [
+                     {
+                        "amount": 0.0
+                     }
+                  ],
+                  "totalNetFedExCharge": [
+                     {
+                        "currency": "HKD",
+                        "amount": 2786.3
+                     }
+                  ],
+                  "totalDutiesAndTaxes": [
+                     {
+                        "currency": "HKD",
+                        "amount": 0.0
+                     }
+                  ],
+                  "totalNetChargeWithDutiesAndTaxes": [
+                     {
+                        "currency": "HKD",
+                        "amount": 2786.3
+                     }
+                  ],
+                  "shipmentLegRateDetails": [
+                     {
+                        "rateScale": "HK0469F2_01_YOUR_PACKAGING",
+                        "totalBaseCharge": [
+                           {
+                              "currency": "HKD",
+                              "amount": 3427.2
+                           }
+                        ],
+                        "totalNetCharge": [
+                           {
+                              "currency": "HKD",
+                              "amount": 2786.3
+                           }
+                        ],
+                        "taxes": [],
+                        "surcharges": [
+                           {
+                              "type": "TRANSPORT",
+                              "description": "Transport Surcharge",
+                              "amount": [
+                                 {
+                                    "currency": "HKD",
+                                    "amount": 414.98
+                                 }
+                              ]
+                           },
+                           {
+                              "type": "PEAK",
+                              "description": "Peak Surcharge",
+                              "amount": [
+                                 {
+                                    "currency": "HKD",
+                                    "amount": 315.0
+                                 }
+                              ]
+                           }
+                        ],
+                        "discounts": [
+                           {
+                              "type": "VOLUME",
+                              "description": "Volume discount",
+                              "amount": [
+                                 {
+                                    "currency": "HKD",
+                                    "amount": 1370.88
+                                 }
+                              ],
+                              "percent": 40.0
+                           }
+                        ]
+                     }
+                  ],
+                  "ancillaryFeesAndTaxes": [],
+                  "totalDutiesTaxesAndFees": [
+                     {
+                        "currency": "HKD",
+                        "amount": 0.0
+                     }
+                  ],
+                  "totalAncillaryFeesAndTaxes": [
+                     {
+                        "currency": "HKD",
+                        "amount": 0.0
+                     }
+                  ],
+                  "shipmentRateDetail": {
+                     "rateZone": "HK0469",
+                     "dimDivisor": 139,
+                     "fuelSurchargePercent": 17.5,
+                     "totalSurcharges": {
+                        "currency": "HKD",
+                        "amount": 729.98
+                     },
+                     "totalFreightDiscount": {
+                        "currency": "HKD",
+                        "amount": 1370.88
+                     },
+                     "freightDiscount": [
+                        {
+                           "type": "VOLUME",
+                           "description": "Volume discount",
+                           "amount": [
+                              {
+                                 "currency": "HKD",
+                                 "amount": 1370.88
+                              }
+                           ],
+                           "percent": 40.0
+                        }
+                     ],
+                     "surCharges": [
+                        {
+                           "type": "FUEL",
+                           "description": "Fuel Surcharge",
+                           "amount": [
+                              {
+                                 "currency": "HKD",
+                                 "amount": 414.98
+                              }
+                           ]
+                        },
+                        {
+                           "type": "PEAK",
+                           "description": "Peak Surcharge",
+                           "amount": [
+                              {
+                                 "currency": "HKD",
+                                 "amount": 315.0
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               }
+            ],
+            "anonymouslyAllowable": true,
+            "operationalDetail": {
+               "originLocationIds": [
+                  "HHPA "
+               ],
+               "originLocationNumbers": [
+                  0
+               ],
+               "originServiceAreas": [
+                  "AM"
+               ],
+               "destinationLocationIds": [
+                  "DSVA "
+               ],
+               "destinationLocationNumbers": [
+                  0
+               ],
+               "destinationServiceAreas": [
+                  "A1"
+               ],
+               "destinationLocationStateOrProvinceCodes": [
+                  "NY"
+               ],
+               "deliveryDate": "2021-08-06T10:30:00",
+               "deliveryDay": "FRI",
+               "commitDates": [
+                  "2021-08-06T10:30:00"
+               ],
+               "commitDays": [
+                  "FRI"
+               ],
+               "ineligibleForMoneyBackGuarantee": false,
+               "astraDescription": "IP",
+               "originPostalCodes": [
+                  "425"
+               ],
+               "stateOrProvinceCodes": [
+                  "  "
+               ],
+               "countryCodes": [
+                  "HK"
+               ],
+               "airportId": "ALB",
+               "serviceCode": "01",
+               "destinationPostalCodes": [
+                  "12345"
+               ]
+            },
+            "saturdayDelivery": false
+         }
+      ],
+      "servicesAvailableAndFiltered": false,
+      "quoteDate": "Aug-03-2021",
+      "encoded": false
+   }
+}

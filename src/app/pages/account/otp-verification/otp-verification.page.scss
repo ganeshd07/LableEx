@@ -1,0 +1,121 @@
+.otp-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mobile-icon {
+    width: 55px;
+    height: 87px;
+}
+
+.header-row {
+    height: 40px;
+}
+.header-title {
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-family: FedExSans-Light;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.password-message {
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.verification-placeholder {
+    background: #f2f2f2;
+    border-radius: 5px;
+    border-radius: 5px;
+
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+
+    width: 34px;
+    height: 34px;
+
+    margin: 0 auto;
+}
+
+ion-button {
+    font-family: FedExSans-Bold;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+ion-button[fill="clear"] {
+    text-transform: none;
+}
+
+ion-input{
+    --padding-start: 0;
+}
+.footer-text {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4d148c;
+    letter-spacing: 0;
+}
+
+.spacer-20 {
+    height: 20px;
+}
+
+.spacer-26 {
+    height: 26px;
+}
+
+.spacer-10 {
+    height: 10px;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.verification-error-message {
+    font-family: FedExSans-Light;
+    font-size: 14px;
+    color: #e8002e;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 0px 14px;
+}
+
+.btn-style{
+    margin: auto !important;
+    width: 100px !important;
+}
+
+.validation-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    white-space: nowrap;
+    margin: auto;
+    margin-left: 4px;
+}
+
+.text-styles {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    margin-left: 12px;
+}

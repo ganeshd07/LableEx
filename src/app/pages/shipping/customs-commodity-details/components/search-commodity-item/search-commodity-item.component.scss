@@ -1,0 +1,124 @@
+.search-text-label{
+    width: 250px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    color: #4D148C;
+    font-family: FedExSans-Regular;
+    font-size: 18px;
+}
+
+.searchInput{
+    width: 278px;
+    height: 36px !important;
+    font-family: FedExSans-Regular;
+    color: #333333;
+    size: 12px;
+    margin: auto;
+    background-color: #F8F8F8;
+    padding: 0px;
+}
+
+ion-searchbar {
+    --icon-color: var(--ion-color-primary);
+    --placeholder-color:#8E8E8E ;
+    --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    ::ng-deep{
+        .searchbar-input-container{  
+            padding-top: 0px;          
+            .searchbar-input{ 
+               background-color: #F8F8F8;
+                padding: 4px 50px;
+                padding-right: 25px !important;
+            }
+            .searchbar-search-icon {
+                width: 30px;
+                height: 30px;
+                top:4px;
+                left: 13px;
+            }
+        }
+    }   
+}
+   
+.item-disply-name{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: FedExSans-Regular;
+    color: #333333;
+    width:278px;
+    height:auto;
+}
+
+.item-disply-details {
+    margin-bottom: 12px;
+    margin-top: 7px;
+    font-size: 12px;
+    font-family: FedExSans-Light;
+    width: 207px;
+}
+
+.list-item{
+    margin-right: 18px;
+    margin-left:18px;
+}
+
+.label-wrapper{
+    margin-top: 9px;
+    margin-left: 2px;
+}
+
+.input-wrapper{
+    padding-top: 10px;
+    height:40px;
+    margin:auto;
+}
+
+.item-type-title{
+    margin-left:-150px;
+}
+
+.list-item-style{
+   margin:auto;
+}
+
+.list-item-wrapper{
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
+
+.list-item-disply-last{
+    margin-top: -4px;
+    font-size: 12px;
+    font-family: FedExSans-Light; 
+    width: 207px;
+}
+
+.add-button-others{
+    width:240px;
+    margin:auto;
+    margin-top:37px;
+}
+
+.lable-others-wrapper{
+    padding-top:18px;
+}
+
+.other-item-text{
+    max-width: 218px;
+}
+
+.validation-error {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 10px;
+    color: #e8002e;
+}
+
+.spacer{
+    height: 75px;
+  }

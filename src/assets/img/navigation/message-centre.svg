@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Message_centre</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hamburger-Menu" transform="translate(-86.000000, -372.000000)">
+            <g id="Message_centre" transform="translate(86.000000, 372.000000)">
+                <path d="M21.837,0.75 L2.07,0.75 C1.34280097,0.75436768 0.75436768,1.34280097 0.75,2.07 L0.75,15.246 C0.75436768,15.973199 1.34280097,16.5616323 2.07,16.566 L5.806,16.566 L5.806,21.214 L11.294,16.566 L21.837,16.566 C22.5628897,16.5616006 23.149,15.9719031 23.149,15.246 L23.149,2.07 C23.1446902,1.34588744 22.561073,0.758711577 21.837,0.75 Z" id="Path" stroke="#4D148C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" fill="#4D148C" fill-rule="nonzero" cx="6.422" cy="8.662" r="1.6"></circle>
+                <circle id="Oval-2" fill="#4D148C" fill-rule="nonzero" cx="11.95" cy="8.662" r="1.6"></circle>
+                <circle id="Oval-3" fill="#4D148C" fill-rule="nonzero" cx="17.478" cy="8.662" r="1.6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

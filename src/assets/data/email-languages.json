@@ -1,0 +1,107 @@
+{
+    "transactionId": "453602b6-8402-40d2-b495-ca291321f00a",
+    "output": {
+        "keyTexts": [
+            {
+                "key": "ar",
+                "displayText": "Arabic"
+            },
+            {
+                "key": "zh_CN",
+                "displayText": "Chinese (Simplified)"
+            },
+            {
+                "key": "zh_TW",
+                "displayText": "Chinese (Traditional)"
+            },
+            {
+                "key": "zh_HK",
+                "displayText": "Chinese (Traditional HKG)"
+            },
+            {
+                "key": "cs",
+                "displayText": "Czech"
+            },
+            {
+                "key": "da",
+                "displayText": "Danish"
+            },
+            {
+                "key": "nl",
+                "displayText": "Dutch"
+            },
+            {
+                "key": "en",
+                "displayText": "English"
+            },
+            {
+                "key": "fi",
+                "displayText": "Finnish"
+            },
+            {
+                "key": "fr",
+                "displayText": "French"
+            },
+            {
+                "key": "fr_CA",
+                "displayText": "French (Canada)"
+            },
+            {
+                "key": "de",
+                "displayText": "German"
+            },
+            {
+                "key": "hu",
+                "displayText": "Hungarian"
+            },
+            {
+                "key": "it",
+                "displayText": "Italian"
+            },
+            {
+                "key": "ja",
+                "displayText": "Japanese"
+            },
+            {
+                "key": "ko",
+                "displayText": "Korean"
+            },
+            {
+                "key": "no",
+                "displayText": "Norwegian"
+            },
+            {
+                "key": "pl",
+                "displayText": "Polish"
+            },
+            {
+                "key": "pt_BR",
+                "displayText": "Portuguese (Latin America)"
+            },
+            {
+                "key": "ru",
+                "displayText": "Russian"
+            },
+            {
+                "key": "es_MX",
+                "displayText": "Spanish (Latin America)"
+            },
+            {
+                "key": "es",
+                "displayText": "Spanish (Spain)"
+            },
+            {
+                "key": "es_US",
+                "displayText": "Spanish (United States)"
+            },
+            {
+                "key": "se",
+                "displayText": "Swedish "
+            },
+            {
+                "key": "tr",
+                "displayText": "Turkish"
+            }
+        ]
+    }
+}

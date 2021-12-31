@@ -1,0 +1,199 @@
+.rdp-sender-details-container {
+    margin: 0px;
+}
+
+.rdp-to-label-container {
+    margin-top: -3px;
+    margin-left: 9px;
+}
+
+.rdp-to-label-text {
+    width: 52px;
+    height: 24px;
+    font-family: FedExSans-Medium;
+    font-size: 18px;
+    color: #333333 100%;
+}
+
+.rdp-country-city-postal-text-container {
+    margin-left: 2px;
+    margin-top: 0px;
+}
+
+.rdp-country-city-postal-text {
+    width: 100%;
+    height: 20px;
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+ion-input {
+    &.rdp-country-city-postal-text {
+      --color: #4D148C;
+      --padding-top: 0px;
+      --padding-start: 7px;
+    }
+}
+
+.rdp-phone-label-secondary-text {
+    font-family: FedExSans-Regular;
+    font-size: 9px;
+    color: #8E8E8E;
+}
+
+.rdp-phone-number-prefix {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #333333;
+    border:none;
+    margin-top: 3px;
+}
+
+.rdp-phone-number-prefix-container {
+    padding-left: 12px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: -8px;
+}
+
+.rdp-phone-input-container {
+    padding-right: 15px;
+}
+
+.rdp-phone-input {
+    border-bottom: 1px solid #4D148C;
+    margin-top: -15px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.rdp-continue-button-container {
+    margin: auto;
+    text-align: center;
+}
+
+.rdp-continue-button {
+    margin: auto;
+    padding: 0px 10px;
+}
+
+ion-input {
+    --padding-bottom: 1px;
+    --padding-start: 0px;
+    --color: #333333;
+}
+
+.rdp-input-label-style {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+}
+
+.rdp-input-label-container {
+    margin-left: 9px;
+    margin-top: -5px;
+}
+
+.rdp-input-label-container-EXT {
+    margin-top: -5px;
+    margin-left: -9px;
+}
+
+.rdp-input-content-container {
+    margin-left: 10px;
+    margin-top: -18px;
+    margin-right: 10px;
+}
+
+.rdp-input-content-element {
+    margin-right: 13px;
+    border-bottom: 1px solid #4D148C;
+    margin-right: 23px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+}
+
+.rdp-toggleStyle {
+    float: right;
+}
+
+.rdp-companyAddress {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+.rdp-notifactionTextStyle {
+    font-family: FedExSans-Regular;
+    font-size: 9px;
+    color: #8E8E8E;
+    letter-spacing: 0;
+}
+
+.validation-error {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+}
+
+.input-error {
+    margin-right: 13px;
+    border-bottom: 1px solid #e8002e;
+    margin-right: 23px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+}
+
+.phone-input-error {
+    border-bottom: 1px solid #e8002e;
+    margin-top: -15px;
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.rdp-residentAddress {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+.country-city-label-text{
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #333
+}
+
+.country-city-label-text-container{
+    margin-top: -12px;
+    margin-bottom: -8px;
+    margin-left: 9px;
+}
+
+.cancel-btn{
+    background: transparent;
+    color: #007ab7;
+    margin-top: 0px !important;
+    border: none !important;
+    font-size: 16px !important;
+}
+
+.addItemStyle{
+    justify-content: center;
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #007AB7;
+    letter-spacing: 1px;
+    text-align: center;
+}

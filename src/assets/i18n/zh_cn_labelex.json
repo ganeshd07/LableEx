@@ -1,0 +1,397 @@
+{
+  "navigation" : {
+    "newShipment" : "新货件",
+    "myShipment" : "我的货件",
+    "fedexLocations" : "FedEx服务站",
+    "language" : "语言",
+    "messageCentre" : "消息中心",
+    "contactUs" : "联系我们",
+    "termsOfUse" : "使用条款",
+    "logout" : "注销",
+    "alertMessage" : "将删除所有输入数据。您想要继续吗？",
+    "logoutAlertMessage" : "如果您选择注销该应用程序，您所输入的货件信息可能将丢失。是否确认注销？"
+  },
+  "splashPage" : {
+    "slide1" : "任何人都可通过手机进行托运",
+    "slide2" : "快速查询费率和服务",
+    "slide3" : "轻松填写货件详细信息",
+    "slide4" : "在FedEx服务站出示货件条码以完成托运"
+  },
+  "messageCentrePage" : {
+    "messageCentre" : "消息中心",
+    "startShipping" : "开始托运",
+    "message1" : {
+      "title" : "新功能",
+      "header" : "适用于无帐户寄件人的全新移动托运工具",
+      "description" : "您可以使用手机设备通过FedEx Ship Manager ® Lite完成在线托运，然后前往FedEx服务站或全球服务中心自行投递包裹。无需FedEx帐户也不需要打印托运标签。"
+    },
+    "message2" : {
+      "title" : "新闻",
+      "header" : "COVID-19最新消息",
+      "description" : "我们正在持续关注COVID-19疫情的影响。<span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>在这里</a></span>随时掌握更多最新消息 "
+    },
+    "message3" : {
+      "title" : "特价优惠",
+      "header" : "节省30%运费",
+      "description" : "从现在到12月31日，使用新的FedEx Ship Manager可享30%折扣优惠。立即使用信用卡注册FedEx“寄得多，省得多”计划，享受国际货件优惠折扣！"
+    },
+    "message4" : {
+      "title" : "服务更新",
+      "header" : "附近的FedEx服务站",
+      "description" : "在fedex.com上轻松定位亚太地区2,500多家服务站"
+    },
+    "news" : "新闻",
+    "specialoffer" : "特价优惠",
+    "newfeature" : "新功能",
+    "serviceupdate" : "服务更新"
+  },
+  "loginPage" : {
+    "fedexShipManagerLite" : "FedEx Ship Manager ® Lite",
+    "shipWithoutPrinting" : "无需打印即可完成托运",
+    "loginWith" : "登录帐户",
+    "mobile" : "手机号码",
+    "or" : "或",
+    "guest" : "未登录的访客",
+    "termsOfUseNote" : "使用FedEx Ship Manager® Lite即表示您接受<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>使用条款</a></span>、<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'>隐私声明</a></span>和<span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>全球隐私政策</a></span>。此外，您在此声明并保证您是通过FedEx Ship Manager® Lite提供的联系详细信息的使用者和/或订阅者。"
+  },
+  "otp" : {
+    "login" : "登录",
+    "loginWithMobileNo" : "使用手机号码登录",
+    "loginDetails" : "输入您的手机号码，我们将向您发送一次性密码用于验证",
+    "representAndWarrant" : "我在此声明并保证我本人是使用上述电话号码的用户和/或订阅者，以及通过FedEx Ship Manager Lite下单FedEx货件的寄件人。",
+    "verification" : "验证",
+    "enterOneTimePwd" : "输入一次性密码",
+    "enterOneTimePwdDetails" : "一次性密码将在{{TIME}}秒后过期",
+    "oneTimePwdExpired" : "一次性密码已过期",
+    "verify" : "验证",
+    "resentOneTimePwd" : "重新发送一次性密码",
+    "verificationErrorMessage" : "此手机号码已超出最大失败尝试次数。出于安全考虑，可在投递货件时结算货件运输费用并由收件人结算关税与税金费用。",
+    "agreeToProceed" : "同意继续",
+    "cancelShipment" : "取消托运",
+    "cancelShipmentConfirmMessage" : "您确定要取消货件吗？",
+    "backToLogin" : "返回登录页面",
+    "validationError" : {
+      "minimumLength" : "电话号码的最短长度为5个数字。",
+      "maximumLength" : "电话号码的最大长度为15个数字。",
+      "noOfAttemptsExpiredMobileFieldMessage" : "此手机号码已超出所允许的最大登录失败尝试次数。出于安全考虑，我们将在24小时内暂停此手机号码。",
+      "noOfFaildOtpVerificationAttempts" : "此手机号码已超出最大失败尝试次数。您的帐户将被锁定直到23:59。"
+    }
+  },
+  "shipmentDetailsPage" : {
+    "shipmentDetails" : "货件详细信息",
+    "shipmentOrigin" : "寄件人",
+    "shipmentDestination" : "收件人",
+    "countryTerritory" : "国家/地区",
+    "postalCode" : "邮政编码",
+    "city" : "城市",
+    "packagingTypeOption" : "包装类型选项",
+    "packagingTypes" : {
+      "yourPackaging" : "自备包装",
+      "fedex10KGBox" : "FedEx 10公斤箱",
+      "fedex20KGBox" : "FedEx 20kg Box",
+      "fedexBox" : "FedEx Box",
+      "fedexEnvelope" : "FedEx Envelope",
+      "fedexPak" : "FedEx Pak",
+      "fedexTube" : "FedEx Tube"
+    },
+    "noOfPackages" : "包裹数量",
+    "weightPerPackage" : "每件包裹的重量",
+    "packagingDimension" : "包裹尺寸（长 x 宽 x 高）",
+    "maxHint" : "最大",
+    "maxWeightHint" : "最大重量",
+    "totalNoOfPackages" : "包裹总数",
+    "totalWeight" : "总重量",
+    "addAnotherPackage" : "添加其他包裹",
+    "showRates" : "显示费率",
+    "warning" : "警告",
+    "warningNote" : "是否确认要删除此包裹？",
+    "packageInchesDimenstions" : "尺寸上限：119 x 80 x 70英寸。",
+    "packageKgsDimenstions" : "尺寸上限：302 x 203 x 178厘米。",
+    "totalPackagesEntered" : "您已输入",
+    "totalPackagesLimit" : "件（总计），最多只允许40个。",
+    "MaxPackageCount" : "无法再添加包裹，最多只允许40个。",
+    "validationError" : {
+      "minimumWeight" : "重量不得小于{{MIN_WEIGHT}}",
+      "maximumWeight" : "重量不得大于{{MAX_WEIGHT}}",
+      "totalWeightError" : "总重量不得超过{{TOTAL_WEIGHT}} {{WEIGHT_UNIT}}"
+    }
+  },
+  "recipientAddressBook" : {
+    "recentlyShippedAddress" : "最近的托运地址",
+    "searchBar" : "搜索收件人",
+    "noContactsYet" : "您还没有任何联系人"
+  },
+  "rateAndDeliveryOptionsPage" : {
+    "rateAndDeliveryOptions" : "下面是您的定价和递送日期选项",
+    "arrivesOn" : "送达日期",
+    "fastest" : "最快",
+    "bestPrice" : "价格最优惠",
+    "rateBreakdown" : "费率明细",
+    "baseRate" : "基准费率",
+    "VAT" : "VAT",
+    "volumeDiscount" : "运量折扣",
+    "total" : "总计",
+    "chargeableDimenWeight" : "计费体积重量",
+    "actual" : "实际",
+    "finalRateNote" : "您的最终费率由FedEx实际测量的货件重量和尺寸决定。",
+    "dimensionalWeightHint" : "您货件的运费将根据在一个FedEx空运提单下寄出的所有包裹的总重量计算。但计算价格的一个决定性因素是体积重量（长x宽x高/5000）是否超过实际重量*。",
+    "dateNotAvailable" : "不适用",
+    "dimensionalWeightExceedLimitMessage" : " 您的货件尺寸已到达FSM LITE所允许的上限，请使用其他FedEx托运应用程序来完成货件。",
+    "rateApiErrorMessage" : "服务和费率不可用。International Priority是此货件的默认服务。请与我们的速递员确认任何更改。"
+  },
+  "customsDetailsPage" : {
+    "newShipment" : "新货件",
+    "customDetails" : "海关详细信息",
+    "shipmentTypeQuestion" : "您要托运什么？",
+    "items" : "物品",
+    "documents" : "文件",
+    "documentType" : {
+      "correspondence" : "信函/无商业价值",
+      "personalDocument" : "个人文件",
+      "interofficeDocument" : "公司内部文件",
+      "businessDocument" : "商业文件",
+      "other" : "其他"
+    },
+    "shipmentPurpose" : "货件用途",
+    "typeOfDocument" : "文件类型",
+    "totalCustomsValue" : "海关申报总价值",
+    "totalWeight" : "总重量",
+    "addMoreItems" : "添加更多物品",
+    "addItem" : "添加物品",
+    "describeYourDocument" : "请描述您的文件",
+    "higherLimitNote" : "是否从FedEx购买更高的责任险承保范围限制？",
+    "declaredValue" : "输入货件申报价值",
+    "declaredValueNote" : "货件申报价值不得超过海关申报总价值",
+    "declareValueTooltip" : "如果您未输入金额，则将按我们的运输条件对货件保价。您可以将总保额提高到海关申报价值的最高金额。但某些物品的保价可能有限。可能会收取额外费用。请参见运输条件了解详细信息。",
+    "validationError" : {
+      "invalidCustomsValue" : "海关申报值不得小于您的货件申报价值{{CARRIAGE_VALUE}}",
+      "invalidCarriageValueLimit" : "最高申报价值为USD{{CARRIAGE_VALUE_USD}}。如需详情，请联系FedEx客户服务。",
+      "minLengthItemDescription" : "物品描述必须至少包含6个字符。",
+      "requiredCustomsValue" : "请确保海关申报总价值至少为1",
+      "requiredMinimumValue" : "此值必须大于或等于0.01"
+    },
+    "purchaseHigherLimitCoverageBubbleHint" : "如果您未输入金额，则将按我们的运输条件对货件保价。您可以将总保额提高到海关申报价值的最高金额。但某些物品的保价可能有限。可能会收取额外费用。请参见运输条件了解详细信息。",
+    "shipmentPurposeBubbleHint" : {
+      "labelText" : "货件用途：从下拉菜单中选择货件用途。此信息会打印在商业发票上。如果您未选择用途，则此字段将默认为“商业用途”，并会根据与商业货件相关的适用国家（地区）/服务站条款对您的货件进行清关。",
+      "commercial" : "商业用途 – 由一个企业实体向另一个企业实体出售或免费发送的、以期再次出售或供其在开展业务过程中使用的任何货件。",
+      "gift" : "礼品 – 此类货件所含物品为某个私人个体主动向另一个私人个体赠送的礼品，其寄件人和收件人均非企业。",
+      "sample" : "样品 – 此类货件所含物品为免费发送的、已通过标记或拆分或其他方式使之不适用于销售而只能作为商用样品的物品，寄件目的在于获得国外实体的新订单或追加订单。",
+      "returnAndRepair" : "退回和返修 – 是指要寄去返修的物品，或先前已出口返修并于返修之后要寄回的物品。",
+      "personalEffects" : "私人物品 – 此类货件所含物品为已使用过的个人物品，例如非随身携带的行李和因搬迁目的而托运的家居用品。",
+      "personalUser" : "个人用途 – 此类货件所含物品为在海外购买后寄回给私人个体的全新个人消费物品。"
+    },
+    "documentTypeBubbleHInt" : "从下拉菜单中选择最贴切您文件的描述，或单击“其他”。如果您选择“其他”，则需要在下方输入其他产品详细信息。某些文件类型需要您输入海关申报值。海关申报值是指货件所含物品在出售时的销售价格。如果货件未作销售，则海关申报值应为公平市价。公平市价是指如果将货件所含物品在公开市场上自由交易，则卖方可从买方取得的价格。",
+    "hsCodeBubbleHint" : "请输入正确的海关税则编码，以便FedEx能帮助您确定适用的报关文件以及更准确地预估关税与税金。“海关税则货品描述和编码系统”是由世界海关组织(WCO)开发及维护的一种国际标准化系统，用于对交易的产品进行统一分类。",
+    "warningNote" : "是否确认要删除？ ",
+    "deleteConfirmation" : "是否确认要删除？",
+    "currencyChangedMessage" : "将您海关申报值的货币从{{prev}}更改为{{curr}}后，其他先前项也会随之更改。</br>不会应用兑换计算。",
+    "currencyUpdationMessage" : "您货件使用的货币已从{{ICurrency}}更新为{{UCurrency}}"
+  },
+  "addItemsPage" : {
+    "headerTitle" : "海关详细信息",
+    "enterItemDetails" : "输入您物品的详细信息",
+    "selectItemType" : "选择物品类型",
+    "othersItemDecriptionLabel" : "描述您的物品：",
+    "itemType" : {
+      "electronic" : "电子产品",
+      "jewellery" : "珠宝",
+      "healthCare" : "医疗保健",
+      "garments" : "服装",
+      "lithiumBattery" : "锂电池",
+      "others" : "其他"
+    },
+    "electronics" : "电子产品",
+    "searchItem" : "输入物品描述",
+    "quantity" : "数量",
+    "quantityUnit" : {
+      "pieces" : "件数",
+      "count" : "计数"
+    },
+    "totalWeight" : "总重量",
+    "totalCustomsValue" : "海关申报总价值",
+    "countryTerritoryOfManu" : "制造国家/地区",
+    "hsCode" : "海关税则编码",
+    "confirmationAlert" : {
+      "header" : "警告",
+      "subHeader" : "是否确定要更新您的货币？"
+    }
+  },
+  "senderRecipientDetailsPage" : {
+    "senderDetails" : "寄件人详细信息",
+    "recipientDetails" : "收件人详细信息",
+    "from" : "寄件人",
+    "to" : "收件人",
+    "addressLine" : "地址行",
+    "contactName" : "联系人姓名",
+    "companyName" : "公司名称",
+    "companyAddressQuestion" : "是否为公司地址？",
+    "recipientAddressBrazilQuestion" : "收件人是否为巴西居民？",
+    "phoneNo" : "电话号码",
+    "phoneNoSenderNote" : "确认短信将发送到手机号码",
+    "phoneNoRecipientNote" : "通知将发送到手机号码",
+    "ext" : "分机",
+    "email" : "电子邮件",
+    "taxId" : "税号",
+    "passportNo" : "护照号",
+    "stateLabel" : "省/自治区"
+  },
+  "billingAndServicesOptionPage" : {
+    "headerTitle" : "帐单和服务",
+    "billingAndServicesOptions" : "帐单和服务选项",
+    "valueAddedServices" : "增值服务",
+    "signatureOptions" : "签名选项",
+    "feeMayApply" : "可能会收取费用",
+    "paymentOptions" : "付款选项",
+    "transportaionCosts" : "运输费用",
+    "dutiesAndTaxes" : "关税与税金",
+    "payAtDropOff" : "自行投递时支付",
+    "billMyAccount" : "从我的帐户扣款",
+    "billRecipient" : "收件人支付",
+    "billThirdParty" : "第三方支付",
+    "finalRateNote" : "最终费率受帐户持有人托运费率限制",
+    "accountNo" : "帐号",
+    "rate" : "费率",
+    "rateApiErrorNote" : "当前费率不可用，请前往柜台或当速递员前来取件时与FedEx代理确认。",
+    "signatureOptionBubbleHint" : {
+      "ionText" : "要在包裹送达时要求签收，请选择以下其中一种签收类型。",
+      "noneSpecifiedTitle" : "无指定",
+      "noneSpecifiedDefination" : "如果无指定签名选项，FedEx将遵循标准递送流程。 ",
+      "noSignatureRequiredTitle" : "无需签收",
+      "noSignatureRequiredDefination" : "FedEx可在无人签收的情况下留下包裹。此选项可能并不适用于所有货件或所有目的地。",
+      "indirectSignatureRequiredTitle" : "需要间接签收",
+      "indirectSignatureRequiredDefination" : "该选项可能并不适用于所有货件或所有目的地。FedEx 通过下列三种方法之一获取签名：",
+      "indirectSignatureRequiredDefinationLevel1Item1" : "- 获取在收件人地址的任何一人签名",
+      "indirectSignatureRequiredDefinationLevel1Item2" : "- 获取邻居、大楼管理员或者附近地址其他某人的签名",
+      "indirectSignatureRequiredDefinationLevel1Item3" : "- 收件人可以授权免签收放行包裹",
+      "directSignatureRequiredTitle" : "需要直接签收",
+      "directSignatureRequiredDefination" : "只要收件人地址处有人签收即可。如果该地址无人签收，FedEx可能会再次尝试递送。该选项可能并不适用于所有货件。",
+      "adultSignatureRequiredTitle" : "需要成年人签收",
+      "adultSignatureRequiredDefination" : "对于寄往美国的货件，FedEx将接受收件人地址处年满21周岁的成人签收（需出示政府颁发的带照片的身份证）。对于寄往其他目的地的货件，FedEx将接受收件人地址处达到目的地国家/地区法定成人年龄的人员签收。签收人需出示政府颁发的带照片的身份证或当地政府承认的其他证件。无论哪种情况，如果收件人地址处没有符合要求的收件人，FedEx会重新尝试递送。"
+    }
+  },
+  "summaryPage" : {
+    "shipmentDetails" : {
+      "header" : "货件详细信息",
+      "estimatedDeliveryBy" : "预计递送时间",
+      "packagingType" : "包装类型",
+      "weight" : "重量",
+      "quantity" : "数量",
+      "dateUnavailableLabel" : "待处理"
+    },
+    "customsDetails" : {
+      "header" : "海关详细信息",
+      "shipmentContent" : "货件内容",
+      "shipmentPurpose" : "货件用途",
+      "customsValue" : "海关申报值",
+      "customsWeight" : "海关申报重量",
+      "documentType" : "文件类型"
+    },
+    "senderRecipient" : {
+      "from" : "寄件人",
+      "to" : "收件人",
+      "name" : "姓名",
+      "company" : "公司",
+      "address" : "地址"
+    },
+    "billingAndServiceOptions" : {
+      "header" : "帐单和服务选项",
+      "signatureOptions" : "签名选项",
+      "transportation" : "运输",
+      "dutiesAndTaxes" : "关税与税金"
+    },
+    "summary" : "摘要",
+    "rate" : "费率",
+    "finalizeShipment" : "完成货件",
+    "termsAndConditions" : "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+    "expressTermsAndConditions" : "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+  },
+  "thankYouPage" : {
+    "shipmentConfirmation" : "货件确认",
+    "shipmentReferenceNo" : "货件参考编号",
+    "barcodeNote" : "在FedEx服务站出示二维码以完成货件",
+    "findALocation" : "查找服务站",
+    "customerFeedBack" : "客户反馈",
+    "comments" : "备注",
+    "submitFeedBack" : "提交反馈",
+    "thankYouFeedbackResponse" : "感谢您的反馈！",
+    "feedBackAlertMessage" : "请提供备注",
+    "maxLimitAlertMessage" : "您已经达到客户反馈所允许的450个字符上限。"
+  },
+  "myShipmentsPage" : {
+    "myShipments" : "我的货件",
+    "recentlyShipped" : "最近的托运",
+    "pendingShipment" : "待托运",
+    "trackingNo" : "追踪号码",
+    "referenceNo" : "参考编号",
+    "from" : "寄件人",
+    "to" : "收件人",
+    "package" : "包裹",
+    "airWayBillNo" : "空运提单号码",
+    "noShipmentRecords" : "过去90天内无货件记录"
+  },
+  "termsAndCondition" : {
+    "title" : "条款和条件",
+    "bodyPart1" : "Federal Express Korea LLC（以下统称为“FedEx”或“公司”）需要征得您的同意根据适用法律和法规，在您使用FedEx Ship Manager Lite® (FSM Lite)解决方案时收集及使用个人信息（必要）、将一般个人信息传输给第三方（必要）、同意向海外传输个人信息（必要），以及同意使用个人信息用于市场推广（可选）。",
+    "checkBoxOne" : "我同意下方所有条款和条件",
+    "checkBoxTwo" : "[必要] 我已完全了解公司关于收集和使用一般个人信息的解释并特此予以同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "checkBoxThree" : "[必要] 我已完全了解公司关于将一般个人信息传输给第三方的解释并特此予以同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "checkBoxFour" : "[必要] 我已完全了解公司关于向海外传输个人信息的解释并特此予以同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "checkBoxFive" : "[可选] 我已完全了解公司关于使用个人信息用于市场推广以及传输有用信息的解释并特此予以同意。<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "bodyPart2" : "[必要] 要使用FSM Lite解决方案和FedEx提供的服务，必须同意下方列出的隐私政策和条款及条件。您可以拒绝同意下方列出的隐私政策和条款及条件。但如果您拒绝同意下方列出的隐私政策和条款及条件，则可能无法使用FSM Lite解决方案和FedEx服务。",
+    "checkBoxSix" : "我同意下方所有协议",
+    "checkBoxSeven" : "[必要] 使用条款<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "checkBoxEight" : "[必要] 服务条款<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "checkBoxNine" : "[必要] 隐私政策<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>查看详细信息</a></span>",
+    "agreeText" : "我已仔细阅读并完全了解上述关于收集和使用个人信息的解释以及FedEx使用条款。我特此同意使用FSM Lite解决方案。",
+    "agreeButton" : "同意"
+  },
+  "button" : {
+    "skip" : "跳过",
+    "next" : "下一页",
+    "continue" : "继续",
+    "submit" : "提交",
+    "login" : "登录",
+    "signup" : "注册",
+    "create" : "创建",
+    "close" : "关闭",
+    "select" : "选择",
+    "cancel" : "取消",
+    "ok" : "确定",
+    "add" : "添加",
+    "confirm" : "确认",
+    "yes" : "愿意",
+    "no" : "不愿意",
+    "update" : "更新",
+    "delete" : "删除地址"
+  },
+  "validationError" : {
+    "required" : "此字段为必填字段。",
+    "invalidPostalCodeFormat" : "此邮政编码的格式无效。请使用以下格式：",
+    "invalidPostal" : "我们找不到此邮政编码。请检查其是否正确，然后重试。",
+    "invalidDecimal" : "请将值限制为最多2位小数。",
+    "invalidEmail" : "此电子邮件地址无效。",
+    "invalidPhoneNumber" : "电话号码应包含最少3位最多12位数字。",
+    "invalidPhoneNumberUSAndCA" : "此电话号码格式无效。",
+    "invalidTaxId" : "税号无效。税号应最多包含18位",
+    "totalWeightExceeded" : "加总的物品重量不得超过货件总重量：{{weight}}{{weightUnits}}。请调整您物品的重量",
+    "invalidCountry" : "国家/地区项无效。",
+    "invalidAccountNum" : "帐号无效",
+    "invalidMinLength" : "此字段至少须输入3个字符。",
+    "invalidOtp" : "验证码无效。",
+    "sameAccounteNumberError" : "{{Transport}}与{{Billing}}帐户的FedEx帐号不能相同",
+    "taxIdMinLength" : "请输入15位数的税号"
+  },
+  "constants" : {
+    "optional" : "可选",
+    "pleaseWait" : "请稍候...",
+    "AM" : "上午",
+    "PM" : "下午"
+  },
+  "apiErrorMessages" : {
+    "header" : "错误",
+    "buttonOk" : "确定",
+    "error" : "内部服务器错误。",
+    "error404" : "找不到资源。",
+    "genericError" : "服务不可用。"
+  }
+}

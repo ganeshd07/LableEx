@@ -1,0 +1,154 @@
+<ion-grid [ngClass]="documentSelected ? 'documents-grid ion-no-padding' : 'documents-grid-hidden ion-no-padding'">
+  <form [formGroup]="documentForm">
+    <ion-row class="row-border-bottom" *ngIf="isDocumentTypeDisplayed"
+      [ngClass]="{ 'field-error' : form.documentTypeCode.invalid && (form.documentTypeCode.dirty || form.documentTypeCode.touched) }">
+      <ion-col size="11" class="col-padding-0">
+        <ion-label position="stacked" translate>{{ 'customsDetailsPage.typeOfDocument' }}</ion-label>
+        <ion-icon (click)="showDocumentTypeBubbleHint()" class="tooltip" name="help-circle-outline"></ion-icon>
+        <ion-select #documentType id="documentType" (click)="onClickSelectDropdown()" [cancelText]="'button.cancel' | translate"
+          [okText]="'button.ok' | translate" (ionChange)="onChangeDocumentType(documentType.value)"
+          formControlName="documentTypeCode">
+          <ion-select-option *ngFor="let docType of documentTypeList" value="{{ docType.key }}" selected>
+            {{ docType.displayText }}</ion-select-option>
+        </ion-select>
+      </ion-col>
+      <ion-col size="1" class="ion-no-padding ion-text-right">
+        <ion-icon size="large" name="chevron-forward-outline" class="chevron-right"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.documentTypeCode.errors?.required && (form.documentTypeCode.dirty || form.documentTypeCode.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row-border-bottom" *ngIf="isDocumentTypeSelected"
+      [ngClass]="{ 'field-error' : form.totalCustomsValue.invalid && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched) }">
+      <ion-col size="10" class="col-padding-0">
+        <ion-label position="stacked" translate>{{ 'customsDetailsPage.totalCustomsValue' }}</ion-label>
+        <ion-input #totalCustomsValInput id="totalCustomsValue" type="number" formControlName="totalCustomsValue"
+          maxlength="10" (input)="limitLength(totalCustomsValInput,10)" inputmode="decimal"
+          [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY">
+        </ion-input>
+      </ion-col>
+      <ion-col size="2" class="ion-no-padding">
+        <div class="customized-select">
+          <ion-select #currency formControlName="customsValueCurrency" (click)="onClickSelectDropdown()" [cancelText]="'button.cancel' | translate"
+            [okText]="'button.ok' | translate" (ionChange)="updateCurrency()">
+            <ion-select-option *ngFor="let result of currencyList" value="{{ result.iataCode }}">{{ result.isoCode }}
+            </ion-select-option>
+          </ion-select>
+          <ion-icon size="large" name="chevron-down-outline" class="chevron-down"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.totalCustomsValue.errors?.required && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="!form.totalCustomsValue.errors?.required && form.totalCustomsValue.errors?.customsValError && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'customsDetailsPage.validationError.requiredCustomsValue' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.totalCustomsValue.errors?.pattern && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.invalidDecimal' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="isTCVLessThanDCV">
+      <ion-col>
+        <span class="validation-error">{{ 'customsDetailsPage.validationError.invalidCustomsValue' | translate:
+          {CARRIAGE_VALUE: this.valueAndCurrencyErrorDisplay} }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row-border-bottom" *ngIf="isOtherDocumentSelected"
+      [ngClass]="{ 'field-error' : form.describeDocument.invalid && (form.describeDocument.dirty || form.describeDocument.touched) }">
+      <ion-col size="12" class="col-padding-0">
+        <ion-label position="stacked" translate>{{ 'customsDetailsPage.describeYourDocument' }}</ion-label>
+        <ion-input #describeDocumentInput id="describeDocument" formControlName="describeDocument" maxlength="100"
+          [appRestrictInput]="inputConstants.ASCII">
+        </ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.describeDocument.errors?.required && (form.describeDocument.dirty || form.describeDocument.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row-tooltip" *ngIf="isDocumentTypeSelected">
+      <ion-col size="10" class="col-padding-0">
+        <span class="text" translate>{{ 'customsDetailsPage.higherLimitNote' }}</span>
+        <ion-icon (click)="showTooltip()" class="tooltip" name="help-circle-outline"></ion-icon>
+      </ion-col>
+      <ion-col size="2" class="ion-text-right">
+        <ion-toggle #carriageValueToggle checked="{{ isShowCarriageValue }}"
+          (ionChange)="toggleCarriageValue(carriageValueToggle.checked)"></ion-toggle>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row-border-bottom" *ngIf="isDocumentTypeSelected && isShowCarriageValue"
+      [ngClass]="{ 'field-error' : form.carriageDeclaredValue.invalid && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched) }">
+      <ion-col size="12" class="col-padding-0">
+        <ion-label position="stacked" translate>{{ 'customsDetailsPage.declaredValue' }}</ion-label>
+        <ion-input #cdvInput id="carriageDeclaredValue" type="number" formControlName="carriageDeclaredValue"
+          class="declared-value-input" maxlength="10" (input)="limitLength(cdvInput,10)" inputmode="decimal"
+          [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY">
+          <p class="currency-display">{{ currencyDisplayValue }}</p>
+        </ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.carriageDeclaredValue.errors?.required && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="form.carriageDeclaredValue.errors?.pattern && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+      <ion-col>
+        <span class="validation-error" translate>{{ 'validationError.invalidDecimal' }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row
+      *ngIf="!form.carriageDeclaredValue.errors?.required && form.carriageDeclaredValue.errors?.customsValueError && (form.carriageDeclaredValue.dirty || form.carriageDeclaredValue.touched)">
+      <ion-col class="select-item-type-label">
+        <span class="validation-error" translate>{{ 'customsDetailsPage.validationError.requiredMinimumValue'
+            }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="isCarriageValueLimit">
+      <ion-col>
+        <span class="validation-error">{{ 'customsDetailsPage.validationError.invalidCarriageValueLimit' | translate:
+          {CARRIAGE_VALUE_USD: carriageLimit} }}</span>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="isDocumentTypeSelected && isShowCarriageValue">
+      <ion-col size="11" class="ion-no-padding">
+        <p class="footnote" translate>{{ 'customsDetailsPage.declaredValueNote' }}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="spacer" *ngIf="isShowContinueButton">
+      <ion-col size="12"></ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center" *ngIf="isShowContinueButton">
+      <ion-col size="12" class="ion-no-padding ion-text-center">
+        <ion-button type="submit" *ngIf="!editPageDetails" (click)="validateBeforeSubmit()" translate>
+          {{ 'button.continue' }}</ion-button>
+        <ion-button *ngIf="editPageDetails" (click)="validateBeforeSubmit()" type="submit" translate>
+          {{ 'button.update' }}</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="isShowContinueButton && editPageDetails">
+      <ion-col size="12" class="colButtonStyle">
+        <ion-button class="btn-rounded buttonStyle cancel-btn" (click)="cancelEditPageDetails()">
+          <ion-label class="addItemStyle" translate>{{ 'button.cancel' }}</ion-label>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-grid>

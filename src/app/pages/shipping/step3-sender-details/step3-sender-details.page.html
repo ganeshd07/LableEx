@@ -1,0 +1,163 @@
+<app-header [title]="'senderRecipientDetailsPage.senderDetails' | translate" [backbuttonFlag]='backbuttonFlag'
+  [backNavigation]='backNavPath'></app-header>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+  <form [formGroup]="senderForm" (ngSubmit)="onSubmit()" novalidate>
+    <ion-grid class="sender-details-container">
+      <ion-row>
+        <ion-col class="from-label-container">
+          <ion-label class="from-label-text" translate>{{ 'senderRecipientDetailsPage.from' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="country-city-label-text-container">
+          <ion-label class="country-city-label-text">{{ 'shipmentDetailsPage.countryTerritory' | translate }}, {{ 'shipmentDetailsPage.city' | translate }}</ion-label>
+          <ion-label *ngIf="senderDetails.postalCode" class="country-city-label-text">{{', '}}{{ 'shipmentDetailsPage.postalCode' |  translate}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="country-city-postal-text-container">
+          <ion-input type="text" readonly value="{{countryCityPostalDisplay}}" class="country-city-postal-text">
+          </ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style">{{ 'senderRecipientDetailsPage.addressLine' | translate }} 1</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input #addressLine1Input id="addressLine1" [appRestrictInput]="inputConstants.ASCII" type="text"
+            maxlength="35" formControlName="addressLine1" class="input-content-element"
+            [ngClass]=" { 'input-error' : form.addressLine1.invalid && (form.addressLine1.dirty || form.addressLine1.touched) } ">
+          </ion-input>
+          <span *ngIf="form.addressLine1.errors?.required && (form.addressLine1.dirty || form.addressLine1.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="form.addressLine1.errors?.minlength && (form.addressLine1.dirty || form.addressLine1.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style">{{ 'senderRecipientDetailsPage.addressLine' | translate }} 2
+            ({{ 'constants.optional' | translate }})</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input class="input-content-element" type="text" maxlength="35" formControlName="addressLine2"
+            [appRestrictInput]="inputConstants.ASCII">
+          </ion-input>
+          <span *ngIf="form.addressLine2.errors?.minlength && (form.addressLine2.dirty || form.addressLine2.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style" translate>{{ 'senderRecipientDetailsPage.contactName' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input #contactNameInput id="contactName" type="text" maxlength="35" formControlName="contactName"
+            [appRestrictInput]="inputConstants.ASCII" class="input-content-element"
+            [ngClass]="{ 'input-error' : form.contactName.invalid && (form.contactName.dirty || form.contactName.touched)}">
+          </ion-input>
+          <span *ngIf="form.contactName.errors?.required && (form.contactName.dirty || form.contactName.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="form.contactName.errors?.minlength && (form.contactName.dirty || form.contactName.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style">{{ 'senderRecipientDetailsPage.companyName' | translate }}
+            ({{ 'constants.optional' | translate }})</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input class="input-content-element" type="text" maxlength="35" formControlName="companyName"
+            [appRestrictInput]="inputConstants.ASCII"></ion-input>
+            <span *ngIf="form.companyName.errors?.minlength && (form.companyName.dirty || form.companyName.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style">{{ 'senderRecipientDetailsPage.phoneNo' | translate }}<span
+              class="phone-label-secondary-text">
+              ({{ 'senderRecipientDetailsPage.phoneNoSenderNote' | translate }})</span></ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="phone-number-prefix-container" size="2">
+          <ion-input type="text" readonly value="+{{dialingPrefixValue}}" class="phone-number-prefix"></ion-input>
+        </ion-col>
+        <ion-col class="phone-input-container" size="10">
+          <ion-input #phoneNumberInput id="phoneNumber" type="text" formControlName="phoneNumber" class="phone-input"
+          (input)="limitLength(phoneNumberInput,12)" inputmode="numeric" [appRestrictInput]="inputConstants.NUMBER"
+            [ngClass]="{ 'phone-input-error' : (!isPhoneNumberValid || form.phoneNumber.invalid) && (form.phoneNumber.dirty || form.phoneNumber.touched) }">
+          </ion-input>
+          <span
+            *ngIf="form.phoneNumber.errors?.required && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span
+            *ngIf="!isPhoneNumberValid && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidPhoneNumber' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style" translate>{{ 'senderRecipientDetailsPage.email' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input #emailInput id="email" class="input-content-element" type="text" maxlength="80"
+            class="input-content-element" formControlName="email" inputmode="email"
+            [ngClass]="{ 'input-error' : form.email.invalid && (form.email.dirty || form.email.touched) }">
+          </ion-input>
+          <span *ngIf="form.email.errors?.required && (form.email.dirty || form.email.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="form.email.errors?.pattern && (form.email.dirty || form.email.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidEmail' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-label-container">
+          <ion-label class="input-label-style">{{ 'senderRecipientDetailsPage.taxId' | translate }}
+            <span *ngIf="!isTaxIdRequiredValidator">({{ 'constants.optional' | translate }})</span></ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="input-content-container">
+          <ion-input class="input-content-element" type="text" formControlName="taxId" maxlength="18"
+            [ngClass]="{ 'input-error' : form.taxId.invalid && (form.taxId.dirty || form.taxId.touched) }">
+          </ion-input>
+          <span *ngIf="form.taxId.errors?.maxlength " class="validation-error"
+            translate>{{ 'validationError.invalidTaxId' }}</span>
+          <span *ngIf="isTaxIdRequiredValidator && form.taxId.errors?.required && (form.taxId.dirty || form.taxId.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="isTaxIdRequiredValidator && form.taxId.errors?.min && (form.taxId.dirty || form.taxId.touched)" class="validation-error"
+            translate>{{ 'validationError.taxIdMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="continue-button-container">
+          <ion-button *ngIf="!editSenderPageDetails" expand="full" class="continue-button" type="submit" translate>{{ 'button.continue' }}</ion-button>
+          <ion-button *ngIf="editSenderPageDetails" expand="full" class="continue-button" type="submit" translate>{{ 'button.update' }}</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="editSenderPageDetails">
+        <ion-col size="12" class="colButtonStyle">
+          <ion-button class="btn-rounded buttonStyle cancel-btn"
+            (click)="cancelEditSenderPageDetails()">
+            <ion-label class="addItemStyle" translate>{{ 'button.cancel' }}</ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

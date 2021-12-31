@@ -1,0 +1,62 @@
+{
+    "output": {
+        "currencies": [
+            {
+                "code": "USD",
+                "countryCode": "US"               
+            },
+            {
+                "code": "AUD",
+                "countryCode": "AU"               
+            },
+            {
+                "code": "CNY",
+                "countryCode": "CN"               
+            },
+            {
+                "code": "HKD",
+                "countryCode": "HK"               
+            },
+            {
+                "code": "IDR",
+                "countryCode": "ID"               
+            },
+            {
+                "code": "JYE",
+                "countryCode": "JP"               
+            },
+            {
+                "code": "WON",
+                "countryCode": "KR"               
+            },
+            {
+                "code": "MYR",
+                "countryCode": "MY"               
+            },
+            {
+                "code": "NZD",
+                "countryCode": "NZ"               
+            },
+            {
+                "code": "PHP",
+                "countryCode": "PH"               
+            },
+            {
+                "code": "SID",
+                "countryCode": "SG"               
+            },
+            {
+                "code": "NTD",
+                "countryCode": "TW"               
+            },
+            {
+                "code": "THB",
+                "countryCode": "TH"               
+            },
+            {
+                "code": "VND",
+                "countryCode": "VN"               
+            }
+        ]
+    }
+}

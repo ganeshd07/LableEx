@@ -1,0 +1,119 @@
+.content-class {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.nav-label {
+  font-family: FedExSans-Regular;
+  font-size: 12px;
+  color: #333333;
+  padding-left: 5px;
+}
+
+.logout-label {
+  font-family: FedExSans-Bold;
+  font-size: 14px;
+  color: #007ab7;
+  padding-left: 6px;
+}
+
+.fullname-label {
+  font-family: FedExSans-Regular;
+  font-size: 14px;
+  color: #4d148c;
+}
+
+.email-label {
+  font-family: FedExSans-Light;
+  font-size: 12px;
+  color: #333333;
+}
+
+.user-cred-container {
+  background: #f2f2f2;
+}
+
+.nav-plane-img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-bottom: -4px;
+}
+
+.nav-footer {
+  font-family: FedExSans-Light;
+  font-size: 10px;
+  color: #4d148c;
+  padding-left: 15px;
+}
+
+.nav-close-img {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-toggle {
+  width: 55px;
+  height: 20px;
+  --handle-height: 19px;
+  --handle-width: 19px;
+  --background: #007ab7 !important;
+}
+
+ion-toggle::before {
+  position: absolute;
+  top: 3.5px;
+  left: 5px;
+
+  content: "EN";
+  color: white;
+  font-size: 8px;
+  z-index: 1;
+}
+
+ion-toggle::after {
+  position: absolute;
+  top: 3.5px;
+  right: 5px;
+
+  content: var(--some-var);
+  color: white;
+  font-size: 8px;
+  z-index: 1;
+}
+
+.label-container {
+  align-self: center;
+}
+
+.toggle-language-container {
+  align-self: flex-end;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 3px;
+}
+
+.img-icon-container {
+  text-align: center;
+}
+
+.language-switch-button-wrapper {
+  border: 1px solid #007ab7;
+  padding: 0px;
+  color: #007ab7;
+}
+
+.lang-text-style {
+  width: 45px;
+  height: 16px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.selected {
+  background-color: #007ab7;
+  color: #f2f2f2;
+}

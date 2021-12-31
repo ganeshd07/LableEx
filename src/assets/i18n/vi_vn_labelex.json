@@ -1,0 +1,397 @@
+{
+  "navigation" : {
+    "newShipment" : "Lô hàng mới",
+    "myShipment" : "Lô hàng của tôi",
+    "fedexLocations" : "Địa điểm FedEx",
+    "language" : "Ngôn ngữ",
+    "messageCentre" : "Trung tâm tin nhắn",
+    "contactUs" : "Liên hệ với chúng tôi",
+    "termsOfUse" : "fedex.com",
+    "logout" : "ĐĂNG XUẤT",
+    "alertMessage" : "Tất cả dữ liệu đầu vào sẽ bị xóa. Bạn có muốn tiếp tục không?",
+    "logoutAlertMessage" : "Nếu chọn đăng xuất khỏi ứng dụng, bạn có thể bị mất thông tin lô hàng đã nhập. Bạn có xác nhận đăng xuất không?"
+  },
+  "splashPage" : {
+    "slide1" : "Ai cũng có thể gửi hàng chỉ với chiếc điện thoại di động",
+    "slide2" : "Xem báo giá và dịch vụ trong nháy mắt",
+    "slide3" : "Dễ dàng điền chi tiết lô hàng",
+    "slide4" : "Xuất trình mã vạch lô hàng tại địa điểm FedEx để hoàn tất lô hàng"
+  },
+  "messageCentrePage" : {
+    "messageCentre" : "Trung tâm tin nhắn",
+    "startShipping" : "Bắt đầu gửi hàng",
+    "message1" : {
+      "title" : "Tính năng mới",
+      "header" : "Công cụ gửi hàng qua thiết bị di động mới dành cho người gửi hàng không có tài khoản",
+      "description" : "Dừng thiết bị di động gửi hàng với FedEx Ship Manager ® Lite và bỏ gói hàng của bạn tại Trạm FedEx hoặc World Service Center (Trung tâm dịch vụ quốc tế). Không cần tài khoản FedEx hay in nhãn gửi hàng."
+    },
+    "message2" : {
+      "title" : "Tin tức",
+      "header" : "Tin tức liên quan đến COVID-19",
+      "description" : "Chúng tôi đang theo dõi tác động của đợt bùng phát COVID-19.  Cập nhật thêm nhiều tin tức <span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>tại đây</a></span> "
+    },
+    "message3" : {
+      "title" : "Ưu đãi đặc biệt",
+      "header" : "Tiết kiệm với mức chiết khấu 30% cho lô hàng của bạn",
+      "description" : "Từ nay đến ngày 31 tháng 12, bạn có thể được hưởng mức chiết khấu 30%* khi sử dụng FedEx Ship Manager mới. Đăng ký ngay Chương trình \"Gửi càng nhiều, càng tiết kiệm\" của FedEx bằng thẻ tín dụng và hưởng mức chiết khấu lớn cho các lô hàng quốc tế!"
+    },
+    "message4" : {
+      "title" : "Cập nhật về dịch vụ",
+      "header" : "Địa điểm gửi hàng của FedEx ở lân cận",
+      "description" : "Dễ dàng tìm hơn 2.500 địa điểm gửi hàng ở khắp châu Á Thái Bình Dương trên fedex.com"
+    },
+    "news" : "Tin tức",
+    "specialoffer" : "Ưu đãi đặc biệt",
+    "newfeature" : "Tính năng mới",
+    "serviceupdate" : "Cập nhật về dịch vụ"
+  },
+  "loginPage" : {
+    "fedexShipManagerLite" : "FedEx Ship Manager ® Lite",
+    "shipWithoutPrinting" : "Gửi hàng mà không cần in",
+    "loginWith" : "ĐĂNG NHẬP BẰNG",
+    "mobile" : "Số di động",
+    "or" : "HOẶC",
+    "guest" : "KHÁCH KHÔNG CẦN ĐĂNG NHẬP",
+    "termsOfUseNote" : "Qua việc sử dụng FedEx Ship Manager® Lite, bạn chấp nhận <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>Điều khoản sử dụng</a></span>, <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'>Tuyên bố về quyền riêng tư</a></span> và <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>Chính sách quyền riêng tư toàn cầu</a></span>. Ngoài ra, qua đây, bạn tuyên bố và đảm bảo rằng bạn là người dùng và/hoặc người đăng ký với những thông tin liên hệ bạn cung cấp thông qua FedEx Ship Manager® Lite."
+  },
+  "otp" : {
+    "login" : "Đăng nhập",
+    "loginWithMobileNo" : "Đăng nhập bằng số di động",
+    "loginDetails" : "Hãy nhập số di động của bạn, chúng tôi sẽ gửi cho bạn mật khẩu dùng một lần để xác minh",
+    "representAndWarrant" : "Qua đây, tôi cam đoan và đảm bảo rằng tôi là người dùng và/hoặc người thuê bao số điện thoại ở trên, đồng thời là Người gửi lô hàng FedEx đã đặt qua FedEx Ship Manager Lite.",
+    "verification" : "Xác minh",
+    "enterOneTimePwd" : "Nhập mật khẩu dùng một lần",
+    "enterOneTimePwdDetails" : "Mật khẩu dùng một lần sẽ hết hạn trong {{TIME}} giây",
+    "oneTimePwdExpired" : "Mật khẩu dùng một lần đã hết hạn",
+    "verify" : "Xác minh",
+    "resentOneTimePwd" : "Gửi lại mật khẩu dùng một lần",
+    "verificationErrorMessage" : "Bạn đã vượt quá số lần thử không thành công tối đa với số điện thoại di động này. Vì mục đích bảo mật, chi phí vận chuyển lô hàng có thể được thanh toán tại địa điểm bỏ hàng và chi phí Thuế hải quan và thuế có thể do người nhận thanh toán.",
+    "agreeToProceed" : "ĐỒNG Ý TIẾP TỤC",
+    "cancelShipment" : "Hủy lô hàng",
+    "cancelShipmentConfirmMessage" : "Bạn có xác nhận hủy lô hàng không?",
+    "backToLogin" : "Quay lại trang đăng nhập",
+    "validationError" : {
+      "minimumLength" : "Độ dài tối thiểu của số điện thoại là 5 chữ số.",
+      "maximumLength" : "Độ dài tối đa của số điện thoại là 15 chữ số.",
+      "noOfAttemptsExpiredMobileFieldMessage" : "Bạn đã vượt quá số lần đăng nhập không thành công tối đa được phép với số điện thoại này. Vì mục đích bảo mật, chúng tôi đã tạm ngưng kết nối với số điện thoại di động của bạn trong 24 giờ.",
+      "noOfFaildOtpVerificationAttempts" : "Bạn đã vượt quá số lần thử không thành công tối đa với số điện thoại di động này. Tài khoản của bạn sẽ bị khóa đến 23:59."
+    }
+  },
+  "shipmentDetailsPage" : {
+    "shipmentDetails" : "Chi tiết lô hàng",
+    "shipmentOrigin" : "Từ",
+    "shipmentDestination" : "Tới",
+    "countryTerritory" : "Quốc gia/Vùng lãnh thổ",
+    "postalCode" : "Mã bưu chính",
+    "city" : "Thành phố",
+    "packagingTypeOption" : "Tùy chọn loại bao bì",
+    "packagingTypes" : {
+      "yourPackaging" : "Bao bì của bạn",
+      "fedex10KGBox" : "FedEx 10kg Box",
+      "fedex20KGBox" : "Hộp 20 kg của FedEx",
+      "fedexBox" : "FedEx Box",
+      "fedexEnvelope" : "FedEx Envelope",
+      "fedexPak" : "FedEx Pak",
+      "fedexTube" : "FedEx Tube"
+    },
+    "noOfPackages" : "Số gói hàng",
+    "weightPerPackage" : "Trọng lượng mỗi gói hàng",
+    "packagingDimension" : "Kích thước gói hàng D x R x C",
+    "maxHint" : "Tối đa",
+    "maxWeightHint" : "Trọng lượng tối đa",
+    "totalNoOfPackages" : "Tổng số gói hàng",
+    "totalWeight" : "Tổng trọng lượng",
+    "addAnotherPackage" : "Thêm gói hàng khác",
+    "showRates" : "Hiển thị giá",
+    "warning" : "Cảnh báo",
+    "warningNote" : "Bạn có xác nhận xóa gói hàng này không?",
+    "packageInchesDimenstions" : "Kích thước tối đa 119 x 80 x 70 in.",
+    "packageKgsDimenstions" : "Kích thước tối đa 302 x 203 x 178 cm.",
+    "totalPackagesEntered" : "Bạn đã nhập",
+    "totalPackagesLimit" : "kiện tổng cộng, chỉ được phép tối đa 40 kiện.",
+    "MaxPackageCount" : "Không thể thêm gói hàng khác, chỉ được phép Tối đa 40 gói hàng.",
+    "validationError" : {
+      "minimumWeight" : "Trọng lượng không được nhỏ hơn {{MIN_WEIGHT}}",
+      "maximumWeight" : "Trọng lượng không được lớn hơn {{MAX_WEIGHT}}",
+      "totalWeightError" : "Tổng rọng lượng không được lớn hơn {{TOTAL_WEIGHT}} {{WEIGHT_UNIT}}"
+    }
+  },
+  "recipientAddressBook" : {
+    "recentlyShippedAddress" : "Địa chỉ gửi hàng gần đây",
+    "searchBar" : "Tìm kiếm người nhận",
+    "noContactsYet" : "Bạn chưa có đầu mối liên hệ nào"
+  },
+  "rateAndDeliveryOptionsPage" : {
+    "rateAndDeliveryOptions" : "Đây là tùy chọn giá và ngày giao hàng của bạn",
+    "arrivesOn" : "Ngày đến",
+    "fastest" : "NHANH NHẤT",
+    "bestPrice" : "GIÁ TỐT NHẤT",
+    "rateBreakdown" : "Phân tích giá",
+    "baseRate" : "Mức giá cơ sở",
+    "VAT" : "Thuế GTGT",
+    "volumeDiscount" : "Chiết khấu khi mua số lượng lớn",
+    "total" : "Tổng",
+    "chargeableDimenWeight" : "Trọng lượng theo kích thước bị tính phí",
+    "actual" : "Thực tế",
+    "finalRateNote" : "Mức giá cước cuối cùng được xác định dựa trên trọng lượng và kích thước thực tế của lô hàng, theo số liệu đo lường của FedEx.",
+    "dimensionalWeightHint" : "Chi phí vận chuyển cho lô hàng được tính trên cơ sở tổng trọng lượng của tất cả các gói hàng được gửi theo một Vận đơn hàng không FedEx. Tuy nhiên, yếu tố quyết định để tính giá là liệu trọng lượng theo kích thước (D x R x C/5000) có vượt quá trọng lượng thực tế* hay không.",
+    "dateNotAvailable" : "Không có",
+    "dimensionalWeightExceedLimitMessage" : " Kích thước Lô hàng của bạn đã đến giới hạn hỗ trợ của FSM LITE. Hãy dùng ứng dụng vận chuyển khác của FedEx để hoàn tất lô hàng.",
+    "rateApiErrorMessage" : "Không có dịch vụ và giá cước. International Priority là dịch vụ mặc định cho lô hàng này. Vui lòng kiểm tra với nhân viên chuyển phát để biết thông tin thay đổi."
+  },
+  "customsDetailsPage" : {
+    "newShipment" : "Lô hàng mới",
+    "customDetails" : "Thông tin hải quan chi tiết",
+    "shipmentTypeQuestion" : "Bạn gửi hàng gì?",
+    "items" : "Mặt hàng",
+    "documents" : "Tài liệu",
+    "documentType" : {
+      "correspondence" : "Thư từ/Không có giá trị thương mại",
+      "personalDocument" : "Tài liệu cá nhân",
+      "interofficeDocument" : "Tài liệu giữa các phòng",
+      "businessDocument" : "Tài liệu kinh doanh",
+      "other" : "Khác"
+    },
+    "shipmentPurpose" : "Mục đích của lô hàng",
+    "typeOfDocument" : "Loại chứng từ",
+    "totalCustomsValue" : "Tổng giá trị hải quan",
+    "totalWeight" : "Tổng trọng lượng",
+    "addMoreItems" : "Thêm mặt hàng khác",
+    "addItem" : "THÊM MẶT HÀNG",
+    "describeYourDocument" : "Mô tả giấy tờ của bạn",
+    "higherLimitNote" : "Mua mức giới hạn trách nhiệm pháp lý cao hơn từ FedEx?",
+    "declaredValue" : "Nhập giá trị khai báo vận chuyển",
+    "declaredValueNote" : "Giá trị khai báo vận chuyển không được lớn hơn tổng giá trị hải quan",
+    "declareValueTooltip" : "Nếu bạn không nhập số tiền, lô hàng của bạn sẽ không được bảo hiểm theo Điều kiện vận chuyển của chúng tôi. Bạn có thể tăng tổng số tiền được bảo hiểm lên mức tối đa của Giá trị khai báo hải quan. Tuy nhiên, mức bảo hiểm của một số mặt hàng sẽ bị giới hạn. Phí bổ sung sẽ được áp dụng. Vui lòng xem Điều kiện vận chuyển của chúng tôi để biết chi tiết.",
+    "validationError" : {
+      "invalidCustomsValue" : "Giá trị hải quan không được thấp hơn giá trị khai báo vận chuyển là {{CARRIAGE_VALUE}}",
+      "invalidCarriageValueLimit" : "Giá trị khai báo tối đa là {{CARRIAGE_VALUE_USD}} USD. Hãy liên hệ với bộ phận Dịch vụ khách hàng của FedEx để biết thêm thông tin.",
+      "minLengthItemDescription" : "Mô tả mặt hàng phải có tối thiểu 6 ký tự.",
+      "requiredCustomsValue" : "Tổng giá trị hải quan tối thiểu phải là 1",
+      "requiredMinimumValue" : "Giá trị này phải lớn hơn hoặc bằng 0,01"
+    },
+    "purchaseHigherLimitCoverageBubbleHint" : "Nếu bạn không nhập số tiền, lô hàng của bạn sẽ không được bảo hiểm theo Điều kiện vận chuyển của chúng tôi. Bạn có thể tăng tổng số tiền được bảo hiểm lên mức tối đa của Giá trị khai báo hải quan. Tuy nhiên, mức bảo hiểm của một số mặt hàng sẽ bị giới hạn. Phí bổ sung sẽ được áp dụng. Vui lòng xem Điều kiện vận chuyển của chúng tôi để biết chi tiết.",
+    "shipmentPurposeBubbleHint" : {
+      "labelText" : "Mục đích của lô hàng: Chọn mục đích của lô hàng trong menu thả xuống. Thông tin này in trên Hóa đơn thương mại. Nếu không có mục đích nào được chọn, trường sẽ mặc định có nội dung là Thương mại và lô hàng của bạn được thông quan theo các điều khoản phù hợp của quốc gia/địa điểm liên quan đến lô hàng thương mại.",
+      "commercial" : "Thương mại – Bất kỳ lô hàng nào được bán hoặc gửi miễn phí, từ tổ chức doanh nghiệp này sang một tổ chức khác, có mục đích bán lại hoặc được tiêu thụ theo cách khác trong hoạt động kinh doanh của tổ chức.",
+      "gift" : "Quà tặng – Bất kỳ lô hàng nào chứa các mặt hàng được trao làm quà tặng tự nguyện, từ cá nhân này sang một cá nhân khác, không do doanh nghiệp gửi và cũng không được gửi đến doanh nghiệp.",
+      "sample" : "Hàng mẫu – Bất kỳ lô hàng nào chứa các mặt hàng được gửi miễn phí đã được đánh dấu hoặc bị cắt bỏ một phần hoặc mang hình thức khác không phù hợp để bán hoặc sử dụng ngoại trừ là hàng mẫu thương mại, được gửi nhằm đạt được đơn hàng hoặc dưới dạng mô hình để xúc tiến đơn hàng hiện có từ tổ chức nước ngoài.",
+      "returnAndRepair" : "Trả lại và sửa chữa – Các mặt hàng được vận chuyển để sửa chữa hoặc mặt hàng trước đây xuất khẩu để sửa chữa, nay được trả lại sau khi sửa.",
+      "personalEffects" : "Đồ dùng cá nhân – Bất kỳ lô hàng nào chứa các mặt hàng cá nhân đã qua sử dụng như hành lý không đi cùng người và hàng hóa gia dụng được vận chuyển vì mục đích chuyển địa điểm.",
+      "personalUser" : "Người dùng cá nhân – Bất kỳ lô hàng nào chứa hàng hóa mới có mục đích tiêu dùng cá nhân được mua ở nước ngoài và được vận chuyển về cho cá nhân."
+    },
+    "documentTypeBubbleHInt" : "Chọn một cách mô tả trong menu thả xuống để mô tả phù hợp nhất về chứng từ của bạn hoặc nhấp vào Khác. Nếu bạn chọn Khác, bạn sẽ cần nhập thêm chi tiết về sản phẩm ở bên dưới. Một số loại chứng từ sẽ yêu cầu bạn nhập giá trị hải quan. Giá trị hải quan là giá bán của các thành phần trong lô hàng nếu lô hàng gửi để bán. Nếu lô hàng không gửi để bán, giá trị hải quan sẽ là giá trị thị trường trung bình. Giá trị thị trường trung bình là giá mà người bán sẽ nhận được từ người mua các thành phần trong lô hàng nếu lô hàng được bán trên thị trường mở.",
+    "hsCodeBubbleHint" : "Nhập mã áp thuế phù hợp sẽ cho phép FedEx giúp bạn xác định chứng từ hải quan phù hợp cũng như ước tính tiền thuế và thuế hải quan chính xác hơn. Hệ thống mô tả hàng hóa và mã hóa hàng hóaáp thuế là hệ thống tiêu chuẩn hóa quốc tế được phát triển và duy trì bởi Tổ chức hải quan thế giới (WCO) để phân loại các sản phẩm thương mại giống nhau.",
+    "warningNote" : "Bạn có xác nhận xóa không? ",
+    "deleteConfirmation" : "Bạn có xác nhận xóa không?",
+    "currencyChangedMessage" : "Khi loại tiền tệ của giá trị hải quan đổi từ {{prev}} thành {{curr}}, mục khác bạn nhập từ trước cũng sẽ thay đổi.</br> Phép tính chuyển đổi sẽ không được áp dụng.",
+    "currencyUpdationMessage" : "Đơn vị tiền tệ của lô hàng đã cập nhật từ {{ICurrency}} thành {{UCurrency}}"
+  },
+  "addItemsPage" : {
+    "headerTitle" : "Thông tin hải quan chi tiết",
+    "enterItemDetails" : "Nhập chi tiết về mặt hàng của bạn",
+    "selectItemType" : "Chọn loại mặt hàng",
+    "othersItemDecriptionLabel" : "Mô tả mặt hàng của bạn:",
+    "itemType" : {
+      "electronic" : "Đồ điện tử",
+      "jewellery" : "Trang sức",
+      "healthCare" : "Chăm sóc sức khỏe",
+      "garments" : "Đồ may mặc",
+      "lithiumBattery" : "Pin lithium",
+      "others" : "Khác"
+    },
+    "electronics" : "Đồ điện tử",
+    "searchItem" : "Nhập phần mô tả mặt hàng",
+    "quantity" : "Số lượng",
+    "quantityUnit" : {
+      "pieces" : "Kiện hàng",
+      "count" : "Số lượng"
+    },
+    "totalWeight" : "Tổng trọng lượng",
+    "totalCustomsValue" : "Tổng giá trị hải quan",
+    "countryTerritoryOfManu" : "Quốc gia/vùng lãnh thổ sản xuất",
+    "hsCode" : "Mã HS",
+    "confirmationAlert" : {
+      "header" : "Cảnh báo",
+      "subHeader" : "Bạn có chắc chắn muốn cập nhật loại tiền tệ không?"
+    }
+  },
+  "senderRecipientDetailsPage" : {
+    "senderDetails" : "Chi tiết về người gửi",
+    "recipientDetails" : "Chi tiết về người nhận",
+    "from" : "Từ",
+    "to" : "Tới",
+    "addressLine" : "Dòng địa chỉ",
+    "contactName" : "Tên liên hệ",
+    "companyName" : "Tên công ty",
+    "companyAddressQuestion" : "Đó có phải địa chỉ công ty không?",
+    "recipientAddressBrazilQuestion" : "Người nhận là cư dân của Brazil?",
+    "phoneNo" : "Số điện thoại",
+    "phoneNoSenderNote" : "SMS xác nhận sẽ được gửi đến số di động",
+    "phoneNoRecipientNote" : "Thông báo sẽ được gửi đến số di động",
+    "ext" : "Số máy lẻ",
+    "email" : "Email",
+    "taxId" : "ID thuế",
+    "passportNo" : "Số hộ chiếu",
+    "stateLabel" : "Tiểu bang/Tỉnh"
+  },
+  "billingAndServicesOptionPage" : {
+    "headerTitle" : "Lập hóa đơn và dịch vụ",
+    "billingAndServicesOptions" : "Tùy chọn lập hóa đơn và dịch vụ",
+    "valueAddedServices" : "Dịch vụ giá trị gia tăng",
+    "signatureOptions" : "Tùy chọn chữ ký",
+    "feeMayApply" : "Có thể bị tính phí",
+    "paymentOptions" : "Tùy chọn thanh toán",
+    "transportaionCosts" : "Chi phí vận chuyển",
+    "dutiesAndTaxes" : "Thuế hải quan và thuế",
+    "payAtDropOff" : "Thanh toán tại địa điểm bỏ hàng",
+    "billMyAccount" : "Lập hóa đơn tài khoản của tôi",
+    "billRecipient" : "Người nhận hóa đơn",
+    "billThirdParty" : "Bên thứ ba nhận hóa đơn",
+    "finalRateNote" : "Giá cước cuối cùng phụ thuộc vào giá cước lô hàng của chủ tài khoản",
+    "accountNo" : "Số tài khoản",
+    "rate" : "Giá cước",
+    "rateApiErrorNote" : "Hiện không có giá cước. Vui lòng kiểm tra với nhân viên FedEx tại quầy hoặc khi nhân viên chuyển phát đến lấy hàng.",
+    "signatureOptionBubbleHint" : {
+      "ionText" : "Để yêu cầu chữ ký khi gói hàng được giao, chọn một trong các loại chữ ký sau.",
+      "noneSpecifiedTitle" : "Không xác định",
+      "noneSpecifiedDefination" : "Các quy trình giao hàng FedEx tiêu chuẩn sẽ được tiến hành nếu bạn không chọn tùy chọn chữ ký.",
+      "noSignatureRequiredTitle" : "Không yêu cầu chữ ký",
+      "noSignatureRequiredDefination" : "FedEx có thể để lại gói hàng mà không cần sự có mặt của bất kỳ ai. Không phải mọi lô hàng hoặc nơi nhận hàng đều có thể áp dụng tùy chọn này.",
+      "indirectSignatureRequiredTitle" : "Yêu cầu chữ ký gián tiếp",
+      "indirectSignatureRequiredDefination" : "Tùy chọn này có thể không áp dụng cho mọi lô hàng hoặc mọi nơi nhận hàng. FedEx nhận chữ ký theo một trong ba cách sau:",
+      "indirectSignatureRequiredDefinationLevel1Item1" : "- Từ một ai đó tại địa chỉ giao hàng",
+      "indirectSignatureRequiredDefinationLevel1Item2" : "- Từ một người hàng xóm, quản lý tòa nhà hoặc một người khác tại địa chỉ gần đó",
+      "indirectSignatureRequiredDefinationLevel1Item3" : "- Người nhận có thể cho phép để lại gói hàng khi không có ai",
+      "directSignatureRequiredTitle" : "Direct Signature Required",
+      "directSignatureRequiredDefination" : "Bất kỳ ai tại địa chỉ của người nhận có thể ký nhận gói hàng. Nếu không có ai tại địa chỉ đó, FedEx có thể giao hàng sau. Không phải mọi lô hàng đều có thể áp dụng tùy chọn này.",
+      "adultSignatureRequiredTitle" : "Adult Signature Required",
+      "adultSignatureRequiredDefination" : "Đối với các lô hàng gửi tới Hoa Kỳ, FedEx sẽ lấy chữ ký của người nào đó tối thiểu 21 tuổi (yêu cầu giấy tờ tùy thân có ảnh do chính quyền cấp) tại địa chỉ giao hàng. Đối với các lô hàng gửi tới các nơi nhận hàng khác, FedEx sẽ lấy chữ ký từ người nào đó tại địa chỉ giao hàng, mà người này tối thiểu đã đủ tuổi trưởng thành tại quốc gia của nơi nhận hàng.  Yêu cầu giấy tờ tùy thân có ảnh do chính quyền cấp hoặc giấy tờ tùy thân thông thường khác được chính quyền địa phương chấp thuận. Trong mọi trường hợp, nếu không có người nhận đủ điều kiện nhận tại địa chỉ giao hàng, FedEx sẽ giao hàng sau."
+    }
+  },
+  "summaryPage" : {
+    "shipmentDetails" : {
+      "header" : "Chi tiết lô hàng",
+      "estimatedDeliveryBy" : "Ngày giao hàng ước tính vào khoảng",
+      "packagingType" : "Loại bao bì",
+      "weight" : "Trọng lượng",
+      "quantity" : "Số lượng",
+      "dateUnavailableLabel" : "ĐANG CHỜ XỬ LÝ"
+    },
+    "customsDetails" : {
+      "header" : "Thông tin hải quan chi tiết",
+      "shipmentContent" : "Thành phần lô hàng",
+      "shipmentPurpose" : "Mục đích của lô hàng",
+      "customsValue" : "Giá trị hải quan",
+      "customsWeight" : "Trọng lượng hải quan",
+      "documentType" : "Loại chứng từ"
+    },
+    "senderRecipient" : {
+      "from" : "Từ",
+      "to" : "Tới",
+      "name" : "Tên",
+      "company" : "Công ty",
+      "address" : "Địa chỉ"
+    },
+    "billingAndServiceOptions" : {
+      "header" : "Tùy chọn lập hóa đơn và dịch vụ",
+      "signatureOptions" : "Tùy chọn chữ ký",
+      "transportation" : "Vận chuyển",
+      "dutiesAndTaxes" : "Thuế hải quan và thuế"
+    },
+    "summary" : "Tóm tắt",
+    "rate" : "Giá cước",
+    "finalizeShipment" : "Hoàn tất vận chuyển",
+    "termsAndConditions" : "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+    "expressTermsAndConditions" : "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+  },
+  "thankYouPage" : {
+    "shipmentConfirmation" : "Xác nhận lô hàng",
+    "shipmentReferenceNo" : "Số tham chiếu lô hàng",
+    "barcodeNote" : "Xuất trình mã QR bên dưới tại Địa điểm FedEx để hoàn tất lô hàng",
+    "findALocation" : "TÌM ĐỊA ĐIỂM",
+    "customerFeedBack" : "Phản hồi của khách hàng",
+    "comments" : "Ghi chú",
+    "submitFeedBack" : "Gửi phản hồi",
+    "thankYouFeedbackResponse" : "Cảm ơn bạn đã phản hồi!",
+    "feedBackAlertMessage" : "Vui lòng cung cấp Nhận xét của bạn",
+    "maxLimitAlertMessage" : "Phản hồi của khách hàng chỉ được gồm tối đa 450 ký tự và bạn đã đạt giới hạn này."
+  },
+  "myShipmentsPage" : {
+    "myShipments" : "Lô hàng của tôi",
+    "recentlyShipped" : "Hàng gửi gần đây",
+    "pendingShipment" : "Lô hàng đang chờ xử lý",
+    "trackingNo" : "Số theo dõi",
+    "referenceNo" : "Số tham chiếu",
+    "from" : "Từ",
+    "to" : "Tới",
+    "package" : "Gói",
+    "airWayBillNo" : "Số vận đơn hàng không",
+    "noShipmentRecords" : "Không có hồ sơ lô hàng nào trong 90 ngày qua"
+  },
+  "termsAndCondition" : {
+    "title" : "Điều khoản & điều kiện",
+    "bodyPart1" : "Federal Express Korea LLC (sau đây gọi là “FedEx” hoặc “Công ty”) yêu cầu bạn đồng ý với việc thu thập và sử dụng thông tin cá nhân (bắt buộc), việc chuyển thông tin cá nhân chung cho bên thứ ba (bắt buộc), đồng ý với việc chuyển thông tin cá nhân ra nước ngoài (bắt buộc) và đồng ý với việc sử dụng thông tin cá nhân cho mục đích tiếp thị (không bắt buộc) liên quan đến việc bạn sử dụng Giải pháp FedEx Ship Manager Lite® (FSM Lite) theo luật và quy định hiện hành.",
+    "checkBoxOne" : "Tôi đồng ý với tất cả các điều khoản và điều kiện dưới đây",
+    "checkBoxTwo" : "[Bắt buộc] Tôi đã hiểu đầy đủ phần giải thích của Công ty về việc thu thập và sử dụng thông tin cá nhân chung và qua đây, tôi đồng ý với điều đó. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "checkBoxThree" : "[Bắt buộc] Tôi đã hiểu đầy đủ phần giải thích của Công ty về việc chuyển thông tin cá nhân chung cho bên thứ ba và qua đây, tôi đồng ý với điều đó.<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "checkBoxFour" : "[Bắt buộc] Tôi đã hiểu đầy đủ phần giải thích của Công ty về việc chuyển thông tin cá nhân ra nước ngoài và qua đây, tôi đồng ý với điều đó. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "checkBoxFive" : "[Tùy chọn] Tôi đã hiểu đầy đủ phần giải thích của Công ty về việc sử dụng thông tin cá nhân cho các mục đích tiếp thị và truyền tải thông tin hữu ích và qua đây, tôi đồng ý với điều đó. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "bodyPart2" : "[Bắt buộc] Để sử dụng Giải pháp FSM Lite và các dịch vụ do FedEx cung cấp, bạn phải đồng ý với chính sách bảo mật cùng với các điều khoản và điều kiện được liệt kê ở dưới. Bạn có thể từ chối đồng ý với chính sách bảo mật cùng với các điều khoản và điều kiện được nêu ở dưới. Tuy nhiên, nếu bạn không đồng ý với chính sách bảo mật cùng với các điều khoản và điều kiện được liệt kê dưới đây, bạn sẽ không thể sử dụng Giải pháp FSM Lite và các dịch vụ của FedEx.",
+    "checkBoxSix" : "Tôi đồng ý với tất cả các thỏa thuận ở bên dưới",
+    "checkBoxSeven" : "[Bắt buộc] Điều khoản sử dụng <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "checkBoxEight" : "[Bắt buộc] Điều khoản dịch vụ <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "checkBoxNine" : "[Bắt buộc] Chính sách quyền riêng tư <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>Xem chi tiết</a></span>",
+    "agreeText" : "Tôi đã đọc kỹ và hiểu đầy đủ về việc thu thập và sử dụng thông tin cá nhân ở trên và điều khoản sử dụng của FedEx. Qua đây, tôi đăng ký sử dụng Giải pháp FSM Lite. ",
+    "agreeButton" : "Đồng ý"
+  },
+  "button" : {
+    "skip" : "Bỏ qua",
+    "next" : "Tiếp",
+    "continue" : "Tiếp tục",
+    "submit" : "Gửi",
+    "login" : "Đăng nhập",
+    "signup" : "Đăng ký",
+    "create" : "Tạo",
+    "close" : "Đóng",
+    "select" : "Chọn",
+    "cancel" : "Hủy",
+    "ok" : "OK",
+    "add" : "Thêm",
+    "confirm" : "Xác nhận",
+    "yes" : "Có",
+    "no" : "Không",
+    "update" : "Cập nhật",
+    "delete" : "Xóa"
+  },
+  "validationError" : {
+    "required" : "Yêu cầu nhập giá trị bảo hiểm",
+    "invalidPostalCodeFormat" : "Định dạng mã bưu chính này không hợp lệ. Vui lòng dùng định dạng sau:",
+    "invalidPostal" : "Không tìm thấy mã bưu chính này. Hãy kiểm tra xem mã đúng không rôi thử lại.",
+    "invalidDecimal" : "Vui lòng không nhập quá 2 chữ số thập phân.",
+    "invalidEmail" : "Địa chỉ email này không hợp lệ.",
+    "invalidPhoneNumber" : "Số điện thoại phải gồm tối thiểu 3 và tối đa 12 chữ số.",
+    "invalidPhoneNumberUSAndCA" : "Định dạng số điện thoại không hợp lệ.",
+    "invalidTaxId" : "Mã số thuế không hợp lệ. Mã số thuế phải gồm tối đa 18 chữ số",
+    "totalWeightExceeded" : "Trọng lượng cộng gộp của các mặt hàng không được vượt quá tổng trọng lượng lô hàng là {{weight}} {{weightUnits}}. Vui lòng điều chỉnh trọng lượng của (các) mặt hàng",
+    "invalidCountry" : "Quốc gia/vùng lãnh thổ bạn nhập không hợp lệ.",
+    "invalidAccountNum" : "Số tài khoản không hợp lệ",
+    "invalidMinLength" : "Bạn phải nhập tối thiểu 3 ký tự vào trường này.",
+    "invalidOtp" : "Mã xác minh không hợp lệ.",
+    "sameAccounteNumberError" : "Số tài khoản FedEx của tài khoản {{Transport}} và tài khoản {{Billing}} không được giống nhau",
+    "taxIdMinLength" : "Vui lòng nhập ID thuế gồm 15 chữ số"
+  },
+  "constants" : {
+    "optional" : "Tùy chọn",
+    "pleaseWait" : "Vui lòng chờ...",
+    "AM" : "SA",
+    "PM" : "CH"
+  },
+  "apiErrorMessages" : {
+    "header" : "Lỗi",
+    "buttonOk" : "OK",
+    "error" : "Lỗi máy chủ nội bộ.",
+    "error404" : "Không tìm thấy tài nguyên.",
+    "genericError" : "Không có dịch vụ."
+  }
+}

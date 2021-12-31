@@ -1,0 +1,24 @@
+@import "../../../../colorVariables.scss";
+.modal-info{
+    ion-icon{
+        color: $white;
+    }
+}
+
+.modal-warn{
+    ion-icon{
+        color: $yellow;
+    }
+}
+
+.modal-error{
+    ion-icon{
+        color: $red;
+    }
+}
+
+.modal-fatal{
+    ion-icon{
+        color: $red;
+    }
+}

@@ -1,0 +1,208 @@
+{
+   "partylist": [
+      {
+         "partyId": "1",
+         "contact": {
+            "personName": "Billy Tsui",
+            "companyName": "",
+            "phoneNumber": "4162301124",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "41 PINTO DRIVE"
+            ],
+            "city": "NORTH YORK",
+            "stateOrProvinceCode": "ON",
+            "postalCode": "M2J3T9",
+            "countryCode": "CA",
+            "residential": "true",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "2",
+         "contact": {
+            "personName": "HM Passport Office",
+            "companyName": "HM Passport Office",
+            "phoneNumber": "3003300901",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "INT-E-LS, PEX345614608X"
+            ],
+            "city": "NEW YORK",
+            "stateOrProvinceCode": "NY",
+            "postalCode": "12345",
+            "countryCode": "US",
+            "residential": "false",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "3",
+         "contact": {
+            "personName": "SAM KEE",
+            "companyName": "FedEx",
+            "phoneNumber": "90308671",
+            "emailAddress": "oadm@fedex.com",
+            "taxId": "SP124",
+            "passportNo": "1234"
+         },
+         "address": {
+            "streetLines": [
+               "BLK 485, SEGAR ROAD #10-514",
+               "SEGAR GROVE",
+               "250 McCULLOUGH STREET"
+            ],
+            "city": "Sarasota",
+            "stateOrProvinceCode": "FL",
+            "postalCode": "670485",
+            "countryCode": "SG",
+            "residential": false,
+            "vistor": "true",
+            "phoneExt": "1234"
+         }
+      },
+      {
+         "partyId": "4",
+         "contact": {
+            "personName": "WARREN WAI",
+            "companyName": "WAI & CO LAWYERS PTY LTD",
+            "phoneNumber": "0403359522",
+            "emailAddress": "shawn.chan@fedex.com",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "SUITE 207 TIMES SQUARE",
+               "250 McCULLOUGH STREET"
+            ],
+            "city": "SUNNYBANK",
+            "stateOrProvinceCode": "ON",
+            "postalCode": "4109",
+            "countryCode": "AU",
+            "residential": "false",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "5",
+         "contact": {
+            "personName": "Wilbert Ma",
+            "companyName": "",
+            "phoneNumber": "41682961234",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "87 Anthony Roman Ave."
+            ],
+            "city": "MARKHAM",
+            "stateOrProvinceCode": "ON",
+            "postalCode": "L6C0P2",
+            "countryCode": "CA",
+            "residential": "true",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "6",
+         "contact": {
+            "personName": "JACKSON CHAN",
+            "companyName": "",
+            "phoneNumber": "41631741234",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "SUITE # 1119",
+               "9017 LESLIE STREET"
+            ],
+            "city": "RICHMOND HILL",
+            "stateOrProvinceCode": "ON",
+            "postalCode": "L4B4R8",
+            "countryCode": "CA",
+            "residential": "true",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "7",
+         "contact": {
+            "personName": "John Junior",
+            "companyName": "",
+            "phoneNumber": "86312357894",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "2513 Cattlemen Road"
+            ],
+            "city": "SARASOTA",
+            "stateOrProvinceCode": "FL",
+            "postalCode": "34232",
+            "countryCode": "US",
+            "residential": "true",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "8",
+         "contact": {
+            "personName": "Hideo Nakazato",
+            "companyName": "",
+            "phoneNumber": "8033166088",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "5 Chome-5-20 Shojihigashi,"
+            ],
+            "city": "OSAKA-SHI IKUNO-KU",
+            "stateOrProvinceCode": "",
+            "postalCode": "5440003",
+            "countryCode": "JP",
+            "residential": "true",
+            "vistor": "false"
+         }
+      },
+      {
+         "partyId": "9",
+         "contact": {
+            "personName": "Old McDonald",
+            "companyName": "",
+            "phoneNumber": "66778899",
+            "emailAddress": "",
+            "taxId": "",
+            "passportNo": ""
+         },
+         "address": {
+            "streetLines": [
+               "161 - Centro, Campinas",
+               "State of Sao Paulo"
+            ],
+            "city": "CAMPINAS",
+            "stateOrProvinceCode": "SP",
+            "postalCode": "13010-080",
+            "countryCode": "BR",
+            "residential": "true",
+            "vistor": "false"
+         }
+      }
+   ]
+}

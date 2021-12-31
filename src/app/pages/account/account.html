@@ -1,0 +1,16 @@
+<app-header [title]="'account.title' | translate"></app-header>
+
+<ion-content>
+  <div *ngIf="username" class="ion-padding-top ion-text-center">
+    <img src="https://www.gravatar.com/avatar?d=mm&s=140" alt="avatar">
+    <h2>{{ 'account.welcome' | translate: { username: username }  }}</h2>
+
+    <ion-list inset>
+      <ion-item (click)="updatePicture()" translate>{{ 'account.updatePicture' }}</ion-item>
+      <ion-item (click)="changeUsername()" translate>{{ 'account.changeUsername' }}</ion-item>
+      <ion-item (click)="changePassword()" translate>{{ 'account.changePassword' }}</ion-item>
+      <ion-item (click)="support()" translate>{{ 'account.support' }}</ion-item>
+      <ion-item (click)="logout()" translate>{{ 'account.logout' }}</ion-item>
+    </ion-list>
+  </div>
+</ion-content>

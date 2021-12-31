@@ -1,0 +1,90 @@
+.colButtonStyle{
+    text-align: center;
+}
+
+.addItemStyle{
+    justify-content: center;
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #007AB7;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.referenceNumber{
+    font-family: FedExSans-Regular;
+    font-size: 18px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.topHeight {
+    margin-top: 20px;
+}
+
+.numberStyle{
+    font-family: FedExSans-Bold;
+    font-size: 20px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.presentBarcodeStyle{
+    font-family: FedExSans-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.findLocation{
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #007AB7;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.customerFedback{
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.textCentre{
+    text-align: center;
+}
+
+.bgColor{
+    margin: 15px;
+    background: #FAFAFA;
+    padding: 0px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
+}
+
+.textAreaStyle {
+    background-color: #FFFFFF;
+    border: 0 solid #E3E3E3;
+    text-align: left;
+    height: 100px;
+}
+
+.commentBoxStyle {
+    margin: 15px 10%;
+}
+
+.qr-code-container{
+    width: 65%;
+    max-width: 200px;
+}
+
+.selectedRatingImage{
+    height: 27px;
+}
+
+.hidden-star-image{
+    visibility: hidden;
+}

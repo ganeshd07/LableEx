@@ -1,0 +1,27 @@
+{
+    "transactionId": "443a3020-fbc3-4a11-92e6-73833e895bec",
+    "output": {
+        "availableSignatureOptions": [
+            {
+                "key": "SERVICE_DEFAULT",
+                "displayText": "None specified"
+            },
+            {
+                "key": "INDIRECT",
+                "displayText": "Indirect signature required"
+            },
+            {
+                "key": "DIRECT",
+                "displayText": "Direct signature required"
+            },
+            {
+                "key": "ADULT",
+                "displayText": "Adult signature required"
+            }
+        ],
+        "recommendedSignatureOption": {
+            "key": "SERVICE_DEFAULT",
+            "displayText": "None specified"
+        }
+    }
+}

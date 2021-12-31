@@ -1,0 +1,62 @@
+{
+    "transactionId": "54b02d9f-4dee-4d8c-856a-5e73670795fd",
+    "output": {
+        "userProfile": {
+            "registeredContactAndAddress": {
+                "contact": {
+                    "personName": {
+                        "firstName": "Level3",
+                        "middleName": "",
+                        "lastName": "Taiwan"
+                    },
+                    "companyName": "TW COMPANY L3 testing",
+                    "phoneNumber": "0123456789",
+                    "emailAddress": "cto@fedex.com"
+                },
+                "address": {
+                    "streetLines": [
+                        "Address",
+                        ""
+                    ],
+                    "city": "Taipei",
+                    "stateOrProvinceCode": "",
+                    "postalCode": "100",
+                    "countryCode": "TW",
+                    "residential": false
+                }
+            },
+            "isManaged": false,
+            "defaultAccount": {
+                "value": "",
+                "key": "2e316bfc08ae34fdeb13d95e17cb270e"
+            },
+            "customer": {
+                "cashOnly": false,
+                "creditCardUpdateBlocked": false,
+                "ukdomesticAllowed": false
+            },
+            "expandedAccounts": [
+                {
+                    "account": {
+                        "accountNumber": {
+                            "value": "",
+                            "key": "2e316bfc08ae34fdeb13d95e17cb270e"
+                        },
+                        "accountNickname": "Level3 Taiwan",
+                        "accountDisplayName": "Level3 Taiwan-007"
+                    }
+                }
+            ],
+            "siteWideProfile": {
+                "departmentAdmin": false,
+                "companyAdmin": false
+            }
+        },
+        "loginCookieOutputVO": {
+            "fclCookie": "ssodrt-cos1.edd1.79269b36",
+            "nameCookie": "Level3",
+            "contactNameCookie": "Level3 Taiwan",
+            "uuidCookie": "0000g0h136"
+        }
+    }
+}

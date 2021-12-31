@@ -1,0 +1,39 @@
+<app-header [title]="'messageCentrePage.messageCentre' | translate" [backbuttonFlag]='showBackButton'
+  [backNavigation]='backNavPath'></app-header>
+<ion-content>
+  <div class="msg-centre-container">
+    <ion-list lines="none" *ngFor="let message of messageCenterList; let i = index;">
+      <ion-item>
+        <ion-grid class="message-centre-item ion-no-padding">
+          <ion-row class="message-centre-row">
+            <ion-col size="4" class="ion-no-padding message-centre-column">
+              <img class="img-msg-centre" src="{{message.imgPath}}" />
+              <ion-label class="img-description ion-text-wrap" translate>{{'messageCentrePage.' + message.category.toLowerCase().replace('_','') }}</ion-label>
+            </ion-col>
+            <ion-col size="8" class="ion-no-padding">
+              <ion-card class="message-card">
+                <ion-card-title class="message-title">{{ message.messageDescs[0].title }}</ion-card-title>
+                <ion-card-subtitle [id]="cardContent + i" class="message-subtitle"
+                  [innerHTML]="message.messageDescs[0].description | htmlSanitizer"
+                  [ngClass]="{'closed' : message.messageDescs[0].description.length > 180}">
+                </ion-card-subtitle>
+                <ion-card-content class="ion-text-right ion-no-padding"
+                  *ngIf="message.messageDescs[0].description.length > 180">
+                  <ion-icon (click)="toggleMessageDetail(i)" [hidden]="!this.messageCenterList[i].isExpanded"
+                    class="select-chevron" name="chevron-up-outline">
+                  </ion-icon>
+                  <ion-icon (click)="toggleMessageDetail(i)" [hidden]="this.messageCenterList[i].isExpanded"
+                    class="select-chevron" name="chevron-down-outline">
+                  </ion-icon>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-list>
+    <div class="spacer-20"></div>
+    <ion-button *ngIf="!showBackButton" (click)="goToLoginPage()" class="btn-start-shipping" translate>
+      {{ 'messageCentrePage.startShipping' }}</ion-button>
+  </div>
+</ion-content>

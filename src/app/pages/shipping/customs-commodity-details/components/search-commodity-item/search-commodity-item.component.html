@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title *ngIf="itemSelectedType === eItemsType.ELECTRONICS" translate>{{ 'addItemsPage.itemType.electronic' }}
+    </ion-title>
+    <ion-title *ngIf="itemSelectedType === eItemsType.JEWELLERY" translate>{{ 'addItemsPage.itemType.jewellery' }}
+    </ion-title>
+    <ion-title *ngIf="itemSelectedType === eItemsType.HEALTH_CARE" translate>{{ 'addItemsPage.itemType.healthCare' }}
+    </ion-title>
+    <ion-title *ngIf="itemSelectedType === eItemsType.GARMENTS" translate>{{ 'addItemsPage.itemType.garments' }}
+    </ion-title>
+    <ion-title *ngIf="itemSelectedType === eItemsType.LITHIUM_BATTERY" translate>
+      {{ 'addItemsPage.itemType.lithiumBattery' }}</ion-title>
+    <ion-title *ngIf="itemSelectedType === eItemsType.OTHERS" translate>{{ 'addItemsPage.itemType.others' }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeNavigation($event)">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid *ngIf="itemSelectedType !== eItemsType.OTHERS">
+    <ion-row>
+      <ion-col size="12" class="input-wrapper">
+        <ion-searchbar #searchInput (ionClear)="onCancel()" clear-icon="close-circle" (keyup)="onSearch($event)" id="searchedVal"
+        [restrict-input]="'asciiOnly'" enableValidation="true" [placeholder]="'addItemsPage.searchItem' | translate" class="searchInput">
+        </ion-searchbar>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-list class="list-item-wrapper">
+          <ion-item class="list-item" *ngFor="let item of itemSubCategoryList" (click)="closeNavigation(item)">
+            <ion-text class="list-item-style">
+              <p class="item-disply-name">{{item.description}}</p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <form [formGroup]="otherCategoryForm" autocomplete="off">
+  <ion-grid *ngIf="itemSelectedType === eItemsType.OTHERS">
+    <ion-row>
+      <ion-col size="5" class="input-wrapper lable-others-wrapper">
+        <ion-label translate>{{ 'addItemsPage.othersItemDecriptionLabel' }}</ion-label>
+      </ion-col>
+      <ion-col size="7" class="input-wrapper">
+        <ion-input #itemDescriptionInput class="searchInput other-item-text" formControlName="itemDescription" 
+        autocomplete="off" type="text" [appRestrictInput]="inputConstants.ALPHANUMWITHSYMBOLSONLY"></ion-input>
+        <span *ngIf="otherCategoryForm.get('itemDescription')?.errors?.minlength && (otherCategoryForm.get('itemDescription')?.dirty ||otherCategoryForm.get('itemDescription')?.touched)"
+              class="validation-error" translate>{{ 'customsDetailsPage.validationError.minLengthItemDescription' }}
+        </span>
+        <span *ngIf="otherCategoryForm.get('itemDescription')?.errors?.required && (otherCategoryForm.get('itemDescription')?.dirty ||otherCategoryForm.get('itemDescription')?.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}
+        </span>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+    <ion-col size="12" class="input-wrapper">
+      <ion-button (click)="addOtherCategoryItem();" class="btn-rounded add-button-others" [attr.disabled]="!otherCategoryForm.valid" translate>
+        {{ 'button.add' }}</ion-button>
+    </ion-col>
+    </ion-row>
+    <ion-row *ngIf="itemSubCategoryList && itemSubCategoryList?.length > 0" class="spacer"></ion-row>
+    <ion-row *ngIf="itemSubCategoryList && itemSubCategoryList?.length > 0">
+      <ion-col size="12" class="input-wrapper">
+        <ion-searchbar (ionClear)="onCancel()" clear-icon="close-circle" (keyup)="onSearch($event)" id="searchedVal"
+          [placeholder]="'addItemsPage.searchItem' | translate" class="searchInput">
+        </ion-searchbar>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="itemSubCategoryList && itemSubCategoryList?.length > 0">
+      <ion-col size="12">
+        <ion-list class="list-item-wrapper">
+          <ion-item class="list-item" *ngFor="let item of itemSubCategoryList" (click)="closeNavigation(item)">
+            <ion-text class="list-item-style">
+              <p class="item-disply-name">{{item.description}}</p>
+            </ion-text>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>    
+  </ion-grid>
+  </form>
+</ion-content>

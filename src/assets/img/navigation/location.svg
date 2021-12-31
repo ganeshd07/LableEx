@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="22px" viewBox="0 0 17 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hamburger-Menu" transform="translate(-91.000000, -295.000000)" stroke="#4D148C" stroke-width="1.5">
+            <g id="location" transform="translate(91.000000, 295.000000)">
+                <path d="M8.023,0.75 C4.15320002,0.680325219 0.930122627,3.7017664 0.75,7.568 C0.941391291,9.41396676 1.56414972,11.1890681 2.568,12.75 C3.45670129,14.364577 4.45923618,15.9138276 5.568,17.386 C6.023,18.023 7.205,19.75 8.023,20.75 C8.841,19.659 10.023,17.932 10.478,17.386 C11.5867638,15.9138276 12.5892987,14.364577 13.478,12.75 C14.4818503,11.1890681 15.1046087,9.41396676 15.296,7.568 C15.1158774,3.7017664 11.8928,0.680325219 8.023,0.75 Z" id="Path" stroke-linejoin="round"></path>
+                <circle id="Oval" cx="8.023" cy="8.388" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

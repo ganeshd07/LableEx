@@ -1,0 +1,90 @@
+.otp-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mobile-icon {
+    width: 55px;
+    height: 87px;
+}
+
+.header-row {
+    height: 40px;
+}
+.header-title {
+    font-family: FedExSans-Bold;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-family: FedExSans-Light;
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.country-code-disabled {
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #a1a1a1;
+    letter-spacing: 0;
+}
+
+.country-box {
+    background: #f2f2f2;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mobile-box {
+    background: #f2f2f2;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mobile-number {
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+ion-button {
+    font-family: FedExSans-Bold;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.footer-text {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4d148c;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.spacer-20{
+    height: 20px;
+}
+
+.spacer-10{
+    height: 10px;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.mobile-number-validation-error {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    padding-left: 15px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

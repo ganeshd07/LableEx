@@ -1,0 +1,6 @@
+{
+    "errorCode": "INTERNAL_SERVER_ERROR",
+    "errorMessage": "Internal Server Error",
+    "userMessage": "FedEx Ship manager is not available. For immediate assistance, please contact your local FedEx Customer Service.",
+    "moreInfo": "Problem routing to http://ratcdrt-cos.idev.fedex.com:7289/rateCal/rate. Error msg: Unable to obtain HTTP response from http://ratcdrt-cos.idev.fedex.com:7289/rateCal/rate: Read timed out. Timed out at 6000ms"
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "messageId": 100062,
+        "category": "NEW_FEATURE",
+        "countryCode": "HK",
+        "endDate": "May-31-2022 23:59",
+        "pin": false,
+        "startDate": "May-27-2021 00:00",
+        "messageDescs": [
+            {
+                "messageDescId": 100084,
+                "description": "<span lang=\"EN-US\">Ship with FedEx Ship Manager &#174; Lite using your mobile device and drop&#10;off your package at a FedEx Station or World Service Center. No need for a&#10;FedEx account or to print a shipping label.</span>",
+                "locale": "en_HK",
+                "title": "New Mobile Shipping Tool for shippers without an account"
+            }
+        ]
+    },
+    {
+        "messageId": 100061,
+        "category": "NEWS",
+        "countryCode": "HK",
+        "endDate": "May-31-2022 23:59",
+        "pin": false,
+        "startDate": "May-27-2021 00:00",
+        "messageDescs": [
+            {
+                "messageDescId": 100082,
+                "description": "<span class=\"fxg-font-size-20\"><span lang=\"EN-US\">We are monitoring the&#10;impact of the COVID-19 outbreak.&#160; Stay connected with more news&#160;<a style=\"font-family:'FedExSans-Light'; font-size:12px;\" href=\"https://www.fedex.com/en-hk/coronavirus.html\" target=\"_blank\">here</a>.</span></span>",
+                "locale": "en_HK",
+                "title": "COVID-19 News"
+            }
+        ]
+    }
+]

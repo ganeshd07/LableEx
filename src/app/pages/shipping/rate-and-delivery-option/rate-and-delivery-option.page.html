@@ -1,0 +1,155 @@
+<app-header [title]="'shipmentDetailsPage.shipmentDetails' | translate" [backbuttonFlag]="true"
+  [backNavigation]="backNavigation"></app-header>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+  <div class="labelex-container">
+    <div>
+      <h3 class="rateAndD-title" translate>{{ 'rateAndDeliveryOptionsPage.rateAndDeliveryOptions' }}</h3>
+    </div>
+    <div class="rate-Boxes" *ngIf="noAvailableOptions">
+      <ion-grid class="ion-no-padding">
+        <!-- NOTE: This is a temporary message display and subject to change based on PO preference-->
+        <!-- TODO: place this message to translation file -->
+        <span class="no-rates-options">No Rates Options Available.</span>
+      </ion-grid>
+    </div>
+    <div class="rate-Boxes" *ngIf="rateApiError">
+      <ion-grid class="ion-no-padding">
+        <!-- NOTE: This is a message display is for Rate API failure-->        
+        <span class="no-rates-options no-rate-msg" translate>{{'rateAndDeliveryOptionsPage.rateApiErrorMessage'}}</span>
+      </ion-grid>
+    </div>
+    <div class="rate-Boxes" *ngIf="isDimensionalWeightExceedLimit">
+      <ion-grid class="ion-no-padding">
+        <!-- NOTE: This is a message display is for Dimensional weight more than prescribed limit-->        
+        <span class="no-rates-options dimensional-weight-error-msg" translate>{{'rateAndDeliveryOptionsPage.dimensionalWeightExceedLimitMessage'}}</span>
+      </ion-grid>
+    </div>
+    <br>
+    <div *ngIf="!isDimensionalWeightExceedLimit">
+    <div *ngFor="let rates of ratesList; let i = index;">
+      <div class="rate-Boxes">
+        <ion-grid class="ion-no-padding">
+          <ion-row>
+            <ion-col size="8" class="leftPartPadding">
+              <span class="arr-style" translate>{{ 'rateAndDeliveryOptionsPage.arrivesOn' }}</span>
+              <span class="fastest" *ngIf="rates.serviceHint !== '' && rates.serviceHint === 'BEST PRICE'">{{ 'rateAndDeliveryOptionsPage.bestPrice' | translate }}</span>
+              <span class="fastest" *ngIf="rates.serviceHint !== '' && rates.serviceHint === 'FASTEST'">{{ 'rateAndDeliveryOptionsPage.fastest' | translate }}</span>
+              <div *ngIf="rates.serviceHint === ''">
+                <span class="fastest"></span><br />
+              </div>
+              <p class="deliveryDate" *ngIf="!rates.tempDateDetails">
+                <span *ngIf="!rateApiError">{{ rates.dayOfWeek | localDateFormat }}, </span>
+                <ng-container *ngIf="!rateApiError && selectedLanguage === localLanguageConstants.ZH_CN || selectedLanguage === localLanguageConstants.ZH_TW">
+                {{ rates.dayCxsFormat | localDateFormat }}
+                </ng-container>
+                <ng-container *ngIf="!rateApiError && selectedLanguage !== localLanguageConstants.ZH_CN && selectedLanguage !== localLanguageConstants.ZH_TW">
+                {{ rates.date | localDateFormat }}
+                </ng-container>
+                <ng-container *ngIf="rateApiError">
+                  <span translate>{{ 'rateAndDeliveryOptionsPage.dateNotAvailable' }}</span>
+                  </ng-container>
+                <span class="delTime">{{ rates.time | timeFormat }}</span>
+              </p>
+              <p class="deliveryDate" *ngIf="rates.tempDateDetails">
+                <span class="delTime">{{ rates.tempDateDetails }}</span>
+              </p>
+              <p class="internationalPriority">{{ rates.serviceName }}</p>
+            </ion-col>
+            <ion-col size="4" text-center (click)="selectedRate(i)">
+              <div class="blueColor">
+                <div *ngIf="rates.totalNetChargeBeforeDiscount !== rates.totalNetChargeAfterDiscount">
+                  <p class="crossedText">{{ rates.currency }}{{ rates.totalNetChargeBeforeDiscount | number }}
+                  </p>
+                  <p class="amountFullStyle">{{ rates.currency }}{{ rates.totalNetChargeAfterDiscount | number }}</p>
+                </div>
+                <p class="amount-without-discount" *ngIf="rates.totalNetChargeBeforeDiscount === rates.totalNetChargeAfterDiscount">
+                  {{ rates.currency }}<span *ngIf="!rateApiError">{{ rates.totalNetCharge | number }}</span>
+                  <span *ngIf="rateApiError"> --</span>
+                </p>
+              </div>
+              <div class="OrangeBG">
+                <p class="selectThePlan" translate> {{ 'button.select' }} </p>
+              </div>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col class="spaceAfteSelectButton" size="9">
+              <div class="accordionItem"
+                [ngClass]=" { 'close': !rates.toggleBreakdown, 'open': rates.toggleBreakdown } ">
+                <h2 class="accordionItemHeading rateBreakDownStyle" (click)="changeArrow(i)" translate>
+                  {{ 'rateAndDeliveryOptionsPage.rateBreakdown' }}
+                  <ion-icon [hidden]="!rates.toggleBreakdown" class="select-chevron" name="chevron-up-outline">
+                  </ion-icon>
+                  <ion-icon [hidden]="rates.toggleBreakdown" class="select-chevron" name="chevron-down-outline">
+                  </ion-icon>
+                </h2>
+                <div class="accordionItemContent">
+                  <ion-grid>
+                    <ion-row>
+                      <ion-col size="7" class="itemstoLeft">
+                        <p class="p-Breakdown"> {{ 'rateAndDeliveryOptionsPage.baseRate' | translate }}: </p>
+                        <p class="p-Breakdown" *ngIf="rates.vat"> {{ 'rateAndDeliveryOptionsPage.VAT' | translate }}: </p>
+                        <div *ngFor="let surcharge of rates.surcharges">
+                          <p class="p-Breakdown"> {{ surcharge.description }}: </p>
+                        </div>
+                        <p class="p-Breakdown" *ngIf="rates.totalDiscount > 0"> {{ 'rateAndDeliveryOptionsPage.volumeDiscount' | translate }}: </p>
+                        <p class="p-BreakdownTotal"> {{ 'rateAndDeliveryOptionsPage.total' | translate }}:</p>
+                      </ion-col>
+
+                      <ion-col size="2" class="itemtoRight">
+                        <p class="p-Breakdown">{{ rates.currency }}</p>
+                        <p class="p-Breakdown" *ngIf="rates.vat">{{ rates.currency }}</p>
+                        <div *ngFor="let surcharge of rates.surcharges">
+                          <p class="p-Breakdown">{{ rates.currency }}
+                          </p>
+                        </div>
+                        <p class="p-Breakdown" *ngIf="rates.totalDiscount > 0">
+                          -{{ rates.currency }}</p>
+                        <p class="p-BreakdownTotal">{{ rates.currency }}</p>
+                      </ion-col>
+
+                      <ion-col size="3">
+                        <p class="p-Breakdownrate" *ngIf="!rateApiError"> {{ rates.totalBaseCharge | number }}</p>
+                        <p class="p-Breakdownrate" *ngIf="rateApiError"> --</p>
+                        <p class="p-Breakdownrate" *ngIf="rates.vat">{{ rates.vat | number }}</p>
+                        <div *ngFor="let surcharge of rates.surcharges">
+                          <p class="p-Breakdownrate"> {{ surcharge.amount[0].amount | number }}</p>
+                        </div>
+                        <p class="p-Breakdownrate" *ngIf="rates?.totalDiscount">-{{ rates.totalDiscount | number }}</p>
+                        <p class="p-Breakdowntotalrate" *ngIf="!rateApiError"> {{rates.totalNetCharge | number }}</p>
+                        <p class="p-Breakdowntotalrate" *ngIf="rateApiError"> --</p>
+                      </ion-col>
+                    </ion-row>
+                  </ion-grid>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col size="3"></ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <br>
+    </div>
+  </div> 
+    <ion-row>
+      <ion-col size="12" *ngIf="chargableDimensionalWeight > actualTotalWeight">
+        <ion-label class="chargbleStye" translate>{{ 'rateAndDeliveryOptionsPage.chargeableDimenWeight' }} </ion-label>
+        <img class="questionImg" src="../../../../assets/img/rateAndDelivery/question.png" (click)="showDimensionalWeightBubbleHint()">
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="kg20line" *ngIf="chargableDimensionalWeight > actualTotalWeight">
+      <ion-col size="12">
+        <ion-label class="kg20Style">{{chargableDimensionalWeight}}{{packageWeightUnit}} </ion-label>&nbsp; <span class="actual10KG">
+          ({{ 'rateAndDeliveryOptionsPage.actual' | translate }} {{actualTotalWeight}}{{packageWeightUnit}}) </span>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-label class="bottomText">{{ 'rateAndDeliveryOptionsPage.finalRateNote' | translate }}</ion-label>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

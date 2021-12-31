@@ -1,0 +1,11 @@
+{
+    "output": {
+        "currencies": [
+            {
+                "code": "USD",
+                "description": "US Dollars",
+                "symbol": "$"
+            }
+        ]
+    }
+}

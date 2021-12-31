@@ -1,0 +1,23 @@
+.hiddenBack {
+    color: #4d148c !important;
+    visibility: hidden;
+}
+
+.header-text {
+    font-family: FedExSans-Regular;
+    font-size: 19px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+ion-button{
+    --background: transparent;
+    --color: var(--ion-color-primary-contrast);
+    --color-activated: var(--ion-color-primary-contrast);
+    --color-focused: var(--ion-color-primary-contrast);
+}
+ion-toolbar{
+    height: 68px;
+    padding-top: 5px !important;
+}

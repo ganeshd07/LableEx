@@ -1,0 +1,479 @@
+{
+    "transactionId": "118ab1e8-6468-4cd0-ba74-9e4d75daf2f7",
+    "output": {
+        "keyTexts": [
+            {
+                "key": "PCS",
+                "displayText": "pieces"
+            },
+            {
+                "key": "ADJ",
+                "displayText": "adjustments"
+            },
+            {
+                "key": "BBL",
+                "displayText": "barrels"
+            },
+            {
+                "key": "BFT",
+                "displayText": "board feet"
+            },
+            {
+                "key": "BOX",
+                "displayText": "box"
+            },
+            {
+                "key": "BTU",
+                "displayText": "british thermal unit"
+            },
+            {
+                "key": "BU",
+                "displayText": "bushels"
+            },
+            {
+                "key": "CAR",
+                "displayText": "carats"
+            },
+            {
+                "key": "CG",
+                "displayText": "centigrams"
+            },
+            {
+                "key": "CM",
+                "displayText": "centimeters"
+            },
+            {
+                "key": "CY",
+                "displayText": "clean yield"
+            },
+            {
+                "key": "CYG",
+                "displayText": "clean yield gram"
+            },
+            {
+                "key": "CYK",
+                "displayText": "clean yield kilogram"
+            },
+            {
+                "key": "CGM",
+                "displayText": "content gram"
+            },
+            {
+                "key": "CKG",
+                "displayText": "content kilogram"
+            },
+            {
+                "key": "CLB",
+                "displayText": "content pound"
+            },
+            {
+                "key": "CTN",
+                "displayText": "content tons"
+            },
+            {
+                "key": "CD",
+                "displayText": "cord"
+            },
+            {
+                "key": "CRT",
+                "displayText": "crate"
+            },
+            {
+                "key": "CM3",
+                "displayText": "cubic centimeters"
+            },
+            {
+                "key": "CFT",
+                "displayText": "cubic feet"
+            },
+            {
+                "key": "M3",
+                "displayText": "cubic meters"
+            },
+            {
+                "key": "CYD",
+                "displayText": "cubic yards"
+            },
+            {
+                "key": "CUR",
+                "displayText": "curie"
+            },
+            {
+                "key": "DEG",
+                "displayText": "degree"
+            },
+            {
+                "key": "DS",
+                "displayText": "dose"
+            },
+            {
+                "key": "DOZ",
+                "displayText": "dozen"
+            },
+            {
+                "key": "DPR",
+                "displayText": "dozen pairs"
+            },
+            {
+                "key": "DPC",
+                "displayText": "dozen pieces"
+            },
+            {
+                "key": "EA",
+                "displayText": "each"
+            },
+            {
+                "key": "F",
+                "displayText": "fahrenheit"
+            },
+            {
+                "key": "FT",
+                "displayText": "feet"
+            },
+            {
+                "key": "FBM",
+                "displayText": "fiber meters"
+            },
+            {
+                "key": "B56",
+                "displayText": "fifty six pound bushel"
+            },
+            {
+                "key": "GAL",
+                "displayText": "gallon"
+            },
+            {
+                "key": "GBQ",
+                "displayText": "gigabecquerels"
+            },
+            {
+                "key": "AUG",
+                "displayText": "gold content grams"
+            },
+            {
+                "key": "G",
+                "displayText": "grams"
+            },
+            {
+                "key": "GR",
+                "displayText": "gross"
+            },
+            {
+                "key": "GCN",
+                "displayText": "gross containers"
+            },
+            {
+                "key": "GRL",
+                "displayText": "gross lines"
+            },
+            {
+                "key": "HZ",
+                "displayText": "hertz"
+            },
+            {
+                "key": "HUN",
+                "displayText": "hundred"
+            },
+            {
+                "key": "CSI",
+                "displayText": "hundred square inches"
+            },
+            {
+                "key": "CWT",
+                "displayText": "hundredweight"
+            },
+            {
+                "key": "IRG",
+                "displayText": "iridium content grams"
+            },
+            {
+                "key": "IT",
+                "displayText": "items"
+            },
+            {
+                "key": "JWL",
+                "displayText": "jewels"
+            },
+            {
+                "key": "KGS",
+                "displayText": "kilograms"
+            },
+            {
+                "key": "KTS",
+                "displayText": "kilograms total sugar"
+            },
+            {
+                "key": "KHZ",
+                "displayText": "kilohertz"
+            },
+            {
+                "key": "KN",
+                "displayText": "kilonewton"
+            },
+            {
+                "key": "KPA",
+                "displayText": "kilopascal"
+            },
+            {
+                "key": "KWH",
+                "displayText": "kilowatt hours"
+            },
+            {
+                "key": "KW",
+                "displayText": "kilowatts"
+            },
+            {
+                "key": "LF",
+                "displayText": "leaf"
+            },
+            {
+                "key": "LIN",
+                "displayText": "linear"
+            },
+            {
+                "key": "LFT",
+                "displayText": "linear feet"
+            },
+            {
+                "key": "LNM",
+                "displayText": "linear meters"
+            },
+            {
+                "key": "LYD",
+                "displayText": "linear yards"
+            },
+            {
+                "key": "LTR",
+                "displayText": "liters"
+            },
+            {
+                "key": "MBQ",
+                "displayText": "megabecquerels"
+            },
+            {
+                "key": "M",
+                "displayText": "meters"
+            },
+            {
+                "key": "MC",
+                "displayText": "millicuries"
+            },
+            {
+                "key": "MG",
+                "displayText": "milligrams"
+            },
+            {
+                "key": "ML",
+                "displayText": "milliliters"
+            },
+            {
+                "key": "MPA",
+                "displayText": "millipascals"
+            },
+            {
+                "key": "X",
+                "displayText": "no unit required"
+            },
+            {
+                "key": "NO",
+                "displayText": "number"
+            },
+            {
+                "key": "C",
+                "displayText": "one hundred celsius"
+            },
+            {
+                "key": "CLF",
+                "displayText": "one hundred leaves"
+            },
+            {
+                "key": "OSG",
+                "displayText": "osmium content grams"
+            },
+            {
+                "key": "OZ",
+                "displayText": "ounces"
+            },
+            {
+                "key": "ODE",
+                "displayText": "ozone depletion equivalent"
+            },
+            {
+                "key": "PK",
+                "displayText": "pack (cards)"
+            },
+            {
+                "key": "PKS",
+                "displayText": "packs"
+            },
+            {
+                "key": "PR",
+                "displayText": "pair"
+            },
+            {
+                "key": "PDG",
+                "displayText": "palladium content grams"
+            },
+            {
+                "key": "PTG",
+                "displayText": "plutonium content grams"
+            },
+            {
+                "key": "LBS",
+                "displayText": "pounds"
+            },
+            {
+                "key": "LBC",
+                "displayText": "pounds including container"
+            },
+            {
+                "key": "PSI",
+                "displayText": "pounds per square inch"
+            },
+            {
+                "key": "PFG",
+                "displayText": "proof gallons"
+            },
+            {
+                "key": "PFL",
+                "displayText": "proof liters"
+            },
+            {
+                "key": "QT",
+                "displayText": "quarts"
+            },
+            {
+                "key": "RHG",
+                "displayText": "rhodium content grams"
+            },
+            {
+                "key": "ROL",
+                "displayText": "rolls"
+            },
+            {
+                "key": "RBA",
+                "displayText": "running bales"
+            },
+            {
+                "key": "RUG",
+                "displayText": "rutherium content grams"
+            },
+            {
+                "key": "SET",
+                "displayText": "sets"
+            },
+            {
+                "key": "STN",
+                "displayText": "short tons"
+            },
+            {
+                "key": "AGG",
+                "displayText": "silver content grams"
+            },
+            {
+                "key": "SQ",
+                "displayText": "square"
+            },
+            {
+                "key": "CM2",
+                "displayText": "square centimeters"
+            },
+            {
+                "key": "SFT",
+                "displayText": "square feet"
+            },
+            {
+                "key": "SQI",
+                "displayText": "square inches"
+            },
+            {
+                "key": "M2",
+                "displayText": "square meters"
+            },
+            {
+                "key": "SYD",
+                "displayText": "square yards"
+            },
+            {
+                "key": "SBE",
+                "displayText": "standard brick equivalent"
+            },
+            {
+                "key": "THS",
+                "displayText": "thousand"
+            },
+            {
+                "key": "MBF",
+                "displayText": "thousand board feet"
+            },
+            {
+                "key": "MCF",
+                "displayText": "thousand cubic feet "
+            },
+            {
+                "key": "TCM",
+                "displayText": "thousand cubic meters"
+            },
+            {
+                "key": "MFT",
+                "displayText": "thousand feet"
+            },
+            {
+                "key": "MLF",
+                "displayText": "thousand linear feet "
+            },
+            {
+                "key": "THM",
+                "displayText": "thousand meters"
+            },
+            {
+                "key": "MSF",
+                "displayText": "thousand square feet"
+            },
+            {
+                "key": "MSI",
+                "displayText": "thousand square inches"
+            },
+            {
+                "key": "KM2",
+                "displayText": "thousand square meters"
+            },
+            {
+                "key": "KSB",
+                "displayText": "thousand standard brick"
+            },
+            {
+                "key": "MBE",
+                "displayText": "thousand standard brick equivalent"
+            },
+            {
+                "key": "MYD",
+                "displayText": "thousand yards"
+            },
+            {
+                "key": "3MI",
+                "displayText": "three thousand square inches"
+            },
+            {
+                "key": "TNV",
+                "displayText": "ton raw value"
+            },
+            {
+                "key": "TOZ",
+                "displayText": "troy ounces"
+            },
+            {
+                "key": "UNT",
+                "displayText": "units"
+            },
+            {
+                "key": "YD",
+                "displayText": "yards"
+            },
+            {
+                "key": "YN",
+                "displayText": "yarn"
+            }
+        ]
+    }
+}

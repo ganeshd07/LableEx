@@ -1,0 +1,171 @@
+ion-label {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4d148c;
+    letter-spacing: 0;
+    color: #4d148c;
+}
+
+ion-button {
+    font-family: FedExSans-Bold;
+    font-size: 19px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+ion-select,
+ion-input {
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: 0;
+
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 22px;
+}
+
+ion-select::part(icon) {
+    display: none !important;
+}
+
+.documents-grid {
+    display: block;
+}
+
+.documents-grid-hidden {
+    display: none;
+}
+
+.row-border-bottom {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #4d148c;
+}
+
+.col-padding-0 {
+    padding-left: 0;
+}
+
+.customized-select {
+    position: absolute;
+    bottom: 1px;
+    background: #f2f2f2;
+    width: 58px;
+    right: 0;
+    height: 22px;
+
+    ion-select {
+        font-family: FedExSans-Light;
+        font-size: 12px;
+        color: #333333;
+        letter-spacing: 0;
+
+        left: 0px;
+        padding-left: 5px;
+    }
+    .chevron-down {
+        left: 28px;
+        top: 0;
+        height: 25px;
+        color: #4d148c !important;
+        vertical-align: -webkit-baseline-middle;
+        position: absolute;
+    }
+}
+
+.toggle {
+    width: 31px;
+    height: 17px;
+    margin-top: 5px;
+}
+
+.chevron-right {
+    color: #4d148c !important;
+    vertical-align: -webkit-baseline-middle;
+    height: 25px;
+    position: absolute;
+    top: 18px;
+    right: -4px;
+}
+.tooltip {
+    width: 16px;
+    height: 16px;
+    color: #007ab7;
+    vertical-align: middle;
+}
+
+.row-tooltip {
+    margin-bottom: 10px;
+}
+
+.text {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4d148c;
+    letter-spacing: 0;
+}
+
+.currency-display {
+    width: 58px;
+    text-align: center;
+    background: #f2f2f2;
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+
+    height: 22px;
+    position: relative;
+    top: 0;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.footnote {
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #8e8e8e;
+    letter-spacing: 0;
+}
+
+.spacer{
+    height: 15px;
+}
+
+.declared-value-input {
+    pointer-events: auto;
+}
+
+.field-error {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #e8002e;
+}
+
+.validation-error {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+}
+
+.cancel-btn{
+    background: transparent;
+    color: #007ab7;
+    margin-top: 0px !important;
+    border: none !important;
+    font-size: 16px !important;
+}
+
+.addItemStyle{
+    justify-content: center;
+    font-family: FedExSans-Bold;
+    font-size: 14px;
+    color: #007AB7;
+    letter-spacing: 1px;
+    text-align: center;
+}

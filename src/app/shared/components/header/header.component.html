@@ -1,0 +1,21 @@
+<ng-container>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start" *ngIf="backbuttonFlag">
+        <ion-button [routerLink]="backNavigation">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="start" *ngIf="!backbuttonFlag">
+        <ion-button class="hiddenBack">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title class="ion-text-center header-text" translate>{{ title }}</ion-title>
+      <ion-buttons slot="end" *ngIf="menuButtonFlag">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+
+    </ion-toolbar>
+  </ion-header>
+</ng-container>

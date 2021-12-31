@@ -1,0 +1,1003 @@
+{
+    "transactionId": "23d9a85f-0dca-4092-8299-c83ab410df2c",
+    "output": {
+        "countryPrefix": [
+            {
+                "countryCode": "PR",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "PS",
+                "countryDialingCode": "970"
+            },
+            {
+                "countryCode": "PT",
+                "countryDialingCode": "351"
+            },
+            {
+                "countryCode": "PW",
+                "countryDialingCode": "680"
+            },
+            {
+                "countryCode": "PY",
+                "countryDialingCode": "595"
+            },
+            {
+                "countryCode": "QA",
+                "countryDialingCode": "974"
+            },
+            {
+                "countryCode": "AD",
+                "countryDialingCode": "376"
+            },
+            {
+                "countryCode": "AE",
+                "countryDialingCode": "971"
+            },
+            {
+                "countryCode": "AF",
+                "countryDialingCode": "93"
+            },
+            {
+                "countryCode": "AG",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "AI",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "AL",
+                "countryDialingCode": "355"
+            },
+            {
+                "countryCode": "AM",
+                "countryDialingCode": "374"
+            },
+            {
+                "countryCode": "AO",
+                "countryDialingCode": "244"
+            },
+            {
+                "countryCode": "AQ",
+                "countryDialingCode": "672"
+            },
+            {
+                "countryCode": "AR",
+                "countryDialingCode": "54"
+            },
+            {
+                "countryCode": "AS",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "AT",
+                "countryDialingCode": "43"
+            },
+            {
+                "countryCode": "RE",
+                "countryDialingCode": "262"
+            },
+            {
+                "countryCode": "AU",
+                "countryDialingCode": "61"
+            },
+            {
+                "countryCode": "AW",
+                "countryDialingCode": "297"
+            },
+            {
+                "countryCode": "AX",
+                "countryDialingCode": "358"
+            },
+            {
+                "countryCode": "AZ",
+                "countryDialingCode": "994"
+            },
+            {
+                "countryCode": "RO",
+                "countryDialingCode": "40"
+            },
+            {
+                "countryCode": "BA",
+                "countryDialingCode": "387"
+            },
+            {
+                "countryCode": "BB",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "RS",
+                "countryDialingCode": "381"
+            },
+            {
+                "countryCode": "BD",
+                "countryDialingCode": "880"
+            },
+            {
+                "countryCode": "BE",
+                "countryDialingCode": "32"
+            },
+            {
+                "countryCode": "RU",
+                "countryDialingCode": "7"
+            },
+            {
+                "countryCode": "BF",
+                "countryDialingCode": "226"
+            },
+            {
+                "countryCode": "BG",
+                "countryDialingCode": "359"
+            },
+            {
+                "countryCode": "RW",
+                "countryDialingCode": "250"
+            },
+            {
+                "countryCode": "BH",
+                "countryDialingCode": "973"
+            },
+            {
+                "countryCode": "BI",
+                "countryDialingCode": "257"
+            },
+            {
+                "countryCode": "BJ",
+                "countryDialingCode": "229"
+            },
+            {
+                "countryCode": "BL",
+                "countryDialingCode": "590"
+            },
+            {
+                "countryCode": "BM",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "BN",
+                "countryDialingCode": "673"
+            },
+            {
+                "countryCode": "BO",
+                "countryDialingCode": "591"
+            },
+            {
+                "countryCode": "SA",
+                "countryDialingCode": "966"
+            },
+            {
+                "countryCode": "BQ",
+                "countryDialingCode": "599"
+            },
+            {
+                "countryCode": "SB",
+                "countryDialingCode": "677"
+            },
+            {
+                "countryCode": "BR",
+                "countryDialingCode": "55"
+            },
+            {
+                "countryCode": "SC",
+                "countryDialingCode": "248"
+            },
+            {
+                "countryCode": "BS",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "SD",
+                "countryDialingCode": "249"
+            },
+            {
+                "countryCode": "BT",
+                "countryDialingCode": "975"
+            },
+            {
+                "countryCode": "SE",
+                "countryDialingCode": "46"
+            },
+            {
+                "countryCode": "BV",
+                "countryDialingCode": "47"
+            },
+            {
+                "countryCode": "SG",
+                "countryDialingCode": "65"
+            },
+            {
+                "countryCode": "BW",
+                "countryDialingCode": "267"
+            },
+            {
+                "countryCode": "SH",
+                "countryDialingCode": "290"
+            },
+            {
+                "countryCode": "SI",
+                "countryDialingCode": "386"
+            },
+            {
+                "countryCode": "BY",
+                "countryDialingCode": "375"
+            },
+            {
+                "countryCode": "SJ",
+                "countryDialingCode": "47"
+            },
+            {
+                "countryCode": "BZ",
+                "countryDialingCode": "501"
+            },
+            {
+                "countryCode": "SK",
+                "countryDialingCode": "421"
+            },
+            {
+                "countryCode": "SL",
+                "countryDialingCode": "232"
+            },
+            {
+                "countryCode": "SM",
+                "countryDialingCode": "378"
+            },
+            {
+                "countryCode": "SN",
+                "countryDialingCode": "221"
+            },
+            {
+                "countryCode": "SO",
+                "countryDialingCode": "252"
+            },
+            {
+                "countryCode": "CA",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "SR",
+                "countryDialingCode": "597"
+            },
+            {
+                "countryCode": "CC",
+                "countryDialingCode": "61"
+            },
+            {
+                "countryCode": "SS",
+                "countryDialingCode": "211"
+            },
+            {
+                "countryCode": "CD",
+                "countryDialingCode": "243"
+            },
+            {
+                "countryCode": "ST",
+                "countryDialingCode": "239"
+            },
+            {
+                "countryCode": "CF",
+                "countryDialingCode": "236"
+            },
+            {
+                "countryCode": "SV",
+                "countryDialingCode": "503"
+            },
+            {
+                "countryCode": "CG",
+                "countryDialingCode": "242"
+            },
+            {
+                "countryCode": "CH",
+                "countryDialingCode": "41"
+            },
+            {
+                "countryCode": "SX",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "CI",
+                "countryDialingCode": "225"
+            },
+            {
+                "countryCode": "SY",
+                "countryDialingCode": "963"
+            },
+            {
+                "countryCode": "SZ",
+                "countryDialingCode": "268"
+            },
+            {
+                "countryCode": "CK",
+                "countryDialingCode": "682"
+            },
+            {
+                "countryCode": "CL",
+                "countryDialingCode": "56"
+            },
+            {
+                "countryCode": "CM",
+                "countryDialingCode": "237"
+            },
+            {
+                "countryCode": "CN",
+                "countryDialingCode": "86"
+            },
+            {
+                "countryCode": "CO",
+                "countryDialingCode": "57"
+            },
+            {
+                "countryCode": "CR",
+                "countryDialingCode": "506"
+            },
+            {
+                "countryCode": "TC",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "TD",
+                "countryDialingCode": "235"
+            },
+            {
+                "countryCode": "CU",
+                "countryDialingCode": "53"
+            },
+            {
+                "countryCode": "TF",
+                "countryDialingCode": "262"
+            },
+            {
+                "countryCode": "CV",
+                "countryDialingCode": "238"
+            },
+            {
+                "countryCode": "TG",
+                "countryDialingCode": "228"
+            },
+            {
+                "countryCode": "CW",
+                "countryDialingCode": "599"
+            },
+            {
+                "countryCode": "TH",
+                "countryDialingCode": "66"
+            },
+            {
+                "countryCode": "CX",
+                "countryDialingCode": "61"
+            },
+            {
+                "countryCode": "CY",
+                "countryDialingCode": "357"
+            },
+            {
+                "countryCode": "TJ",
+                "countryDialingCode": "992"
+            },
+            {
+                "countryCode": "CZ",
+                "countryDialingCode": "420"
+            },
+            {
+                "countryCode": "TK",
+                "countryDialingCode": "690"
+            },
+            {
+                "countryCode": "TL",
+                "countryDialingCode": "670"
+            },
+            {
+                "countryCode": "TM",
+                "countryDialingCode": "993"
+            },
+            {
+                "countryCode": "TN",
+                "countryDialingCode": "216"
+            },
+            {
+                "countryCode": "TO",
+                "countryDialingCode": "676"
+            },
+            {
+                "countryCode": "TR",
+                "countryDialingCode": "90"
+            },
+            {
+                "countryCode": "TT",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "DE",
+                "countryDialingCode": "49"
+            },
+            {
+                "countryCode": "TV",
+                "countryDialingCode": "688"
+            },
+            {
+                "countryCode": "TW",
+                "countryDialingCode": "886"
+            },
+            {
+                "countryCode": "DJ",
+                "countryDialingCode": "253"
+            },
+            {
+                "countryCode": "TZ",
+                "countryDialingCode": "255"
+            },
+            {
+                "countryCode": "DK",
+                "countryDialingCode": "45"
+            },
+            {
+                "countryCode": "DM",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "DO",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "UA",
+                "countryDialingCode": "380"
+            },
+            {
+                "countryCode": "UG",
+                "countryDialingCode": "256"
+            },
+            {
+                "countryCode": "DZ",
+                "countryDialingCode": "213"
+            },
+            {
+                "countryCode": "UM",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "EC",
+                "countryDialingCode": "593"
+            },
+            {
+                "countryCode": "US",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "EE",
+                "countryDialingCode": "372"
+            },
+            {
+                "countryCode": "EG",
+                "countryDialingCode": "20"
+            },
+            {
+                "countryCode": "EH",
+                "countryDialingCode": "212"
+            },
+            {
+                "countryCode": "UY",
+                "countryDialingCode": "598"
+            },
+            {
+                "countryCode": "UZ",
+                "countryDialingCode": "998"
+            },
+            {
+                "countryCode": "VA",
+                "countryDialingCode": "39"
+            },
+            {
+                "countryCode": "ER",
+                "countryDialingCode": "291"
+            },
+            {
+                "countryCode": "VC",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "ES",
+                "countryDialingCode": "34"
+            },
+            {
+                "countryCode": "ET",
+                "countryDialingCode": "251"
+            },
+            {
+                "countryCode": "VE",
+                "countryDialingCode": "58"
+            },
+            {
+                "countryCode": "VG",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "VI",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "VN",
+                "countryDialingCode": "84"
+            },
+            {
+                "countryCode": "VU",
+                "countryDialingCode": "678"
+            },
+            {
+                "countryCode": "FI",
+                "countryDialingCode": "358"
+            },
+            {
+                "countryCode": "FJ",
+                "countryDialingCode": "679"
+            },
+            {
+                "countryCode": "FK",
+                "countryDialingCode": "500"
+            },
+            {
+                "countryCode": "FM",
+                "countryDialingCode": "691"
+            },
+            {
+                "countryCode": "FO",
+                "countryDialingCode": "298"
+            },
+            {
+                "countryCode": "FR",
+                "countryDialingCode": "33"
+            },
+            {
+                "countryCode": "WF",
+                "countryDialingCode": "681"
+            },
+            {
+                "countryCode": "GA",
+                "countryDialingCode": "241"
+            },
+            {
+                "countryCode": "GB",
+                "countryDialingCode": "44"
+            },
+            {
+                "countryCode": "WS",
+                "countryDialingCode": "685"
+            },
+            {
+                "countryCode": "GD",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "GE",
+                "countryDialingCode": "995"
+            },
+            {
+                "countryCode": "GF",
+                "countryDialingCode": "594"
+            },
+            {
+                "countryCode": "GG",
+                "countryDialingCode": "44"
+            },
+            {
+                "countryCode": "GH",
+                "countryDialingCode": "233"
+            },
+            {
+                "countryCode": "GI",
+                "countryDialingCode": "350"
+            },
+            {
+                "countryCode": "GL",
+                "countryDialingCode": "299"
+            },
+            {
+                "countryCode": "GM",
+                "countryDialingCode": "220"
+            },
+            {
+                "countryCode": "GN",
+                "countryDialingCode": "224"
+            },
+            {
+                "countryCode": "GP",
+                "countryDialingCode": "590"
+            },
+            {
+                "countryCode": "GQ",
+                "countryDialingCode": "240"
+            },
+            {
+                "countryCode": "GR",
+                "countryDialingCode": "30"
+            },
+            {
+                "countryCode": "GS",
+                "countryDialingCode": "500"
+            },
+            {
+                "countryCode": "GT",
+                "countryDialingCode": "502"
+            },
+            {
+                "countryCode": "GU",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "GW",
+                "countryDialingCode": "245"
+            },
+            {
+                "countryCode": "GY",
+                "countryDialingCode": "592"
+            },
+            {
+                "countryCode": "HK",
+                "countryDialingCode": "852"
+            },
+            {
+                "countryCode": "HM",
+                "countryDialingCode": "61"
+            },
+            {
+                "countryCode": "HN",
+                "countryDialingCode": "504"
+            },
+            {
+                "countryCode": "HR",
+                "countryDialingCode": "385"
+            },
+            {
+                "countryCode": "HT",
+                "countryDialingCode": "509"
+            },
+            {
+                "countryCode": "YE",
+                "countryDialingCode": "967"
+            },
+            {
+                "countryCode": "HU",
+                "countryDialingCode": "36"
+            },
+            {
+                "countryCode": "ID",
+                "countryDialingCode": "62"
+            },
+            {
+                "countryCode": "YT",
+                "countryDialingCode": "262"
+            },
+            {
+                "countryCode": "IE",
+                "countryDialingCode": "353"
+            },
+            {
+                "countryCode": "IL",
+                "countryDialingCode": "972"
+            },
+            {
+                "countryCode": "IM",
+                "countryDialingCode": "44"
+            },
+            {
+                "countryCode": "IN",
+                "countryDialingCode": "91"
+            },
+            {
+                "countryCode": "IO",
+                "countryDialingCode": "91"
+            },
+            {
+                "countryCode": "ZA",
+                "countryDialingCode": "27"
+            },
+            {
+                "countryCode": "IQ",
+                "countryDialingCode": "964"
+            },
+            {
+                "countryCode": "IR",
+                "countryDialingCode": "98"
+            },
+            {
+                "countryCode": "IS",
+                "countryDialingCode": "354"
+            },
+            {
+                "countryCode": "IT",
+                "countryDialingCode": "39"
+            },
+            {
+                "countryCode": "ZM",
+                "countryDialingCode": "260"
+            },
+            {
+                "countryCode": "JE",
+                "countryDialingCode": "44"
+            },
+            {
+                "countryCode": "ZW",
+                "countryDialingCode": "263"
+            },
+            {
+                "countryCode": "JM",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "JO",
+                "countryDialingCode": "962"
+            },
+            {
+                "countryCode": "JP",
+                "countryDialingCode": "81"
+            },
+            {
+                "countryCode": "KE",
+                "countryDialingCode": "254"
+            },
+            {
+                "countryCode": "KG",
+                "countryDialingCode": "7"
+            },
+            {
+                "countryCode": "KH",
+                "countryDialingCode": "855"
+            },
+            {
+                "countryCode": "KI",
+                "countryDialingCode": "686"
+            },
+            {
+                "countryCode": "KM",
+                "countryDialingCode": "269"
+            },
+            {
+                "countryCode": "KN",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "KP",
+                "countryDialingCode": "850"
+            },
+            {
+                "countryCode": "KR",
+                "countryDialingCode": "82"
+            },
+            {
+                "countryCode": "KW",
+                "countryDialingCode": "965"
+            },
+            {
+                "countryCode": "KY",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "KZ",
+                "countryDialingCode": "7"
+            },
+            {
+                "countryCode": "LA",
+                "countryDialingCode": "856"
+            },
+            {
+                "countryCode": "LB",
+                "countryDialingCode": "961"
+            },
+            {
+                "countryCode": "LC",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "LI",
+                "countryDialingCode": "423"
+            },
+            {
+                "countryCode": "LK",
+                "countryDialingCode": "94"
+            },
+            {
+                "countryCode": "LR",
+                "countryDialingCode": "231"
+            },
+            {
+                "countryCode": "LS",
+                "countryDialingCode": "266"
+            },
+            {
+                "countryCode": "LT",
+                "countryDialingCode": "370"
+            },
+            {
+                "countryCode": "LU",
+                "countryDialingCode": "352"
+            },
+            {
+                "countryCode": "LV",
+                "countryDialingCode": "371"
+            },
+            {
+                "countryCode": "LY",
+                "countryDialingCode": "218"
+            },
+            {
+                "countryCode": "MA",
+                "countryDialingCode": "212"
+            },
+            {
+                "countryCode": "MC",
+                "countryDialingCode": "33"
+            },
+            {
+                "countryCode": "MD",
+                "countryDialingCode": "373"
+            },
+            {
+                "countryCode": "ME",
+                "countryDialingCode": "381"
+            },
+            {
+                "countryCode": "MF",
+                "countryDialingCode": "599"
+            },
+            {
+                "countryCode": "MG",
+                "countryDialingCode": "261"
+            },
+            {
+                "countryCode": "MH",
+                "countryDialingCode": "692"
+            },
+            {
+                "countryCode": "MK",
+                "countryDialingCode": "389"
+            },
+            {
+                "countryCode": "ML",
+                "countryDialingCode": "223"
+            },
+            {
+                "countryCode": "MM",
+                "countryDialingCode": "95"
+            },
+            {
+                "countryCode": "MN",
+                "countryDialingCode": "976"
+            },
+            {
+                "countryCode": "MO",
+                "countryDialingCode": "853"
+            },
+            {
+                "countryCode": "MP",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "MQ",
+                "countryDialingCode": "596"
+            },
+            {
+                "countryCode": "MR",
+                "countryDialingCode": "230"
+            },
+            {
+                "countryCode": "MS",
+                "countryDialingCode": "1"
+            },
+            {
+                "countryCode": "MT",
+                "countryDialingCode": "356"
+            },
+            {
+                "countryCode": "MU",
+                "countryDialingCode": "230"
+            },
+            {
+                "countryCode": "MV",
+                "countryDialingCode": "90"
+            },
+            {
+                "countryCode": "MW",
+                "countryDialingCode": "265"
+            },
+            {
+                "countryCode": "MX",
+                "countryDialingCode": "52"
+            },
+            {
+                "countryCode": "MY",
+                "countryDialingCode": "60"
+            },
+            {
+                "countryCode": "MZ",
+                "countryDialingCode": "258"
+            },
+            {
+                "countryCode": "NA",
+                "countryDialingCode": "264"
+            },
+            {
+                "countryCode": "NC",
+                "countryDialingCode": "687"
+            },
+            {
+                "countryCode": "NE",
+                "countryDialingCode": "227"
+            },
+            {
+                "countryCode": "NF",
+                "countryDialingCode": "672"
+            },
+            {
+                "countryCode": "NG",
+                "countryDialingCode": "234"
+            },
+            {
+                "countryCode": "NI",
+                "countryDialingCode": "505"
+            },
+            {
+                "countryCode": "NL",
+                "countryDialingCode": "31"
+            },
+            {
+                "countryCode": "NO",
+                "countryDialingCode": "47"
+            },
+            {
+                "countryCode": "NP",
+                "countryDialingCode": "977"
+            },
+            {
+                "countryCode": "NR",
+                "countryDialingCode": "674"
+            },
+            {
+                "countryCode": "NU",
+                "countryDialingCode": "683"
+            },
+            {
+                "countryCode": "NZ",
+                "countryDialingCode": "64"
+            },
+            {
+                "countryCode": "OM",
+                "countryDialingCode": "968"
+            },
+            {
+                "countryCode": "PA",
+                "countryDialingCode": "507"
+            },
+            {
+                "countryCode": "PE",
+                "countryDialingCode": "51"
+            },
+            {
+                "countryCode": "PF",
+                "countryDialingCode": "689"
+            },
+            {
+                "countryCode": "PG",
+                "countryDialingCode": "675"
+            },
+            {
+                "countryCode": "PH",
+                "countryDialingCode": "63"
+            },
+            {
+                "countryCode": "PK",
+                "countryDialingCode": "92"
+            },
+            {
+                "countryCode": "PL",
+                "countryDialingCode": "48"
+            },
+            {
+                "countryCode": "PM",
+                "countryDialingCode": "508"
+            },
+            {
+                "countryCode": "PN",
+                "countryDialingCode": "870"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1451 @@
+{
+    "RateAndServicesResponse": {
+        "successful": true,
+        "servicesAvailableAndFiltered": false,
+        "rateReplyDetailList": [
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 20, 2020",
+                            "dayCxsFormat": "Apr-20-2020",
+                            "dayOfWeek": "Mon",
+                            "time": "08:00"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "3910",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 5.91,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 118.25,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 124.16,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 118.25,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 124.16,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 124.16,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 124.16,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "14",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 5.84,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 116.76,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 122.6,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 116.76,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 122.6,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 122.6,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 122.6,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx First Overnight<SUP>&reg;</SUP>",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "FIRST_OVERNIGHT"
+                }
+            },
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 20, 2020",
+                            "dayCxsFormat": "Apr-20-2020",
+                            "dayOfWeek": "Mon",
+                            "time": "10:30"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "88996",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 4.36,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 87.25,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 91.61,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 87.25,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 91.61,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 91.61,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 91.61,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "1574",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 4.34,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 86.76,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 91.1,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 86.76,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 91.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 91.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 91.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx Priority Overnight<SUP>&reg;</SUP>",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "PRIORITY_OVERNIGHT"
+                }
+            },
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 20, 2020",
+                            "dayCxsFormat": "Apr-20-2020",
+                            "dayOfWeek": "Mon",
+                            "time": "15:00"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "59999",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 3.88,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 77.6,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 81.48,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 77.6,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 81.48,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 81.48,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 81.48,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "1371",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 3.84,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 76.79,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 80.63,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 76.79,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 80.63,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 80.63,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 80.63,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx Standard Overnight<SUP>&reg;</SUP>",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "STANDARD_OVERNIGHT"
+                }
+            },
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 21, 2020",
+                            "dayCxsFormat": "Apr-21-2020",
+                            "dayOfWeek": "Tue",
+                            "time": "10:30"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "36",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 2.15,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 43.0,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 45.15,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 43.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 45.15,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 45.15,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 45.15,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "12",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 2.15,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 42.95,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 45.1,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 42.95,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 45.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 45.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 45.1,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx 2Day AM<SUP>&reg;</SUP> ",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "FEDEX_2_DAY_AM"
+                }
+            },
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 21, 2020",
+                            "dayCxsFormat": "Apr-21-2020",
+                            "dayOfWeek": "Tue",
+                            "time": "16:30"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "92767",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 1.88,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 37.5,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 39.38,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 37.5,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 39.38,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 39.38,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 39.38,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "6068",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 1.87,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 37.47,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 39.34,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 37.47,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 39.34,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 39.34,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 39.34,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx 2Day<SUP>&reg;</SUP>",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "FEDEX_2_DAY"
+                }
+            },
+            {
+                "rateReplyDetail": {
+                    "anonymouslyAllowable": true,
+                    "commit": {
+                        "commodityName": "",
+                        "dateDetail": {
+                            "day": "Apr 22, 2020",
+                            "dayCxsFormat": "Apr-22-2020",
+                            "dayOfWeek": "Wed",
+                            "time": "16:30"
+                        }
+                    },
+                    "packagingType": "YOUR_PACKAGING",
+                    "ratedShipmentDetailList": [
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "ACCOUNT",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "56100",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 1.4,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 27.9,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 29.3,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 27.9,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 29.3,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 29.3,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 29.3,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "ratedShipmentDetail": {
+                                "ancillaryFeesAndTaxesList": [],
+                                "rateType": "LIST",
+                                "ratedWeightMethod": "ACTUAL",
+                                "shipmentLegRateDetailList": [
+                                    {
+                                        "shipmentLegRateDetail": {
+                                            "discountList": [],
+                                            "rateScale": "7175",
+                                            "surchargeList": [
+                                                {
+                                                    "surcharge": {
+                                                        "amountList": [
+                                                            {
+                                                                "amount": {
+                                                                    "amount": 1.39,
+                                                                    "currency": "USD"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "description": "Fuel surcharge",
+                                                        "type": "FUEL"
+                                                    }
+                                                }
+                                            ],
+                                            "taxList": [],
+                                            "totalBaseChargeList": [
+                                                {
+                                                    "totalBaseCharge": {
+                                                        "amount": 27.79,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ],
+                                            "totalNetChargeList": [
+                                                {
+                                                    "totalNetCharge": {
+                                                        "amount": 29.18,
+                                                        "currency": "USD"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "totalAncillaryFeesAndTaxes": {
+                                    "totalAncillaryFeesAndTaxes": {
+                                        "amount": "0.0",
+                                        "currency": "USD"
+                                    }
+                                },
+                                "totalBaseChargeList": [
+                                    {
+                                        "totalBaseCharge": {
+                                            "amount": 27.79,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesAndTaxesList": [
+                                    {
+                                        "totalDutiesAndTaxes": {
+                                            "amount": 0.0,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalDutiesTaxesAndFeesList": [
+                                    {
+                                        "totalDutiesTaxesAndFees": {
+                                            "amount": "0.0",
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeList": [
+                                    {
+                                        "totalNetCharge": {
+                                            "amount": 29.18,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetChargeWithDutiesAndTaxesList": [
+                                    {
+                                        "totalNetChargeWithDutiesAndTaxes": {
+                                            "amount": 29.18,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalNetFedExChargeList": [
+                                    {
+                                        "totalNetFedExCharge": {
+                                            "amount": 29.18,
+                                            "currency": "USD"
+                                        }
+                                    }
+                                ],
+                                "totalVatChargeList": [
+                                    {
+                                        "totalVatCharge": {
+                                            "amount": 0.0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "saturdayDelivery": false,
+                    "serviceName": "FedEx Express Saver<SUP>&reg;</SUP>",
+                    "serviceSubOptionDetail": "",
+                    "serviceType": "FEDEX_EXPRESS_SAVER"
+                }
+            }
+        ],
+        "quoteDate": "Apr-08-2020",
+        "transactionDetailList": [
+            {
+                "transactionDetail": {
+                    "sourceSystem": "CRSV",
+                    "transactionId": "crs-validateRequest-sje30220-20200408-05:44:51,693-122200253"
+                }
+            }
+        ]
+    }
+}

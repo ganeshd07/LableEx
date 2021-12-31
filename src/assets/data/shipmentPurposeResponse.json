@@ -1,0 +1,31 @@
+{
+    "transactionId": "a719af87-eb4e-490e-95f4-b8641f82bad0",
+    "output": {
+        "keyTexts": [
+            {
+                "key": "SOLD",
+                "displayText": "Commercial"
+            },
+            {
+                "key": "GIFT",
+                "displayText": "Gift"
+            },
+            {
+                "key": "SAMPLE",
+                "displayText": "Sample"
+            },
+            {
+                "key": "REPAIR_AND_RETURN",
+                "displayText": "Repair and return"
+            },
+            {
+                "key": "PERSONAL_EFFECTS",
+                "displayText": "Personal effects"
+            },
+            {
+                "key": "NOT_SOLD",
+                "displayText": "Personal use"
+            }
+        ]
+    }
+}

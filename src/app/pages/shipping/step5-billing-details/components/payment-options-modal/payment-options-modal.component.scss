@@ -1,0 +1,96 @@
+.modal-title{
+    font-family: FedExSans-Regular;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: center;
+    height:24px;
+}
+.modal-input{
+    font-family: FedExSans-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-left:18px;
+}
+
+.input-label-account{
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #4D148C;
+    letter-spacing: 0;
+    height:15px;
+    width:71px;
+    margin-left:20px;
+}
+
+.input-item{
+    border-bottom: 1px solid #4D148C;
+    width :163px;
+    margin-top:-40px;
+}
+
+.input-error{
+    border-bottom: 1px solid #e8002e;
+    width :163px;
+    margin-top:-40px;
+}
+
+.input-item-col{
+    margin-left:45px;
+}
+
+ion-input {
+    --padding-bottom: 0px;
+}
+.input-item-wrapper{
+    margin-top:25px;
+}
+
+.account-wrapper{
+    margin-left: 18px;
+    margin-left:28px;
+}    
+
+.account-col-wrapper{
+    margin-top: -13px;
+}
+.options-grid{
+    margin-bottom:80px;
+    margin-top:-10px;
+}
+
+ .confirmButton {
+     width:219px;
+     height:50px;
+     margin-top:10px;
+     font-size: 14px;
+ }
+ 
+.item-border-hide{
+    --inner-border-width: 0 0 0px 0;
+    margin-left: -5px;
+    height:35px;
+}
+
+.validation-error {
+    width: 86px;
+    height: 15px;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+}
+
+.same-account-error{
+    width: 70%;
+    height: 100%;
+    display:block;
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #e8002e;
+    margin-bottom: -14px;
+}
+
+.title-grid{
+    max-height: 70px;
+}

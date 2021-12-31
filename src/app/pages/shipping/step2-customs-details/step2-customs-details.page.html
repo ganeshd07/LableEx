@@ -1,0 +1,49 @@
+<app-header [title]="'addItemsPage.headerTitle' | translate" [backbuttonFlag]='false'></app-header>
+<div class="spacer-15"></div>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+  <div class="labelex-container">
+    <ion-grid class="main-grid">
+      <ion-row class="page-header-placeholder">
+        <ion-col size="12">
+          <p class="page-header-text" translate>{{ 'customsDetailsPage.customDetails' }}</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <p class="shipping-selection-text" translate>{{ 'customsDetailsPage.shipmentTypeQuestion' }}</p>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center row-selection">
+        <ion-col size="auto" class="ion-no-padding">
+          <ion-card [ngClass]="itemSelected ? 'shipping-card-selected' : 'shipping-card'"
+            (click)="displayCustomsType(itemType)">
+            <img src="../../../../assets/img/customs-details/items-icon.svg" />
+            <ion-card-header>
+              <ion-card-title class="card-title" translate>{{ 'customsDetailsPage.items' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="auto" class="ion-no-padding">
+          <ion-card [ngClass]="documentSelected ? 'shipping-card-selected' : 'shipping-card'"
+            (click)="displayCustomsType(docType)">
+            <img src="../../../../assets/img/customs-details/documents-icon.svg" />
+            <ion-card-header>
+              <ion-card-title class="card-title" translate>{{ 'customsDetailsPage.documents' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="ion-no-padding">
+          <!-- ITEMS GRID-->
+          <app-items [itemSelected]='itemSelected' [isEditFromSummary]= "isEditFromSummary" (updateCustomsInfo)="updateCustomsDetails($event)"
+            (updateShipmentInfo)="updateShipmentDetails($event)" (editFromSummary)="editFromSummary($event)"></app-items>
+          <!-- DOCUMENTS GRID-->
+          <app-documents [documentSelected]='documentSelected' [isEditFromSummary]= "isEditFromSummary" (updateCustomsInfo)="updateCustomsDetails($event)"
+            (updateShipmentInfo)="updateShipmentDetails($event)" (editFromSummary)="editFromSummary($event)"></app-documents>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

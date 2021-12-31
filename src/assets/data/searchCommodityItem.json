@@ -1,0 +1,96 @@
+{
+  "output" : {
+    "configlist":[
+       {
+            "value":"ELECTRONIC COMPONENTS",
+            "configId":"1",
+            "countryCode":"CN",
+            "type": "Electronics"
+        },
+        {
+            "value":"LI-ION BATTERIES IN COMPLIANCE WITH SECTION II OF PI967",
+            "configId":"2",
+            "countryCode":"CN",
+            "type": "Electronics"
+        },
+        {
+            "value":"LI-ION POLYMER BATTERY",
+            "configId":"3",
+            "countryCode":"CN",
+            "type": "Electronics"
+        },
+        {
+            "value":"VACUUM CLEANER  (WITH LI-ION BATTERY . PI967 SECTION II (LIBA IN EQUIPMENT)",
+            "configId":"4",
+            "countryCode":"CN",
+            "type": "Lithium Battery "
+        },
+        {
+          "value":"NOTEBOOK COMPUTER.LITHIUM ION BATTERIESPI967 II",
+          "configId":"5",
+          "countryCode":"CN",
+          "type": "Electronics"
+        },
+        {
+          "value":"ELECTRONIC ATOMIZER",
+          "configId":"6",
+          "countryCode":"CN",
+          "type": "Electronics"
+        },
+        {
+          "value":"ELECTRONIC BALLAST",
+          "configId":"7",
+          "countryCode":"HK",
+          "type": "Electronics"
+        },
+        {
+          "value":"LITHIUM ION BATTERIES IN COMPLIANCE SECTION II OF PI966",
+          "configId":"8",
+          "countryCode":"HK",
+          "type": "Electronics"
+        },
+        {
+          "value":"CAMERA X1 LITHIUM ION BATTERIES IN COMPLIANCE WITH SECTION II OF PI 967",
+          "configId":"9",
+          "countryCode":"HK",
+          "type": "Electronics"
+        },
+        {
+          "value":"POS TERMINAL, LITHIUM ION BATTERY EQUIPMENT UN3481 PI966 SECII",
+          "configId":"10",
+          "countryCode":"HK",
+          "type": "Garments"
+        },
+        {
+          "value":"ELECTRONIC INTEGRATED CIRCUIT",
+          "configId":"11",
+          "countryCode":"HK",
+          "type": "Electronics"
+        },
+        {
+          "value":"ELECTRONIC MACHINERY PARTS THEREOF",
+          "configId":"12",
+          "countryCode":"HK",
+          "type": "Electronics"
+        },
+        {
+         "value":"Super DVD",
+         "configId":"13",
+         "countryCode":"HK",
+         "type": "Electronics"
+       },
+       {
+         "value":"DVD Multi-player",
+         "configId":"14",
+         "countryCode":"HK",
+         "type": "Electronics"
+       },
+       {
+         "value":"DVD Player",
+         "configId":"15",
+         "countryCode":"HK",
+         "type": "Electronics"
+       }
+     ]
+   }
+  }

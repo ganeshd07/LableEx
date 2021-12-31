@@ -1,0 +1,4 @@
+export enum AddressTypes {
+    ADDRESS_RECIPIENT = 'RECIPIENT',
+    ADDRESS_DEFAULT_SENDER = 'DEFAULT_SENDER'
+}

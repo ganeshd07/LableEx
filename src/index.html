@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" mode="md">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FSM LITE</title>
+
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <meta name="theme-color" content="#387ef5">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <base href="/">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/appicon.png">
+
+  <link rel="apple-touch-icon" href="assets/img/appicon.png">
+
+  <link rel="preload" as="font" href="assets/fonts/FedEx Sans/FedExSansApp-Bold.woff2" crossorigin>
+  <link rel="preload" as="font" href="assets/fonts/FedEx Sans/FedExSansApp-Light.woff2" crossorigin>
+  <link rel="preload" as="font" href="assets/fonts/FedEx Sans/FedExSansApp-Regular.woff2" crossorigin>
+  <link rel="preload" as="font" href="assets/fonts/FedEx Sans/FedExSansApp-Medium.woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/img/logo_loading.png">
+
+  <link rel="stylesheet" href="assets/fonts/FedEx Sans/_fonts.css">
+  <link rel="stylesheet" href="assets/css/loading-screen.css">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+
+  <script>
+    window.FDX = window.FDX || {};
+    window.FDX.GDL = window.FDX.GDL || [];
+  </script>
+  <script src="https://www.fedex.com/gdl/gdl-fedex.js" async></script>
+</head>
+
+<body>
+
+  <app-root>
+    <div>
+      <div class="vertical-center">
+        <div class="center logoStyle">
+          <img class="imgClass" src="assets/img/logo_loading.png">
+        </div>
+      </div>
+    </div>
+    <div class="loader">Loading...</div>
+  </app-root>
+
+  <!-- Replace the API key with your own, see:
+    https://developers.google.com/maps/documentation/javascript/get-api-key -->
+  <!-- <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8pf6ZdFQj5qw7rc_HSGrhUwQKfIe9ICw"></script> -->
+
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+
+</html>

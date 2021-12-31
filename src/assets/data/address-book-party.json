@@ -1,0 +1,64 @@
+{
+    "transactionId": "5c6b6648-d8ec-45e7-a27f-bfb08d1263e1",
+    "output": {
+        "partyInfoVO": {
+            "party": {
+                "tins": [],
+                "contact": {
+                    "contactId": 861283163,
+                    "nickName": "BATZ123",
+                    "personName": {
+                        "firstName": "Neethu11111111111111111111111",
+                        "lastName": "Narayanan"
+                    },
+                    "phoneNumberDetails": [
+                        {
+                            "number": {
+                                "localNumber": "5656565656",
+                                "extension": "020"
+                            },
+                            "permissions": {}
+                        },
+                        {
+                            "type": "FAX",
+                            "number": {
+                                "localNumber": "5656565656"
+                            },
+                            "permissions": {}
+                        }
+                    ],
+                    "companyName": {
+                        "name": "priyanka",
+                        "department": "IT_DZ"
+                    }
+                },
+                "address": {
+                    "streetLines": [
+                        "street 1",
+                        "street 2"
+                    ],
+                    "city": "NewYork",
+                    "stateOrProvinceCode": "US",
+                    "postalCode": "postal code",
+                    "countryCode": "US",
+                    "residential": false
+                }
+            },
+            "addressCheckDetail": {
+                "acsClientVerifiedFlg": true,
+                "acsVerifiedStatusCD": "1",
+                "acsBypassFlg": false,
+                "addressTypeCd": "R"
+            },
+            "partyType": "RECIPIENT",
+            "addressAncillaryDetail": {
+                "opCoTypeCD": "EXPRESS_AND_GROUND",
+                "reference": "444444444",
+                "validFlg": "Y",
+                "sharedFlg": "Y",
+                "acceptedFlg": "Y",
+                "einCd": "E"
+            }
+        }
+    }
+}

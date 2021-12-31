@@ -1,0 +1,276 @@
+{
+    "commoditylist": [
+        {
+            "commodityId": "100000",
+            "description": "AABBCCAABBCCAABBCCAABBCCAABBCC"
+        },
+        {
+            "commodityId": "305",
+            "description": "Air Fryer 123"
+        },
+        {
+            "commodityId": "306",
+            "description": "Apple TV"
+        },
+        {
+            "commodityId": "307",
+            "description": "Bakery and biscuit oven"
+        },
+        {
+            "commodityId": "308",
+            "description": "Bass"
+        },
+        {
+            "commodityId": "309",
+            "description": "Bluetooth Laser Mouse"
+        },
+        {
+            "commodityId": "310",
+            "description": "Burglar alarm"
+        },
+        {
+            "commodityId": "311",
+            "description": "Charges"
+        },
+        {
+            "commodityId": "3312",
+            "description": "Cooker"
+        },
+        {
+            "commodityId": "313",
+            "description": "Desktop Computer"
+        },
+        {
+            "commodityId": "3314",
+            "description": "Digital Air Fryer"
+        },
+        {
+            "commodityId": "315",
+            "description": "Digital Camera"
+        },
+        {
+            "commodityId": "316",
+            "description": "Direct Drive USB Turntable"
+        },
+        {
+            "commodityId": "317",
+            "description": "Discharge lamps"
+        },
+        {
+            "commodityId": "318",
+            "description": "Drone with Camera and Controller"
+        },
+        {
+            "commodityId": "319",
+            "description": "Drone with Controller"
+        },
+        {
+            "commodityId": "320",
+            "description": "Dry cleaner"
+        },
+        {
+            "commodityId": "321",
+            "description": "Espresso Machine"
+        },
+        {
+            "commodityId": "322",
+            "description": "Fan"
+        },
+        {
+            "commodityId": "323",
+            "description": "Fluorescent light"
+        },
+        {
+            "commodityId": "324",
+            "description": "Fridge"
+        },
+        {
+            "commodityId": "325",
+            "description": "Guitar"
+        },
+        {
+            "commodityId": "326",
+            "description": "Hair clipper"
+        },
+        {
+            "commodityId": "327",
+            "description": "Headset"
+        },
+        {
+            "commodityId": "328",
+            "description": "Heater"
+        },
+        {
+            "commodityId": "329",
+            "description": "Inkjet Printer"
+        },
+        {
+            "commodityId": "332",
+            "description": "Iron"
+        },
+        {
+            "commodityId": "333",
+            "description": "Kettle"
+        },
+        {
+            "commodityId": "334",
+            "description": "Laptop Computer"
+        },
+        {
+            "commodityId": "335",
+            "description": "Laser Printer"
+        },
+        {
+            "commodityId": "336",
+            "description": "Media Streamer with Remote"
+        },
+        {
+            "commodityId": "337",
+            "description": "Microphone"
+        },
+        {
+            "commodityId": "338",
+            "description": "Microwaves Oven"
+        },
+        {
+            "commodityId": "339",
+            "description": "Mobile Phone"
+        },
+        {
+            "commodityId": "340",
+            "description": "Monitor"
+        },
+        {
+            "commodityId": "341",
+            "description": "Noise Cancelling Bluetooth Headphone"
+        },
+        {
+            "commodityId": "342",
+            "description": "Piano"
+        },
+        {
+            "commodityId": "343",
+            "description": "Portable speaker"
+        },
+        {
+            "commodityId": "344",
+            "description": "Pressure Cooker"
+        },
+        {
+            "commodityId": "345",
+            "description": "Projector"
+        },
+        {
+            "commodityId": "346",
+            "description": "Scanner"
+        },
+        {
+            "commodityId": "347",
+            "description": "Shavers"
+        },
+        {
+            "commodityId": "348",
+            "description": "Smart Phone"
+        },
+        {
+            "commodityId": "349",
+            "description": "Smart watch"
+        },
+        {
+            "commodityId": "350",
+            "description": "Sound Bar with Wireless Subwoofer"
+        },
+        {
+            "commodityId": "351",
+            "description": "Stand Mixer"
+        },
+        {
+            "commodityId": "304",
+            "description": "TV Sound System"
+        },
+        {
+            "commodityId": "352",
+            "description": "Tablet "
+        },
+        {
+            "commodityId": "353",
+            "description": "Tapboard"
+        },
+        {
+            "commodityId": "354",
+            "description": "Television - LCD TV"
+        },
+        {
+            "commodityId": "355",
+            "description": "Television - LED TV"
+        },
+        {
+            "commodityId": "356",
+            "description": "Television Smart TV"
+        },
+        {
+            "commodityId": "357",
+            "description": "Toaster Oven"
+        },
+        {
+            "commodityId": "358",
+            "description": "Vacuum cleaner"
+        },
+        {
+            "commodityId": "360",
+            "description": "Video Doorbell "
+        },
+        {
+            "commodityId": "361",
+            "description": "Video Game Console"
+        },
+        {
+            "commodityId": "362",
+            "description": "Video Game Controller"
+        },
+        {
+            "commodityId": "359",
+            "description": "Video camera recorder"
+        },
+        {
+            "commodityId": "363",
+            "description": "Viola "
+        },
+        {
+            "commodityId": "364",
+            "description": "Violin"
+        },
+        {
+            "commodityId": "365",
+            "description": "Webcam"
+        },
+        {
+            "commodityId": "366",
+            "description": "Wet vacuum cleaner"
+        },
+        {
+            "commodityId": "367",
+            "description": "Wifi Router"
+        },
+        {
+            "commodityId": "369",
+            "description": "Wireless Headphones"
+        },
+        {
+            "commodityId": "370",
+            "description": "Wireless Keyboard"
+        },
+        {
+            "commodityId": "371",
+            "description": "Wireless Mouse"
+        },
+        {
+            "commodityId": "330",
+            "description": "iPad"
+        },
+        {
+            "commodityId": "331",
+            "description": "iPhone"
+        }
+    ]
+}

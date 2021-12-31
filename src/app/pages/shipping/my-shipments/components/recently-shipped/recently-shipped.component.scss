@@ -1,0 +1,78 @@
+.border-bottom {
+    border-bottom: 1px solid #E3E3E3;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-left:5px;
+}
+
+.ref-number-text{
+    font-family: FedExSans-Regular;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.month-text {
+    text-align: center;
+    margin-top: 10px
+}
+
+.month-date-text{
+    font-family: FedExSans-Medium;
+    font-size: 15px;
+    color: #4D148C;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.label-address-text{
+    font-family: FedExSans-Light;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.label-address-details{
+    font-family: FedExSans-Regular;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.ref-number{
+    font-family: FedExSans-Bold;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: 0;
+    font-style: bold;
+}
+
+.label-text-align{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
+.name-address-details{
+    font-weight: bold;    
+}
+
+.label-text-container{
+    width:99.1%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.row-alignment{
+    margin-top: 15px;
+}
+
+.label-style{
+    margin: auto;
+}
+
+.ion-tab-container{
+    overflow: auto;
+}

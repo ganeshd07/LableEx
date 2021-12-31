@@ -1,0 +1,60 @@
+[
+    {
+        "shipmentId": "100110",
+        "shipDate": "Feb-01-2021",
+        "serviceType": "INTERNATIONAL_PRIORITY",
+        "packagingType": "YOUR_PACKAGING",
+        "refNumber": "HK0201942008",
+        "status": "PENDING",
+        "totalPackageCount": "1",
+        "shipper": {
+            "contact": {
+                "personName": "test",
+                "phoneNumber": "85212345677",
+                "emailAddress": "test@fedex",
+                "companyName": null,
+                "phoneExtension": "",
+                "taxId": "",
+                "passportNo": null
+            },
+            "address": {
+                "city": "ABERDEEN",
+                "stateOrProvinceCode": null,
+                "postalCode": null,
+                "countryCode": "HK",
+                "residential": false,
+                "streetLines": [
+                    "test"
+                ]
+            }
+        },
+        "recipient": {
+            "contact": {
+                "personName": "test",
+                "phoneNumber": "11225262727272",
+                "emailAddress": null,
+                "companyName": null,
+                "phoneExtension": "",
+                "taxId": "",
+                "passportNo": ""
+            },
+            "address": {
+                "city": "NEWYORK",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10018",
+                "countryCode": "US",
+                "residential": true,
+                "visitor": false,
+                "streetLines": [
+                    "test"
+                ]
+            }
+        },
+        "trackingNumbers": [
+            {
+                "masterTrackingNumber": "772399004968"
+            }
+        ],
+        "createDate": "Feb-01-2021"
+    }
+]

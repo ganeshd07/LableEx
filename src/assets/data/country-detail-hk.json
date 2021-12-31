@@ -1,0 +1,64 @@
+{
+    "transactionId": "558709fe-c2d9-4b5d-a260-1c6230174091",
+    "output": {
+        "countryName": "HONG KONG SAR, CHINA",
+        "countryCode": "HK",
+        "domesticShippingAllowed": false,
+        "domesticShippingUsesInternationalServices": false,
+        "maxCustomsValue": 50000,
+        "numberOfCommercialInvoices": 0,
+        "postalAware": false,
+        "regionCode": "APAC",
+        "states": [],
+        "itemDescriptionApplicability": "NOT_ALLOWED",
+        "currencyCode": "HKD",
+        "domesticCurrencyCode": "HKD",
+        "registrationAllowed": true,
+        "creditCardUpdateAllowed": true,
+        "creditCardDetailList": [
+            {
+                "creditCardType": "AMEX",
+                "is3DEnabled": true
+            },
+            {
+                "creditCardType": "MASTERCARD",
+                "is3DEnabled": true
+            },
+            {
+                "creditCardType": "VISA",
+                "is3DEnabled": true
+            },
+            {
+                "creditCardType": "VISAELECTRON",
+                "is3DEnabled": true,
+                "is3DEnabled_Two": false
+            }
+        ],
+        "senderTaxIdIndicator": {
+            "federal": "OPTIONAL",
+            "state": "NOTALLOWED"
+        },
+        "systemOfMeasureType": "METRIC",
+        "anyPostalAwareness": false,
+        "allowedShipDates": [
+            {
+                "serviceCategory": "EXPRESS",
+                "shipDates": [
+                    "2021-08-03",
+                    "2021-08-04"
+                ]
+            },
+            {
+                "serviceCategory": "EXPRESS_FREIGHT",
+                "shipDates": [
+                    "2021-08-03",
+                    "2021-08-04"
+                ]
+            }
+        ],
+        "customsValueRequired": false,
+        "isEU": false,
+        "minCustomsValue": 0,
+        "documentProductApplicable": false
+    }
+}

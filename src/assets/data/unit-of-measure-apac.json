@@ -1,0 +1,64 @@
+{
+    "configlist": [
+        {
+            "value": "PCS",
+            "seq": "1"
+        },
+        {
+            "value": "BOX",
+            "seq": "2"
+        },
+        {
+            "value": "CM",
+            "seq": "3"
+        },
+        {
+            "value": "CG",
+            "seq": "4"
+        },
+        {
+            "value": "FT",
+            "seq": "5"
+        },
+        {
+            "value": "GAL",
+            "seq": "6"
+        },
+        {
+            "value": "G",
+            "seq": "7"
+        },
+        {
+            "value": "IT",
+            "seq": "8"
+        },
+        {
+            "value": "KGS",
+            "seq": "9"
+        },
+        {
+            "value": "LTR",
+            "seq": "10"
+        },
+        {
+            "value": "M",
+            "seq": "11"
+        },
+        {
+            "value": "PKS",
+            "seq": "12"
+        },
+        {
+            "value": "PR",
+            "seq": "13"
+        },
+        {
+            "value": "UNT",
+            "seq": "14"
+        },
+        {
+            "value": "YN",
+            "seq": "15"
+        }
+    ]
+}

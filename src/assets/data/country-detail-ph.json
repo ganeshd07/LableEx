@@ -1,0 +1,52 @@
+{
+    "transactionId": "c58bd98b-50b1-498e-af78-02d0989cfda0",
+    "output": {
+        "countryName": "PHILIPPINES",
+        "countryCode": "PH",
+        "domesticShippingAllowed": false,
+        "domesticShippingUsesInternationalServices": false,
+        "maxCustomsValue": 50000,
+        "numberOfCommercialInvoices": 0,
+        "postalAware": true,
+        "regionCode": "APAC",
+        "states": [],
+        "itemDescriptionApplicability": "NOT_ALLOWED",
+        "currencyCode": "USD",
+        "domesticCurrencyCode": "USD",
+        "registrationAllowed": true,
+        "creditCardDetailList": [
+            {
+                "creditCardType": "MASTERCARD"
+            },
+            {
+                "creditCardType": "VISA"
+            }
+        ],
+        "senderTaxIdIndicator": {
+            "federal": "OPTIONAL",
+            "state": "NOTALLOWED"
+        },
+        "systemOfMeasureType": "METRIC",
+        "anyPostalAwareness": true,
+        "allowedShipDates": [
+            {
+                "serviceCategory": "EXPRESS",
+                "shipDates": [
+                    "2020-04-07",
+                    "2020-04-08"
+                ]
+            },
+            {
+                "serviceCategory": "EXPRESS_FREIGHT",
+                "shipDates": [
+                    "2020-04-07",
+                    "2020-04-08"
+                ]
+            }
+        ],
+        "customsValueRequired": true,
+        "isEU": false,
+        "minCustomsValue": 1,
+        "documentProductApplicable": false
+    }
+}

@@ -1,0 +1,165 @@
+<ion-content class="content-class">
+  <img class="nav-plane-img" src="../../../../assets/img/navigation/fedex-plane.png" />
+  <ion-list lines="none" class="ion-no-padding ion-no-margin">
+    <ion-list-header *ngIf="loggedIn" class="user-cred-container">
+      <ion-grid class="ion-no-padding ion-no-margin">
+        <ion-row>
+          <ion-col>
+            <ion-label class="fullname-label">{{ fullname }}</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-label class="email-label">{{ emailAddress }}</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-list-header>
+
+    <ion-menu-toggle autoHide="false">
+      <ion-item class="new-shipment-btn" (click)="onClickNewShipment();">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2" class="img-icon-container">
+              <img class="nav-icon" src="../../../../assets/img/navigation/new-shipment.svg" />
+            </ion-col>
+            <ion-col size="10" class="label-container">
+              <ion-label class="nav-label" translate>{{ 'navigation.newShipment' }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false" *ngIf="loggedIn">
+      <ion-item routerLink="shipping/my-shipments/recent" (click)="onClickMyShipments()">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2" class="img-icon-container">
+              <img class="nav-icon" src="../../../../assets/img/navigation/my-shipment.svg" />
+            </ion-col>
+            <ion-col size="10" class="label-container">
+              <ion-label class="nav-label" translate>{{ 'navigation.myShipment' }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false">
+      <a class="text-style" attr.href="{{fedexLocationsLinkUrl}}" target="_blank">
+        <ion-item>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="2" class="img-icon-container">
+                <img class="nav-icon" src="../../../../assets/img/navigation/location.svg" />
+              </ion-col>
+              <ion-col size="10" class="label-container">
+                <ion-label class="nav-label" translate>{{ 'navigation.fedexLocations' }}</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </a>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false" *ngIf="showLangToggle">
+      <ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2" class="img-icon-container">
+              <img class="nav-icon" src="../../../../assets/img/navigation/language.svg" />
+            </ion-col>
+            <ion-col size="5" class="label-container">
+              <ion-label class="nav-label" translate>{{ 'navigation.language' }}</ion-label>
+            </ion-col>
+            <ion-col size="5" class="toggle-language-container">
+              <ion-grid class="ion-no-padding">
+                <ion-row>
+                  <ion-col size="6" class="language-switch-button-wrapper" (click)="onClickEnglishLanguage()"
+                    [class.selected]="isSelectedLocaleEnglish">
+                    <ion-label class="lang-text-style">EN</ion-label>
+                  </ion-col>
+                  <ion-col size="6" class="language-switch-button-wrapper" (click)="onClickLocalLanguage()"
+                    [class.selected]="isSelectedLocaleLocal">
+                    <ion-label class="lang-text-style">{{languageDisplayText}}</ion-label>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false">
+      <ion-item routerLink="/message-centre" (click)="onClickMessageCentre()">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2" class="img-icon-container">
+              <img class="nav-icon" src="../../../../assets/img/navigation/message-centre.svg" />
+            </ion-col>
+            <ion-col size="10" class="label-container">
+              <ion-label class="nav-label" translate>{{ 'navigation.messageCentre' }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false">
+      <ion-item>
+        <ion-grid>
+          <ion-row (click)="onClickContactUs()">
+            <ion-col size="2" class="img-icon-container">
+              <img class="nav-icon" src="../../../../assets/img/navigation/contact-us.svg" />
+            </ion-col>
+            <ion-col size="10" class="label-container">
+              <ion-label class="nav-label" translate>{{ 'navigation.contactUs' }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle autoHide="false">
+      <a class="text-style" attr.href="{{termsofUseLinkUrl}}" target="_blank">
+        <ion-item>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="2" class="img-icon-container">
+                <img class="nav-icon" src="../../../../assets/img/navigation/terms-of-use.svg" />
+              </ion-col>
+              <ion-col size="10" class="label-container">
+                <ion-label class="nav-label" translate>{{ 'navigation.termsOfUse' }}</ion-label>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </a>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle *ngIf="loggedIn" autoHide="false">
+      <ion-item (click)="logout()">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2" class="img-icon-container">
+              <img *ngIf="loggedInOption === accountEnum.GOOGLE" class="nav-icon"
+                src="../../../../assets/img/navigation/google-logout.png" />
+              <img *ngIf="loggedInOption === accountEnum.FACEBOOK" class="nav-icon"
+                src="../../../../assets/img/navigation/facebook-logout.png" />
+              <img *ngIf="loggedInOption === accountEnum.OTP" class="nav-icon"
+                src="../../../../assets/img/navigation/otp-logout.png" />
+            </ion-col>
+            <ion-col size="10" class="label-container">
+              <ion-label class="logout-label" translate>{{ 'navigation.logout' }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-label class="nav-footer">© FedEx 1995-2021</ion-label>
+
+  </ion-list>
+</ion-content>

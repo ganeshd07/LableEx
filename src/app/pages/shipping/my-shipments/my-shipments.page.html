@@ -1,0 +1,14 @@
+<app-header [title]="'myShipmentsPage.myShipments' | translate" [backbuttonFlag]='true' [backNavigation]="backNavPath"></app-header>
+<ion-content>
+    <ion-tabs>
+      <ion-tab-bar slot="top" class="tabs-height">
+        <ion-tab-button tab="recent" class="activeButton">
+          <ion-label class="label-text" translate>{{ 'myShipmentsPage.recentlyShipped' }}</ion-label>
+        </ion-tab-button>
+        <ion-tab-button  tab="pending" class="activeButton">
+          <ion-label class="label-text" translate>{{ 'myShipmentsPage.pendingShipment' }}</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>  
+  </ion-content>
+

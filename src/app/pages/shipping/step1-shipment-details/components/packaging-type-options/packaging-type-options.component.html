@@ -1,0 +1,310 @@
+<div>
+  <h4 class="pto-title" translate>{{ 'shipmentDetailsPage.packagingTypeOption' }}</h4>
+</div>
+
+<ion-grid class="ion-no-padding packaging-type-slider-container">
+  <ion-row>
+    <div *ngIf="showSliderPrvBtn" class="slider-btn-container">
+    <div (click)="slidePrevious()" class="slider-nav-btn slider-btn-left">
+      <img class="slider-btn-img" src="../../../../assets/img/carousel-left.png" />
+    </div>
+  </div>
+    <ion-col size="12"> <!-- Note: WIP - Need Derrick to specify the proper behavior for the slider (ionSlideTap)? -->
+      <ion-slides #packagingOptionSlides scroll-y="false" (ionSlideDidChange)="slideChanged()" (ionSlideTap)="packagingTypeSliderChange($event)"
+        [options]="packagingOptionSlidesConfiguration">
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.YOUR_PACKAGING }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/your_packaging.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label" translate>{{ 'shipmentDetailsPage.packagingTypes.yourPackaging' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_10KG_BOX }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_10kg_box.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx 10kg Box</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_25KG_BOX }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_25kg_box.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx 25kg Box</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_BOX }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_box.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx Box</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_ENVELOPE }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_envelope.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx Envelope</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_PAK }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_pak.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx Pak</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+
+        <ion-slide [ngClass]=" { 'swiper-active-packaging-type' : this.packagingTypeOptionsForm.get('packageType').value === packagingType.FEDEX_TUBE }">
+          <ion-card>
+            <img src="../../../../assets/img/package-options/fedex_tube.png" />
+            <ion-card-header>
+              <ion-card-title class="packaging-list-label">FedEx Tube</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </ion-col>
+    <div *ngIf="showSliderNxtBtn" class="slider-btn-container">
+      <div (click)="slideNext()" class="slider-nav-btn slider-btn-right">
+        <img class="slider-btn-img" src="../../../../assets/img/carousel-right.png" />
+      </div>
+    </div>
+  </ion-row>
+</ion-grid>
+
+<form [formGroup]="packagingTypeOptionsForm">
+  <div class="package-container" formArrayName="packages"
+    *ngFor="let package of packagingTypeOptionsForm.get('packages')['controls']; let i = index;">
+    <div [formGroupName]="i">
+      <ion-grid class="max-width">
+        <ion-row>
+
+          <ion-col size="12">
+              <ion-grid class="ion-no-padding max-width">
+                <ion-row>
+                  <ion-col size="6">
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <ion-label class="pto-regular-label" translate>{{ 'shipmentDetailsPage.noOfPackages' }}</ion-label>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <ion-note class="pto-note" [hidden]="(i !== 0)" >{{ 'shipmentDetailsPage.maxHint' | translate }}{{ maximumPackage }}</ion-note>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <ion-grid class="ion-no-padding no-of-package-form">
+                            <ion-row>
+                              <ion-col class="numeric-stepper-minus">
+                                <ion-item class="numeric-stepper-minus-wrapper ion-text-center"
+                                  [disabled]="disablePackageMinusStepper[i].disabled">
+                                  <p class="ion-no-padding ion-no-margin minus-alignment" (click)="numericStepperMinus(i)">-</p>
+                                </ion-item>
+                              </ion-col>
+                              <ion-col [hidden]="isNumberOfPackagesDisabled">
+                                <ion-input formControlName="numberOfPackage" (focusout)="validateNumberOfPackages(i)" type="tel" inputmode="numeric" oninput="this.value = 
+                                                      !!this.value && Math.abs(this.value) > 0 ? Math.abs(this.value) : null"
+                                  (ionChange)="disableNumericStepper(i)" class="ion-no-padding"></ion-input>
+                              </ion-col>
+                              <ion-col [hidden]="!isNumberOfPackagesDisabled">
+                                <ion-label class="ion-no-padding">{{ maximumPackage }}</ion-label>
+                              </ion-col>
+                              <ion-col class="numeric-stepper-add">
+                                <ion-item class="numeric-stepper-minus-wrapper ion-text-center" [disabled]="disableNumericStepperAdd">
+                                  <p class="ion-no-padding ion-no-margin minus-alignment" (click)="numericStepperAdd(i)">+</p>
+                                </ion-item>
+                              </ion-col>
+                            </ion-row>
+                          </ion-grid>
+                          <span *ngIf="packagesCheck" class="validation-totalPackage-error ion-text-wrap"
+                            [hidden]="(i !== packageIndex)">{{'shipmentDetailsPage.totalPackagesEntered' | translate}} {{totalNoOfPackages}}
+                            {{'shipmentDetailsPage.totalPackagesLimit' | translate}}</span>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                  </ion-col>
+                  <ion-col size="6" class="max-width">
+                    <ion-grid class="weight-pack-grid">
+                      <ion-row>
+                        <ion-col>
+                          <ion-label class="pto-regular-label" size="10" translate>{{ 'shipmentDetailsPage.weightPerPackage' }}</ion-label>
+                        </ion-col>
+                        <ion-col size="2">
+                          <ion-icon (click)="promptDeletePackageConfirmationModal(i)" [hidden]="(i === 0)" class="delete-icon"
+                            name="trash-outline"></ion-icon>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <ion-note class="pto-note" [ngClass]="{ 'pto-note-hidden' : maxWeightDisplay==='' }"[hidden]="(i !== 0)">{{ 'shipmentDetailsPage.maxWeightHint' | translate }} {{ maxWeightDisplay }}</ion-note>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <ion-grid class="ion-no-padding">
+                            <ion-row class="weight-per-package-form">
+                              <ion-col size="8" size-md="10">
+                                <ion-input #weightPerPackage id="weightPerPackage" formControlName="weightPerPackage" type="number" inputmode="decimal" min="1"
+                                max="99.99" class="ion-no-padding bottom-style-border weight-per-package-input" [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY"
+                                  [ngClass]=" { 'bottom-style-border-error' : packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').invalid 
+                                    && (packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').dirty || packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').touched) }">
+                                </ion-input>
+                              </ion-col>
+                              <ion-col class="bottom-style-border custom-select" size="4" size-md="2"
+                                [ngClass]=" { 'bottom-style-border-error' : packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').invalid 
+                                  && (packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').dirty || packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').touched) }">
+                                <div class="customized-select">
+                                  <ion-select formControlName="weightPerPackageUnit" [cancelText]="'button.cancel' | translate" [okText]="'button.ok' | translate"
+                                  (ionChange)="changeWeightPerPackageUnit()" (click)="onClickSelectDropdown()">
+                                    <ion-select-option value="KG">kg</ion-select-option>
+                                    <ion-select-option value="LB">lb</ion-select-option>
+                                  </ion-select>
+                                  <ion-icon class="chevron-down" name="chevron-down-outline">
+                                  </ion-icon>
+                                </div>
+                              </ion-col>
+                            </ion-row>
+                            <ion-row>
+                              <ion-col size="12">
+                              <span *ngIf="packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').errors?.required && 
+                                  (packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').dirty || packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').touched)"
+                                  class="validation-error" translate>{{ 'validationError.required' }}</span>
+                              <span *ngIf="packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').errors?.min && 
+                                  (packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').dirty || packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').touched)"
+                                  class="validation-error" translate>{{ 'shipmentDetailsPage.validationError.minimumWeight' | translate: {MIN_WEIGHT: minWeightDisplay} }}</span>
+                              <span *ngIf="packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').errors?.max && 
+                                  (packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').dirty || packagingTypeOptionsForm.get('packages')['controls'][i].get('weightPerPackage').touched)"
+                                  class="validation-error" translate>{{ 'shipmentDetailsPage.validationError.maximumWeight' | translate: {MAX_WEIGHT: maxWeightDisplay} }}</span>
+                              
+                            </ion-col>
+                            </ion-row>
+                          </ion-grid>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+
+            <ion-row>
+              <ion-grid class="max-width dimension-grid" [hidden]="isDimensionInputFieldHidden">
+                <ion-row>
+                  <ion-col size="12">
+                    <ion-label class="pto-regular-label">{{ 'shipmentDetailsPage.packagingDimension' | translate }} ({{ 'constants.optional' | translate }})</ion-label>
+                  </ion-col>
+                </ion-row>
+
+                <ion-row>
+                  <ion-col class="ion-no-padding" size="6">
+                        <ion-grid class="ion-no-padding">
+                          <ion-row class="dimension-input-form">
+                            <ion-col class="dimension-input" size="4">
+                              <!-- Note: replace type="tel" to type="number" and make the maxlength checker
+                                a directive/validator -->
+                              <ion-input formControlName="dimensionLength" type="tel" inputmode="numeric" min="0"
+                                max="999" maxlength="3" class="dimension-input-padding" oninput="this.value = 
+                                !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"></ion-input>
+                            </ion-col>
+
+                            <ion-col class="x-dimension" size="2">
+                              x
+                            </ion-col>
+
+                            <ion-col class="dimension-input" size="4">
+                              <ion-input formControlName="dimensionWidth" type="tel" inputmode="numeric" min="0"
+                                max="999" maxlength="3" class="dimension-input-padding" oninput="this.value = 
+                                !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"></ion-input>
+                            </ion-col>
+
+                            <ion-col class="x-dimension" size="2">
+                              x
+                            </ion-col>
+                          </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                    <ion-col class="ion-no-padding" size="6">
+                        <ion-grid class="ion-no-padding">
+                          <ion-row class="dimension-input-form">
+                            <ion-col size="8" class="dimension-input" size-md="10">
+                              <ion-input formControlName="dimensionHeight" type="tel" inputmode="numeric" min="0"
+                                max="999" maxlength="3" class="dimension-input-padding" oninput="this.value = 
+                                !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"></ion-input>
+                            </ion-col>
+                            <ion-col class="custom-select dimension-input" size="4" size-md="2">
+                              <div class="customized-select">
+                              <ion-select formControlName="dimensionUnit" [cancelText]="'button.cancel' | translate" [okText]="'button.ok' | translate"
+                                (ionChange)="changeDimensionUnit()" (click)="onClickSelectDropdown()">
+                                <ion-select-option value="CM">cm</ion-select-option>
+                                <ion-select-option value="IN">in</ion-select-option>
+                              </ion-select>
+                              <ion-icon class="chevron-down" name="chevron-down-outline"></ion-icon>
+                            </div>
+                            </ion-col>
+                          </ion-row>
+                          <ion-row>
+                            <span *ngIf="packageError[i].inchesCheck" class="validation-dimension-error"  translate>{{ 'shipmentDetailsPage.packageInchesDimenstions' }}</span>
+                            <span *ngIf="packageError[i].kgsCheck" class="validation-dimension-error" translate>{{ 'shipmentDetailsPage.packageKgsDimenstions' }}</span>
+                          </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-row>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</form>
+
+<div class="summary-container">
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col>
+        <ion-label class="label-header" translate>{{ 'shipmentDetailsPage.totalNoOfPackages' }}</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-label class="label-header" translate>{{ 'shipmentDetailsPage.totalWeight' }}</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label class="label-value">{{totalNoOfPackages}}</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-label  [ngClass]=" { 'total-weight-error' : form.totalWeight.errors }" class="label-value">{{totalWeight? totalWeight : '0'}} {{selectedWeightUnit}}</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+
+<ion-item (click)="addPackage()" lines="none" [hidden]="isAddAnotherPackageHidden">
+  <img class="add-package" alt="add" src="../../../assets/img/add.png" />
+  <ion-label class="add-another-package-label" translate>{{ 'shipmentDetailsPage.addAnotherPackage' }}</ion-label>
+</ion-item>
+<ion-grid>
+  <ion-row>
+    <span *ngIf="addPackageCheck" class="validation-addpackage-error" translate>{{ 'shipmentDetailsPage.MaxPackageCount'}}</span>
+  </ion-row>
+</ion-grid>
+<ion-grid>
+  <ion-row>
+    <span *ngIf="form.totalWeight.errors" class="validation-error total-weight-error-msg" translate>{{ 'shipmentDetailsPage.validationError.totalWeightError' | translate: {TOTAL_WEIGHT: weightLimitValue, WEIGHT_UNIT: selectedWeightUnit} }}</span>
+  </ion-row>
+</ion-grid>

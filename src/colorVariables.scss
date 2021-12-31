@@ -1,0 +1,17 @@
+$white: #ffffff; //default background and text color
+$purple: #4d148c; //primary color
+$orange: #ff6200; //color for important action, primary buttons
+$lightgray: cmyk(0, 0, 0, 37); //generic light gray text
+$darkgray: cmyk(0, 2, 0, 60); // generic dark gray text
+$black: cmyk(0, 0, 0, 100); //generic black text
+$blue: #007ab7; //color for link or highlight actions, interactivity, secondary buttons
+$green: #009900; // for success or complete
+$yellow: #f1b118; // for warning or alert
+$red: #e8002e; // for error or action needed
+
+//* grays *//
+$section-gray: #fafafa; //background color to use for sections/hierarchy, kebab menu and dropdowns  - 10% gray
+$form-gray: #f2f2f2; // background color to use for form fields and components, breadcrumbs and tabs- 20% gray
+$divider-gray: #e3e3e3; // dividers, borders and lines                                              - 30% gray
+$disabled-gray: #8e8e8e; // disabled elements like text and buttons                                 - 40% gray
+$iconography-gray: #333333; // type and iconography                                                 - 50% gray

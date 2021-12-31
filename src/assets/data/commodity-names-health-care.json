@@ -1,0 +1,76 @@
+{
+    "commoditylist": [
+        {
+            "commodityId": "102",
+            "description": "Alcohol Sanitizer"
+        },
+        {
+            "commodityId": "103",
+            "description": "Alcohol wipes"
+        },
+        {
+            "commodityId": "104",
+            "description": "Body Lotions"
+        },
+        {
+            "commodityId": "105",
+            "description": "Face masks"
+        },
+        {
+            "commodityId": "106",
+            "description": "Lotions & Ointments"
+        },
+        {
+            "commodityId": "107",
+            "description": "N95 Respirators"
+        },
+        {
+            "commodityId": "108",
+            "description": "Sanitizer (Non-Alcohol)"
+        },
+        {
+            "commodityId": "109",
+            "description": "Skin Care Creams"
+        },
+        {
+            "commodityId": "101",
+            "description": "Sporicidal wet wipes (Non Alcohol)"
+        },
+        {
+            "commodityId": "110",
+            "description": "Spray Diffuser"
+        },
+        {
+            "commodityId": "111",
+            "description": "Supplement Herbal medicines"
+        },
+        {
+            "commodityId": "112",
+            "description": "Supplement Minerals"
+        },
+        {
+            "commodityId": "113",
+            "description": "Supplement Probiotics"
+        },
+        {
+            "commodityId": "114",
+            "description": "Supplement vitamin B"
+        },
+        {
+            "commodityId": "115",
+            "description": "Supplement vitamin C"
+        },
+        {
+            "commodityId": "116",
+            "description": "Supplement vitamin D"
+        },
+        {
+            "commodityId": "117",
+            "description": "Supplement vitamin E"
+        },
+        {
+            "commodityId": "118",
+            "description": "Surgical masks"
+        }
+    ]
+}

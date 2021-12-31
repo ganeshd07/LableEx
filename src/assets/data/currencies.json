@@ -1,0 +1,540 @@
+{
+    "transactionId": "17d12fc2-d901-40ed-9c7a-a3c45c98982a",
+    "output": {
+        "currencies": [
+            {
+                "iataCode": "ANG",
+                "isoCode": "ANG",
+                "description": "Antilles Guilder",
+                "symbol": "ƒ"
+            },
+            {
+                "iataCode": "ARN",
+                "isoCode": "ARS",
+                "description": "Argentine Pesos",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "AWG",
+                "isoCode": "AWG",
+                "description": "Aruban Guilder",
+                "symbol": "ƒ"
+            },
+            {
+                "iataCode": "AUD",
+                "isoCode": "AUD",
+                "description": "Australian Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "BSD",
+                "isoCode": "BSD",
+                "description": "Bahamian Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "BHD",
+                "isoCode": "BHD",
+                "description": "Bahraini Dinars",
+                "symbol": "BD"
+            },
+            {
+                "iataCode": "BDT",
+                "isoCode": "BDT",
+                "description": "Bangladesh Taka",
+                "symbol": "৳"
+            },
+            {
+                "iataCode": "BBD",
+                "isoCode": "BBD",
+                "description": "Barbados Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "BMD",
+                "isoCode": "BMD",
+                "description": "Bermuda Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "BWP",
+                "isoCode": "BWP",
+                "description": "Botswana Pula",
+                "symbol": "P"
+            },
+            {
+                "iataCode": "BRL",
+                "isoCode": "BRL",
+                "description": "Brazilian Real",
+                "symbol": "R$"
+            },
+            {
+                "iataCode": "BND",
+                "isoCode": "BND",
+                "description": "Brunei Dollar",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "BGN",
+                "isoCode": "BGN",
+                "description": "Bulgarian Lev"
+            },
+            {
+                "iataCode": "CAD",
+                "isoCode": "CAD",
+                "description": "Canadian Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "CID",
+                "isoCode": "KYD",
+                "description": "Cayman Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "CHP",
+                "isoCode": "CLP",
+                "description": "Chilean Pesos",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "CNY",
+                "isoCode": "CNY",
+                "description": "Chinese Renminbi",
+                "symbol": "¥"
+            },
+            {
+                "iataCode": "COP",
+                "isoCode": "COP",
+                "description": "Colombian Peso",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "CRC",
+                "isoCode": "CRC",
+                "description": "Costa Rican Colon",
+                "symbol": "₡"
+            },
+            {
+                "iataCode": "HRK",
+                "isoCode": "HRK",
+                "description": "Croatia Kuna",
+                "symbol": "kn"
+            },
+            {
+                "iataCode": "CZK",
+                "isoCode": "CZK",
+                "description": "Czech Koruna",
+                "symbol": "Kč"
+            },
+            {
+                "iataCode": "DKK",
+                "isoCode": "DKK",
+                "description": "Danish Krone",
+                "symbol": "kr"
+            },
+            {
+                "iataCode": "RDD",
+                "isoCode": "DOP",
+                "description": "Dominican Pesos",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "ECD",
+                "isoCode": "XCD",
+                "description": "E. Caribbean Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "EGP",
+                "isoCode": "EGP",
+                "description": "Egyptian Pound",
+                "symbol": "E£"
+            },
+            {
+                "iataCode": "ETB",
+                "isoCode": "ETB",
+                "description": "Ethiopia Birr",
+                "symbol": "Br"
+            },
+            {
+                "iataCode": "EUR",
+                "isoCode": "EUR",
+                "description": "Euro",
+                "symbol": "€"
+            },
+            {
+                "iataCode": "FJD",
+                "isoCode": "FJD",
+                "description": "Fiji Dollars",
+                "symbol": "FJ$"
+            },
+            {
+                "iataCode": "GTQ",
+                "isoCode": "GTQ",
+                "description": "Guatemalan Quetzal",
+                "symbol": "Q"
+            },
+            {
+                "iataCode": "HNL",
+                "isoCode": "HNL",
+                "description": "Honduras Lempiras",
+                "symbol": "L"
+            },
+            {
+                "iataCode": "HKD",
+                "isoCode": "HKD",
+                "description": "Hong Kong Dollar",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "HUF",
+                "isoCode": "HUF",
+                "description": "Hungarian Forint ",
+                "symbol": "Ft"
+            },
+            {
+                "iataCode": "ISK",
+                "isoCode": "ISK",
+                "description": "Iceland Krona",
+                "symbol": "kr"
+            },
+            {
+                "iataCode": "INR",
+                "isoCode": "INR",
+                "description": "Indian Rupees",
+                "symbol": "₹"
+            },
+            {
+                "iataCode": "IDR",
+                "isoCode": "IDR",
+                "description": "Indonesia Rupiah",
+                "symbol": "Rp"
+            },
+            {
+                "iataCode": "ILS",
+                "isoCode": "ILS",
+                "description": "Israeli Shekel",
+                "symbol": "₪"
+            },
+            {
+                "iataCode": "JAD",
+                "isoCode": "JMD",
+                "description": "Jamaican Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "JYE",
+                "isoCode": "JPY",
+                "description": "Japanese Yen",
+                "symbol": "¥"
+            },
+            {
+                "iataCode": "JOD",
+                "isoCode": "JOD",
+                "description": "Jordan Dinars",
+                "symbol": "ينار"
+            },
+            {
+                "iataCode": "KZT",
+                "isoCode": "KZT",
+                "description": "Kazachstan Tenge",
+                "symbol": "лв"
+            },
+            {
+                "iataCode": "KES",
+                "isoCode": "KES",
+                "description": "Kenyan Schilling",
+                "symbol": "KES"
+            },
+            {
+                "iataCode": "KUD",
+                "isoCode": "KWD",
+                "description": "Kuwaiti Dinars",
+                "symbol": "K.D."
+            },
+            {
+                "iataCode": "LSL",
+                "isoCode": "LSL",
+                "description": "Lesotho Loti",
+                "symbol": "L"
+            },
+            {
+                "iataCode": "LYD",
+                "isoCode": "LYD",
+                "description": "Libyan Dinar",
+                "symbol": "LYD"
+            },
+            {
+                "iataCode": "MOP",
+                "isoCode": "MOP",
+                "description": "Macau Patacas",
+                "symbol": "MOP$"
+            },
+            {
+                "iataCode": "MWK",
+                "isoCode": "MWK",
+                "description": "Malawi Kwacha",
+                "symbol": "MK"
+            },
+            {
+                "iataCode": "MYR",
+                "isoCode": "MYR",
+                "description": "Malaysian Ringgits",
+                "symbol": "RM"
+            },
+            {
+                "iataCode": "MUR",
+                "isoCode": "MUR",
+                "description": "Mauritius Rupes",
+                "symbol": "Rs"
+            },
+            {
+                "iataCode": "MAD",
+                "isoCode": "MAD",
+                "description": "Moroccan Dirham",
+                "symbol": "د.م."
+            },
+            {
+                "iataCode": "MZN",
+                "isoCode": "MZN",
+                "description": "Mozambique New Metical",
+                "symbol": "MT"
+            },
+            {
+                "iataCode": "NAD",
+                "isoCode": "NAD",
+                "description": "Namibia Dollar",
+                "symbol": "N$"
+            },
+            {
+                "iataCode": "NMP",
+                "isoCode": "MXN",
+                "description": "New Mexican Pesos",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "NTD",
+                "isoCode": "TWD",
+                "description": "New Taiwan Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "TRY",
+                "isoCode": "TRY",
+                "description": "New Turkish Lira",
+                "symbol": "₺"
+            },
+            {
+                "iataCode": "NZD",
+                "isoCode": "NZD",
+                "description": "New Zealand Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "NIO",
+                "isoCode": "NIO",
+                "description": "Nicaragua Cordobas",
+                "symbol": "C$"
+            },
+            {
+                "iataCode": "NGN",
+                "isoCode": "NGN",
+                "description": "Nigeria Nairas",
+                "symbol": "₦"
+            },
+            {
+                "iataCode": "NOK",
+                "isoCode": "NOK",
+                "description": "Norwegian Krone",
+                "symbol": "kr"
+            },
+            {
+                "iataCode": "OMR",
+                "isoCode": "OMR",
+                "description": "Oman Rials",
+                "symbol": "ر.ع."
+            },
+            {
+                "iataCode": "PKR",
+                "isoCode": "PKR",
+                "description": "Pakistan Rupee",
+                "symbol": "₨"
+            },
+            {
+                "iataCode": "PAB",
+                "isoCode": "PAB",
+                "description": "Panama Balboa",
+                "symbol": "B/."
+            },
+            {
+                "iataCode": "PGK",
+                "isoCode": "PGK",
+                "description": "Papua New Guinea Kina",
+                "symbol": "K"
+            },
+            {
+                "iataCode": "PEN",
+                "isoCode": "PEN",
+                "description": "Peru Nuevos Soles",
+                "symbol": "S/."
+            },
+            {
+                "iataCode": "UYU",
+                "isoCode": "UYU",
+                "description": "Pesos Uruguayos",
+                "symbol": "$U"
+            },
+            {
+                "iataCode": "PHP",
+                "isoCode": "PHP",
+                "description": "Philippine Pesos",
+                "symbol": "₱"
+            },
+            {
+                "iataCode": "PLN",
+                "isoCode": "PLN",
+                "description": "Polish Zloty",
+                "symbol": "zł"
+            },
+            {
+                "iataCode": "QAR",
+                "isoCode": "QAR",
+                "description": "Qatar Riyals",
+                "symbol": "ر.ق"
+            },
+            {
+                "iataCode": "RON",
+                "isoCode": "RON",
+                "description": "Romanian New Lei",
+                "symbol": "leu"
+            },
+            {
+                "iataCode": "RUB",
+                "isoCode": "RUB",
+                "description": "Russian Rouble",
+                "symbol": "₽"
+            },
+            {
+                "iataCode": "SAR",
+                "isoCode": "SAR",
+                "description": "Saudi Arabian Riyals",
+                "symbol": "﷼"
+            },
+            {
+                "iataCode": "SID",
+                "isoCode": "SGD",
+                "description": "Singapore Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "SBD",
+                "isoCode": "SBD",
+                "description": "Solomon Island Dollar",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "ZAR",
+                "isoCode": "ZAR",
+                "description": "South African Rand",
+                "symbol": "R"
+            },
+            {
+                "iataCode": "WON",
+                "isoCode": "KRW",
+                "description": "South Korea Wons",
+                "symbol": "₩"
+            },
+            {
+                "iataCode": "SDG",
+                "isoCode": "SDG",
+                "description": "Sudanese Pound",
+                "symbol": "ج.س"
+            },
+            {
+                "iataCode": "SZL",
+                "isoCode": "SZL",
+                "description": "Swaziland Ligangeni",
+                "symbol": "L"
+            },
+            {
+                "iataCode": "SEK",
+                "isoCode": "SEK",
+                "description": "Swedish Krona",
+                "symbol": "kr"
+            },
+            {
+                "iataCode": "SFR",
+                "isoCode": "CHF",
+                "description": "Swiss Francs",
+                "symbol": "Fr"
+            },
+            {
+                "iataCode": "THB",
+                "isoCode": "THB",
+                "description": "Thailand Baht",
+                "symbol": "฿"
+            },
+            {
+                "iataCode": "TOP",
+                "isoCode": "TOP",
+                "description": "Tonga Pa'anga",
+                "symbol": "TOP"
+            },
+            {
+                "iataCode": "TTD",
+                "isoCode": "TTD",
+                "description": "Trinidad & Tobago Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "UGX",
+                "isoCode": "UGX",
+                "description": "Uganda Schilling",
+                "symbol": "UGH"
+            },
+            {
+                "iataCode": "DHS",
+                "isoCode": "AED",
+                "description": "United Arab Emirates Dirhams",
+                "symbol": "دإ"
+            },
+            {
+                "iataCode": "UKL",
+                "isoCode": "GBP",
+                "description": "United Kingdom Pounds",
+                "symbol": "£"
+            },
+            {
+                "iataCode": "USD",
+                "isoCode": "USD",
+                "description": "US Dollars",
+                "symbol": "$"
+            },
+            {
+                "iataCode": "VEF",
+                "isoCode": "VEF",
+                "description": "Venezuela Bolivar Fuerte",
+                "symbol": "Bs"
+            },
+            {
+                "iataCode": "VND",
+                "isoCode": "VND",
+                "description": "Vietnamese Dong",
+                "symbol": "₫"
+            },
+            {
+                "iataCode": "WST",
+                "isoCode": "WST",
+                "description": "Western Samoa Tala",
+                "symbol": "SAT"
+            },
+            {
+                "iataCode": "ZMW",
+                "isoCode": "ZMW",
+                "description": "Zambian Kwacha",
+                "symbol": "ZK"
+            }
+        ]
+    }
+}

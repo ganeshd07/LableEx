@@ -1,0 +1,15 @@
+{
+    "transactionId": "5d2289ff-529d-4cd9-9d00-33acf0cbc8f8",
+    "output": {
+        "commodity": {
+            "name": "BOOK1",
+            "description": "Correspondence/No Commercial Value",
+            "countryOfManufacture": "AZ",
+            "harmonizedCode": "3",
+            "customsValue": {
+                "currency": "USD",
+                "amount": 1.0
+            }
+        }
+    }
+}

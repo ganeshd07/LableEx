@@ -1,0 +1,114 @@
+.search-text-label{
+    width: 250px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #4D148C;
+    font-family: FedExSans-Regular;
+    font-size: 18px;
+}
+
+.searchInput{
+    width: 278px;
+    height: 36px !important;
+    font-family: FedExSans-Regular;
+    color: #333333;
+    size: 12px;
+    margin: auto;
+    background-color: #F8F8F8;
+    padding: 0px;
+}
+
+ion-searchbar {
+    --icon-color: var(--ion-color-primary);
+    --placeholder-color:#8E8E8E ;
+    --box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    ::ng-deep{
+        .searchbar-input-container{  
+            padding-top: 0px;          
+            .searchbar-input{ 
+               background-color: #F8F8F8;
+                padding: 4px 55px;
+            }
+            .searchbar-search-icon {
+                width: 30px;
+                height: 30px;
+                top:4px;
+                left: 13px;
+            }
+        }
+    }   
+}
+   
+.item-disply-name{
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: FedExSans-Regular;
+    color: #333333;
+}
+
+.item-disply-details {
+    margin-bottom: 12px;
+    margin-top: 7px;
+    font-size: 12px;
+    font-family: FedExSans-Light;
+    width: 207px;
+}
+
+.list-item{
+    margin-right: 5px;
+    margin-left:0px;
+}
+
+.label-wrapper{
+    margin-top: 9px;
+}
+
+.input-wrapper{
+    padding-top: 10px;
+}
+
+.list-item-style{
+    width: 227px;
+    padding-left: 20px;
+}
+
+.list-item-wrapper{
+    margin-left: -20px;
+    margin-right: -10px;
+}
+
+.list-item-disply{
+    font-size: 12px;
+    font-family: FedExSans-Light;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.list-item-disply-company{
+    font-size: 12px;
+    font-family: FedExSans-Light;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.list-item-disply-city{
+    font-size: 12px;
+    font-family: FedExSans-Light;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.list-item-disply-last{
+    margin-top: -4px;
+    font-size: 12px;
+    font-family: FedExSans-Light; 
+    width: 207px;
+}
+
+.alertText{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,89 @@
+{
+    "transactionId": "b89d2070-1f59-414f-afa6-aea0149472f7",
+    "output": {
+        "totalResults": 18,
+        "resultsReturned": 1,
+        "matchedAddresses": [
+            {
+                "city": "EMPIRE STATE",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10001",
+                "countryCode": "US",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NEW YORK",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10001",
+                "countryCode": "US",
+                "residential": false,
+                "primary": true
+            },
+            {
+                "city": "NEW YORK CITY",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10001",
+                "countryCode": "US",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GREELEY SQUARE",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10001",
+                "countryCode": "US",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "G P O",
+                "stateOrProvinceCode": "NY",
+                "postalCode": "10001",
+                "countryCode": "US",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "Sarasota",
+                "stateOrProvinceCode": "FL",
+                "postalCode": "34232",
+                "countryCode": "US",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "Rio de Janeiro",
+                "stateOrProvinceCode": "RJ",
+                "postalCode": "20090-910",
+                "countryCode": "BR",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAMPINAS",
+                "stateOrProvinceCode": "SP",
+                "postalCode": "13010-080",
+                "countryCode": "BR",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "Aberdeen",
+                "stateOrProvinceCode": "AB",
+                "postalCode": "",
+                "countryCode": "HK",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHANGHAI",
+                "stateOrProvinceCode": "SH",
+                "postalCode": "1000",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            }
+        ]
+    }
+}

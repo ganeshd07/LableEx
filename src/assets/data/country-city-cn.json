@@ -1,0 +1,2123 @@
+{
+    "transactionId": "f3a6e97f-af49-4b04-a238-f0a8cc00013a",
+    "output": {
+        "totalResults": 706,
+        "resultsReturned": 351,
+        "matchedAddresses": [
+            {
+                "city": "ANQIU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ANYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAIYIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAO AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAO'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAOAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAODING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAOTOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BEIJING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BEIJING ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINZHOU ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOLUO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAN TO SIAA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CANIP B2C",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANG CHUN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANG SHA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANG ZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGCHUN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGCHUN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGDAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGJI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGLE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGSHA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGSHU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGYI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAO'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAOAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAOYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHAOZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHENGDE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHENGDU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHENGDU METRO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHENGHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHONGQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHONGQING EPZ",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CHONGQING METRO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CIXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CONGHUA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAGANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DALIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DALIAN LVSHUN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DALIAN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DANDONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DANYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DASHIQIAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAXINGANLING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DEQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DEZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONG GUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONGGANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONGGUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONGSHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONGYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONGYING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DOUMEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ENPING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FENGHUA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FOSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FULING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FUQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FUYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FUZHOU ODA1",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FUZHOU ODA2",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAIZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GANNAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAOMI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAOMING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAOYAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUILIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUIYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUIYANG ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAI'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAIKOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAILAR",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAIMEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAINING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAIYAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HANDAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HANGU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HARBIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HECHUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEFEI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEGANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEIHE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HENGSHUI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HENGYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HESHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEYUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEZE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HEZHE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HOHHOT",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUADU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUAI'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUANG PU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUANGDAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUANGPU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUHHOT",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUI'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUI'YANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUIDONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUIYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUIZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JI NAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIAMUSI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGDU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGJIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGLING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGMEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGYIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIANGYOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIAONAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIAOZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIAOZUO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIASHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIAXING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIEYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JILIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIMO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINAN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINCHANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINHUA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JINTAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIUQUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JURONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAIFENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAIPING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KUNMING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KUNSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAIWU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAIXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAIZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LANGFANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LANZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIANJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIANYUNGANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIANYUNGANG ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIAOCHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LINHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LINQU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LINYI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIU'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LONGHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LONGYAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUOYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUOYUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANZHOULI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAOMING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEIZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MIANYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MINHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MINQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MUDANJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAN AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAN'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANCHANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANJING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANNING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANNING ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANTONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NANYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NINGBO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NINGGUO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANYU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PEK TO XI'AN CLH FOR PTI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PEKING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PEKIP B2C",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINGDU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINGFANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINGHU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINGTAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINGYIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PU LAN DIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PULANDIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUTIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PVGIP B2C",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QIDONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QING DAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QINGDAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QINGYUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QINGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QINHUANG DAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QINHUANGDAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QIONGSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QIQIHAR",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QITAIHE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUANZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUANZHOU ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUJING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RIZHAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RONGCHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RUDONG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RUGAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RUI'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RUSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANSHUI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANSHUI ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANYA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHANGHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHANGYU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHANTOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHANWEI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAOGUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAOXING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEN YANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHEN ZHEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHENBAOAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHENGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHENYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHENYANG ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHENZHEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHI JIA ZHUANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHIJIAZHUANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHIJIAZHUANG ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHISHI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHOUGUANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHUANGYASHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHUNDE",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIHUI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIPING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SONGYUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUQIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAI YUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAICANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAISHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAIYUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAIZHOU",
+                "stateOrProvinceCode": "JS",
+                "countryCode": "CN",
+                "residential": false,
+                "stateOrProvinceName": "JIANGSU",
+                "primary": false
+            },
+            {
+                "city": "TAIZHOU",
+                "stateOrProvinceCode": "ZJ",
+                "countryCode": "CN",
+                "residential": false,
+                "stateOrProvinceName": "ZHEJIANG",
+                "primary": false
+            },
+            {
+                "city": "TAIZHOU ODA",
+                "stateOrProvinceCode": "JS",
+                "countryCode": "CN",
+                "residential": false,
+                "stateOrProvinceName": "JIANGSU",
+                "primary": false
+            },
+            {
+                "city": "TAIZHOU(PB)",
+                "stateOrProvinceCode": "ZJ",
+                "countryCode": "CN",
+                "residential": false,
+                "stateOrProvinceName": "ZHEJIANG",
+                "primary": false
+            },
+            {
+                "city": "TANGGU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANGSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANGSHAN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TENGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIAN JIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIANJIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIANJIN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONGHUA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONGLING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONGLU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONGXIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TONGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TSINGTAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "URUMQI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "URUMQI ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WA FANG DIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WAFANGDIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WANZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WEIFANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WEIHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WENDENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WENLING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WENZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WENZHOU(PB)",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WU XI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUHAN METRO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUHU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUJIN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "WUXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XI'AN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAMEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAN ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIANGFAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIANGTAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIANYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAO GAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAOGAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIAOSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XINGTAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XINHUI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XINING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XINJINQIAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XINXIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XIUSHAN ISLAND",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XUCHANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "XUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YAAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANCHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANG ZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANGCHUN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANGJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANGXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANJI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANTAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YANTAI ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YI XING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YICHANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YICHUN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YINCHUAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YING KOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YINGKOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YIWU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YIXING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YIZHEN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YONGKANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YONGTAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUEQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUEYANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUHANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUNFU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUXI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "YUYAO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZAOZHUANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZENGCHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANG JIA GANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANGJIAGANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANGJIAKOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANGPU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANGQIU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHANJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHAOQING",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHEN JIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHENGZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHENGZHOU ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHENJIANG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHONGSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHOUSHAN",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHUCHENG",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHUHAI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHUJI",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZHUZHOU",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZIBO",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZIBO ODA",
+                "countryCode": "CN",
+                "residential": false,
+                "primary": false
+            }
+        ]
+    }
+}

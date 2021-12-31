@@ -1,0 +1,265 @@
+<app-header [title]="'addItemsPage.headerTitle' | translate" [backbuttonFlag]='true'
+  [backNavigation]="'/shipping/customs-details'">
+</app-header>
+<ion-content>
+  <form [formGroup]="commodityForm" (ngSubmit)="submitForm()">
+    <input type="hidden" formControlName="itemType" id="quantityUnit" />
+    <input type="hidden" formControlName="itemDescription" />
+    <ion-grid>
+      <ion-row>
+        <ion-col class="enter-details-heading-container">
+          <ion-label class="enter-details-heading" translate>{{ 'addItemsPage.enterItemDetails' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="select-item-type-label-container">
+          <ion-label class="select-item-type-label" translate>{{ 'addItemsPage.selectItemType' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="grid-row-style">
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.ELECTRONICS) }"
+            (click)="selectItemsType(eItemsType.ELECTRONICS)">
+            <img src="assets/img/commodity/electronics.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text" translate>{{ 'addItemsPage.itemType.electronic' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.JEWELLERY) }"
+            (click)="selectItemsType(eItemsType.JEWELLERY)">
+            <img src="assets/img/commodity/jewellery.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text" translate>{{ 'addItemsPage.itemType.jewellery' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.HEALTH_CARE) }"
+            (click)="selectItemsType(eItemsType.HEALTH_CARE)">
+            <img src="assets/img/commodity/health-care.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text" translate>{{ 'addItemsPage.itemType.healthCare' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row class="grid-row-style">
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.GARMENTS) }"
+            (click)="selectItemsType(eItemsType.GARMENTS)">
+            <img src="assets/img/commodity/garments.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text" translate>{{ 'addItemsPage.itemType.garments' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.LITHIUM_BATTERY) }"
+            (click)="selectItemsType(eItemsType.LITHIUM_BATTERY)">
+            <img src="assets/img/commodity/batteries.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text text-styles-for-card" translate>
+                {{ 'addItemsPage.itemType.lithiumBattery' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col size="4" class="img-grid-container">
+          <ion-card class="item-type-card"
+            [ngClass]="{ 'selected-item-type-card' : isItemTypeSelected(eItemsType.OTHERS) }"
+            (click)="selectItemsType(eItemsType.OTHERS)">
+            <img src="assets/img/commodity/others.png" class="grid-img-style">
+            <ion-card-header class="img-text-container">
+              <ion-card-title class="img-text" translate>{{ 'addItemsPage.itemType.others' }}</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="select-item-value-container" size="12" *ngIf="selectedItem">
+          <ion-label class="select-item-value-label">{{ selectedItem.displayText !== 'Others' ?
+            selectedItem.displayText.concat(' - ') : '' }}</ion-label>
+          <ion-label class="select-item-value-label">{{selectedValue}}</ion-label>          
+        </ion-col>
+        <ion-col *ngIf="form.itemType.errors?.required && form.quantityUnit.dirty" size="12">
+          <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+        </ion-col>       
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-label class="select-item-type-label" translate>{{ 'addItemsPage.quantity' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-grid class="quantity-count ion-no-padding">
+            <ion-row>
+              <ion-col class="numeric-stepper-minus ion-no-padding">
+                <p class="numeric-stepper-add-minus" (click)="onTickNumStepper('subtract')">-</p>
+              </ion-col>
+              <ion-col>
+                <ion-input class="ion-no-padding" type="number" formControlName="quantity"
+                  (focusout)="observeQuantity($event)"></ion-input>
+              </ion-col>
+              <ion-col class="numeric-stepper-add ion-no-padding">
+                <p class="numeric-stepper-add-minus" (click)="onTickNumStepper('add')">+</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+        <ion-col size="6" class="pieces-select">
+          <ion-grid class="ion-no-padding">
+            <ion-row class="pieces-per-package-form"
+              [ngClass]="{ 'qty-unit-error' : form.quantityUnit.invalid && (form.quantityUnit.dirty || form.quantityUnit.touched) }">
+              <ion-col class="pieces-per-package-input">
+                <ion-input class="ion-no-padding bottom-style-border" value="" readonly></ion-input>
+              </ion-col>
+              <ion-col class="bottom-style-border custom-select weight-select-margin " size="11">
+                <ion-select *ngIf="uomList" id="quantityUnit" (click)="onClickSelectDropdown()" class="custom-padding customs-disply"
+                  [cancelText]="'button.cancel' | translate" [okText]="'button.ok' | translate"
+                  formControlName="quantityUnit">
+                  <ion-select-option *ngFor="let qtyUnit of uomList" value="{{ qtyUnit.key
+                   }}">
+                    {{ qtyUnit.displayText }}</ion-select-option>
+                </ion-select>
+              </ion-col>
+              <ion-col class="bottom-style-border custom-select weight-select-margin" size="1">
+                <ion-icon class="select-chevron" name="chevron-down-outline"></ion-icon>
+              </ion-col>
+            </ion-row>
+            <ion-row
+              *ngIf="form.quantityUnit.errors?.required && (form.quantityUnit.dirty || form.quantityUnit.touched)">
+              <ion-col>
+                <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="weight-label-container">
+          <ion-label class="select-item-type-label" translate>{{ 'addItemsPage.totalWeight' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="total-weight-container"
+        [ngClass]="{ 'weight-customsval-error' : form.totalWeight.invalid && (form.totalWeight.dirty || form.totalWeight.touched) }">
+        <ion-col size="11" class="weight-input-container">
+          <ion-input type="number" #totalWeightInput id="totalWeight" maxlength="5" class="weight-input" inputmode="decimal"
+            formControlName="totalWeight" [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY"></ion-input>
+        </ion-col>
+        <ion-col size="1" class="unit-container">
+          <ion-input type="text" formControlName="totalWeightUnit" class="unit-label" disabled></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="form.totalWeight.errors?.required && (form.totalWeight.dirty || form.totalWeight.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row
+        *ngIf="!form.totalWeight.errors?.required && form.totalWeight.errors?.customsValueError && (form.totalWeight.dirty || form.totalWeight.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'customsDetailsPage.validationError.requiredMinimumValue'
+            }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="total-value-container">
+          <ion-label class="select-item-type-label" translate>{{ 'addItemsPage.totalCustomsValue' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="total-weight-container"
+        [ngClass]="{ 'weight-customsval-error' : form.totalCustomsValue.invalid && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched) }">
+        <ion-col size="9" class="weight-input-container">
+          <ion-input type="number" maxlength="10" #totalCustomsValueInput id="totalCustomsValue" class="weight-input" inputmode="decimal"
+            formControlName="totalCustomsValue" [appRestrictLengthInput]="10" [appRestrictInput]="inputConstants.NUMBERWITHTWODECIMALSONLY">
+          </ion-input>
+        </ion-col>
+        <ion-col size="2" class="unit-container">
+          <ion-select class="currency-select" formControlName="customsValueCurrency" (click)="onClickSelectDropdown()"
+            [cancelText]="'button.cancel' | translate" [okText]="'button.ok' | translate">
+            <ion-select-option *ngFor="let currency of currencyList" value="{{ currency.iataCode }}">
+              {{ currency.isoCode }}
+            </ion-select-option>
+          </ion-select>
+        </ion-col>
+        <ion-col class="margin-style-border custom-select weight-select-margin" size="1">
+          <ion-icon class="select-chevron icon-floating" name="chevron-down-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row
+        *ngIf="form.totalCustomsValue.errors?.required && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row
+        *ngIf="!form.totalCustomsValue.errors?.required && form.totalCustomsValue.errors?.customsValError && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'customsDetailsPage.validationError.requiredCustomsValue'
+            }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row
+        *ngIf="form.totalCustomsValue.errors?.pattern && (form.totalCustomsValue.dirty || form.totalCustomsValue.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'validationError.invalidDecimal' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="country-territory-label">
+          <ion-label class="select-item-type-label" translate>{{ 'addItemsPage.countryTerritoryOfManu' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row class="country-select-container" *ngIf="countryManufactureList"
+        [ngClass]="{ 'country-manufacture-error' : form.countryOfManufacture.invalid && (form.countryOfManufacture.dirty || form.countryOfManufacture.touched) }">
+        <ion-col size="10" class="country-column-style">
+          <ion-select id="countryOfManufacture" class="country-select" [cancelText]="'button.cancel' | translate"
+            [okText]="'button.ok' | translate" (click)="onClickSelectDropdown()" formControlName="countryOfManufacture">
+            <ion-select-option *ngFor="let countryManufacture of countryManufactureList"
+              value="{{ countryManufacture.name }}">{{ countryManufacture.name }}</ion-select-option>
+          </ion-select>
+        </ion-col>
+        <ion-col class="weight-select-margin country-select-alignment" size="2">
+          <ion-icon class="select-chevron-forward" name="chevron-forward-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row
+        *ngIf="form.countryOfManufacture.errors?.required && (form.countryOfManufacture.dirty || form.countryOfManufacture.touched)">
+        <ion-col class="select-item-type-label">
+          <span class="validation-error" translate>{{ 'validationError.required' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="hs-code-container">
+          <ion-label class="select-item-type-label">{{ 'addItemsPage.hsCode' | translate }}
+            ({{ 'constants.optional' | translate }})
+            <ion-icon class="tooltip" name="help-circle-outline" (click)="showHsCodeBubbleHint()"></ion-icon>
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="hs-code-input-wraper" size="12">
+          <ion-input type="text" class="hs-code-input" formControlName="hsCode"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="add-button-container" *ngIf="!showUpdateButton">
+          <ion-button shape="round" fill="outline" class="add-button-style" type="submit" translate>{{ 'button.add' }}
+          </ion-button>
+        </ion-col>
+        <ion-col size="12" class="add-button-container" *ngIf="showUpdateButton">
+          <ion-button shape="round" fill="outline" class="add-button-style" type="button"
+            (click)="updateCommodityDetails()" translate>{{ 'button.update' }}
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

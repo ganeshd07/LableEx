@@ -1,0 +1,6081 @@
+{
+    "transactionId": "3979afe0-c1aa-4e1a-9ddc-646dc8da54aa",
+    "output": {
+        "totalResults": 1096,
+        "resultsReturned": 950,
+        "matchedAddresses": [
+            {
+                "city": "ABORLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ABRA DE ILOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ABUCAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ABUYOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGDANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGLIPAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGNO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGONCILLO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGOO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AGUILAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALABEL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALAMINOS",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "ALAMINOS",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "ALANG ALANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALBUERGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALBUQUERQUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALCALA",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "ALCALA",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "ALCANTARA",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "ALCOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALEGRIA",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "ALEGRIA",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "ALFONSO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALIAGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALICIA",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "ALIMODIAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALITAGTAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALLACAPAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALLEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALOGUINSAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALORAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ALUBIJID",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AMADEO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AMLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AMULUNG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ANAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ANDA",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "ANGELES CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ANGONO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ANTIPOLO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "APALIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "APARRI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ARAYAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ARGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ARINGAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ARITAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AROROY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ASINGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ASTURIAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ATIMONAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ATOK",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AURORA",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "AURORA",
+                "stateOrProvinceCode": "ZD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ZAMBOANGA DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "AYALA PASEO DE ROXAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "AYUNGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BABATNGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACARRA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACLARAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACLAYON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACNOTAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACOLOD",
+                "stateOrProvinceCode": "LD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LANAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "BACOLOD",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "BACOLOD CITY",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "BACOLOR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACOOR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BACUAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BADIAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BADOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGABAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGAMANOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGUIO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAGULIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAIS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALAGTAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALAMBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALANGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALANGKAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALAOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALENO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALINGASAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALINGUAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALITE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALIUAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALUD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BALUNGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAMBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAMBANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANAYBANAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANAYOYO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANGAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANGUED",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANGUI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANSALAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANSUD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANTAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BANTAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BARAS",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "BARAS",
+                "stateOrProvinceCode": "RI",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "RIZAL",
+                "primary": false
+            },
+            {
+                "city": "BARCELONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BARILE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAROTAC NUEVO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BARUGO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BASA AIRBASE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BASEY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BASISTA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BASUD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BATAAN EPZA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BATAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BATANGAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BATANGAS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BATO",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "BATO",
+                "stateOrProvinceCode": "LE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LEYTE",
+                "primary": false
+            },
+            {
+                "city": "BAUAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAUANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAUNGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAUTISTA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAYAMBANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAYBAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAYOMBONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BAYUGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BEL AIR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BENITO SOLIVEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BILIRAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINALONAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINAN LAGUNA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINANGONAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINDOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINMALEY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BINUANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOBON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOCAUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOGO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOKOD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOLJOON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BONGABON",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "BONTOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BORBON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BORONGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOTOCAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BOTOLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BUENAVISTA",
+                "stateOrProvinceCode": "AD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "AGUSAN DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "BUENAVISTA",
+                "stateOrProvinceCode": "GU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "GUIMARAS",
+                "primary": false
+            },
+            {
+                "city": "BUENAVISTA",
+                "stateOrProvinceCode": "MA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MARINDUQUE",
+                "primary": false
+            },
+            {
+                "city": "BUENDIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BUGALLON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BUGUEY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BUHI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BULACAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BULALACAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BULAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BULUSAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BURAUEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BURGOS",
+                "stateOrProvinceCode": "IL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOILO",
+                "primary": false
+            },
+            {
+                "city": "BURGOS",
+                "stateOrProvinceCode": "IN",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOCOS NORTE",
+                "primary": false
+            },
+            {
+                "city": "BURGOS",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "BURGOS",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "BURGOS",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "BUSTOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "BUTUAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABADBARAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABANATUAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABARRUIGUIS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABATUAN",
+                "stateOrProvinceCode": "IL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOILO",
+                "primary": false
+            },
+            {
+                "city": "CABATUAN",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "CABIAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABUGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABUYAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CABUYAO LAGUNA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAGAYAN DE ORO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAINTA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALACA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALAMBA",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "CALAPAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALAPE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALASIAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALATAGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALATRAVA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALAUAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALBAYOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALBIGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALINOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALINTAAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALOOCAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALOOCAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CALUMPIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAMALANIUGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAMILING",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAMP CRAME",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAMP VICENTE LIM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CANDABA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CANDELARIA",
+                "stateOrProvinceCode": "QU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "QUEZON",
+                "primary": false
+            },
+            {
+                "city": "CANDELARIA",
+                "stateOrProvinceCode": "ZA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ZAMBALES",
+                "primary": false
+            },
+            {
+                "city": "CANDON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CANLUBANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAPALONGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAPAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAPAZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAPOOCAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CARCAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CARDONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CARIGARA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CARMEN",
+                "stateOrProvinceCode": "AD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "AGUSAN DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "CARMEN",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "CARMEN",
+                "stateOrProvinceCode": "DD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "DAVAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "CARMONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CASIGURAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CASTILLA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CASTILLEJOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CATAINGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CATARMAN",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "CATARMAN",
+                "stateOrProvinceCode": "NS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NORTHERN SAMAR",
+                "primary": false
+            },
+            {
+                "city": "CATBALOGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CATIGBIAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CATMON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAUAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAVINTI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAVITE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAVITE CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAVITY NAVY BASE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CAWAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CEBU",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CEBU CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CLARIN",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "CLARIN",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "CLAVER",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CLAVERIA",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "COLLEAGE LOS BANOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "COMPOSTELA",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "CONCEPCION",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CONSOLACION",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CORDON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CORDOVA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CORELLA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CORTES",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "COTABATO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CUENCA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "CURRIMAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAANGBANTAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAET",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAGAMI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAGOHOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAGUPAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DALAGUETE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAMORTIS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DANAO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAPA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAPITAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DARAGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DASMARINAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DASMARINAS RESETTLEMENT AREA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DASOL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAUIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAUIS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DAVAO CITY",
+                "stateOrProvinceCode": "DD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "DAVAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "DEL CARMEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIADI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIFFUN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIGOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIMASALANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIMIAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DINALUPIHAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DINGLE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DINGRAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIPOLOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DIPOLOG CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DOLORES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DOMESTIC ROAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DON CARLOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DONSOL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUERO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DULAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUMAGUETE CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUMALNEG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUMANGAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUMANJOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUPAX DEL NORTE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "DUPAX DEL SUR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ECHAGUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "EL SALVADOR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ENRILE",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "ENRIQUE MAGALONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ERMITA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ESPERANZA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ESPIRITU",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FAMY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FCIE-DASMARINAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FERNANDO AIR BASE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "FLORIDABLANCA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GABALDON",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "GAINZA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GALIMUYOD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAMU",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GAPAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GASAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GATTARAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GEN AGUINALDO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GEN MARIANO ALVAREZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GEN TINIO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GEN TRIAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GEN. M. NATIVIDAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GENERAL SANTOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GERONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GIGACUIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GIGMOTO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GINATILLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GITAGUM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GLORIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GONZAGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GREENBELT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUAGUA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUBAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUIGUINTO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUIMBA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUIMBAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUINDULMAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUINOBATAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUINSILIBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "GUMACA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAGONOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAGUNOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HAMTIC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HERMOSA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HERNANI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HILONGOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HINABANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "HINDANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IBA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IBAAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IGUIG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ILAGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ILIGAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ILOILO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IMELDA",
+                "stateOrProvinceCode": "CN",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAMARINES NORTE",
+                "primary": false
+            },
+            {
+                "city": "IMPASUGONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IMUS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "INABANGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "INDANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "INFANTA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "INITAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IRIGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IROSIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ISABEL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ITOGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "IVISAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JABONGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JAEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JAGNA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JALA JALA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JANIUAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JARO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JASAAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JETAFE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIABONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIMALALUD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JIMENEZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JONES",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "JORDAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JOSE PANGANIBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JUBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "JULITA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KABACAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KABAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KALAYAAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KALIBO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KALOOKAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KANANGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAPALONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAPANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KATIPUNAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAUSWAGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KAWIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KIDAPAWAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "KINOGITAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LA PAZ",
+                "stateOrProvinceCode": "LE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LEYTE",
+                "primary": false
+            },
+            {
+                "city": "LA PAZ",
+                "stateOrProvinceCode": "TA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "TARLAC",
+                "primary": false
+            },
+            {
+                "city": "LA TRINIDAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LABANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LABO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LABRADOR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAGONGLONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAGUINDINGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAGUNA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAL LO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LALA",
+                "stateOrProvinceCode": "LD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LANAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "LAMAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAMBUNAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAOAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAOAG CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAPU LAPU CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAPU-LAPU",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAPU-LAPU CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAS PINAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAS PINAS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LASAM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAUR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAUREL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LAVEZARES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEGANES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEGASPI CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEGASPI VILLAGE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEMERY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LEYTE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIBERTAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIBMANAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIBON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIBUNA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIBUNGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LICAB",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIDLIDA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LILA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LILIW",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LILOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LILOAN",
+                "stateOrProvinceCode": "LE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LEYTE",
+                "primary": false
+            },
+            {
+                "city": "LIMAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LINAMON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LINGAYEN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LIPA CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LLANERA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOBOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOPEZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOPEZ JAENA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOPON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LOS BANOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUBAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUCBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUCENA CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUGAIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUISIANA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUMBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "LUNA",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "LUNA",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "LUPAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "M'LANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAASIM",
+                "stateOrProvinceCode": "SA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SARANGANI",
+                "primary": false
+            },
+            {
+                "city": "MAASIN",
+                "stateOrProvinceCode": "IL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOILO",
+                "primary": false
+            },
+            {
+                "city": "MAASIN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MABALACAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MABINAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MABINI",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "MABINI",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "MABITAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MACABEBE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MACROHON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MADDELA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MADRIDEJOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAGALANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAGALLANES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAGALLANES",
+                "stateOrProvinceCode": "AD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "AGUSAN DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "MAGALLANES",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "MAGDALENA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAGDIWANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAGSAYSAY",
+                "stateOrProvinceCode": "MI",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MISAMIS ORIENTAL",
+                "primary": false
+            },
+            {
+                "city": "MAGSAYSAY",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "MAGSINGAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAHAYAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAHINOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAINIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAJAYJAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAKATI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAKATI CENTER",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAKATI CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAKATI CPO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAKATI METRO MANILA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALABON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALABUYOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALAPATAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALASIQUI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALATE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALAYBALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALIMONO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALINAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALITBOG",
+                "stateOrProvinceCode": "BU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BUKIDNON",
+                "primary": false
+            },
+            {
+                "city": "MALITBOG",
+                "stateOrProvinceCode": "SL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SOUTHERN LEYTE",
+                "primary": false
+            },
+            {
+                "city": "MALLIG",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "MALOLOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALUNGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MALVAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAMBAJAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAMBURAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANAOAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANDALUYONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANDAON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANDAUE CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANGALDAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANGATAREM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANILA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANITO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANJUYOD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANOLO FORTICH",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANSALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANTICAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MANUKAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAPANDAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARAGONDON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARAMAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARAWI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARCOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARIBOJOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARIKINA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARILAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MARIVELES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MASANTOL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MASBATE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MASINLOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MATAAS NA KAHOY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MATALAM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MATALOM",
+                "stateOrProvinceCode": "LE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LEYTE",
+                "primary": false
+            },
+            {
+                "city": "MATI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MATNOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAUBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAYANTOC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAYDOLONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MAYORGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEDELLIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEDINA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MENDEZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MERCEDES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MERIDA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEXICO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MEYCAUAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MIAGAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MIDSAYAP",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MILAGROS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MILAOR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MINALABAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MINALIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MINGLANILLA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MOALBOAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MOBO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MOGPOG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MOLAVE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MONCADA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MONDRAGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MONTALBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MORONG",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "MORONG",
+                "stateOrProvinceCode": "RI",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "RIZAL",
+                "primary": false
+            },
+            {
+                "city": "MULTINATIONAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MUNOZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MUNTINLUPA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "MURCIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAAWAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NABUA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAGA",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "NAGA CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAGBUKEL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAGCARLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAGUILLAN",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "NAGUILLAN",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "NAIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAIC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NARRA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NARVACAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NASIPIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NASUGBU",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NATIVIDAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAUJAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAVAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NAVOTAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NEW LUCENA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NORZAGARAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NOVALICHES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NOVELETA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "NUEVA ERA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OBANDO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OCAMPO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OLONGAPO CI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OLONGAPO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OPOL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ORANI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ORION",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ORMOC CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OROQUIETA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ORTIGAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OSLOB",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OTON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "OZAMIS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PADRE BURGOS",
+                "stateOrProvinceCode": "QU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "QUEZON",
+                "primary": false
+            },
+            {
+                "city": "PADRE BURGOS",
+                "stateOrProvinceCode": "SL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SOUTHERN LEYTE",
+                "primary": false
+            },
+            {
+                "city": "PADRE GARCIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAETE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAGADIAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAGBILAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAGSANJAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAGUDPUD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAKIL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PALANAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PALAUIG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PALAYAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PALO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PALOMPON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAMBUJAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAMPLONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAMPLONA",
+                "stateOrProvinceCode": "CS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAMARINES SUR",
+                "primary": false
+            },
+            {
+                "city": "PAN AY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANABO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANAON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANDAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANDI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANGANIBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANGIL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANGLAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PANIQUI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAOAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAOMBONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PARACALE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PARANAQUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PARANAQUE CPO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PARANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASACAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASAY CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASAY MALIBAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASIG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASIG CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASTRANA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PASUQUIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PATEROS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PAVIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PENABLANCA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PENARANDA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PIAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PIDDIG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PIDIGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PIGKAWAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PIKIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PILA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PILAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PILAR",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "PILAR",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "PILAR",
+                "stateOrProvinceCode": "SO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SORSOGON",
+                "primary": false
+            },
+            {
+                "city": "PILI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PILILIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINAMALAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINAMUNGAHAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PINILI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PLACER",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "PLARIDEL",
+                "stateOrProvinceCode": "BU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BUKIDNON",
+                "primary": false
+            },
+            {
+                "city": "PLARIDEL",
+                "stateOrProvinceCode": "QU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "QUEZON",
+                "primary": false
+            },
+            {
+                "city": "POLA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POLANCO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POLANGUI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POLOMOLOK",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PONTEVEDRA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PORAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PORO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POTOTAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "POZORRUBIO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PRIETO DIAZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUERTO GALERA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUERTO PRINCESA CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PUGO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PULILAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PULUPANDAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "PURA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUEZON",
+                "stateOrProvinceCode": "BU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BUKIDNON",
+                "primary": false
+            },
+            {
+                "city": "QUEZON",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "QUEZON",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "QUEZON",
+                "stateOrProvinceCode": "QU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "QUEZON",
+                "primary": false
+            },
+            {
+                "city": "QUEZON CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "QUIRINO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "RAMON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RAMON MAGSAYSAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RAMOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "REINA MERCEDES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "REMEDIOS T ROMUALDEZ",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RIZAL",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "RIZAL",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "RIZAL",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "RIZAL",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "ROMBLON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "RONDA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ROSALES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ROSARIO",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "ROSARIO",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "ROSARIO",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "ROSARIO",
+                "stateOrProvinceCode": "NS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NORTHERN SAMAR",
+                "primary": false
+            },
+            {
+                "city": "ROSARIO CAVITE",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "ROXAS",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "ROXAS",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "ROXAS",
+                "stateOrProvinceCode": "ZD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ZAMBOANGA DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "ROXAS BLVD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ROXAS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SABLAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SABLAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAGAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAGBAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAGNAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAGUDAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SALCEDO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SALCEDO VILLAGE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAMAL",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SAMAL",
+                "stateOrProvinceCode": "DD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "DAVAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SAMBOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN AGUSTIN",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN ANDRES",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "SAN ANTONIO",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "SAN ANTONIO",
+                "stateOrProvinceCode": "QU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "QUEZON",
+                "primary": false
+            },
+            {
+                "city": "SAN ANTONIO",
+                "stateOrProvinceCode": "ZA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ZAMBALES",
+                "primary": false
+            },
+            {
+                "city": "SAN BENITO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN CARLOS CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN CLEMENTE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN ENRIQUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN ESTEBAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN FABIAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN FELIPE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN FERNANDO",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "SAN FERNANDO",
+                "stateOrProvinceCode": "CS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAMARINES SUR",
+                "primary": false
+            },
+            {
+                "city": "SAN FERNANDO",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "SAN FERNANDO",
+                "stateOrProvinceCode": "PM",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PAMPANGA",
+                "primary": false
+            },
+            {
+                "city": "SAN FERNANDO",
+                "stateOrProvinceCode": "RO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ROMBLON",
+                "primary": false
+            },
+            {
+                "city": "SAN FRANCISCO",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "SAN FRANCISCO",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SAN GABRIEL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN GUILLERMO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN ILDEFONSO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN ISIDRO",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "SAN ISIDRO",
+                "stateOrProvinceCode": "NS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NORTHERN SAMAR",
+                "primary": false
+            },
+            {
+                "city": "SAN ISIDRO",
+                "stateOrProvinceCode": "SU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SAN JACINTO",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SAN JOAQUIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN JORGE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN JOSE",
+                "stateOrProvinceCode": "AN",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ANTIQUE",
+                "primary": false
+            },
+            {
+                "city": "SAN JOSE",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SAN JOSE",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "SAN JOSE",
+                "stateOrProvinceCode": "NS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NORTHERN SAMAR",
+                "primary": false
+            },
+            {
+                "city": "SAN JOSE DEL MONTE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN JUAN",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SAN JUAN",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN JUAN",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "SAN JUAN",
+                "stateOrProvinceCode": "MM",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "METRO MANILA",
+                "primary": false
+            },
+            {
+                "city": "SAN LEONARDO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN LORENZO VILLAGE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN LUIS",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SAN LUIS",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SAN MANUEL",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN MANUEL",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SAN MANUEL",
+                "stateOrProvinceCode": "TA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "TARLAC",
+                "primary": false
+            },
+            {
+                "city": "SAN MARCELINO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN MARIANO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN MATEO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SAN MATEO",
+                "stateOrProvinceCode": "RI",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "RIZAL",
+                "primary": false
+            },
+            {
+                "city": "SAN MIGUEL",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "SAN MIGUEL",
+                "stateOrProvinceCode": "IL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOILO",
+                "primary": false
+            },
+            {
+                "city": "SAN MIGUEL",
+                "stateOrProvinceCode": "TA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "TARLAC",
+                "primary": false
+            },
+            {
+                "city": "SAN NARCISO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN NICOLAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN NICOLAS",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SAN NICOLAS",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SAN PABLO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN PASCUAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN PEDRO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN QUINTIN",
+                "stateOrProvinceCode": "AB",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ABRA",
+                "primary": false
+            },
+            {
+                "city": "SAN RAFAEL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN REMEGIO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN ROQUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN SIMON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN THEODORO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAN VICENTE",
+                "stateOrProvinceCode": "CN",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAMARINES NORTE",
+                "primary": false
+            },
+            {
+                "city": "SANTA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTA ANA",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "SANTA ANA",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SANTA BARBARA",
+                "stateOrProvinceCode": "IL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ILOILO",
+                "primary": false
+            },
+            {
+                "city": "SANTA BARBARA",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SANTA CATALINA",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "SANTA CRUZ",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "SANTA CRUZ",
+                "stateOrProvinceCode": "ZA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ZAMBALES",
+                "primary": false
+            },
+            {
+                "city": "SANTA FE",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "SANTA FE",
+                "stateOrProvinceCode": "NV",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA VISCAYA",
+                "primary": false
+            },
+            {
+                "city": "SANTA FE",
+                "stateOrProvinceCode": "RO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ROMBLON",
+                "primary": false
+            },
+            {
+                "city": "SANTA IGNACIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTA MARIA",
+                "stateOrProvinceCode": "BU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BUKIDNON",
+                "primary": false
+            },
+            {
+                "city": "SANTA MARIA",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "SANTA MARIA",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SANTA PRAXEDES",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTA RITA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTA ROSA",
+                "stateOrProvinceCode": "NE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NUEVA ECIJA",
+                "primary": false
+            },
+            {
+                "city": "SANTA TERESITA",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "SANTA TERESITA",
+                "stateOrProvinceCode": "CA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CAVITE",
+                "primary": false
+            },
+            {
+                "city": "SANTANDER",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTE FE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTIAGO",
+                "stateOrProvinceCode": "AD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "AGUSAN DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SANTIAGO",
+                "stateOrProvinceCode": "IA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SANTIAGO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SANTO DOMINGO",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "SANTO NINO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SANTOL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAPANG PALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SAPANGPALAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SARIAYA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SARRAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SASMOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SHAW BOULEVARD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIATON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIBAGAT",
+                "stateOrProvinceCode": "AS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "AGUSAN DEL SUR",
+                "primary": false
+            },
+            {
+                "city": "SIBONGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIBULAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIBUTAD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SILANG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SILAY CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SINACABAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SINAIT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SINGALONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SINILOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SIPOCOT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SISON",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "SISON",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SOCORRO",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "SOCORRO",
+                "stateOrProvinceCode": "SD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SURIGAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "SOGOD",
+                "stateOrProvinceCode": "SL",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "SOUTHERN LEYTE",
+                "primary": false
+            },
+            {
+                "city": "SOLANA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SOLANO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SOLSONA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SORSOGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA CRUZ",
+                "stateOrProvinceCode": "IS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "ISABELA",
+                "primary": false
+            },
+            {
+                "city": "STA CRUZ",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "STA CRUZ NORTH",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA ELENA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA LUCIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA MAGDALENA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA MARGARITA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA MARIA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA MONICA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA ROSA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STA. CRUZ",
+                "stateOrProvinceCode": "MA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MARINDUQUE",
+                "primary": false
+            },
+            {
+                "city": "STO NINO PARANAQUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "STO TOMAS",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "STO TOMAS",
+                "stateOrProvinceCode": "DD",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "DAVAO DEL NORTE",
+                "primary": false
+            },
+            {
+                "city": "STO TOMAS",
+                "stateOrProvinceCode": "LU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LA UNION",
+                "primary": false
+            },
+            {
+                "city": "STO TOMAS",
+                "stateOrProvinceCode": "PA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PANGASINAN",
+                "primary": false
+            },
+            {
+                "city": "STO TOMAS",
+                "stateOrProvinceCode": "PM",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "PAMPANGA",
+                "primary": false
+            },
+            {
+                "city": "SUAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUBIC BAY FREEPORT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUBIC TOWN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUGBONGCOGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SULTAN KUDARAT",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUMILAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SURIGAO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "SUYO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAAL",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TABACO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TABOGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TABONTABON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TABUELAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TACLOBAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TACURONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAFT AVENUE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGALOAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGANA AN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGAYTAY CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGBILARAN CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGUDIN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGUIG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAGUM",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TALAKAG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TALAVERA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TALISAY",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "TALISAY",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "TALISAY",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "TALISAYAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAMBO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAMPAKAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANAUAN",
+                "stateOrProvinceCode": "BA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BATANGAS",
+                "primary": false
+            },
+            {
+                "city": "TANAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANGUB",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANJAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANTANGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TANZA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TARLAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAYABAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAYASAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAYSAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TAYTAY",
+                "stateOrProvinceCode": "RI",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "RIZAL",
+                "primary": false
+            },
+            {
+                "city": "TAYUG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TERESA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TERNATE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIAONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIGAON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIGBAUAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TIWI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TOLEDO CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TOLOSA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TOMAS OPPUS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TORRIJOS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TRECE MARTIREZ CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBIGON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBLAY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBOD",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUBURAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUDELA",
+                "stateOrProvinceCode": "CE",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "CEBU",
+                "primary": false
+            },
+            {
+                "city": "TUDELA",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "TUGUEGARAO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUKURAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUNGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUPI",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "TUY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "UGONG",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "UMINGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "UNISAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "URBIZTONDO",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "URDANETA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "URDANETA VILLAGE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "USON",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VALENCIA",
+                "stateOrProvinceCode": "BO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BOHOL",
+                "primary": false
+            },
+            {
+                "city": "VALENCIA",
+                "stateOrProvinceCode": "BU",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "BUKIDNON",
+                "primary": false
+            },
+            {
+                "city": "VALENCIA",
+                "stateOrProvinceCode": "NO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NEGROS OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "VALENZUELA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VALLADOLID",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VICTORIA",
+                "stateOrProvinceCode": "LA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "LAGUNA",
+                "primary": false
+            },
+            {
+                "city": "VICTORIA",
+                "stateOrProvinceCode": "MO",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "MINDORO OCCIDENTAL",
+                "primary": false
+            },
+            {
+                "city": "VICTORIA",
+                "stateOrProvinceCode": "NS",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "NORTHERN SAMAR",
+                "primary": false
+            },
+            {
+                "city": "VICTORIA",
+                "stateOrProvinceCode": "TA",
+                "countryCode": "PH",
+                "residential": false,
+                "stateOrProvinceName": "TARLAC",
+                "primary": false
+            },
+            {
+                "city": "VICTORIAS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VIGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VIGAN",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VILLA VERDE",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VILLANUEVA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VILLASIS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VINTAR",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VINZONS",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "VIRAC",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZAMBOANGA CITY",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZAMBOANGUITA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZARAGOSA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            },
+            {
+                "city": "ZARRAGA",
+                "countryCode": "PH",
+                "residential": false,
+                "primary": false
+            }
+        ]
+    }
+}

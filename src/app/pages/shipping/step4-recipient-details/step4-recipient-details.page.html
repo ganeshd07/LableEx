@@ -1,0 +1,273 @@
+<app-header [title]="'senderRecipientDetailsPage.recipientDetails' | translate" [backbuttonFlag]='backbuttonFlag'
+  [backNavigation]="'/shipping/sender-details'">
+</app-header>
+<app-navigation-stepper [currentStep]="currentStep"></app-navigation-stepper>
+<ion-content>
+  <form focusInvalidInput [formGroup]="recipientForm" (ngSubmit)="submitForm()">
+    <ion-grid class="rdp-sender-details-container">
+      <ion-row>
+        <ion-col class="rdp-to-label-container">
+          <ion-label class="rdp-to-label-text" translate>{{ 'senderRecipientDetailsPage.to' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="country-city-label-text-container">
+          <ion-label class="country-city-label-text">{{ 'shipmentDetailsPage.countryTerritory' | translate }}, {{ 'shipmentDetailsPage.city' | translate }}</ion-label>
+          <ion-label *ngIf ="fromStoreRecipientDetails.stateOrProvinceCode" class="country-city-label-text">{{', '}}{{ 'senderRecipientDetailsPage.stateLabel' | translate }}</ion-label>
+          <ion-label *ngIf ="fromStoreRecipientDetails.postalCode" class="country-city-label-text">{{', '}}{{ 'shipmentDetailsPage.postalCode' |  translate}}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-country-city-postal-text-container">
+          <ion-input type="text" readonly value="{{ countryCityPostalDisplay }}" class="rdp-country-city-postal-text">
+          </ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style">{{ 'senderRecipientDetailsPage.addressLine' | translate }} 1
+          </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-content-container">
+          <ion-input #addressLine1Input id="addressLine1" required="true" class="rdp-input-content-element"
+            [ngClass]="{ 'input-error' : form.addressLine1.invalid && (form.addressLine1.dirty || form.addressLine1.touched) }"
+            type="text" maxlength="35" formControlName="addressLine1" [appRestrictInput]="inputConstants.ASCII">
+          </ion-input>
+          <span *ngIf="form.addressLine1.errors?.required && (form.addressLine1.dirty || form.addressLine1.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="form.addressLine1.errors?.minlength && (form.addressLine1.dirty || form.addressLine1.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style">{{ 'senderRecipientDetailsPage.addressLine' | translate }} 2
+            ({{ 'constants.optional' | translate }})</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-content-container">
+          <ion-input class="rdp-input-content-element" type="text" maxlength="35" formControlName="addressLine2"
+            [appRestrictInput]="inputConstants.ASCII">
+          </ion-input>
+          <span *ngIf="form.addressLine2.errors?.minlength && (form.addressLine2.dirty || form.addressLine2.touched)"
+          class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <div *ngIf="showAddressLine3">
+        <ion-row>
+          <ion-col class="rdp-input-label-container">
+            <ion-label class="rdp-input-label-style">{{ 'senderRecipientDetailsPage.addressLine' | translate }} 3
+              ({{ 'constants.optional' | translate }})</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-input-content-container">
+            <ion-input class="rdp-input-content-element" type="text" maxlength="35" formControlName="addressLine3"
+              [appRestrictInput]="inputConstants.ASCII">
+            </ion-input>
+            <span *ngIf="form.addressLine3.errors?.minlength && (form.addressLine3.dirty || form.addressLine3.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row>
+        <ion-col size="8">
+          <ion-label class="rdp-companyAddress" translate>
+            {{ 'senderRecipientDetailsPage.companyAddressQuestion' }}
+          </ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-toggle id="companyAddressToggle" checked="{{ (!residential) }}"
+            (ionChange)="changeCompanyAddressToggle($event)" class="rdp-toggleStyle" color="primary">
+          </ion-toggle>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.contactName' }}</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-content-container">
+          <ion-input #contactNameInput id="contactName" required="true" class="rdp-input-content-element"
+            [ngClass]="{ 'input-error' : form.contactName.invalid && (form.contactName.dirty || form.contactName.touched) }"
+            type="text" maxlength="35" formControlName="contactName" [appRestrictInput]="inputConstants.ASCII">
+          </ion-input>
+          <span *ngIf="form.contactName.errors?.required && (form.contactName.dirty || form.contactName.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+          <span *ngIf="form.contactName.errors?.minlength && (form.contactName.dirty || form.contactName.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col *ngIf="!residential" class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.companyName' }}</ion-label>
+        </ion-col>
+        <ion-col *ngIf="residential" class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.phoneNo' }}</ion-label>
+          <ion-label class="rdp-notifactionTextStyle">
+            ({{ 'senderRecipientDetailsPage.phoneNoRecipientNote' | translate }})</ion-label>
+        </ion-col>
+      </ion-row>
+      <div *ngIf="!residential">
+        <ion-row>
+          <ion-col class="rdp-input-content-container">
+            <ion-input #companyNameInput id="companyName" required="true" class="rdp-input-content-element"
+              [ngClass]="{ 'input-error' : form.companyName.invalid && (form.companyName.dirty || form.companyName.touched) }"
+              type="text" maxlength="35" formControlName="companyName" [appRestrictInput]="inputConstants.ASCII">
+            </ion-input>
+            <span *ngIf="form.companyName.errors?.required && (form.companyName.dirty || form.companyName.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}</span>
+            <span *ngIf="form.companyName.errors?.minlength && (form.companyName.dirty || form.companyName.touched)"
+              class="validation-error" translate>{{ 'validationError.invalidMinLength' }}</span>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-input-label-container" size="8">
+            <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.phoneNo' }}</ion-label>
+          </ion-col>
+          <ion-col class="rdp-input-label-container-EXT" size="4">
+            <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.ext' | translate }} ({{ 'constants.optional' | translate }})</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-phone-number-prefix-container" size="2">
+            <ion-input type="text" readonly value="+{{dialingPrefixValue}}" class="rdp-phone-number-prefix"></ion-input>
+          </ion-col>
+          <ion-col class="rdp-phone-input-container" size="6">
+            <ion-input #phoneNumberInput id="phoneNumber" required="true" class="rdp-phone-input"
+              [ngClass]="{ 'phone-input-error' : (!isPhoneNumberValid || form.phoneNumber.invalid) && (form.phoneNumber.dirty || form.phoneNumber.touched) }"
+              type="text" minlength="3" maxlength="12" formControlName="phoneNumber" [appRestrictInput]="inputConstants.NUMBER" (input)="limitLength(phoneNumberInput,phoneNumberMax)" inputmode="numeric"></ion-input>
+            <span
+              *ngIf="form.phoneNumber.errors?.required && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}</span>
+            <span
+              *ngIf="!isPhoneNumberValid && isDefaultValidation && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.invalidPhoneNumber' }}</span>
+            <span
+              *ngIf="!isPhoneNumberValid && !isDefaultValidation && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.invalidPhoneNumberUSAndCA' }}</span>
+          </ion-col>
+          <ion-col class="rdp-phone-input-container" size="4">
+            <ion-input #phoneExt class="rdp-phone-input" type="number" maxlength="10" formControlName="phoneExt" (input)="limitLengthPhoneExt(phoneExt,10)"></ion-input>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div *ngIf="residential">
+        <ion-row>
+          <ion-col class="rdp-phone-number-prefix-container" size="2">
+            <ion-input type="text" readonly value="+{{dialingPrefixValue}}" class="rdp-phone-number-prefix"></ion-input>
+          </ion-col>
+          <ion-col class="rdp-phone-input-container" size="10">
+            <ion-input #phoneNumberInput id="phoneNumber" required="true" class="rdp-phone-input"
+              [ngClass]="{ 'phone-input-error' : (!isPhoneNumberValid || form.phoneNumber.invalid) && (form.phoneNumber.dirty || form.phoneNumber.touched) }"
+              type="text" minlength="3" maxlength="12" formControlName="phoneNumber" [appRestrictInput]="inputConstants.NUMBER" (input)="limitLength(phoneNumberInput,phoneNumberMax)" inputmode="numeric"></ion-input>
+            <span
+              *ngIf="form.phoneNumber.errors?.required && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}</span>
+            <span
+              *ngIf="!isPhoneNumberValid && isDefaultValidation && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.invalidPhoneNumber' }}</span>
+            <span
+              *ngIf="!isPhoneNumberValid && !isDefaultValidation && (form.phoneNumber.dirty || form.phoneNumber.touched)"
+              class="validation-error" translate>{{ 'validationError.invalidPhoneNumberUSAndCA' }}</span>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row>
+        <ion-col class="rdp-input-label-container">
+          <ion-label class="rdp-input-label-style">{{ 'senderRecipientDetailsPage.email' | translate }}
+            ({{ 'constants.optional' | translate }})</ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="rdp-input-content-container">
+          <ion-input #emailInput id="email" class="rdp-input-content-element" type="text"maxlength="80" formControlName="email"
+            [ngClass]="{ 'input-error' : form.email.invalid && (form.email.dirty || form.email.touched) }" inputmode="email"></ion-input>
+          <span *ngIf="form.email.errors?.pattern && (form.email.dirty || form.email.touched)"
+            class="validation-error" translate>{{ 'validationError.invalidEmail' }}</span>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="currentCountryCode === BRAZIL_COUNTRY_CODE">
+        <ion-col size="8">
+          <ion-label class="rdp-residentAddress" translate>
+            {{ 'senderRecipientDetailsPage.recipientAddressBrazilQuestion' }}
+          </ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-toggle checked="{{ brResident }}" (ionChange)="changeBrazilResidentToggle(brResident)"
+            class="rdp-toggleStyle" color="primary">
+          </ion-toggle>
+        </ion-col>
+      </ion-row>
+      <div *ngIf="currentCountryCode !== BRAZIL_COUNTRY_CODE">
+        <ion-row>
+          <ion-col class="rdp-input-label-container">
+            <ion-label class="rdp-input-label-style">{{ 'senderRecipientDetailsPage.taxId' | translate }}
+              <span *ngIf="!isTaxIdRequiredValidator">({{ 'constants.optional' | translate }})</span></ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-input-content-container">
+            <ion-input class="rdp-input-content-element" type="text" maxlength="18" formControlName="taxId"></ion-input>            
+            <span *ngIf="isTaxIdRequiredValidator && form.taxId.errors?.required && (form.taxId.dirty || form.taxId.touched)"
+            class="validation-error" translate>{{ 'validationError.required' }}</span>
+            <span *ngIf="isTaxIdRequiredValidator && form.taxId.errors?.min && (form.taxId.dirty || form.taxId.touched)" class="validation-error"
+            translate>{{ 'validationError.taxIdMinLength' }}</span>
+          </ion-col>       
+        </ion-row>
+      </div>
+      <div *ngIf="currentCountryCode === BRAZIL_COUNTRY_CODE && brResident">
+        <ion-row>
+          <ion-col class="rdp-input-label-container">
+            <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.taxId' }}</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-input-content-container">
+            <ion-input #taxIdInput id="taxId" required="true" class="rdp-input-content-element"
+              [ngClass]="{ 'input-error' : form.taxId.invalid && (form.taxId.dirty || form.taxId.touched) }" type="text"
+              maxlength="18" formControlName="taxId"></ion-input>
+            <span *ngIf="form.taxId.errors?.required && (form.taxId.dirty || form.taxId.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}</span>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div *ngIf="currentCountryCode === BRAZIL_COUNTRY_CODE && !brResident">
+        <ion-row>
+          <ion-col class="rdp-input-label-container">
+            <ion-label class="rdp-input-label-style" translate>{{ 'senderRecipientDetailsPage.passportNo' }}</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="rdp-input-content-container">
+            <ion-input #passportNoInput id="passportNo" required="true" class="rdp-input-content-element"
+              [ngClass]="{ 'input-error' : form.passportNo.invalid && (form.passportNo.dirty || form.passportNo.touched) }"
+              type="text" maxlength="14" formControlName="passportNo"></ion-input>
+            <span *ngIf="form.passportNo.errors?.required && (form.passportNo.dirty || form.passportNo.touched)"
+              class="validation-error" translate>{{ 'validationError.required' }}</span>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row>
+        <ion-col size="12" class="rdp-continue-button-container">
+          <ion-button expand="full" *ngIf="!editRecipientPageDetails" class="rdp-continue-button" type="submit" translate>{{ 'button.continue' }}
+          </ion-button>
+          <ion-button expand="full" *ngIf="editRecipientPageDetails" class="rdp-continue-button" type="submit" translate>{{ 'button.update' }}
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row *ngIf="editRecipientPageDetails">
+        <ion-col size="12" class="colButtonStyle">
+          <ion-button class="btn-rounded buttonStyle cancel-btn"
+            (click)="cancelEditRecipientPageDetails()">
+            <ion-label class="addItemStyle" translate>{{ 'button.cancel' }}</ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

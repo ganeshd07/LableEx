@@ -1,0 +1,397 @@
+{
+    "navigation": {
+        "newShipment": "New Shipment",
+        "myShipment": "My Shipment",
+        "fedexLocations": "FedEx Locations",
+        "language": "Language",
+        "messageCentre": "Message Centre",
+        "contactUs": "Contact Us",
+        "termsOfUse": "Terms of Use",
+        "logout": "LOGOUT",
+        "alertMessage": "All input data will be deleted. Do you wish to proceed/continue?",
+        "logoutAlertMessage": "If you select to logout the apps, the shipment information you have entered may be lost. Do you confirm to logout?"
+    },
+    "splashPage": {
+        "slide1": "Anyone can ship with mobile phone",
+        "slide2": "Get rate and service at a glance",
+        "slide3": "Easy to fill up shipment details",
+        "slide4": "Present shipment barcode at FedEx location to complete shipment"
+    },
+    "messageCentrePage": {
+        "messageCentre": "Message Centre",
+        "startShipping": "Start Shipping",
+        "message1": {
+            "title": "New Feature",
+            "header": "New Mobile Shipping Tool for shippers without an account",
+            "description": "Ship with FedEx Ship Manager ® Lite using your mobile device and drop off your package at a FedEx Station or World Service Center. No need for a FedEx account or to print a shipping label."
+        },
+        "message2": {
+            "title": "News",
+            "header": "COVID-19 News",
+            "description": "We are monitoring the impact of the COVID-19 outbreak.  Stay connected with more news <span><a style='text-decoration: underline;font-family: FedExSans-Light;font-size: 12px;color: #000000 !important;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>here</a></span> "
+        },
+        "message3": {
+            "title": "Special Offer",
+            "header": "Save 30% off for your shipment",
+            "description": "From now till 31 Dec, you can enjoy 30% discount* using New FedEx Ship Manager. Sign up now for the FedEx “Ship More, Save More” Program using your credit card and enjoy great discounts on your international shipments!"
+        },
+        "message4": {
+            "title": "Service Update",
+            "header": "Nearby FedEx shipping location",
+            "description": "Easily locate 2,500+ shipping locations across APAC on fedex.com"
+        },
+        "news": "News",
+        "specialoffer": "Special Offer",
+        "newfeature": "New Feature",
+        "serviceupdate": "Service Update"
+    },
+    "loginPage": {
+        "fedexShipManagerLite": "FedEx Ship Manager ® Lite",
+        "shipWithoutPrinting": "Shipping Without Printing",
+        "loginWith": "LOGIN WITH",
+        "mobile": "Mobile Number",
+        "or": "OR",
+        "guest": "GUEST WITHOUT LOGIN",
+        "termsOfUseNote": "By using FedEx Ship Manager® Lite, you hereby accept the <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{termsOfUseLink}}' target='_blank'>Terms of Use</a></span> , <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{privacyStatement}}' target='_blank'> Privacy Statement</a></span> and <span><a style='font-family: FedExSans-Regular;font-size: 12px;color: #007ab7 !important;text-transform: capitalize;' href='{{globalPrivacyStatement}}' target='_blank'>Global Privacy Policy</a></span>. In addition, you hereby represent and warrant that you are the user and/or subscriber of the contact details provided by you through FedEx Ship Manager® Lite."
+    },
+    "otp": {
+        "login": "Login",
+        "loginWithMobileNo": "Login with Mobile Number",
+        "loginDetails": "Enter your mobile number and we will send you one-time password for verification",
+        "representAndWarrant": "I hereby represent and warrant that I am the user and/or subscriber of the phone number above, and the Sender of the FedEx Shipment booked through FedEx Ship Manager Lite.",
+        "verification": "Verification",
+        "enterOneTimePwd": "Enter the one-time password",
+        "enterOneTimePwdDetails": "The one-time password will be expired in {{TIME}} seconds",
+        "oneTimePwdExpired": "The one-time password has expired",
+        "verify": "Verify",
+        "resentOneTimePwd": "Resend one-time password",
+        "verificationErrorMessage": "You have exceeded the maximum number of failed attempts with this mobile number. For security purpose, shipment transportation cost can be settled at drop off and Duty and Tax cost can be settled by recipient.",
+        "agreeToProceed": "AGREE TO PROCEED",
+        "cancelShipment": "Cancel Shipment",
+        "cancelShipmentConfirmMessage": "Do you confirm to cancel the shipment?",
+        "backToLogin": "Back to Log-in Page",
+        "validationError": {
+            "minimumLength": "Minimum length for phone number is 5 digits.",
+            "maximumLength": "Maximum length for phone number is 15 digits.",
+            "noOfAttemptsExpiredMobileFieldMessage": "You have exceeded the maximum allowed number of failed login attempts with this mobile number. For security purpose, we have suspended your mobile number for 24 hours.",
+            "noOfFaildOtpVerificationAttempts": "You have exceeded the maximum number of failed attempts with this mobile number. Your account will be locked until 23:59."
+        }
+    },
+    "shipmentDetailsPage": {
+        "shipmentDetails": "Shipment Details",
+        "shipmentOrigin": "From",
+        "shipmentDestination": "To",
+        "countryTerritory": "Country/Territory",
+        "postalCode": "Postal Code",
+        "city": "City",
+        "packagingTypeOption": "Packaging Type Option",
+        "packagingTypes": {
+            "yourPackaging": "Your Packaging",
+            "fedex10KGBox": "FedEx 10kg Box",
+            "fedex20KGBox": "FedEx 20kg Box",
+            "fedexBox": "FedEx Box",
+            "fedexEnvelope": "FedEx Envelope",
+            "fedexPak": "FedEx Pak",
+            "fedexTube": "FedEx Tube"
+        },
+        "noOfPackages": "No. of Packages",
+        "weightPerPackage": "Weight Per Package",
+        "packagingDimension": "Package Dimension L x W x H",
+        "maxHint": "Max.",
+        "maxWeightHint": "Max. weight",
+        "totalNoOfPackages": "Total No. of Packages",
+        "totalWeight": "Total Weight",
+        "addAnotherPackage": "Add Another Package",
+        "showRates": "Show Rates",
+        "warning": "Warning",
+        "warningNote": "Do you confirm to delete this package?",
+        "packageInchesDimenstions": "Max dimensions 119 x 80 x 70 in.",
+        "packageKgsDimenstions": "Max dimensions 302 x 203 x 178 cm.",
+        "totalPackagesEntered": "You have entered",
+        "totalPackagesLimit": "pieces in total, only Max.40 is allowed.",
+        "MaxPackageCount": "Cannot add another package, only Max. 40  is allowed.",
+        "validationError": {
+            "minimumWeight": "Weight should not be less than {{MIN_WEIGHT}}",
+            "maximumWeight": "Weight should not be more than {{MAX_WEIGHT}}",
+            "totalWeightError": "Total Weight should not be more than {{TOTAL_WEIGHT}} {{WEIGHT_UNIT}}"
+        }
+    },
+    "recipientAddressBook": {
+        "recentlyShippedAddress": "Recently Shipped Address",
+        "searchBar": "Search for Recipient",
+        "noContactsYet": "You don't have any contacts yet"
+    },
+    "rateAndDeliveryOptionsPage": {
+        "rateAndDeliveryOptions": "Rate and delivery options",
+        "arrivesOn": "Arrives on",
+        "fastest": "FASTEST",
+        "bestPrice": "BEST PRICE",
+        "rateBreakdown": "Rate Breakdown",
+        "baseRate": "Base Rate",
+        "VAT": "VAT",
+        "volumeDiscount": "Volume Discount",
+        "total": "Total",
+        "chargeableDimenWeight": "Chargeable Dimensional Weight",
+        "actual": "Actual",
+        "finalRateNote": "Your final rate is determined by the actual weight and dimensions of your shipment as measured by FedEx.",
+        "dimensionalWeightHint": "The transport costs for your shipments are calculated on the basis of the total weight of all packages sent under one FedEx Air Waybill. A decisive factor for calculating the price, however, is whether the dimensional weight (L x W x H / 5000) exceeds the actual weight*.",
+        "dateNotAvailable": "Not Available",
+        "dimensionalWeightExceedLimitMessage": " Your Shipment dimension reaches to the limit the FSM LITE can support, please use other FedEx shipping application to complete the shipment.",
+        "rateApiErrorMessage": "Services and rates are not available. International Priority is the default service for this shipment. Please check with our courier for any change."
+    },
+    "customsDetailsPage": {
+        "newShipment": "New Shipment",
+        "customDetails": "Customs Details",
+        "shipmentTypeQuestion": "What are you shipping?",
+        "items": "Items",
+        "documents": "Documents",
+        "documentType": {
+            "correspondence": "Correspondence/No Commercial Value",
+            "personalDocument": "Personal document",
+            "interofficeDocument": "Interoffice document",
+            "businessDocument": "Business document",
+            "other": "Other"
+        },
+        "shipmentPurpose": "Shipment Purpose",
+        "typeOfDocument": "Type of Document",
+        "totalCustomsValue": "Total Customs Value",
+        "totalWeight": "Total Weight",
+        "addMoreItems": "Add More Items",
+        "addItem": "ADD ITEM",
+        "describeYourDocument": "Describe your document",
+        "higherLimitNote": "Purchase a higher limit of liability coverage from FedEx?",
+        "declaredValue": "Enter Declared Value for Carriage",
+        "declaredValueNote": "Declared value for carriage should not be more than the total customs",
+        "declareValueTooltip": "If you choose to declare a value for carriage and pay the applicable surcharge, our maximum liability for this shipment in the case of, for example, loss, damage or delay, will equal the amount that you declared, subject to our Conditions of Carriage. If you choose not to declare a value here, our maximum liability for this shipment remains as set out in our Conditions of Carriage.",
+        "validationError": {
+            "invalidCustomsValue": "The customs value can’t be less than your declared value for carriage of {{CARRIAGE_VALUE}}",
+            "invalidCarriageValueLimit": "The maximum declared value is USD{{CARRIAGE_VALUE_USD}}. Contact FedEx Customer Service for more information.",
+            "minLengthItemDescription": "Item description must be at least 6 characters.",
+            "requiredCustomsValue": "Please make sure the total customs value is at least 1.",
+            "requiredMinimumValue": "This value must be greater than or equal to 0.01"
+        },
+        "purchaseHigherLimitCoverageBubbleHint": "If you choose to declare a value for carriage and pay the applicable surcharge, our maximum liability for this shipment in the case of, for example, loss, damage or delay, will equal the amount that you declared, subject to our Conditions of Carriage. If you choose not to declare a value here, our maximum liability for this shipment remains as set out in our Conditions of Carriage.",
+        "shipmentPurposeBubbleHint": {
+            "labelText": "Shipment purpose: Select the shipment purpose from the drop-down menu. This information prints on the Commercial Invoice. If no purpose is selected, the field defaults to Commercial and your shipment is cleared through customs under the appropriate country/ location provisions relating to commercial shipments.",
+            "commercial": "Commercial – Any shipment being sold or sent free of charge, from one business entity to another, for the purpose of being re-sold or otherwise consumed in the course of carrying out its business.",
+            "gift": "Gift – Any shipment containing articles to be given as an unsolicited gift, from one private individual to another private individual, which are not being shipped by a business nor consigned to a business.",
+            "sample": "Sample – Any shipment containing articles which are sent free of charge that have been marked or mutilated or otherwise unsuitable for sale or use except as commercial samples, sent with the view of soliciting an order or as a mock-up to furthering an existing order from the foreign entity.",
+            "returnAndRepair": "Return and Repair – Articles being shipped for repair or articles previously exported for repairs which are being returned following the repair.",
+            "personalEffects": "Personal Effects – Any shipment containing used personal articles such as unaccompanied baggage and household goods being shipped for relocation.",
+            "personalUser": "Personal User – Any shipments containing new goods for personal consumption purchased abroad and being shipped back to a private individual."
+        },
+        "documentTypeBubbleHInt": "Select a description from the drop-down menu that best describes your document, or click Other. If you select Other, you will need to enter additional product details below. Some document types will require that you enter a customs value. The customs value is the sale price for the contents of the shipment if it is being sold. If the shipment is not being sold, the customs value should be the fair market value. The fair market value is the price that a seller would get from a buyer for the contents of the shipment if it were to be sold on the open market.",
+        "hsCodeBubbleHint": "Entering a proper harmonized code will allow FedEx to help you determine appropriate customs documentation as well as a more accurate duty and tax estimate. The Harmonized Commodity Description and Coding System is an international standardized system developed and maintained by the World Customs Organization (WCO) to uniformly classify traded products.",
+        "warningNote": "Do you confirm to delete? ",
+        "deleteConfirmation": "Do you confirm to delete?",
+        "currencyChangedMessage": "Changing the currency from {{prev}} to {{curr}} for your customs value will also change other previous entry.</br> A conversion calculation will not be applied.",
+        "currencyUpdationMessage": "Your shipment currency has been updated from {{ICurrency}} to {{UCurrency}}"
+    },
+    "addItemsPage": {
+        "headerTitle": "Customs Details",
+        "enterItemDetails": "Enter details about your item",
+        "selectItemType": "Select the Item Type",
+        "othersItemDecriptionLabel": "Describe your item :",
+        "itemType": {
+            "electronic": "Electronics",
+            "jewellery": "Jewellery",
+            "healthCare": "Health Care",
+            "garments": "Garments",
+            "lithiumBattery": "Lithium Battery",
+            "others": "Others"
+        },
+        "electronics": "Electronics",
+        "searchItem": "Input the item description",
+        "quantity": "Quantity",
+        "quantityUnit": {
+            "pieces": "Pieces",
+            "count": "Count"
+        },
+        "totalWeight": "Total Weight",
+        "totalCustomsValue": "Total Customs Value",
+        "countryTerritoryOfManu": "Country/Territory of Manufacture",
+        "hsCode": "HS Code",
+        "confirmationAlert": {
+            "header": "Warning",
+            "subHeader": "Are you sure you want to update your currency?"
+        }
+    },
+    "senderRecipientDetailsPage": {
+        "senderDetails": "Sender Details",
+        "recipientDetails": "Recipient Details",
+        "from": "From",
+        "to": "To",
+        "addressLine": "Address Line",
+        "contactName": "Contact Name",
+        "companyName": "Company Name",
+        "companyAddressQuestion": "Is it a company address?",
+        "recipientAddressBrazilQuestion": "Is the recipient a resident of Brazil?",
+        "phoneNo": "Phone Number",
+        "phoneNoSenderNote": "Confirmation SMS will be sent to mobile no.",
+        "phoneNoRecipientNote": "Notification will be sent to mobile no.",
+        "ext": "Ext",
+        "email": "Email",
+        "taxId": "Tax ID",
+        "passportNo": "Passport No.",
+        "stateLabel": "State/Province"
+    },
+    "billingAndServicesOptionPage": {
+        "headerTitle": "Billing and Services",
+        "billingAndServicesOptions": "Billing and Services Options",
+        "valueAddedServices": "Value Added Services",
+        "signatureOptions": "Signature Options",
+        "feeMayApply": "Fee may apply",
+        "paymentOptions": "Payment Options",
+        "transportaionCosts": "Transportation Costs",
+        "dutiesAndTaxes": "Duties and Taxes",
+        "payAtDropOff": "Pay at drop off",
+        "billMyAccount": "Bill My Account",
+        "billRecipient": "Bill Recipient",
+        "billThirdParty": "Bill Third Party",
+        "finalRateNote": "The final rate is subjected to the account holder shipment rate",
+        "accountNo": "Account No.",
+        "rate": "Rate",
+        "rateApiErrorNote": "Currently the rate is not available, please check with the FedEx agent at the counter or when courier comes for pickup.",
+        "signatureOptionBubbleHint": {
+            "ionText": "To request a signature when the package is delivered, select one of the following signature types.",
+            "noneSpecifiedTitle": "None specified",
+            "noneSpecifiedDefination": "Standard FedEx delivery procedures will be followed if a signature option is not selected.",
+            "noSignatureRequiredTitle": "No signature required",
+            "noSignatureRequiredDefination": "FedEx may release the package without anyone present. This option may not be available for all shipments or destinations.",
+            "indirectSignatureRequiredTitle": "Indirect Signature Required",
+            "indirectSignatureRequiredDefination": "This option may not be available for all shipments or to all destinations. FedEx obtains a signature in one of three ways:",
+            "indirectSignatureRequiredDefinationLevel1Item1": "- From someone at the delivery address",
+            "indirectSignatureRequiredDefinationLevel1Item2": "- From a neighbor, building manager or other person at a neighboring address",
+            "indirectSignatureRequiredDefinationLevel1Item3": "- The recipient can authorize release of the package without anyone present",
+            "directSignatureRequiredTitle": "Direct Signature Required",
+            "directSignatureRequiredDefination": "Someone at the recipient's address may sign for the delivery. If no one is at the address, FedEx may reattempt delivery. This option may not be available for all shipments.",
+            "adultSignatureRequiredTitle": "Adult Signature Required",
+            "adultSignatureRequiredDefination": "For shipments to the U.S., FedEx will obtain a signature from someone at least 21 years old (government-issued photo identification required) at the delivery address. For shipments to other destinations, FedEx will obtain a signature from someone at the delivery address who is at least the age of majority in the destination country.  Government-issued photo identification or other identification customarily accepted by local authorities is required. In all cases, if there is no eligible recipient at the delivery address, FedEx will reattempt delivery."
+        }
+    },
+    "summaryPage": {
+        "shipmentDetails": {
+            "header": "Shipment Details",
+            "estimatedDeliveryBy": "Estimated delivery by",
+            "packagingType": "Packaging Type",
+            "weight": "Weight",
+            "quantity": "Quantity",
+            "dateUnavailableLabel": "PENDING"
+        },
+        "customsDetails": {
+            "header": "Customs Details",
+            "shipmentContent": "Shipment Content",
+            "shipmentPurpose": "Shipment Purpose",
+            "customsValue": "Customs Value",
+            "customsWeight": "Customs Weight",
+            "documentType": "Document Type"
+        },
+        "senderRecipient": {
+            "from": "From",
+            "to": "To",
+            "name": "Name",
+            "company": "Company",
+            "address": "Address"
+        },
+        "billingAndServiceOptions": {
+            "header": "Billing and Service Options",
+            "signatureOptions": "Signature Options",
+            "transportation": "Transportion",
+            "dutiesAndTaxes": "Duties and Taxes"
+        },
+        "summary": "Summary",
+        "rate": "Rate",
+        "finalizeShipment": "Finalize Shipment",
+        "termsAndConditions": "https://www.fedex.com/en-hk/campaign/fsmlite-terms-of-use.html",
+        "expressTermsAndConditions": "https://www.fedex.com/en-hk/conditions-of-carriage.html"
+    },
+    "thankYouPage": {
+        "shipmentConfirmation": "Shipment Confirmation",
+        "shipmentReferenceNo": "Shipment Reference Number",
+        "barcodeNote": "Present QR code below at FedEx Location to complete the shipment",
+        "findALocation": "FIND A LOCATION",
+        "customerFeedBack": "Customer Feedback",
+        "comments": "Comments",
+        "submitFeedBack": "Submit Feedback",
+        "thankYouFeedbackResponse": "Thank you for your feedback!",
+        "feedBackAlertMessage": "Please provide your Comments",
+        "maxLimitAlertMessage": "You have reached the maximum number of 450 characters allowed for the customer feedback."
+    },
+    "myShipmentsPage": {
+        "myShipments": "My Shipments",
+        "recentlyShipped": "Recently Shipped",
+        "pendingShipment": "Pending Shipment",
+        "trackingNo": "Tracking No.",
+        "referenceNo": "Reference Number",
+        "from": "From",
+        "to": "To",
+        "package": "Package",
+        "airWayBillNo": "Air Waybill Number",
+        "noShipmentRecords": "No shipment records in the past 90 days"
+    },
+    "termsAndCondition": {
+        "title": "Terms & Conditions",
+        "bodyPart1": "Federal Express Korea LLC (hereinafter referred to as “FedEx” or “Company”) requires your consent on  collection and use of personal information (required), transfer of general personal information to a third party (required), consent to overseas transfer of personal information (required) and consent to use of personal information for marketing purposes (optional) in connection with your use of FedEx Ship Manager Lite® (FSM Lite) Solution pursuant to applicable laws and regulations.",
+        "checkBoxOne": "I consent to all below terms and conditions",
+        "checkBoxTwo": "[Required] I have fully understood the Company’s explanation on collection and use of general personal information and hereby consent thereto. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "checkBoxThree": "[Required] I have fully understood the Company’s explanation on transfer of general personal information to a third party and hereby consent thereto.<span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "checkBoxFour": "[Required] I have fully understood the Company’s explanation on overseas transfer of personal information and hereby consent thereto. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "checkBoxFive": "[Optional] I have fully understood the Company’s explanation on the use of personal information for marketing purposes and the transmission of useful information and hereby consent thereto. <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "bodyPart2": "[Required] To use FSM Lite Solution and the services provided by FedEx, the consent to the privacy policy and the terms and conditions listed below is required. You may decline to consent to the privacy policy and the terms and conditions listed below. However, if you decline to consent to the privacy policy and the terms and conditions listed below, you may not be able to use FSM Lite Solution and FedEx services.",
+        "checkBoxSix": "I consent to all below agreements",
+        "checkBoxSeven": "[Required] Terms of Use <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "checkBoxEight": "[Required] Terms of Service <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "checkBoxNine": "[Required] Privacy Policy <span><a style='font-family: calibri;font-size: 10px;text-transform: lowercase;' href='{{msgLink}}' target='_blank'>See detail</a></span>",
+        "agreeText": "I have carefully read and fully understood the collection and use of personal information above and FedEx terms of use. I hereby apply for the use of FSM Lite Solution. ",
+        "agreeButton": "Agree"
+    },
+    "button": {
+        "skip": "Skip",
+        "next": "Next",
+        "continue": "Continue",
+        "submit": "Submit",
+        "login": "Login",
+        "signup": "Sign up",
+        "create": "Create",
+        "close": "Close",
+        "select": "Select",
+        "cancel": "Cancel",
+        "ok": "OK",
+        "add": "Add",
+        "confirm": "Confirm",
+        "yes": "Yes",
+        "no": "No",
+        "update": "Update",
+        "delete": "Delete"
+    },
+    "validationError": {
+        "required": "This field is required.",
+        "invalidPostalCodeFormat": "This is not a valid format for a postal code. Please use the following format:",
+        "invalidPostal": "We can't find this postal code. Please check if it's correct and try again.",
+        "invalidDecimal": "Please limit up to 2 decimal values.",
+        "invalidEmail": "This is an invalid email address.",
+        "invalidPhoneNumber": "Phone Number should contain minimum of 3 and maximum of 12 digits.",
+        "invalidPhoneNumberUSAndCA": "This is not a valid format for a phone number.",
+        "invalidTaxId": "Invalid Tax ID. The Tax ID  should contain maximum of 18 digits",
+        "totalWeightExceeded": "The combined weight of your items cannot exceed the total shipment weight of {{weight}}{{weightUnits}}. Please adjust the weight of your item(s)",
+        "invalidCountry": "Invalid Country/Territory entry.",
+        "invalidAccountNum": "Invalid account number",
+        "invalidMinLength": "This field requires minimum of 3 characters.",
+        "invalidOtp": "Verification code is invalid.",
+        "sameAccounteNumberError": "The FedEx account numbers of {{Transport}} and {{Billing}} cannot be the same",
+        "taxIdMinLength": "Please enter the tax ID with 15 numeric digits"
+    },
+    "constants": {
+        "optional": "Optional",
+        "pleaseWait": "Please wait...",
+        "AM": "AM",
+        "PM": "PM"
+    },
+    "apiErrorMessages": {
+        "header": "Error",
+        "buttonOk": "OK",
+        "error": "Internal Server Error.",
+        "error404": "Resource not found.",
+        "genericError": "Service not available."
+    }
+}

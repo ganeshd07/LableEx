@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar [ngClass]="customCssClass">
+    <ion-title>
+      <ion-icon [name]="ionIcon"></ion-icon>{{ modalTitle }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [ngClass]="customCssClass">
+  <div class="modal-container align-center">
+    <p>{{ message }}</p>
+    <div class="align-center">
+      <ion-button class="btn-bottom btn-clear h-center" (click)="dismiss()">Close</ion-button>
+    </div>
+  </div>
+</ion-content>
